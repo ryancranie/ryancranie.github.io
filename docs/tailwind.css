@@ -377,7 +377,7 @@ nav a {
 .markdown :where(p):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
-    opacity: 0.9
+    opacity: 1
 }
 
 .markdown :where([class~=lead]):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
