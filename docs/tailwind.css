@@ -458,7 +458,8 @@ nav a {
     list-style-type: disc;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
-    padding-inline-start: 1.625em
+    padding-inline-start: 1.625em;
+    opacity: 0.8
 }
 
 .markdown :where(ol>li):not(:where([class~=not-markdown], [class~=not-markdown] *))::marker {
@@ -784,7 +785,6 @@ nav a {
 .markdown :where(li):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
     margin-top: .5em;
     margin-bottom: .5em;
-    opacity: 0.8
 }
 
 .markdown :where(ol>li):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
