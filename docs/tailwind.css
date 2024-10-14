@@ -523,13 +523,13 @@ nav a {
     margin-bottom: 1em;
     line-height: 1.3333333;
     margin-top: 0;
-    opacity: 0.9
+    opacity: 1
 }
 
 .markdown :where(h2 strong):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
     font-weight: 800;
     color: inherit;
-    opacity: 0.9
+    opacity: 1
 }
 
 .markdown :where(h3):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
@@ -539,13 +539,13 @@ nav a {
     margin-top: 1.6em;
     margin-bottom: .6em;
     line-height: 1.6;
-    opacity: 0.85
+    opacity: 1
 }
 
 .markdown :where(h3 strong):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
     font-weight: 700;
     color: inherit;
-    opacity: 0.85
+    opacity: 1
 }
 
 .markdown :where(h4):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
@@ -554,7 +554,7 @@ nav a {
     margin-top: 1.5em;
     margin-bottom: .5em;
     line-height: 1.5;
-    opacity: 0.85
+    opacity: 1
 }
 
 .markdown :where(h4 strong):not(:where([class~=not-markdown], [class~=not-markdown] *)) {
