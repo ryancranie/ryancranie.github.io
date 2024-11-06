@@ -24,7 +24,7 @@ main:
   weight: 7
 
 - name: CV
-  url: "https://www.ryancranie.com/cv.pdf"
+  url: "https://cv.ryancranie.com/"
   weight: 8
 
 social:
