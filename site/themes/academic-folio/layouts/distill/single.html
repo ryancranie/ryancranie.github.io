@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }} itemscope itemtype="http://schema.org/{{ if .IsHome }}WebSite{{ else if .IsPage }}Article{{ else }}WebPage{{ end }}">
+
+    {{ partial "head" . }}
+
+    <body class="bg-background">
+        {{ partial "header" . }}
+
+        {{ partial "distill/d-front-matter" . }}
+
+        {{ partial "distill/d-title" . }}
+
+        {{ partial "distill/d-article" . }}
+
+        {{ partial "distill/d-appendix" . }}
+
+        {{ partial "footer" . }}
+
+        {{ if (and .Site.Params.giscusScript (not .Params.disableGiscusComments)) }}
+            <div id="comments" class="max-w-[800px] mx-auto mb-8 pb-8">
+                {{ partial "scripts/giscus" . }}
+            </div>
+        {{ end }}
+    </body>
+
+</html>

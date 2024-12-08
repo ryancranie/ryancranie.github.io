@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: var(--global-text-color-primary);
+    text-decoration: underline;
+
+    &:hover {
+        color: var(--global-theme-color);
+    }
+}
+
+#TableOfContents {
+    ul {
+        li {
+            margin-top: 0.5rem;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// https://github.com/hugo-mods/icons/blob/main/assets/mod-icons/style.css
+.icon {
+    display: inline;
+
+    width: 1em;
+    height: 1em;
+
+    fill: currentColor;
+
+    vertical-align: -0.14em;
+}
+
+// https://katex.org/docs/issues.html#css-customization
+.katex-display {
+    overflow: auto hidden;
+}
