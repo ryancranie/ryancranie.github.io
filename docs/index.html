@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebSite">
+  <head>
+    <meta name="generator" content="Hugo 0.134.1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ryan Cranie" />
+    <meta name="description" content="">
+    <meta name="keywords" content='portfolio, hugo, ryancranie' />
+    <meta property="og:url" content="https://ryancranie.com/">
+    <meta property="og:site_name" content="Ryan Cranie">
+    <meta property="og:title" content="Homepage">
+    <meta property="og:description" content="Hi, I am Ryan (he/him), a Cyber Security & Networks student from Glasgow Caledonian University. My key interests lie in the fields of network administration, optimisation, and security. Currently, I'm looking for work placement opportunities for Fall 2025.">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <title>
+      Ryan Cranie
+    </title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ryancranie.com/">
+    <link rel="stylesheet" href="/tailwind.css">
+    <style>
+      :root{--global-text-color-primary:#171717;--global-text-color-shade:#525252;--global-bg-color:#f5f5f5;--global-theme-color:#2563eb;--global-header-color:#f5f5f5;--global-footer-color:#f5f5f5;--global-divider-color:#525252}:root #theme-toggle .icon-sun{display:none}:root #theme-toggle .icon-moon{display:inline}html[class=dark]{--global-text-color-primary:#f5f5f5;--global-text-color-shade:#a3a3a3;--global-bg-color:#171717;--global-theme-color:#38bdf8;--global-header-color:#171717;--global-footer-color:#171717;--global-divider-color:#a3a3a3}html[class=dark] #theme-toggle .icon-sun{display:inline}html[class=dark] #theme-toggle .icon-moon{display:none}main{max-width:1024px;margin:0 auto}header nav{max-width:1024px}html{scroll-behavior:smooth}a{color:var(--global-text-color-primary);text-decoration:underline}a:hover{color:var(--global-theme-color)}#TableOfContents ul li{margin-top:.5rem}#TableOfContents ul li a{text-decoration:none}.icon{display:inline;width:1em;height:1em;fill:currentColor;vertical-align:-.14em}.katex-display{overflow:auto hidden}
+    </style>
+    <script>
+      function toggleTheme() {
+          document.documentElement.classList.toggle('dark');
+          localStorage.theme = localStorage.theme === 'dark' ? 'light' : 'dark';
+          if(typeof setGiscusTheme == "function") setGiscusTheme(localStorage.theme);
+      };
+      
+      if ((!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) || localStorage.theme === 'dark') {
+          document.documentElement.classList.add('dark');
+          localStorage.theme = 'dark';
+      } else {
+          localStorage.theme = 'light';
+      }
+    </script>
+  </head>
+  <body class="mx-auto text-primary bg-background">
+    <header class="fixed inset-x-0 top-0 text-primary bg-header z-10 border-b border-divider">
+      <nav class="mx-auto p-4 text-base font-medium flex md:flex-row flex-col">
+        <ul class="flex flex-row">
+          <li>
+            <a class="whitespace-nowrap font-bold no-underline" href="https://ryancranie.com/">Ryan Cranie</a>
+          </li>
+          <li class="md:hidden ml-4 w-4">
+          </li>
+        </ul>
+        <ul class="flex flex-row md:ml-auto md:mt-0 mt-4">
+          <li class="md:w-fit overflow-auto">
+            <ul class="flex flex-row flex-nowrap space-x-4">
+              <li>
+                <a href="https://cv.ryancranie.com"  class="whitespace-nowrap no-underline ">
+                CV
+                </a>
+              </li>
+              <li>
+                <a href="#education"  class="whitespace-nowrap no-underline ">
+                Education
+                </a>
+              </li>
+              <li>
+                <a href="#research"  class="whitespace-nowrap no-underline ">
+                Research
+                </a>
+              </li>
+              <li>
+                <a href="#projects"  class="whitespace-nowrap no-underline ">
+                Projects
+                </a>
+              </li>
+              <li>
+                <a href="#skills"  class="whitespace-nowrap no-underline ">
+                Skills
+                </a>
+              </li>
+              <li>
+                <a href="#certifications"  class="whitespace-nowrap no-underline ">
+                Certifications
+                </a>
+              </li>
+              <li>
+                <a href="#achievements"  class="whitespace-nowrap no-underline ">
+                Achievements
+                </a>
+              </li>
+              <li>
+                <a href="#hobbies"  class="whitespace-nowrap no-underline ">
+                Hobbies
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="absolute md:static top-4 right-4 md:ml-4 md:mt-0">
+            <button id="theme-toggle" class="hover:text-theme" onclick="toggleTheme()">
+              <span class="icon-sun" title="light theme">
+                <svg class="sun icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                  <path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM352 256c0 53-43 96-96 96s-96-43-96-96s43-96 96-96s96 43 96 96zm32 0c0-70.7-57.3-128-128-128s-128 57.3-128 128s57.3 128 128 128s128-57.3 128-128z"/>
+                </svg>
+              </span>
+              <span class="icon-moon" title="dark theme">
+                <svg class="moon icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                  <path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/>
+                </svg>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mt-24 md:mt-14 mb-12 md:mb-8 px-4 py-8 space-y-8">
+      <header class="space-y-2">
+        <h1 class="text-4xl font-medium">
+          <span class="font-bold">Ryan A.</span>
+          Cranie
+        </h1>
+      </header>
+      <figure class="sm:float-right w-3/4 md:w-1/4 sm:w-1/3 mx-auto sm:ml-4 space-y-4">
+        <img src="/img/ryan_profile_picture.png" height="1180" width="1180">
+        <address class="font-medium text-center space-y-2">
+          <div class="text-3xl overflow-auto">
+            <ul class="social flex flex-row flex-nowrap space-x-4 justify-center">
+              <li>
+                <a href="mailto:mail@ryancranie.com" title="email" target="_blank" rel="nofollow noopener me" >
+                  <svg class="envelope icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/ryancranie" title="LinkedIn" target="_blank" rel="nofollow noopener me" >
+                  <svg class="linkedin icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ryancranie" title="GitHub" target="_blank" rel="nofollow noopener me" >
+                  <svg class="github icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://notes.ryancranie.com" title="Notes" target="_blank" rel="nofollow noopener me" >
+                  <svg class="notes icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L384 0 96 0zm0 384l256 0 0 64L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16l192 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16zm16 48l192 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </address>
+      </figure>
+      <article class="markdown">
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Ryan's Homepage</title>
+          </head>
+          <body>
+            <p>Hi, I am Ryan (he/him), a Cyber Security & Networks student from <a href="https://www.gcu.ac.uk/" target="_blank" rel="external nofollow noopener">Glasgow Caledonian University</a>. My key interests lie in the fields of <strong>network administration, optimisation, and security</strong>. Currently, I'm looking for work placement opportunities for Autumn 2025.</p>
+            <p>My career goal is to pursue a Master's in my field of interests. I'm working with <a href="https://www.gcu.ac.uk/staff/mosesaprofinashawa/rajivsingh" target="_blank" rel="external nofollow noopener">Dr. Rajiv Singh</a> on my undergraduate project regarding <strong>implementing lightweight cryptography in firmware deployments in smart home IoT</strong>.</p>
+            <p>I'm training as a Network Engineer with <a href="https://www.worldskillsuk.org/" target="_blank" rel="external nofollow noopener">WorldSkills UK</a>. WorldSkills's work is important since it helps young people worldwide achieve <strong>world-class</strong> standards through competitions-based training and assessment. I earned a <em>Medallion of Excellence</em> at the 2022 WorldSkills UK competition, and in 2023, I represented <strong>Team UK</strong> at WorldSkills Asia in Abu Dhabi.</p>
+            <p>During my undergraduate life, I have active pursue opportunities that allow me to develop both academically and personally. My involvement in various <strong>IT competitions</strong> helped me refine my technical skills, culminating in being selected as a <strong>WorldSkills IT-NSA Squad UK member</strong> from 2022 til 2026. I was also elected as the <strong>class representative</strong> for my final year in university, working with staff to enhance the learning experience for current and future students.</p>
+            <p>I’m an <strong><em>adaptive person</em> with a great work ethic</strong>, always eager to expand my knowledge and skills. With experience in both leadership roles and team settings across academic and personal projects, I strive to give my best in every responsibility I take on.</p>
+            <br>
+            <h2 id="education">Education</h2>
+            <hr>
+            <h3 id="bsc-hons-cyber-security-and-networks">BSc (Hons) Cyber Security and Networks</h3>
+            <p><b id="glasgow-caledonian-university">Glasgow Caledonian University</b> | May 2025</p>
+            <p>Expected Classification: <strong>1st</strong></p>
+            <ul>
+              <li><code>Enterprise Networking</code>, <code>Internet Security</code>, <code>Cloud Operations</code>
+              <li><code>Applied Penetration Testing</code>, <code>Security Operations Analysis</code>, <code>Web Application Security</code>
+            </ul>
+            <h3 id="hnd-cyber-security">HND Cyber Security</h3>
+            <p><b id="new-college-lanarkshire">New College Lanarkshire</b> | June 2023</p>
+            <p>HND Graded Unit: <strong>A</strong>
+            <h3 id="secondary-education">Secondary Education</h3>
+            <p>Scottish Highers: <strong>ABBB</strong> | 10 x GCSEs inc. ICT (<strong>8</strong>), Maths (<strong>8</strong>)</p>
+            <br>
+            <h2 id="research">Research</h2>
+            <hr>
+            <h3 id="optimising-an-ota-firmware-deployment-system-for-smart-home-iot-devices">Evaluating Lightweight Cryptography for Secure Firmware Updates in Smart Home IoT</h3>
+            <h4 id="undergraduate-thesis">Undergraduate Thesis</h4>
+            <p>Supervisor: <a href="https://www.gcu.ac.uk/staff/mosesaprofinashawa/rajivsingh" target="_blank" rel="external nofollow noopener">Dr. Rajiv Singh</a></p>
+            <p>This undergraduate thesis evaluates the performance and security of different lightweight cryptographic protocols for securing firmware over-the-air updates, in a simulated smart home IoT environment. The project examines protocols like AES-128, ChaCha20, ECDSA, and Ed25519 using tools like OpenSSL for encryption and signing, mitmproxy for Man-in-the-Middle attacks, tcpdump for capturing network traffic, and Wireshark for analyzing that traffic.  The goal is to identify the protocol that provides the best balance between security and performance for firmware updates in resource-constrained smart home devices.</p>
+            <br>
+            <h2 id="projects">Projects</h2>
+            <hr>
+            <h3 id="dijhitech-research-labs-internal-penetration-test">Dijhitech Research Labs: Internal Penetration Test</h3>
+            <h4 id="applied-penetration-testing-graded-group-project">Applied Penetration Testing: Graded Group Project</h4>
+            <p>For our university project, we conducted a black-box penetration test in a simulated environment. The final report offers a detailed analysis of nine vulnerabilities identified, along with recommended remediations for each. This project also provided valuable leadership experience, as I took responsibility for task delegation and organizing team meetings. I was fortunate to collaborate with a talented group of classmates throughout the process.</p>
+            <h3 id="dijhitech-research-labs-internal-penetration-test">Security Assessment of a Simulated Chemical Plant ICS</h3>
+            <h4 id="applied-penetration-testing-graded-group-project">Cyber Physical Systems Security: Coursework</h4>
+            <p>This individual project provides a comprehensive security assessment of a simulated chemical plant's Industrial Control System. We aim to identify vulnerabilities within the ICS and evaluate its resilience against a variety of cyberattacks. The assessment involves creating an asset inventory through network scanning and traffic analysis, identifying and analyzing ICS devices, and conducting vulnerability assessments and attacks, including a perception layer attack and a man-in-the-middle attack.</p>
+            <!----------------------------------------------------------->
+            <!----------------------------------------------------------->
+            <br>
+            <h2 id="skills">Skills</h2>
+            <hr>
+            <h3 id="technical">Technical</h3>
+            <ul>
+              <li><code>Network Design</code>, <code>Network Implementation</code></li>
+              <li><code>Troubleshooting</code>, <code>User Support</code></li>
+              <li><code>Cisco</code>, <code>Windows</code>, <code>Linux</code></li>
+              <li><code>Git</code>, <code>Python</code>, <code>Powershell</code></li>
+            </ul>
+            <h3 id="interpersonal-skills">Interpersonal Skills</h3>
+            <ul>
+              <li><code>Communication</code>, <code>Team Collaboration</code>, <code>Leadership</code></li>
+              <li><code>Analytical Thinking</code>, <code>Project Management</code></li>
+              <li><code>Documentation</code>, <code>Continuous Learning</code></li>
+            </ul>
+            <h3 id="security-tools">Security Tools</h3>
+            <ul>
+              <li><code>LogRhythm</code>, <code>Wireshark</code>, <code>Nmap</code></li>
+              <li><code>SSLScan</code>, <code>DIRB</code>, <code>Netcat</code></li>
+              <li><code>Hydra</code>, <code>tcpdump</code>, <code>mitmproxy</code></li>
+            </ul>
+            <!----------------------------------------------------------->
+            <!----------------------------------------------------------->
+            <br>
+            <h2 id="certifications">Certifications</h2>
+            <hr>
+            <ul>
+              <li><strong>ACE Practitioner Cyber Security Graduate</strong> - Dec 2022</li>
+              <li><strong>(tba)</strong></li>
+            </ul>
+            <!----------------------------------------------------------->
+            <!----------------------------------------------------------->
+            <br>
+            <h2 id="achievements">Achievements</h2>
+            <hr>
+            <h4 id="it-nsa-squad-uk-member">
+            <a href="https://www.worldskillsuk.org/skills/international-competition/meet-squad-uk/">IT-NSA Squad UK Member</a></h3>
+            <p>Nov 2022 - Aug 2026</p>
+            <h4 id="class-rep"><a href="https://www.gcu.ac.uk/currentstudents/getinvolved/commongoodaward/commongoodopportunities/allstudents/classrepresentatives">Elected Class Rep: 4th Year (BSc) Cyber Security and Networks @ GCU</a></h4>
+            <p>October 2024 - August 2025</p>
+            <h4 id="it-nsa-worldskillsasia-2023-team-uk">
+            <a href="https://www.worldskillsasia.net/en/WhatWeDo/Pages/Skill-Details.aspx?SkillID=24">IT-NSA WorldSkillsAsia 2023 Team UK</a></h3>
+            <p>Dec 2023</p>
+            <h4 id="itst-worldskills-uk-medallion-of-excellence">
+            <a href="https://www.worldskillsuk.org/news/congratulations-to-2022s-finalists-and-med">ITST WorldSkills UK Medallion of Excellence</a></h3>
+            <p>Nov 2022</p>
+            <h4 id ="uk-maths-pink-kangaroo">
+            UK Mathematics Trust Pink Kangaroo Merit<a href="https://ukmt.org.uk/intermediate-challenges/grey-and-pink-kangaroos-awards"></a></h3>
+            <p>March 2020</p>
+            <br>
+            <h2 id="hobbies">Hobbies</h2>
+            <hr>
+            <h3 id="game-dev">Game Dev.</h3>
+            <p>I've recently started developing a 2D puzzle platformer called <em>Watson</em> using <strong>Unreal Engine 5</strong>. It's a collaborative project with my partner—I'm responsible for all the programming, while she handles the art. This project has been a great way to combine our skills and creativity and has helped me grow in game development. We’ve focused on creating unique mechanics and an engaging visual style, drawing inspiration from games like <strong>Stardew Valley</strong> and <strong>Celeste</strong>.</p>
+            <h3 id="osu">osu!</h3>
+            <p>As a passionate osu! player, I’ve consistently demonstrated commitment and skill, reaching rank <strong>#1 UK</strong> and <strong>#22 global</strong>. I've also represented the UK in the <em>osu! World Cup</em> in 2022, 2023, and 2024, and have captained numerous international osu! eSports teams. Here is my entire <a href="https://docs.google.com/spreadsheets/d/1uBgSICMBy7sX5WguMKX24nkigxztNbxOPuGN8INef1k/edit?gid=1150041730#gid=1150041730">osu! Tournament History</a>. I take pride in my video game achievements, and aim to inspire others with my performance.</p>
+            <h3 id="badminton">Badminton</h3>
+            <p>Badminton has always been my favorite sport, and I actively pursued it throughout high school, representing two of the three high schools I attended. Along the way, I earned <strong>several trophies</strong>, as the game came naturally to me and I reached a competitive level. These days, I play badminton casually and have recently taken up basketball as well.</p>
+      </article>
+    </main>
+    <footer class="fixed inset-x-0 bottom-0 p-2 bg-footer text-primary text-center text-xs border-t border-divider">
+    © Copyright 2024 Ryan Cranie
+    &bull;
+    Powered by <a href="https://gohugo.io">Hugo</a> with <a href="https://github.com/rohandebsarkar/academic-folio">Academic Folio</a> theme
+    &bull;
+    Last updated: 18 Dec 2024
+    </footer>
+    </body>
+    </html>

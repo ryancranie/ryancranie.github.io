@@ -1,0 +1,23 @@
+{
+    "name": "academic-folio",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [
+        "academic-folio",
+        "academic-website",
+        "al-folio",
+        "hugo",
+        "hugo-theme"
+    ],
+    "author": "Rohan Deb Sarkar and The Academic Folio Contributors",
+    "license": "MIT",
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.9",
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.41",
+        "postcss-cli": "^10.1.0",
+        "postcss-import": "^15.1.0",
+        "tailwindcss": "^3.2.4"
+    }
+}
