@@ -1,0 +1,12 @@
+baseURL = "https://ryancranie.com/"
+languageCode = "en-gb"
+title = "Ryan Cranie"
+theme = "ryancranie"
+enableRobotsTXT = false
+disableKinds = ["taxonomy"]
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"

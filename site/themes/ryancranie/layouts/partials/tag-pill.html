@@ -1,0 +1,6 @@
+{{- $slug := lower . -}}
+{{- $class := "tag-default" -}}
+{{- if eq $slug "homelab" -}}{{- $class = "tag-homelab" -}}{{- end -}}
+{{- if eq $slug "it" -}}{{- $class = "tag-it" -}}{{- end -}}
+{{- if eq $slug "work" -}}{{- $class = "tag-work" -}}{{- end -}}
+{{- if eq $slug "osu" -}}{{- $class = "tag-osu" -}}{{- end -}}<span class="tag {{ $class }}">{{- . -}}</span>

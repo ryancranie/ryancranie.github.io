@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="post-meta-line">
+  <span>{{ .Date.Format "2006-01-02" }}</span>
+  <span>·</span>
+  <span>{{ .ReadingTime }} min read</span>
+  <span>·</span>
+  {{ range first 1 .Params.tags }}{{ partial "tag-pill.html" . }}{{ end }}
+</div>
+<hr>
+{{ .Content }}
+<div>
+  <a href="/posts/" class="back-link">← back to posts</a>
+</div>
+{{ end }}

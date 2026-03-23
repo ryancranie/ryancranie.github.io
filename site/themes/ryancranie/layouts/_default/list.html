@@ -1,0 +1,63 @@
+{{ define "main" }}
+<h1>posts</h1>
+
+{{/* Collect all unique tags across all posts in this section */}}
+{{ $allTags := slice }}
+{{ range .Pages }}
+  {{ range .Params.tags }}
+    {{ $allTags = $allTags | append . }}
+  {{ end }}
+{{ end }}
+{{ $uniqueTags := $allTags | uniq }}
+
+{{ if $uniqueTags }}
+<div class="tag-filters">
+  {{ range $uniqueTags }}
+  <button class="tag-filter" data-tag="{{ lower . }}" aria-label="Filter by {{ . }}">
+    {{ partial "tag-pill.html" . }}
+  </button>
+  {{ end }}
+</div>
+{{ end }}
+
+<div id="post-list">
+  {{ range .Pages.ByDate.Reverse }}
+  {{- $tagStr := "" -}}
+  {{- with .Params.tags -}}{{- $tagStr = delimit . "," | lower -}}{{- end -}}
+  <div class="post-row" data-tags="{{ $tagStr }}">
+    <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
+    <div class="post-meta">
+      {{ range first 1 .Params.tags }}{{ partial "tag-pill.html" . }}{{ end }}
+      <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+<script>
+(function () {
+  var filters = document.querySelectorAll('.tag-filter');
+  var rows = document.querySelectorAll('#post-list .post-row');
+  var active = null;
+
+  filters.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var tag = this.dataset.tag;
+      if (active === tag) {
+        active = null;
+        filters.forEach(function (b) { b.classList.remove('active'); });
+        rows.forEach(function (r) { r.style.display = ''; });
+      } else {
+        active = tag;
+        filters.forEach(function (b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        rows.forEach(function (r) {
+          var tags = r.dataset.tags ? r.dataset.tags.split(',') : [];
+          r.style.display = tags.indexOf(tag) !== -1 ? '' : 'none';
+        });
+      }
+    });
+  });
+}());
+</script>
+{{ end }}

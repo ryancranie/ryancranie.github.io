@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  {{ $css := resources.Get "css/main.css" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:type" content="website">
+  {{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}">
+  {{ else }}
+  <meta property="og:image" content="{{ "/img/ryan_profile_picture.png" | absURL }}">
+  {{ end }}
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ .Permalink }}">
+</head>
+<body>
+
+  <!-- Fixed nav -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="site-name">ryan cranie</a>
+      <div class="nav-links">
+        {{- $p := . -}}
+        <a href="/" class="nav-link{{ if eq $p.RelPermalink "/" }} nav-active{{ end }}">Home</a>
+        <a href="/it-portfolio/" class="nav-link{{ if eq $p.RelPermalink "/it-portfolio/" }} nav-active{{ end }}">IT Portfolio</a>
+        <a href="/posts/" class="nav-link{{ if or (eq $p.RelPermalink "/posts/") (strings.HasPrefix $p.RelPermalink "/posts/") }} nav-active{{ end }}">Posts</a>
+        <a href="/contact/" class="nav-link{{ if eq $p.RelPermalink "/contact/" }} nav-active{{ end }}">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ASCII art fixed background -->
+  <div class="ascii-bg" aria-hidden="true">▓░░░░░░▒▒▒▒░░░░░░░░░░▒▒▓▓░░░░░░░▒▒▒░░░░░░░░░░▒▒▓░░░░
+░░▒▒▓▓▓▓▓▓▓▒▒░░░░▒▒▒▓▓▓▓▓▒▒░░░░▒▒▓▓▓▒▒░░▒▒▒▒▓▓▓▓▒▒░░
+▒▒▓▓██████▓▓▓▒▒▒▒▓▓▓███████▓▒▒░▓▓████▓▓▒▓▓▓▓█████▓▒░
+▓▓███████████▓▓▓▓████████████▓▒████████▓████████████▓
+████████████████████████████████████████████████████▓</div>
+
+  <!-- Page content -->
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">ryan cranie · {{ now.Year }}</div>
+  </footer>
+
+</body>
+</html>
