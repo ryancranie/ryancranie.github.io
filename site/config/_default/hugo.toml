@@ -3,10 +3,35 @@ languageCode = "en-gb"
 title = "Ryan Cranie"
 theme = "ryancranie"
 enableRobotsTXT = false
-disableKinds = ["taxonomy"]
+disableKinds = ["taxonomy", "term"]
 
 [pagination]
   pagerSize = 10
 
 [taxonomies]
   tag = "tags"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "IT Portfolio"
+url = "/it-portfolio/"
+weight = 2
+
+[[menu.main]]
+name = "Experience"
+url = "/experience/"
+weight = 3
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5

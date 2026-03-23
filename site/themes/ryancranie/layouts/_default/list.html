@@ -1,7 +1,7 @@
 {{ define "main" }}
-<h1>posts</h1>
+<h1>{{ .Title }}</h1>
 
-{{/* Collect all unique tags across all posts in this section */}}
+{{/* Collect all unique tags across posts in this section */}}
 {{ $allTags := slice }}
 {{ range .Pages }}
   {{ range .Params.tags }}
@@ -21,16 +21,9 @@
 {{ end }}
 
 <div id="post-list">
-  {{ range .Pages.ByDate.Reverse }}
-  {{- $tagStr := "" -}}
-  {{- with .Params.tags -}}{{- $tagStr = delimit . "," | lower -}}{{- end -}}
-  <div class="post-row" data-tags="{{ $tagStr }}">
-    <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
-    <div class="post-meta">
-      {{ range first 1 .Params.tags }}{{ partial "tag-pill.html" . }}{{ end }}
-      <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
-    </div>
-  </div>
+  {{ $posts := partial "sorted-blog-posts.html" . }}
+  {{ range $posts }}
+    {{ partial "post-row.html" . }}
   {{ end }}
 </div>
 

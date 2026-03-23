@@ -1,0 +1,16 @@
+{{- /* Returns blog posts sorted: pinned (asc) then date (desc) */ -}}
+{{- $allPosts := (where .Site.RegularPages "Section" "blog").ByDate.Reverse -}}
+{{- $pinnedPosts := slice -}}
+{{- $regularPosts := slice -}}
+{{- range $allPosts -}}
+  {{- if .Params.pinned -}}
+    {{- $pinnedPosts = $pinnedPosts | append . -}}
+  {{- else -}}
+    {{- $regularPosts = $regularPosts | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $pinnedPosts = sort $pinnedPosts ".Params.pinned" "asc" -}}
+{{- $result := slice -}}
+{{- range $pinnedPosts -}}{{- $result = $result | append . -}}{{- end -}}
+{{- range $regularPosts -}}{{- $result = $result | append . -}}{{- end -}}
+{{- return $result -}}

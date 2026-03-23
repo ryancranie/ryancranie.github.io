@@ -29,16 +29,22 @@
 </head>
 <body>
 
-  <!-- Fixed nav -->
+  <!-- Fixed nav: three-column layout -->
   <nav>
     <div class="nav-inner">
-      <a href="/" class="site-name">ryan cranie</a>
-      <div class="nav-links">
+      <div class="nav-left">
+        <a href="/" class="site-name">ryan cranie</a>
+      </div>
+      <div class="nav-center">
         {{- $p := . -}}
         <a href="/" class="nav-link{{ if eq $p.RelPermalink "/" }} nav-active{{ end }}">Home</a>
         <a href="/it-portfolio/" class="nav-link{{ if eq $p.RelPermalink "/it-portfolio/" }} nav-active{{ end }}">IT Portfolio</a>
-        <a href="/posts/" class="nav-link{{ if or (eq $p.RelPermalink "/posts/") (strings.HasPrefix $p.RelPermalink "/posts/") }} nav-active{{ end }}">Posts</a>
+        <a href="/experience/" class="nav-link{{ if eq $p.RelPermalink "/experience/" }} nav-active{{ end }}">Experience</a>
+        <a href="/blog/" class="nav-link{{ if or (eq $p.RelPermalink "/blog/") (strings.HasPrefix $p.RelPermalink "/blog/") }} nav-active{{ end }}">Blog</a>
         <a href="/contact/" class="nav-link{{ if eq $p.RelPermalink "/contact/" }} nav-active{{ end }}">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="https://cv.ryancranie.com" class="cv-btn" target="_blank" rel="noopener">cv ↗</a>
       </div>
     </div>
   </nav>

@@ -1,0 +1,12 @@
+{{- $tagStr := "" -}}
+{{- with .Params.tags -}}{{- $tagStr = delimit . "," | lower -}}{{- end -}}
+<div class="post-row" data-tags="{{ $tagStr }}">
+  <a href="{{ .RelPermalink }}" class="post-title">
+    {{- if .Params.pinned -}}<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:0.45;vertical-align:middle;margin-right:6px;" aria-hidden="true"><path d="M12 2l3 7h5l-4 4 2 6-6-4-6 4 2-6-4-4h5z"/></svg>{{- end -}}
+    {{- .Title -}}
+  </a>
+  <div class="post-meta">
+    {{ range first 1 .Params.tags }}{{ partial "tag-pill.html" . }}{{ end }}
+    <span class="post-date">{{ .Date.Format "Jan 2006" }}</span>
+  </div>
+</div>

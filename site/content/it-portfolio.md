@@ -1,54 +1,88 @@
 ---
 title: "IT Portfolio"
 layout: "it-portfolio"
-achievements:
-  - "WorldSkills UK IT-NSA Squad Member (2022–2026)"
-  - "WorldSkills Asia 2023 — Team UK representative, Abu Dhabi"
-  - "WorldSkills UK Medallion of Excellence — National Competition 2022"
-  - "Elected Class Representative — 4th Year BSc Cyber Security & Networks, GCU"
-  - "Top 4 from 200+ participants in WorldSkills IT-NSA UK selection"
+intro: |
+  I've been running a self-hosted home network since 2024 — not as a
+  sandbox, but as infrastructure I actually depend on. Everything from
+  DNS and VPN access to media, backups, and game servers runs on it.
+  Designing, breaking, and fixing it has been the most useful technical
+  education I've had.
+
+  The network is segmented into isolated zones — internal services,
+  IoT, home devices, and a public-facing DMZ — enforced by a dedicated
+  firewall with a default-deny policy between segments. The compute
+  layer is a three-node virtualisation cluster. All application
+  deployments are managed through Git and Docker Compose; no
+  click-ops, full rollback capability.
+
+  What I find genuinely interesting about it: real infrastructure has
+  real failure modes. When something breaks I have to dig into logs,
+  trace routing decisions, and work out what I missed. That feedback
+  loop is hard to replicate any other way.
 ---
-## Education
 
-### BSc (Hons) Cyber Security and Networks
-#### Glasgow Caledonian University — 1st Class Honours, July 2025
-Notable grades: Enterprise Networking 2 (92), Security Operations Analysis (89),
-Applied Penetration Testing (83), Honours Project (82)
+```
+                         ┌──────────────────────────────┐
+                         │           INTERNET           │
+                         └──────────────┬───────────────┘
+                                        │
+                         ┌──────────────▼───────────────┐
+                         │       OPNsense Firewall       │
+                         │   L3 core · default-deny      │
+                         └──┬─────┬──────┬──────┬────────┘
+                            │     │      │      │
+              ┌─────────────▼┐  ┌─▼───┐ ┌▼────┐ ┌▼─────────────────┐
+              │  Management  │  │ IoT │ │ Home│ │ DMZ (isolated)   │
+              │  + Core Infra│  │     │ │     │ │ Minecraft server │
+              └──────┬───────┘  └──┬──┘ └─────┘ │ osu! server      │
+                     │             │ DNS only    │ Public services  │
+              ┌──────▼─────────────────────────┐ └──────────────────┘
+              │        Lab / Services          │
+              │                                │
+              │  3-node Proxmox cluster        │
+              │  ~25 containerised services    │
+              │                                │
+              │  · Identity & SSO              │
+              │  · Media & photo library       │
+              │  · Monitoring & alerting       │
+              │  · DNS filtering & VPN         │
+              │  · Automated backups           │
+              └────────────────────────────────┘
+```
 
-### Secondary Education — June 2022
-Scottish Highers: ABBB | 10 × GCSEs (8–5)
+The DMZ runs on a physically separate node — VLAN 50 is pruned at
+the switch so it's only reachable from that node. Public services
+are fronted by Cloudflare; the internal network is never directly
+exposed.
+
+Hosting game servers in the DMZ is something I've particularly
+enjoyed — it forced me to think carefully about how you give
+something internet access while keeping it genuinely isolated
+from everything else on the network.
 
 ---
-## Work Experience
 
-### 2nd Line IT Support
-August 2025 – Present
-[Placeholder — add employer and responsibilities]
+## Research
+
+### Lightweight Cryptography for Secure Firmware Updates in IoT
+**Undergraduate Thesis — Glasgow Caledonian University, 2025**
+Supervisor: Dr. Rajiv Singh
+
+Evaluated AES-128, ChaCha20, ECDSA, and Ed25519 for securing
+over-the-air firmware updates in resource-constrained IoT devices.
+Simulated attack scenarios using mitmproxy, analysed traffic with
+Wireshark and tcpdump, and measured performance trade-offs on
+low-power hardware. The question was whether you could get adequate
+security without the compute overhead that makes standard approaches
+impractical on constrained devices.
 
 ---
-## Certifications
-- CompTIA Network+ (N10-009) — March 2026
-- CompTIA Security+ (SY0-701) — March 2026
-- ACE Practitioner Cyber Security Graduate — December 2022
 
----
 ## Projects
 
-### Undergraduate Thesis — Lightweight Cryptography for IoT Firmware Updates
-Supervisor: Dr. Rajiv Singh, GCU. Evaluated AES-128, ChaCha20, ECDSA, Ed25519
-for OTA firmware security in resource-constrained smart home devices.
-
 ### Dijhitech Research Labs — Internal Penetration Test
-Black-box pentest in a simulated environment. Nine vulnerabilities identified
-and documented with remediations. Led task delegation and team coordination.
+**Applied Penetration Testing — Graded Group Project**
 
----
-## Skills
-
-**Technical:** Network Design, Network Implementation, Proxmox, OPNsense,
-Docker, Linux, Windows, Git, Python, PowerShell, Cisco, Wireshark
-
-**Security:** LogRhythm, Nmap, SSLScan, DIRB, Netcat, Hydra, tcpdump, mitmproxy
-
-**Interpersonal:** Communication, Team Collaboration, Leadership,
-Documentation, Continuous Learning
+Black-box pentest in a simulated enterprise environment. Identified
+and documented nine vulnerabilities with remediation recommendations.
+Led the team, handled task delegation, and wrote the final report.
