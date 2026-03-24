@@ -1,18 +1,4 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-
-{{ with .Params.achievements }}
-<div class="section-label">achievements</div>
-<div class="achievements-list">
-  {{ range . }}
-  <div class="achievement-item">
-    <span class="achievement-marker">›</span>
-    <span>{{ . }}</span>
-  </div>
-  {{ end }}
-</div>
-<hr>
-{{ end }}
-
 {{ .Content }}
 {{ end }}

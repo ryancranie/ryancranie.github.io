@@ -1,9 +1,15 @@
-baseURL = "https://ryancranie.com/"
+baseURL = "https://www.ryancranie.com/"
 languageCode = "en-gb"
 title = "Ryan Cranie"
 theme = "ryancranie"
 enableRobotsTXT = false
 disableKinds = ["taxonomy", "term"]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [pagination]
   pagerSize = 10
@@ -17,7 +23,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "IT Portfolio"
+name = "portfolio"
 url = "/it-portfolio/"
 weight = 2
 
@@ -30,8 +36,3 @@ weight = 3
 name = "Blog"
 url = "/blog/"
 weight = 4
-
-[[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 5

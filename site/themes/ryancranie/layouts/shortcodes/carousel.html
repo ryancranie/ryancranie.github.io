@@ -1,0 +1,57 @@
+{{ $images := .Page.Resources.ByType "image" }}
+<script>
+function carouselNav(btn, dir) {
+  var track = btn.parentElement.querySelector('.carousel-track');
+  var imgs = track.querySelectorAll('img');
+  var current = 0;
+  imgs.forEach(function(img, i){ if(img.style.display !== 'none') current = i; });
+  imgs[current].style.display = 'none';
+  var next = (current + dir + imgs.length) % imgs.length;
+  imgs[next].style.display = 'block';
+  btn.parentElement.querySelector('.carousel-counter').textContent = next + 1;
+}
+function carouselPrev(btn){ carouselNav(btn, -1); }
+function carouselNext(btn){ carouselNav(btn, 1); }
+document.addEventListener('keydown', function(e) {
+  if(e.key === 'Escape')
+    document.getElementById('fs-overlay').classList.remove('active');
+});
+</script>
+<div class="carousel" style="position:relative;margin:2rem 0;">
+  <div class="carousel-track" style="position:relative;width:100%;
+    background:#0a0a0a;border:0.5px solid rgba(255,255,255,0.1);
+    border-radius:4px;overflow:hidden;text-align:center;min-height:300px;
+    display:flex;align-items:center;justify-content:center;">
+    {{ range $i, $img := $images }}
+    <img
+      src="{{ $img.RelPermalink }}"
+      data-index="{{ $i }}"
+      style="max-width:100%;max-height:520px;width:auto;height:auto;
+        object-fit:contain;display:{{ if eq $i 0 }}block{{ else }}none{{ end }};
+        margin:0 auto;cursor:zoom-in;"
+      onclick="var o=document.getElementById('fs-overlay');document.getElementById('fs-img').src=this.src;o.classList.add('active');"
+    />
+    {{ end }}
+  </div>
+  {{ if gt (len $images) 1 }}
+  <button onclick="carouselPrev(this)"
+    style="position:absolute;left:-2rem;top:50%;transform:translateY(-50%);
+      background:none;border:none;color:rgba(255,255,255,0.4);
+      font-family:'JetBrains Mono',monospace;font-size:20px;cursor:pointer;
+      padding:0.5rem;line-height:1;transition:color 0.15s;"
+    onmouseover="this.style.color='rgba(255,255,255,0.9)'"
+    onmouseout="this.style.color='rgba(255,255,255,0.4)'">‹</button>
+  <button onclick="carouselNext(this)"
+    style="position:absolute;right:-2rem;top:50%;transform:translateY(-50%);
+      background:none;border:none;color:rgba(255,255,255,0.4);
+      font-family:'JetBrains Mono',monospace;font-size:20px;cursor:pointer;
+      padding:0.5rem;line-height:1;transition:color 0.15s;"
+    onmouseover="this.style.color='rgba(255,255,255,0.9)'"
+    onmouseout="this.style.color='rgba(255,255,255,0.4)'">›</button>
+  <div style="text-align:center;margin-top:0.6rem;
+    font-family:'JetBrains Mono',monospace;font-size:11px;
+    color:rgba(255,255,255,0.25);">
+    <span class="carousel-counter">1</span> / {{ len $images }}
+  </div>
+  {{ end }}
+</div>

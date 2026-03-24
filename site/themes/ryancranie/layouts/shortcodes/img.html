@@ -1,0 +1,15 @@
+<figure style="text-align:center;margin:2rem 0;">
+  <img src="{{ .Get "src" }}"
+    alt="{{ .Get "alt" | default "" }}"
+    style="max-width:{{ .Get "width" | default "100%" }};
+           width:100%;
+           border-radius:4px;
+           display:inline-block;"
+  />
+  {{ if .Get "caption" }}
+  <figcaption style="font-family:'JetBrains Mono',monospace;font-size:12px;
+    color:rgba(255,255,255,0.35);margin-top:0.5rem;">
+    {{ .Get "caption" }}
+  </figcaption>
+  {{ end }}
+</figure>

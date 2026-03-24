@@ -3,4 +3,10 @@
 {{- if eq $slug "homelab" -}}{{- $class = "tag-homelab" -}}{{- end -}}
 {{- if eq $slug "it" -}}{{- $class = "tag-it" -}}{{- end -}}
 {{- if eq $slug "work" -}}{{- $class = "tag-work" -}}{{- end -}}
-{{- if eq $slug "osu" -}}{{- $class = "tag-osu" -}}{{- end -}}<span class="tag {{ $class }}">{{- . -}}</span>
+{{- if or (eq $slug "osu") (eq $slug "osu!") -}}{{- $class = "tag-osu" -}}{{- end -}}
+{{- if eq $slug "productivity" -}}{{- $class = "tag-productivity" -}}{{- end -}}
+{{- if eq $slug "fleeting" -}}{{- $class = "tag-fleeting" -}}{{- end -}}
+{{- if eq $slug "projects" -}}{{- $class = "tag-projects" -}}{{- end -}}
+{{- if eq $slug "psychology" -}}{{- $class = "tag-psychology" -}}{{- end -}}
+{{- if eq $slug "music" -}}{{- $class = "tag-music" -}}{{- end -}}
+{{- if eq $slug "health" -}}{{- $class = "tag-health" -}}{{- end -}}<span class="tag {{ $class }}">{{- . -}}</span>

@@ -1,28 +1,4 @@
 {{ define "main" }}
-<h1>IT Portfolio</h1>
-
-{{ with .Params.intro }}
-<div class="homelab-intro">
-  {{ . | markdownify }}
-</div>
-<hr>
-{{ end }}
-
-{{/* Recent homelab posts */}}
-{{- $homeLab := where (where .Site.RegularPages "Section" "blog") ".Params.tags" "intersect" (slice "homelab") -}}
-{{- $homeLab = $homeLab.ByDate.Reverse -}}
-{{- if $homeLab -}}
-<div class="section-label">recent homelab posts</div>
-{{ range first 5 $homeLab }}
-<div class="post-row">
-  <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
-  <div class="post-meta">
-    <span class="post-date">{{ .Date.Format "Jan 2006" }}</span>
-  </div>
-</div>
-{{ end }}
-<hr>
-{{- end -}}
-
+<h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ end }}
