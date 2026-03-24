@@ -121,8 +121,17 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  .nav-social-icons {
-    display: none;
+  nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+  }
+  .nav-icons-right {
+    display: none !important;
+  }
+  .nav-links {
+    gap: 1rem;
+    flex-shrink: 0;
   }
 }
 
@@ -442,11 +451,67 @@ footer {
 
 @media (max-width: 600px) {
   .hero-row {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
   }
   .hero-photo {
+    width: 90px !important;
+    height: 90px !important;
+    min-width: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 600px) {
+  .email-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .email-block .email-label {
+    position: static;
+    transform: none;
+    font-size: 11px;
+  }
+  .email-block .email-address {
+    font-size: clamp(16px, 5vw, 22px);
+  }
+}
+
+@media (max-width: 600px) {
+  .album-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.6rem;
+  }
+  .album-grid img {
     width: 100%;
-    height: 100px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-icons-row {
+    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .contact-icon-col {
+    width: 56px !important;
+  }
+  .contact-icon-box {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  .contact-icon-box svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  .contact-icon-label {
+    font-size: 9px !important;
   }
 }
 

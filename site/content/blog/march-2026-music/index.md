@@ -8,7 +8,7 @@ draft: false
 
 Some cool stuff I have been into this month:
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin:2rem 0;">
+<div class="album-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin:2rem 0;">
 
 <div style="text-align:center;">
 <img src="jeff-buckley-grace.jpg" style="width:100%;border-radius:4px;display:block;">
