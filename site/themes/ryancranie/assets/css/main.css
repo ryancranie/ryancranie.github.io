@@ -449,22 +449,18 @@ footer {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
-  .hero-photo {
-    width: 90px !important;
-    height: 90px !important;
-    min-width: 90px;
-  }
-}
+.hero-bio-mobile { display: none; }
 
 .email-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
+  position: relative;
+  text-align: center;
   margin: 1.5rem 0 1rem;
 }
 .email-label {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
   color: rgba(255,255,255,0.3);
@@ -476,16 +472,31 @@ footer {
   font-weight: 500;
   color: rgba(255,255,255,0.85);
   letter-spacing: -0.02em;
-  white-space: nowrap;
+  display: inline-block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .hero-photo {
+    width: 90px !important;
+    height: 90px !important;
+    min-width: 90px;
+  }
+  .hero-bio-desktop { display: none !important; }
+  .hero-bio-mobile { display: block; margin-top: 1rem; }
+  .hero-right { justify-content: flex-start; }
   .email-block {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.2rem;
   }
+  .email-label {
+    position: static;
+    transform: none;
+    font-size: 11px;
+  }
   .email-address {
-    font-size: clamp(14px, 5vw, 20px);
+    font-size: clamp(16px, 5vw, 22px);
   }
 }
 
