@@ -450,18 +450,10 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .hero-row {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-  }
   .hero-photo {
     width: 90px !important;
     height: 90px !important;
     min-width: 90px;
-  }
-  .hero-bio {
-    width: 100% !important;
-    margin-top: 1rem !important;
   }
 }
 

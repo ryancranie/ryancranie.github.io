@@ -1,13 +1,17 @@
 {{ define "main" }}
 <h1 class="hero-title">Ryan Cranie</h1>
 
-<div class="hero-row">
-  <img src="/img/profile/ryan_profile_picture.jpg" alt="Ryan Cranie" class="hero-photo">
-  <div class="hero-bio">
-    <p class="hero-subtitle">IT Generalist · Network+ · Security+ · WorldSkills 2023-25 · BSc (Hons) Cybersec & Networks</p>
-    {{ .Content }}
-  </div>
+<div style="display:flex;flex-direction:row;align-items:flex-start;gap:1.5rem;margin-bottom:1.25rem;">
+  <img src="/img/profile/ryan_profile_picture.jpg" alt="Ryan Cranie" class="hero-photo"
+    style="width:120px;height:120px;object-fit:cover;border-radius:6px;border:0.5px solid rgba(255,255,255,0.2);flex-shrink:0;">
+  <p class="hero-subtitle" style="font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(255,255,255,0.4);margin:0;align-self:center;">IT Generalist · Network+ · Security+ · WorldSkills 2023-25 · BSc (Hons) Cybersec &amp; Networks</p>
 </div>
+
+<div class="hero-bio">
+  {{ .Content }}
+</div>
+
+<hr style="border:none;border-top:0.5px solid rgba(255,255,255,0.1);margin:2rem 0;">
 
 <div class="contact-block">
   <div class="email-block">

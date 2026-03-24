@@ -5,4 +5,4 @@ tags: ["homelab"]
 draft: false
 ---
 
-Placeholder — a walkthrough of how the homelab came together in phases.
+-to write-

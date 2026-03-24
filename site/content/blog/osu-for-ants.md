@@ -5,4 +5,4 @@ tags: ["osu!"]
 draft: false
 ---
 
-Placeholder — a guide on precision and aim control at high DPI.
+-to write-
