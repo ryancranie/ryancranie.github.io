@@ -2,6 +2,7 @@
 title: "March 2026 Music Rotation"
 date: 2026-03-05
 tags: ["music"]
+image: "/img/profile/ryan_profile_picture.jpg"
 pinned: 3
 draft: false
 ---

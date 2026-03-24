@@ -5,6 +5,9 @@ theme = "ryancranie"
 enableRobotsTXT = false
 disableKinds = ["taxonomy", "term"]
 
+[params]
+  description = "IT professional, homelab builder, osu! player. Writing about networking, infrastructure, and whatever else."
+
 [markup.highlight]
   noClasses = false
 

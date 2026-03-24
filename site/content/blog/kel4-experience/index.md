@@ -3,6 +3,7 @@ title: "my experience at KEL4"
 date: 2026-03-20
 tags: ["osu!"]
 pinned: 2
+image: "kel4_3.JPG"
 draft: false
 ---
 

@@ -15,14 +15,18 @@
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:type" content="website">
-  {{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
-  {{ with .Params.image }}
-  <meta property="og:image" content="{{ . | absURL }}">
-  {{ else }}
-  <meta property="og:image" content="{{ "/img/ryan_profile_picture.png" | absURL }}">
-  {{ end }}
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/img/profile/ryan_profile_picture.jpg" | absURL }}{{ end }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}">
+  <meta name="twitter:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/img/profile/ryan_profile_picture.jpg" | absURL }}{{ end }}">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/img/icons/favicon.ico">

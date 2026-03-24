@@ -2,6 +2,7 @@
 title: "my custom rich osu! tournament spreadsheet"
 date: 2024-09-10
 tags: ["projects", "osu!"]
+image: "/img/profile/ryan_profile_picture.jpg"
 ---
 Here is a walkthrough of the custom tournament spreadsheet I built for tracking and archiving osu! tournaments. 
 

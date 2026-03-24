@@ -4,6 +4,7 @@ date: 2026-03-15
 tags: ["productivity"]
 pinned: 1
 draft: false
+image: "/img/profile/ryan_profile_picture.jpg"
 ---
 
 In the modern world, it’s all too easy to get sucked into technology and waste our lives scrolling on social media. I really sympathize with this, and it affects all of us, regardless of age - whether you’re an iPad kid, a student, an adult with downtime after work, or a senior with nothing else to do. Your relationship with technology is probably something you should be scared of.
