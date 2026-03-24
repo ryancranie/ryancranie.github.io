@@ -5,11 +5,11 @@ layout: "it-portfolio"
 
 ## Homelab
 
-I've been running a self-hosted home network — not as a sandbox, but as infrastructure I actually depend on. Everything from DNS and VPN access to media, backups, and game servers runs on it. Designing, breaking, and fixing it has been the most useful technical education I've had.
+I've been running a self-hosted home network - not as a sandbox, but as infrastructure I actually depend on. Everything from DNS and VPN access to media, backups, and game servers runs on it. Designing, breaking, and fixing it has been the most useful technical education I've had.
 
-The network is segmented into isolated zones — internal services, IoT, home devices, and a public-facing DMZ — enforced by a dedicated firewall with a default-deny policy between segments. The compute layer is a three-node virtualisation cluster. All application deployments are managed through Git and Docker Compose; no click-ops, full rollback capability.
+The network is segmented into isolated zonesm: internal services, IoT, home devices, and a public-facing DMZ - enforced by a dedicated firewall with a default-deny policy between segments. The compute layer is a three-node virtualisation cluster. All application deployments are managed through Git and Docker Compose; no click-ops, full rollback capability.
 
-What I find genuinely interesting about it: real infrastructure has real failure modes. When something breaks I have to dig into logs, trace routing decisions, and work out what I missed. That feedback loop is hard to replicate any other way.
+What I find genuinely interesting and valuable about it: real infrastructure has real failure modes. When something breaks I have to dig into logs, trace routing decisions, and work out what I missed. That feedback loop is hard to replicate any other way.
 
 ```mermaid
 graph TD
@@ -21,9 +21,9 @@ graph TD
     C --> G[Lab / Services<br/>3-node Proxmox cluster<br/>~25 containerised svcs<br/><br/>· Identity & SSO<br/>· Media & photo library<br/>· Monitoring & alerting<br/>· DNS filtering & VPN<br/>· Automated backups]
 ```
 
-The DMZ runs on a physically separate node — VLAN 50 is pruned at the switch so it is only reachable from that machine. Public services are fronted by Cloudflare; the internal network is never directly exposed.
+The DMZ runs on a physically separate node, VLAN 50 is pruned at the switch so it is only reachable from that machine. Public services are fronted by Cloudflare; the internal network is never directly exposed.
 
-Hosting game servers in the DMZ is something I have particularly enjoyed — it forced me to think carefully about how you give something internet access while keeping it genuinely isolated from everything else on the network.
+Hosting game servers in the DMZ is something I have particularly enjoyed. It forced me to think carefully about how you give something internet access while keeping it genuinely isolated from everything else on the network.
 
 ---
 

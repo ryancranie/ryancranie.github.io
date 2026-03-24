@@ -18,15 +18,15 @@ document.addEventListener('keydown', function(e) {
 });
 </script>
 <div class="carousel" style="position:relative;margin:2rem 0;">
-  <div class="carousel-track" style="position:relative;width:100%;
+  <div class="carousel-track" style="position:relative;width:100%;height:340px;
     background:#0a0a0a;border:0.5px solid rgba(255,255,255,0.1);
-    border-radius:4px;overflow:hidden;text-align:center;min-height:300px;
+    border-radius:4px;overflow:hidden;text-align:center;
     display:flex;align-items:center;justify-content:center;">
     {{ range $i, $img := $images }}
     <img
       src="{{ $img.RelPermalink }}"
       data-index="{{ $i }}"
-      style="max-width:100%;max-height:520px;width:auto;height:auto;
+      style="max-width:100%;max-height:340px;width:auto;height:auto;
         object-fit:contain;display:{{ if eq $i 0 }}block{{ else }}none{{ end }};
         margin:0 auto;cursor:zoom-in;"
       onclick="var o=document.getElementById('fs-overlay');document.getElementById('fs-img').src=this.src;o.classList.add('active');"

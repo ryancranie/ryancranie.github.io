@@ -8,7 +8,7 @@ layout: "experience"
 ### SEFE Energy - IT Workplace Support Analyst
 **August 2025 – Present**
 
-2nd Line IT Support, MS Azure,
+
 
 ---
 
