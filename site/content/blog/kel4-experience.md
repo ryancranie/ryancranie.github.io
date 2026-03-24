@@ -6,7 +6,7 @@ draft: false
 pinned: 2
 ---
 
-I have been to six osu! LAN events as of March 2026. But this one, KEL4 in Gdańsk, was my favourite by far.
+I have been to six osu! LAN events as of March 2026. But this one, KEL4 in Gdańsk, was my favourite by far!
 
 There’s something so special about travelling to another country and finding yourself surrounded by people who share this amazing common ground with you. At this point in my life, I don’t think I could’ve asked for a meetup more meaningful. It’s hard to put into words how much it all meant to me.
 
