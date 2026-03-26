@@ -25,12 +25,14 @@ The DMZ runs on a physically separate node, VLAN 50 is pruned at the switch so i
 
 Hosting game servers in the DMZ is something I have particularly enjoyed. It forced me to think carefully about how you give something internet access while keeping it genuinely isolated from everything else on the network.
 
+For a detailed technical writeup and full documentation of the build, see the [homelab repository on GitHub](https://github.com/ryancranie/homelab).
+
 ---
 
 ## Research
 
 ### Lightweight Cryptography for Secure Firmware Updates in IoT
-**Undergraduate Thesis — Glasgow Caledonian University, 2025**
+#### Undergraduate Thesis — Glasgow Caledonian University, 2025
 
 In this study, we explored the implementation of lightweight cryptographic protocols for securing over-the-air firmware updates in resource-constrained smart home IoT devices. The research examined the performance and security trade-offs of various protocols including AES-128, ChaCha20, ECDSA, and Ed25519. Through our testing methodology using OpenSSL for encryption and signing, mitmproxy for simulating network attacks, and comprehensive traffic analysis with tcpdump and Wireshark, we aimed to identify optimal cryptographic solutions that balance security requirements with the computational limitations of IoT hardware.
 
@@ -39,11 +41,11 @@ In this study, we explored the implementation of lightweight cryptographic proto
 ## University Projects
 
 ### Dijhitech Research Labs — Internal Penetration Test
-**Applied Penetration Testing — Graded Group Project**
+#### Applied Penetration Testing — Graded Group Project
 
 For our university project, we conducted a black-box penetration test in a simulated environment. The final report we made offers a detailed analysis of nine vulnerabilities identified, along with recommended remediations for each. This project also provided valuable leadership experience, as I took responsibility for task delegation and organizing team meetings. I was fortunate to collaborate with a talented group of classmates throughout the process.
 
 ### Security Assessment of a Simulated Chemical Plant ICS
-**Cyber Physical Systems Security: Coursework**
+#### Cyber Physical Systems Security: Coursework
 
 This individual project was to make a comprehensive security assessment of a simulated chemical plant's Industrial Control System. The goal was to aim to identify vulnerabilities within the ICS and evaluate its resilience against a variety of cyberattacks. The assessment involves creating an asset inventory through network scanning and traffic analysis, identifying and analyzing ICS devices, and conducting vulnerability assessments and attacks, including a perception layer attack and a man-in-the-middle attack.

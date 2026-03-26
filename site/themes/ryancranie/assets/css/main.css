@@ -34,7 +34,7 @@ nav {
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
 }
 
 .nav-inner {
@@ -77,7 +77,7 @@ nav {
 .nav-link {
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.55);
   text-decoration: none;
   padding-bottom: 2px;
 }
@@ -88,7 +88,7 @@ nav {
 }
 
 nav a {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.55);
   text-decoration: none;
   transition: color 0.15s;
 }
@@ -141,7 +141,7 @@ main {
   z-index: 1;
   max-width: 960px;
   margin: 0 auto;
-  padding: 3rem 1.5rem 2rem;
+  padding: 1.5rem 1.5rem 6rem;
 }
 
 /* ===== Typography ===== */
@@ -150,7 +150,8 @@ h1 {
   font-size: 28px;
   font-weight: 500;
   letter-spacing: -0.03em;
-  margin-bottom: 1rem;
+  margin: 0 0 1.5rem;
+  color: #ffffff;
 }
 
 h2 {
@@ -172,9 +173,10 @@ h3 {
 h4 {
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0.25rem 0 0.75rem;
+  letter-spacing: 0.01em;
 }
 
 .section-label {
@@ -182,7 +184,7 @@ h4 {
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.45);
   margin-bottom: 1.25rem;
 }
 
@@ -196,7 +198,7 @@ p {
 
 hr {
   border: none;
-  border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.15);
   margin: 2.5rem 0;
 }
 
@@ -241,7 +243,7 @@ pre {
   overflow-x: auto;
   padding: 1.25rem 1rem;
   background: transparent;
-  border-left: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-left: none;
   margin: 1.5rem 0;
 }
 
@@ -289,7 +291,7 @@ pre code {
 
 .tag-default {
   background: rgba(255, 255, 255, 0.07);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   border: 0.5px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -359,10 +361,10 @@ footer {
   z-index: 1;
   font-family: 'JetBrains Mono', monospace;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.45);
   padding: 1.5rem 0;
   text-align: center;
-  border-top: 0.5px solid rgba(255, 255, 255, 0.08);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.15);
 }
 
 .footer-inner {
@@ -377,7 +379,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 0;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
   gap: 1rem;
 }
 
@@ -408,7 +410,7 @@ footer {
 .post-date {
   font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.45);
   white-space: nowrap;
 }
 
@@ -445,7 +447,7 @@ footer {
 .hero-subtitle {
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.55);
   margin-bottom: 1rem;
 }
 
@@ -463,7 +465,7 @@ footer {
   transform: translateY(-50%);
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.45);
   white-space: nowrap;
 }
 .email-address {
@@ -515,7 +517,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .contact-icons-row {
     gap: 8px;
     flex-wrap: nowrap;
@@ -576,7 +578,7 @@ a.has-tooltip {
   transform: translateX(-50%);
   background: #000000;
   border: 0.5px solid rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.55);
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
   letter-spacing: 0.05em;
@@ -609,13 +611,13 @@ a.has-tooltip {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 72px;
+  width: 80px;
   flex-shrink: 0;
 }
 
 .contact-icon-link {
-  width: 40px;
-  height: 40px;
+  width: 64px;
+  height: 64px;
   margin: 0 auto;
   border: 0.5px solid rgba(255, 255, 255, 0.18);
   border-radius: 6px;
@@ -623,6 +625,11 @@ a.has-tooltip {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+}
+
+.contact-icon-box svg {
+  width: 26px;
+  height: 26px;
 }
 
 .contact-icon-link:hover {
@@ -633,7 +640,7 @@ a.has-tooltip {
 .contact-icon-label {
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.45);
   margin-top: 5px;
   width: 100%;
   display: block;
@@ -665,7 +672,7 @@ a.has-tooltip {
 .post-meta-line {
   font-family: 'JetBrains Mono', monospace;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.45);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -678,7 +685,7 @@ a.has-tooltip {
   margin-top: 2rem;
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
@@ -704,7 +711,38 @@ a.has-tooltip {
 
 .achievement-marker {
   font-family: 'JetBrains Mono', monospace;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.45);
   flex-shrink: 0;
   margin-top: 0.05em;
+}
+
+/* ===== Blog single post ===== */
+.post-single {
+  padding-bottom: 2rem;
+}
+
+/* ===== Mermaid diagram ===== */
+.mermaid svg {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+/* ===== Mobile nav sticky site name ===== */
+@media (max-width: 768px) {
+  .nav-left {
+    position: sticky;
+    left: 0;
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(10px);
+    padding-right: 0.75rem;
+    z-index: 10;
+    flex-shrink: 0;
+  }
+  .nav-links {
+    flex-shrink: 0;
+  }
+  .nav-right {
+    flex-shrink: 0;
+    padding-right: 1rem;
+  }
 }

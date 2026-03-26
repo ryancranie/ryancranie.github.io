@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="post-single">
 <h1>{{ .Title }}</h1>
 <div class="post-meta-line">
   <span>{{ .Date.Format "02 Jan 2006" }}</span>
@@ -9,5 +10,6 @@
 {{ .Content }}
 <div>
   <a href="/blog/" class="back-link">← back to blog</a>
+</div>
 </div>
 {{ end }}
