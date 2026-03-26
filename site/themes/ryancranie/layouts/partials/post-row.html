@@ -6,7 +6,7 @@
     {{- .Title -}}
   </a>
   <div class="post-meta">
-    {{ range .Params.tags }}{{ partial "tag-pill.html" . }}{{ end }}
-    <span class="post-date">{{ .Date.Format "Jan 2006" }}</span>
+    <div class="post-tags">{{ range .Params.tags }}{{ partial "tag-pill.html" . }}{{ end }}</div>
+    <span class="post-date"><span class="date-desktop">{{ .Date.Format "Jan 2006" }}</span><span class="date-mobile">{{ .Date.Format "01/06" }}</span></span>
   </div>
 </div>

@@ -28,29 +28,31 @@
 </div>
 
 <script>
-(function () {
-  var filters = document.querySelectorAll('.tag-filter');
-  var rows = document.querySelectorAll('#post-list .post-row');
-  var active = null;
-
-  filters.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var tag = this.dataset.tag;
-      if (active === tag) {
-        active = null;
-        filters.forEach(function (b) { b.classList.remove('active'); });
-        rows.forEach(function (r) { r.style.display = ''; });
-      } else {
-        active = tag;
-        filters.forEach(function (b) { b.classList.remove('active'); });
-        this.classList.add('active');
-        rows.forEach(function (r) {
-          var tags = r.dataset.tags ? r.dataset.tags.split(',') : [];
-          r.style.display = tags.indexOf(tag) !== -1 ? '' : 'none';
-        });
-      }
-    });
+var activeTags = [];
+document.querySelectorAll('.tag-filter').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var tag = this.dataset.tag;
+    var idx = activeTags.indexOf(tag);
+    if(idx === -1){
+      activeTags.push(tag);
+      this.classList.add('tag-filter-active');
+    } else {
+      activeTags.splice(idx,1);
+      this.classList.remove('tag-filter-active');
+    }
+    filterPosts();
   });
-}());
+});
+function filterPosts(){
+  document.querySelectorAll('.post-row').forEach(function(row){
+    if(activeTags.length === 0){
+      row.style.display = '';
+      return;
+    }
+    var rowTags = row.dataset.tags ? row.dataset.tags.split(',') : [];
+    var match = activeTags.every(function(t){ return rowTags.indexOf(t) !== -1; });
+    row.style.display = match ? '' : 'none';
+  });
+}
 </script>
 {{ end }}

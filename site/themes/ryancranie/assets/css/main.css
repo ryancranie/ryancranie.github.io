@@ -97,6 +97,9 @@ nav a:hover {
   color: #ffffff;
 }
 
+/* ===== Hamburger (mobile only) ===== */
+.hamburger { display: none; }
+
 /* ===== Nav social icons (non-home pages) ===== */
 .nav-social-icons {
   display: flex;
@@ -121,18 +124,20 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  nav {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    flex-wrap: nowrap;
+  nav { display: none !important; }
+  .hamburger {
+    display: block !important;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 998;
+    background: rgba(0,0,0,0.8);
+    border: 0.5px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    padding: 6px 8px;
   }
-  .nav-icons-right {
-    display: none !important;
-  }
-  .nav-links {
-    gap: 1rem;
-    flex-shrink: 0;
-  }
+  .sidebar { display: flex; }
+  body { padding-top: 0; }
 }
 
 /* ===== Main content ===== */
@@ -727,22 +732,90 @@ a.has-tooltip {
   padding-left: 0 !important;
 }
 
-/* ===== Mobile nav sticky site name ===== */
+/* ===== Sidebar ===== */
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -280px;
+  width: 260px;
+  height: 100vh;
+  background: #000;
+  border-left: 0.5px solid rgba(255,255,255,0.15);
+  z-index: 1000;
+  flex-direction: column;
+  padding: 1rem 1.5rem 2rem;
+  transition: right 0.25s ease;
+  gap: 0;
+}
+.sidebar a {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 15px;
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  padding: 0.85rem 0;
+  border-bottom: 0.5px solid rgba(255,255,255,0.08);
+}
+.sidebar a:hover, .sidebar a.active {
+  color: #fff;
+}
+.sidebar.open { right: 0; }
+
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 999;
+}
+.sidebar-overlay.active { display: block; }
+
+/* ===== Footer icons ===== */
+.footer-icons { display: none; }
+
 @media (max-width: 768px) {
-  .nav-left {
-    position: sticky;
-    left: 0;
-    background: rgba(0,0,0,0.75);
-    backdrop-filter: blur(10px);
-    padding-right: 0.75rem;
-    z-index: 10;
-    flex-shrink: 0;
+  .footer-icons {
+    display: flex !important;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
   }
-  .nav-links {
-    flex-shrink: 0;
+}
+
+/* ===== Mobile blog tags — stack vertically ===== */
+@media (max-width: 768px) {
+  .post-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
   }
-  .nav-right {
-    flex-shrink: 0;
-    padding-right: 1rem;
+}
+
+/* ===== Mobile date format ===== */
+.date-mobile { display: none; }
+@media (max-width: 768px) {
+  .date-desktop { display: none; }
+  .date-mobile { display: inline; }
+}
+
+/* ===== Multi-tag filter active state ===== */
+.tag-filter-active {
+  outline: 1.5px solid rgba(255,255,255,0.6);
+  outline-offset: 2px;
+}
+
+/* ===== Diagram scroll (mobile) ===== */
+.diagram-scroll { overflow: visible; }
+@media (max-width: 768px) {
+  .diagram-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 0.5px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  .diagram-scroll .mermaid svg {
+    min-width: 500px;
   }
 }

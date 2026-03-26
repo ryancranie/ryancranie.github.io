@@ -5,12 +5,16 @@ layout: "experience"
 
 <a href="https://cv.ryancranie.com" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(255,255,255,0.6);text-decoration:underline;text-decoration-color:rgba(255,255,255,0.3);">view my complete cv ↗</a>
 
+---
+
 ## Work Experience
 
 ### IT Workplace Support Analyst
 #### SEFE Energy · August 2025 – Present
 
 Working in 2nd line IT support within a hybrid Azure AD environment. Day-to-day responsibilities span endpoint provisioning via Autopilot and Intune, device lifecycle management for joiners/movers/leavers, and advanced network troubleshooting across VPN, WiFi, and Azure-identity-driven authentication. Also leading documentation and process modernisation projects, using spreadsheet automation and data modelling to standardise and track operational work.
+
+---
 
 ## Education
 
@@ -19,6 +23,8 @@ Working in 2nd line IT support within a hybrid Azure AD environment. Day-to-day 
 
 Graduated top of my year, awarded Best 4th Year Student. Elected Class Representative for 2024/25. Notable modules include Enterprise Networking, SOC Operations Analysis, and Applied Penetration Testing.
 
+
+---
 
 ## Certifications
 
@@ -34,11 +40,13 @@ Graduated top of my year, awarded Best 4th Year Student. Elected Class Represent
 
 </div>
 
+---
+
 ## Achievements
 
-- WorldSkills UK IT-NSA Squad Member (2022–2026)
-- WorldSkills Asia 2023 — Team UK representative, Abu Dhabi
-- WorldSkills UK Medallion of Excellence — National Competition 2022
-- Elected Class Representative — 4th Year BSc Cyber Security & Networks, GCU
-- Top 4 from 200+ participants in WorldSkills IT-NSA national selection
-- Awarded Best 4th Year Student — graduated top of year
+- Awarded Best 4th Year Student - graduated top of year (2025)
+- Elected Class Representative - 4th Year BSc Cyber Security & Networks, GCU (2024/25)
+- WorldSkills UK IT-NSA Squad Member (2022-2026)
+- Top 4 from 200+ participants in WorldSkills IT-NSA national selection (2022)
+- WorldSkills UK Medallion of Excellence - National Competition (2022)
+- WorldSkills Asia 2023 - Team UK representative, Abu Dhabi (2023)
