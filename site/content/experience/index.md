@@ -5,8 +5,6 @@ layout: "experience"
 
 <a href="https://cv.ryancranie.com" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(255,255,255,0.6);text-decoration:underline;text-decoration-color:rgba(255,255,255,0.3);">view my complete cv ↗</a>
 
----
-
 ## Work Experience
 
 ### IT Workplace Support Analyst

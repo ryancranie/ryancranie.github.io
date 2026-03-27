@@ -6,7 +6,6 @@
   <span>·</span>
   {{ range first 1 .Params.tags }}{{ partial "tag-pill.html" . }}{{ end }}
 </div>
-<hr>
 {{ .Content }}
 <div>
   <a href="/blog/" class="back-link">← back to blog</a>

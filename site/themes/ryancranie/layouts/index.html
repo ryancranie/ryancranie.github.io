@@ -55,12 +55,12 @@
       <span class="contact-icon-label">signal</span>
     </div>
   </div>
-  <p style="text-align:center;font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(255,255,255,0.3);margin-top:1.25rem;margin-bottom:0;">Feel free to contact!</p>
+  <p style="text-align:center;font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(255,255,255,0.85);margin-top:1.25rem;margin-bottom:0;">Feel free to contact!</p>
 </div>
 
 <hr>
 
-<a href="/blog/" class="section-label" style="text-decoration:none;color:inherit;display:block;">recent posts</a>
+<h2>Recent posts</h2>
 {{ $posts := partial "sorted-blog-posts.html" . }}
 {{ range first 5 $posts }}
   {{ partial "post-row.html" . }}
