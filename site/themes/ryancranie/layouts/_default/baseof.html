@@ -156,8 +156,8 @@ var hb = document.getElementById('hamburger');
 var sb = document.getElementById('sidebar');
 var ov = document.getElementById('sidebar-overlay');
 var cl = document.getElementById('sidebar-close');
-function openSidebar(){ sb.classList.add('open'); ov.classList.add('active'); }
-function closeSidebar(){ sb.classList.remove('open'); ov.classList.remove('active'); }
+function openSidebar(){ sb.classList.add('open'); ov.classList.add('active'); document.body.style.overflow = 'hidden'; }
+function closeSidebar(){ sb.classList.remove('open'); ov.classList.remove('active'); document.body.style.overflow = ''; }
 if(hb) hb.addEventListener('click', openSidebar);
 if(cl) cl.addEventListener('click', closeSidebar);
 if(ov) ov.addEventListener('click', closeSidebar);
