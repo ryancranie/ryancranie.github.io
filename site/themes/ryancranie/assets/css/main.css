@@ -761,6 +761,12 @@ a.has-tooltip {
 }
 .sidebar.open { right: 0 !important; }
 
+@media (min-width: 769px) {
+  .sidebar { right: -280px !important; }
+  .sidebar-overlay { display: none !important; }
+  .hamburger { display: none !important; }
+}
+
 .sidebar-overlay {
   display: none;
   position: fixed;
