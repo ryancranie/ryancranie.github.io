@@ -14,29 +14,26 @@ Working in 2nd line IT support within a hybrid Azure AD environment. Day-to-day 
 
 ---
 
+## Certifications
+
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:2rem 0;align-items:start;">
+
+<div style="min-width:0;overflow:hidden;"><div style="position:relative;width:100%;padding-bottom:100%;overflow:hidden;border-radius:4px;"><img src="ccna.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;"></div><p style="font-size:13px;color:rgba(255,255,255,0.8);margin:0.5rem 0 2px;font-weight:500;text-align:center;">Cisco CCNA</p><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(255,255,255,0.55);margin:0;text-align:center;">200-301 v1.1 · May 2026</p></div>
+
+<div style="min-width:0;overflow:hidden;"><div style="position:relative;width:100%;padding-bottom:100%;overflow:hidden;border-radius:4px;"><img src="netplus.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;"></div><p style="font-size:13px;color:rgba(255,255,255,0.8);margin:0.5rem 0 2px;font-weight:500;text-align:center;">CompTIA Network+</p><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(255,255,255,0.55);margin:0;text-align:center;">N10-009 · March 2026</p></div>
+
+<div style="min-width:0;overflow:hidden;"><div style="position:relative;width:100%;padding-bottom:100%;overflow:hidden;border-radius:4px;"><img src="secplus.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;"></div><p style="font-size:13px;color:rgba(255,255,255,0.8);margin:0.5rem 0 2px;font-weight:500;text-align:center;">CompTIA Security+</p><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(255,255,255,0.55);margin:0;text-align:center;">SY0-701 · March 2026</p></div>
+
+</div>
+
+---
+
 ## Education
 
 ### BSc (Hons) Cyber Security and Networks
 #### Glasgow Caledonian University · 1st Class Honours, July 2025
 
 Graduated top of my year, awarded Best 4th Year Student. Elected Class Representative for 2024/25. Notable modules include Enterprise Networking, SOC Operations Analysis, and Applied Penetration Testing.
-
-
----
-
-## Certifications
-
-<p style="font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(255,255,255,0.55);margin-top:0.5rem;">Currently working towards CCNA - exam booked for April 2026.</p>
-
-<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:2rem 0;align-items:start;">
-
-<div style="min-width:0;overflow:hidden;"><div style="position:relative;width:100%;padding-bottom:100%;overflow:hidden;border-radius:4px;"><img src="netplus.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;"></div><p style="font-size:13px;color:rgba(255,255,255,0.8);margin:0.5rem 0 2px;font-weight:500;text-align:center;">CompTIA Network+</p><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(255,255,255,0.55);margin:0;text-align:center;">N10-009 · March 2026</p></div>
-
-<div style="min-width:0;overflow:hidden;"><div style="position:relative;width:100%;padding-bottom:100%;overflow:hidden;border-radius:4px;"><img src="secplus.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;"></div><p style="font-size:13px;color:rgba(255,255,255,0.8);margin:0.5rem 0 2px;font-weight:500;text-align:center;">CompTIA Security+</p><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(255,255,255,0.55);margin:0;text-align:center;">SY0-701 · March 2026</p></div>
-
-<div style="min-width:0;overflow:hidden;"><div style="position:relative;width:100%;padding-bottom:100%;overflow:hidden;border-radius:4px;"><img src="worldskills.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;"></div><p style="font-size:13px;color:rgba(255,255,255,0.8);margin:0.5rem 0 2px;font-weight:500;text-align:center;">WorldSkills Squad UK</p><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(255,255,255,0.55);margin:0;text-align:center;">2023</p></div>
-
-</div>
 
 ---
 

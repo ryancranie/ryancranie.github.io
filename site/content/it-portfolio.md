@@ -7,7 +7,7 @@ layout: "it-portfolio"
 
 I've been running a self-hosted home network - not as a sandbox, but as infrastructure I actually depend on. Everything from DNS and VPN access to media, backups, and game servers runs on it. Designing, breaking, and fixing it has been the most useful technical education I've had.
 
-The network is segmented into isolated zonesm: internal services, IoT, home devices, and a public-facing DMZ - enforced by a dedicated firewall with a default-deny policy between segments. The compute layer is a three-node virtualisation cluster. All application deployments are managed through Git and Docker Compose; no click-ops, full rollback capability.
+The network is segmented into isolated zones: internal services, IoT, home devices, and a public-facing DMZ - enforced by a dedicated firewall with a default-deny policy between segments. The compute layer is a three-node virtualisation cluster. All application deployments are managed through Git and Docker Compose; no click-ops, full rollback capability.
 
 What I find genuinely interesting and valuable about it: real infrastructure has real failure modes. When something breaks I have to dig into logs, trace routing decisions, and work out what I missed. That feedback loop is hard to replicate any other way.
 
