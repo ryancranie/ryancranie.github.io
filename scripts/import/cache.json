@@ -6583,20 +6583,18 @@
   },
   "reason": null
  },
- "novels|scadi|subahibiwonderfuleveryday|2010": {
-  "image": "wonderful-everyday-diskontinuierliches-dasein.jpg",
+ "novels|patricksüskind|perfumethestoryofamurderer|1985": {
+  "image": "perfume-the-story-of-a-murderer.jpg",
   "image_urls": [
-   "https://t.vndb.org/cv/17/90017.jpg"
+   "https://covers.openlibrary.org/b/id/11796284-L.jpg"
   ],
   "match": "exact",
   "meta": {
-   "creator": "KeroQ",
-   "genre": [
-    "Visual Novel"
-   ],
-   "title": "Wonderful Everyday ~Diskontinuierliches Dasein~",
-   "vndb_id": "v3144",
-   "year": 2010
+   "creator": "Patrick Süskind",
+   "genre": [],
+   "olid": "OL24895764W",
+   "title": "Perfume: The Story of a Murderer",
+   "year": 1985
   },
   "reason": null
  },

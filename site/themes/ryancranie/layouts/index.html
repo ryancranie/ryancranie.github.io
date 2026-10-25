@@ -25,7 +25,10 @@
 {{ end }}
 
 {{ if $picks }}
-<h2><a href="/media/" class="media-section-link">Favourite Media</a></h2>
+<div class="media-heading media-heading-home">
+  <h2><a href="/media/" class="media-section-link">Favourite Media</a></h2>
+  {{ partial "media-refresh.html" "showcase" }}
+</div>
 {{/* the square album (first) at 3fr, portrait covers at 2fr, so all covers are the same height */}}
 {{ $portrait := len (where $picks "key" "ne" "music") }}
 <div class="media-showcase" style="grid-template-columns:{{ if lt $portrait (len $picks) }}minmax(0, 3fr) {{ end }}{{ with $portrait }}repeat({{ . }}, minmax(0, 2fr)){{ end }};">

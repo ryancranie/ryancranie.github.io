@@ -567,18 +567,28 @@ def lookup_novels(item):
     if item["vn"]:
         return vndb_lookup(item) or result("failed", "no VNDB match")
 
-    params = {"title": item["title"], "author": item["creator"], "limit": 10,
-              "fields": "key,title,author_name,first_publish_year,cover_i,subject"}
-    docs = get_json(OPENLIBRARY, params, label="Open Library").get("docs", [])
-    best, grade = None, None
-    for d in docs:
-        g = title_match(item["title"], d.get("title"))
-        if g and any(creator_ok(item["creator"], a) for a in d.get("author_name", [])):
-            if g == "exact" and d.get("cover_i"):
-                best, grade = d, g
-                break
-            if best is None:
-                best, grade = d, g
+    def search(title):
+        params = {"title": title, "author": item["creator"], "limit": 10,
+                  "fields": "key,title,author_name,first_publish_year,cover_i"}
+        docs = get_json(OPENLIBRARY, params, label="Open Library").get("docs", [])
+        best, grade = None, None
+        for d in docs:
+            g = title_match(title, d.get("title"))
+            if g and any(creator_ok(item["creator"], a) for a in d.get("author_name", [])):
+                if g == "exact" and d.get("cover_i"):
+                    return docs, d, g
+                if best is None:
+                    best, grade = d, g
+        return docs, best, grade
+
+    docs, best, grade = search(item["title"])
+    main_title = item["title"].split(":")[0].strip()
+    if not (best and best.get("cover_i")) and main_title != item["title"]:
+        # "Perfume: The Story of a Murderer" is catalogued as "Perfume": retry with the main title,
+        # but keep the full title from the input line
+        more, alt, alt_grade = search(main_title)
+        if alt and alt.get("cover_i") and alt_grade == "exact":
+            docs, best, grade = more, dict(alt, title=item["title"]), "exact"
     if best and best.get("cover_i"):
         authors = best.get("author_name", [])
         meta = {"title": best.get("title") or item["title"],

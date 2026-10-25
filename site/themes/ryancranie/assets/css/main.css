@@ -745,8 +745,49 @@ a.has-tooltip {
   margin-bottom: 2.5rem;
 }
 
-.media-section h2 {
+/* heading row: h2 on the left, shuffle button right, vertically centred */
+.media-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   margin-bottom: 0.75rem;
+}
+
+.media-heading h2 {
+  margin: 0;
+}
+
+.media-heading-home {
+  margin-bottom: 1.25rem;
+}
+
+.media-refresh {
+  background: none;
+  border: none;
+  padding: 4px;
+  margin: -4px;
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.media-refresh:hover {
+  color: #fff;
+}
+
+.media-refresh svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.4s ease;
+}
+
+/* nothing finished yet: the message sits where the top cards go */
+.media-row-empty {
+  grid-column: 1 / 6;
+  grid-row: 2;
+  margin: 0;
 }
 
 .media-section-link {
@@ -987,6 +1028,10 @@ a.has-tooltip {
   }
   .media-now-divider {
     flex: 0 0 1px;
+  }
+  .media-row-empty {
+    flex: 0 0 auto;
+    align-self: center;
   }
   .media-now-label {
     flex: 0 0 auto;

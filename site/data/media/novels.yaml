@@ -25,17 +25,6 @@
   olid: OL40873W
   genres_locked: true
 
-- title: Wonderful Everyday ~Diskontinuierliches Dasein~
-  creator: KeroQ
-  year: 2010
-  genre: [Visual Novel, Psychological]
-  status: completed
-  cover: /img/media/novels/wonderful-everyday-diskontinuierliches-dasein.jpg
-  vndb_id: v3144
-  genres_locked: true
-  nsfw: true
-  date: "2023-09"
-
 - title: Steins;Gate
   creator: NITRO PLUS
   year: 2009
@@ -79,4 +68,13 @@
   status: planning
   cover: /img/media/novels/of-mice-and-men.jpg
   olid: OL23204W
+  genres_locked: true
+
+- title: 'Perfume: The Story of a Murderer'
+  creator: Patrick Süskind
+  year: 1985
+  genre: [Fiction, Classic]
+  status: planning
+  cover: /img/media/novels/perfume-the-story-of-a-murderer.jpg
+  olid: OL24895764W
   genres_locked: true

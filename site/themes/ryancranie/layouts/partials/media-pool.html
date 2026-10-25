@@ -58,14 +58,16 @@
   function random(list){ return list[Math.floor(Math.random() * list.length)]; }
 
   /* home showcase: one random entry per type */
-  document.querySelectorAll('[data-pool-pick]').forEach(function(wrap){
-    var list = pool.pick[wrap.dataset.poolPick];
-    if(list && list.length) fill(wrap.querySelector('.media-card'), random(list));
-  });
+  function pickShowcase(){
+    document.querySelectorAll('[data-pool-pick]').forEach(function(wrap){
+      var list = pool.pick[wrap.dataset.poolPick];
+      if(list && list.length) fill(wrap.querySelector('.media-card'), random(list));
+    });
+  }
 
-  /* /media/ rows: a random "now" entry, then 5 random 4+ favourites that exclude it,
+  /* /media/ row: a random "now" entry, then 5 random 4+ favourites that exclude it,
      topped up with the highest rated remaining finished entries (ties in random order) */
-  document.querySelectorAll('[data-pool-row]').forEach(function(row){
+  function pickRow(row){
     var data = pool.rows[row.dataset.poolRow];
     if(!data) return;
     var nowCard = row.querySelector('.media-now:not(.media-live)');
@@ -81,33 +83,53 @@
       card.style.display = picks[i] ? '' : 'none';
       if(picks[i]) fill(card, picks[i]);
     });
-  });
+  }
 
   /* music: the last scrobble, through my own endpoint */
-  var live = document.querySelector('.media-live');
-  if(!live) return;
-  var label = document.getElementById('nowplaying-label');
   var EDITION = /\s*[\(\[][^\)\]]*\b(deluxe|remaster(ed)?|expanded|anniversary|reissue|bonus tracks?)\b[^\)\]]*[\)\]]\s*$/i;
   var EDITION_DASH = /\s+-\s+(reissue|remaster(ed)?(\s+\d{4})?|deluxe(\s+edition)?)\s*$/i;
   function clean(s){ return (s || '').replace(EDITION, '').replace(EDITION_DASH, '').trim(); }
   function norm(s){ return (s || '').normalize('NFKC').toLowerCase().replace(/&/g, 'and').replace(/[^\p{L}\p{N}]+/gu, ''); }
-  function unavailable(){ fill(live, {title: 'last.fm unavailable', creator: '', cover: '', rating: 0}); }
 
-  var ctrl = window.AbortController ? new AbortController() : null;
-  if(ctrl) setTimeout(function(){ ctrl.abort(); }, 8000);
-  fetch('https://api.ryancranie.com/nowplaying', {cache: 'no-store', signal: ctrl ? ctrl.signal : undefined})
-    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function(np){
-      if(!np || np.error) return unavailable();
-      var album = clean(np.album), title = album || clean(np.track);
-      /* Last.fm's grey star placeholder means there's no real cover */
-      var image = np.image && np.image.indexOf('2a96cbd8b46e442fc41c2b86b821562f') === -1 ? np.image : '';
-      var nsfw = pool.nsfwMusic.some(function(e){
-        return norm(e.title) === norm(album) && norm(e.creator) === norm(np.artist);
-      });
-      label.textContent = np.nowPlaying ? 'now playing' : 'last played';
-      fill(live, {title: title, creator: np.artist || '', cover: image, rating: 0, nsfw: nsfw});
-    })
-    .catch(unavailable);
+  function loadLive(){
+    var live = document.querySelector('.media-live');
+    if(!live) return;
+    var label = document.getElementById('nowplaying-label');
+    function unavailable(){ fill(live, {title: 'last.fm unavailable', creator: '', cover: '', rating: 0}); }
+    var ctrl = window.AbortController ? new AbortController() : null;
+    if(ctrl) setTimeout(function(){ ctrl.abort(); }, 8000);
+    fetch('https://api.ryancranie.com/nowplaying', {cache: 'no-store', signal: ctrl ? ctrl.signal : undefined})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(np){
+        if(!np || np.error) return unavailable();
+        var album = clean(np.album), title = album || clean(np.track);
+        /* Last.fm's grey star placeholder means there's no real cover */
+        var image = np.image && np.image.indexOf('2a96cbd8b46e442fc41c2b86b821562f') === -1 ? np.image : '';
+        var nsfw = pool.nsfwMusic.some(function(e){
+          return norm(e.title) === norm(album) && norm(e.creator) === norm(np.artist);
+        });
+        label.textContent = np.nowPlaying ? 'now playing' : 'last played';
+        fill(live, {title: title, creator: np.artist || '', cover: image, rating: 0, nsfw: nsfw});
+      })
+      .catch(unavailable);
+  }
+
+  pickShowcase();
+  document.querySelectorAll('[data-pool-row]').forEach(pickRow);
+  loadLive();
+
+  /* refresh buttons re-run the same picks for their own row only */
+  document.querySelectorAll('[data-refresh]').forEach(function(btn){
+    var turns = 0;
+    btn.addEventListener('click', function(){
+      turns++;
+      btn.querySelector('svg').style.transform = 'rotate(' + (turns * 360) + 'deg)';
+      var key = btn.dataset.refresh;
+      if(key === 'showcase') return pickShowcase();
+      var row = document.querySelector('[data-pool-row="' + key + '"]');
+      if(row) pickRow(row);
+      if(key === 'music') loadLive();
+    });
+  });
 })();
 </script>

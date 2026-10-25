@@ -31,7 +31,7 @@
     {{ range $e := $finished }}
       {{ with findRE `^\d{4}-\d{2}` (string ($e.date | default "")) 1 }}{{ if and $latest (eq (index . 0) $latest) }}{{ $nowPool = $nowPool | append $e }}{{ end }}{{ end }}
     {{ end }}
-    {{ $nowLabel = "last" }}
+    {{ $nowLabel = cond (eq $key "novels") "last read" "last watched" }}
   {{ end }}
   {{ $live := eq $key "music" }}
   {{ $now := cond (and (not $live) (gt (len $nowPool) 0)) (index $nowPool 0) false }}
@@ -40,11 +40,17 @@
   {{ $rows = merge $rows (dict $key (dict "finished" $finished "now" (cond $live slice $nowPool))) }}
 
   <section class="media-section">
-    <h2><a href="/media/{{ $key }}/" class="media-section-link">{{ .name }}</a></h2>
+    <div class="media-heading">
+      <h2><a href="/media/{{ $key }}/" class="media-section-link">{{ .name }}</a></h2>
+      {{ if or $top $now $live }}{{ partial "media-refresh.html" $key }}{{ end }}
+    </div>
     {{ if or $top $now $live }}
     <div class="media-row" data-pool-row="{{ $key }}">
       {{ range first 5 $top }}
         {{ partial "media-card.html" (dict "item" . "type" $key "compact" true "class" "media-top") }}
+      {{ else }}
+        {{/* nothing finished yet: say so where the top cards go, and still show "now" */}}
+        <p class="media-empty media-row-empty">nothing here yet - <a href="/media/{{ $key }}/">see all</a></p>
       {{ end }}
       {{ if $live }}
         <div class="media-now-divider" aria-hidden="true"></div>
