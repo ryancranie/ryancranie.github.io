@@ -268,7 +268,7 @@
   cover: /img/media/games/dave-the-diver.jpg
   steam_appid: 1868140
 
-- title: Disco Elysium - The Final Cut
+- title: Disco Elysium
   creator: ZA/UM
   year: 2019
   genre: [RPG]
@@ -290,6 +290,8 @@
   year: 2013
   genre: []
   status: inactive
+  cover: /img/media/games/geoguessr.jpg
+  cover_locked: true
 
 - title: Heavy Rain
   creator: Quantic Dream
@@ -377,6 +379,8 @@
   status: completed
   rating: 4
   genres_locked: true
+  cover: /img/media/games/terraria-calamity-mod.jpg
+  cover_locked: true
 
 - title: The Walking Dead
   creator: Telltale Games

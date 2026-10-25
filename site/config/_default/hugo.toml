@@ -19,23 +19,3 @@ disableKinds = ["taxonomy", "term"]
 
 [taxonomies]
   tag = "tags"
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "portfolio"
-url = "/it-portfolio/"
-weight = 2
-
-[[menu.main]]
-name = "Experience"
-url = "/experience/"
-weight = 3
-
-[[menu.main]]
-name = "Blog"
-url = "/blog/"
-weight = 4

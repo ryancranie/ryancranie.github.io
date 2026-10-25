@@ -1,0 +1,14 @@
+{{- /* The site's nav links: the one list used by the desktop nav and the mobile drawer.
+  Usage: partial "nav-links.html" . (the current page, for the active state) */ -}}
+{{- $url := .RelPermalink -}}
+{{- $links := slice
+  (dict "name" "home"       "url" "/"             "active" .IsHome)
+  (dict "name" "blog"       "url" "/blog/"        "active" (hasPrefix $url "/blog/"))
+  (dict "name" "media"      "url" "/media/"       "active" (hasPrefix $url "/media/"))
+  (dict "name" "portfolio"  "url" "/it-portfolio/" "active" (eq $url "/it-portfolio/"))
+  (dict "name" "experience" "url" "/experience/"  "active" (eq $url "/experience/"))
+-}}
+{{- range $links }}
+  <a href="{{ .url }}"{{ if .active }} class="active" aria-current="page"{{ end }}>{{ .name }}</a>
+{{- end }}
+  <a href="https://cv.ryancranie.com" target="_blank" rel="noopener">cv ↗</a>

@@ -653,6 +653,7 @@ a.has-tooltip {
   transition: color 0.15s ease;
 }
 #mob-drawer a:hover { color: #fff; }
+#mob-drawer a.active { color: #fff; }
 #mob-close {
   background: none;
   border: none;

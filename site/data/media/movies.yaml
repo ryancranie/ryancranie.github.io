@@ -92,9 +92,10 @@
   creator: Christopher Nolan
   year: 2014
   genre: [Adventure, Drama, Science Fiction]
-  status: planning
+  status: completed
   cover: /img/media/movies/interstellar.jpg
   tmdb_id: 157336
+  rating: 4
 
 - title: Whiplash
   creator: Damien Chazelle

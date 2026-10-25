@@ -70,5 +70,4 @@
 - Inside In, Inside Out (15th Anniversary Deluxe) → Inside In / Inside Out
 
 ## title cards (no cover yet; use setcover)
-- games: GeoGuessr
-- games: Terraria: Calamity Mod
+(nothing to check)
