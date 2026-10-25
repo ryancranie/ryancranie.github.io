@@ -1,0 +1,113 @@
+{{- /* Usage: partial "media-pool.html" (dict "pick" $pick "rows" $rows "nsfwMusic" $nsfw), any key optional.
+  pick: type → entries. [data-pool-pick="type"] wrappers show one random entry (home showcase).
+  rows: type → dict(finished, now). [data-pool-row="type"] rows pick one random "now" entry, then
+        5 random finished entries rated 4+ (excluding it), topped up with the highest rated rest.
+  The .media-live card shows the last scrobble from api.ryancranie.com (no Last.fm key here). */ -}}
+{{- $out := dict "pick" dict "rows" dict "nsfwMusic" (.nsfwMusic | default slice) -}}
+{{- range $type, $entries := .pick -}}
+  {{- $out = merge $out (dict "pick" (dict $type (partial "media-pool-entries.html" $entries))) -}}
+{{- end -}}
+{{- range $type, $row := .rows -}}
+  {{- $out = merge $out (dict "rows" (dict $type (dict
+        "finished" (partial "media-pool-entries.html" $row.finished)
+        "now" (partial "media-pool-entries.html" $row.now)))) -}}
+{{- end -}}
+<script type="application/json" id="media-pool">{{ $out | jsonify | safeJS }}</script>
+<script>
+(function(){
+  var pool;
+  try { pool = JSON.parse(document.getElementById('media-pool').textContent); } catch(e){ return; }
+
+  function dots(r){
+    var full = Math.floor(r), half = (r - full) >= 0.5 ? 1 : 0;
+    return '<span class="media-rating-on">' + '●'.repeat(full) + '◐'.repeat(half) + '</span>' +
+      '<span class="media-rating-off">' + '○'.repeat(5 - full - half) + '</span>';
+  }
+
+  function fill(card, e){
+    var cover = card.querySelector('.media-cover');
+    var img = cover.querySelector('img');
+    cover.classList.toggle('is-missing', !e.cover);
+    cover.classList.toggle('is-nsfw', !!e.nsfw);
+    cover.classList.remove('is-revealed');
+    if(e.cover){
+      img.onerror = function(){ this.onerror = null; cover.classList.add('is-missing'); };
+      img.src = e.cover;
+    } else {
+      img.removeAttribute('src');
+    }
+    img.alt = e.title;
+    cover.querySelector('.media-title-card-title').textContent = e.title;
+    cover.querySelector('.media-title-card-creator').textContent = e.creator;
+    card.querySelector('.media-title').textContent = e.title;
+    var creator = card.querySelector('.media-card-creator');
+    if(creator) creator.textContent = e.creator;
+    var rating = card.querySelector('.media-rating');
+    rating.innerHTML = e.rating > 0 ? dots(e.rating) : '';
+    rating.setAttribute('aria-label', e.rating + ' out of 5');
+  }
+
+  function shuffle(a){
+    for(var i = a.length - 1; i > 0; i--){
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  function random(list){ return list[Math.floor(Math.random() * list.length)]; }
+
+  /* home showcase: one random entry per type */
+  document.querySelectorAll('[data-pool-pick]').forEach(function(wrap){
+    var list = pool.pick[wrap.dataset.poolPick];
+    if(list && list.length) fill(wrap.querySelector('.media-card'), random(list));
+  });
+
+  /* /media/ rows: a random "now" entry, then 5 random 4+ favourites that exclude it,
+     topped up with the highest rated remaining finished entries (ties in random order) */
+  document.querySelectorAll('[data-pool-row]').forEach(function(row){
+    var data = pool.rows[row.dataset.poolRow];
+    if(!data) return;
+    var nowCard = row.querySelector('.media-now:not(.media-live)');
+    var now = nowCard && data.now.length ? random(data.now) : null;
+    if(now) fill(nowCard, now);
+
+    var rest = data.finished.filter(function(e){ return !now || e.id !== now.id; });
+    var favs = shuffle(rest.filter(function(e){ return e.rating >= 4; })).slice(0, 5);
+    var others = shuffle(rest.filter(function(e){ return e.rating < 4; }))
+      .sort(function(a, b){ return b.rating - a.rating; });
+    var picks = favs.concat(others).slice(0, 5);
+    row.querySelectorAll('.media-top').forEach(function(card, i){
+      card.style.display = picks[i] ? '' : 'none';
+      if(picks[i]) fill(card, picks[i]);
+    });
+  });
+
+  /* music: the last scrobble, through my own endpoint */
+  var live = document.querySelector('.media-live');
+  if(!live) return;
+  var label = document.getElementById('nowplaying-label');
+  var EDITION = /\s*[\(\[][^\)\]]*\b(deluxe|remaster(ed)?|expanded|anniversary|reissue|bonus tracks?)\b[^\)\]]*[\)\]]\s*$/i;
+  var EDITION_DASH = /\s+-\s+(reissue|remaster(ed)?(\s+\d{4})?|deluxe(\s+edition)?)\s*$/i;
+  function clean(s){ return (s || '').replace(EDITION, '').replace(EDITION_DASH, '').trim(); }
+  function norm(s){ return (s || '').normalize('NFKC').toLowerCase().replace(/&/g, 'and').replace(/[^\p{L}\p{N}]+/gu, ''); }
+  function unavailable(){ fill(live, {title: 'last.fm unavailable', creator: '', cover: '', rating: 0}); }
+
+  var ctrl = window.AbortController ? new AbortController() : null;
+  if(ctrl) setTimeout(function(){ ctrl.abort(); }, 8000);
+  fetch('https://api.ryancranie.com/nowplaying', {cache: 'no-store', signal: ctrl ? ctrl.signal : undefined})
+    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(np){
+      if(!np || np.error) return unavailable();
+      var album = clean(np.album), title = album || clean(np.track);
+      /* Last.fm's grey star placeholder means there's no real cover */
+      var image = np.image && np.image.indexOf('2a96cbd8b46e442fc41c2b86b821562f') === -1 ? np.image : '';
+      var nsfw = pool.nsfwMusic.some(function(e){
+        return norm(e.title) === norm(album) && norm(e.creator) === norm(np.artist);
+      });
+      label.textContent = np.nowPlaying ? 'now playing' : 'last played';
+      fill(live, {title: title, creator: np.artist || '', cover: image, rating: 0, nsfw: nsfw});
+    })
+    .catch(unavailable);
+})();
+</script>

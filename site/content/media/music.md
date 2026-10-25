@@ -1,0 +1,4 @@
+---
+title: "Music"
+mediaType: "music"
+---

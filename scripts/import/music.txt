@@ -1,0 +1,151 @@
+# Albums to import
+# Format: Artist | Album | status | rating
+# status: completed | current | planning | active (default: completed)
+#
+# Rebuilt from the previous import log: these are the first 162 of the
+# original 211 albums. The last 49 were never processed and are missing;
+# paste them back in below.
+
+Have a Nice Life | Deathconsciousness
+American Football | American Football
+Boards of Canada | Music Has the Right to Children
+The Sundays | Static and Silence
+Jeff Buckley | Grace
+The Sundays | Blind
+Radiohead | The Bends
+underscores | U
+TTNG | Animals
+The Sundays | Reading, Writing and Arithmetic
+Elliott Smith | Either/Or
+7 Angels 7 Plagues | Jhazmyne's Lullaby
+The Cure | Disintegration
+Oklou | choke enough
+Aphex Twin | Drukqs
+Katatonia | Brave Murder Day
+Norma Jean | Redeemer
+toe | the book about my idle plot on a vague anxiety
+Boards of Canada | Tomorrow's Harvest
+Bladee | Cold Visions
+Machine Girl | Super Freq
+Elliott Smith | Figure 8
+Ecco2K | E
+Ninajirachi | I Love My Computer
+Boards of Canada | The Campfire Headphase
+stoort neer | en glad titel på en sorglig skiva
+Aphex Twin | Syro
+Mineral | The Power of Failing
+Bladee | Sulfur Surfer
+Kent | Vapen & Ammunition
+2hollis | star
+Aphex Twin | Selected Ambient Works 85-92
+Boards of Canada | Inferno
+eden2001 | MUSICK
+Aphex Twin | ...I Care Because You Do
+The Cure | Three Imaginary Boys
+Squarepusher | Go Plastic
+Alphaville | Forever Young
+Blindfolded and Led to the Woods | Nightmare Withdrawals
+Boards of Canada | Geogaddi
+Norma Jean | Wrongdoers
+toe | For Long Tomorrow
+King Crimson | Red
+Yukiya Mishima | Peaks and Valleys
+宇宙ネコ子 | 君のように生きれたら
+2hollis | 2
+pradaaslife | Scrapclub
+Title Fight | Shed
+Jeff Buckley | Sketches for My Sweetheart the Drunk
+The Cure | Kiss Me Kiss Me Kiss Me
+Bladee | Crest
+Meg & Dia | Something Real & Here, Here and Here
+Elliott Smith | Elliott Smith
+Radiohead | In Rainbows
+C418 | Minecraft - Volume Alpha
+Elliott Smith | XO
+ミドリ | あらためまして、はじめまして、ミドリです。
+Carissa's Wierd | Songs About Leaving
+Underoath | Define the Great Line
+Weezer | Pinkerton
+Death | The Sound of Perseverance
+King Crimson | In the Court of the Crimson King
+Labi Siffre | The Singer and the Song
+ABBA | Super Trouper
+Cocteau Twins | Heaven or Las Vegas
+DruX | What The Low Does
+jackzebra | 弓长张
+Lamp | For Lovers
+Panchiko | D>E>A>T>H>M>E>T>A>L
+The Last Whole Earth Catalog | These Are Sad Times
+Bladee | Icedancer
+Boards of Canada | Hi Scores
+Boards of Canada | In a Beautiful Place Out in the Country
+Boards of Canada | Trans Canada Highway
+Boards of Canada | Twoism
+feeble little horse | Girl With Fish
+Idiot Child | The First Breath Is The Beginning Of Death
+Radiohead | OK Computer
+The Smiths | Hatful of Hollow
+Alex G | TRICK
+Have a Nice Life | The Unnatural World
+Mechatok | Wide Awake
+Silverstein | Discovering the Waterfront
+Sleeping With Sirens | Let's Cheers to This
+Songs: Ohia | Magnolia Electric Co.
+Squarepusher | Hard Normal Daddy
+･ ･－･ ･－ ･･･ ･ －･･ | － ････ ･ －･ ･･ －－･ ････ － －･－･ ･－･･ ･･－ －･･･
+Crywank | Tomorrow Is Nearly Yesterday And Everyday Is Stupid
+Crywank | Don't Piss On Me, I'm Already Dead
+Crywank | Narcissist On The Verge Of A Nervous Breakdown
+Crywank | James Is Going To Die Soon
+Kardashev | Alunea
+Cyberbully Mom Club | amy locust whatever
+Crywank | Wearing Beige On A Grey Day
+Paul Baribeau | Grand Ledge
+Radiohead | KID A MNESIA
+The Last Whole Earth Catalog | Family Business
+The Last Whole Earth Catalog | Single Use Stress Balls
+Black Country, New Road | Ants From Up There
+Hiroshi Yoshimura | Green
+Clairo | Charm
+The Kooks | Inside In / Inside Out
+Elliott Smith | New Moon
+Kardashev | Liminal Rite
+Alex G | House of Sugar
+Crywank | Just Popping In To Say Hi
+Crywank | Tour Demos 2013
+Duster | Together
+i tried to run away when i was 6 (but got too scared to cross the street) | i tried to run away when i was 6 but got too scared to cross the street
+Slowdive | Souvlaki
+The Cranberries | Everybody Else Is Doing It, So Why Can't We?
+Alex G | RULES
+Have a Nice Life | Sea of Worry
+Laufey | A Night at the Symphony: Live at the Hollywood Bowl
+Sweet Pill | Where the Heart Is
+Mount Eerie | A Crow Looked at Me
+Margo Guryan | 27 Demos
+Bo Burnham | Inside
+Alibi Lounge | Crywank
+The Last Whole Earth Catalog | We're All Down The Rabbit Hole
+The Microphones | The Glow, Pt. 2
+The Last Whole Earth Catalog | From This Point I Could Perhaps Imagine I Was a Better Person
+Fleshwater | We're Not Here to Be Loved
+Panchiko | Ferric Oxide (Demos 1997 - 2001)
+Charli xcx | BRAT
+fail better, heal faster | fail better, heal faster
+Free Throw | Those Days Are Gone
+my bloody valentine | ep's 1988-1991 and rare tracks
+Frat Mouse | Rat Pack
+Bo Burnham | The Inside Outtakes
+starry cat | starry cat
+Born Without Bones | Baby
+The Last Whole Earth Catalog | Do You Face The Brutal Reality?
+Black Box Recorder | England Made Me
+Mount Eerie | Dawn
+Grouper | The Man Who Died in His Boat
+Nina Simone | Wild Is the Wind
+Glass Beach | the first glass beach album
+Lifelover | Pulver
+The Smiths | Louder Than Bombs
+Panchiko | Failed at Math(s)
+Prefab Sprout | Steve McQueen
+Nouns | still bummed

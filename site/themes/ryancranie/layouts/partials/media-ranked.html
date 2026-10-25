@@ -1,0 +1,10 @@
+{{- /* Returns finished entries (completed, active, inactive) sorted: rating (desc), then date (desc) */ -}}
+{{- $scored := slice -}}
+{{- range where . "status" "in" (slice "completed" "active" "inactive") -}}
+  {{- $unix := 0 -}}
+  {{- with partial "media-month.html" .date }}{{ $unix = .Unix }}{{ end -}}
+  {{- $scored = $scored | append (dict "key" (add (mul (int (mul (float (.rating | default 0)) 2)) 10000000000) $unix) "item" .) -}}
+{{- end -}}
+{{- $result := slice -}}
+{{- range sort $scored "key" "desc" }}{{ $result = $result | append .item }}{{ end -}}
+{{- return $result -}}

@@ -1,0 +1,73 @@
+# Media import report
+# Entries below need a manual check.
+
+## movies
+- Harry Potter and the Sorcerer's Stone | 2001  →  matched "Harry Potter and the Philosopher's Stone" (2001)
+- A Silent Voice | 2016 | completed  →  matched "A Silent Voice: The Movie" (2016)
+- The End of Evangelion | 1997 | completed  →  matched "Neon Genesis Evangelion: The End of Evangelion" (1997)
+
+## tv
+(nothing to check)
+
+## novels
+(nothing to check)
+
+## games
+- osu! | 2007 | active | 5  →  weak: closest Steam result "McOsu - Donation - 1", appid 608160 (added from input text, title card)
+- Rocket League | 2015  →  failed: no Steam results (may not be on Steam) (added from input text, title card)
+- Tomb Raider | 2013  →  matched "Tomb Raider Game of the Year" (appid 203160)
+
+## music
+- TTNG | Animals  →  Deezer fallback (no exact MusicBrainz match (closest "Animals Acoustic" by TTNG))
+- Machine Girl | Super Freq  →  Deezer fallback (no exact MusicBrainz match (closest "SUPER FREQ EP" by Machine Girl))
+- de kommunalanställda | De Kommunalanställda Loves You  →  Deezer fallback (no MusicBrainz results)
+- Yukiya Mishima | Peaks and Valleys  →  Deezer fallback (no MusicBrainz results)
+- Lamp | For Lovers  →  Deezer fallback (no MusicBrainz results)
+- Songs: Ohia | Magnolia Electric Co.  →  Deezer fallback (no exact MusicBrainz match (closest "The Magnolia Electric Co." by Songs: Ohia))
+- ･ ･－･ ･－ ･･･ ･ －･･ | － ････ ･ －･ ･･ －－･ ････ － －･－･ ･－･･ ･･－ －･･･  →  failed: no MusicBrainz results; no Deezer or iTunes match (added from input text, title card)
+- The Last Whole Earth Catalog | Single Use Stress Balls  →  Deezer fallback (no MusicBrainz results)
+- Hiroshi Yoshimura | Green  →  Deezer fallback (no MusicBrainz results)
+- The Kooks | Inside In / Inside Out  →  Deezer fallback (no MusicBrainz results)
+- i tried to run away when i was 6 (but got too scared to cross the street) | i tried to run away when i was 6 but got too scared to cross the street  →  failed: no MusicBrainz results; no Deezer or iTunes match (added from input text, title card)
+- Laufey | A Night at the Symphony: Live at the Hollywood Bowl  →  Deezer fallback (no MusicBrainz results)
+- Bo Burnham | Inside  →  Deezer fallback (no exact MusicBrainz match (closest "Inside (The Songs)" by Bo Burnham))
+- The Last Whole Earth Catalog | We're All Down The Rabbit Hole  →  Deezer fallback (no MusicBrainz results)
+- The Last Whole Earth Catalog | From This Point I Could Perhaps Imagine I Was a Better Person  →  Deezer fallback (no MusicBrainz results)
+- Panchiko | Ferric Oxide (Demos 1997 - 2001)  →  Deezer fallback (no MusicBrainz results)
+- my bloody valentine | ep's 1988-1991 and rare tracks  →  Deezer fallback (no MusicBrainz results)
+
+## converted statuses
+(nothing to check)
+
+## data edits: titles not found
+(nothing to check)
+
+## music dates from Last.fm
+- filled 0 dates; earliest scrobble in the history: 2021-01-06
+- 2 completed albums without a date have no matching scrobbles:
+- Scrapclub / Pradaaslife
+- － ････ ･ －･ ･･ －－･ ････ － －･－･ ･－･･ ･･－ －･･･ / ･ ･－･ ･－ ･･･ ･ －･･
+
+## music genres: no usable Last.fm tags
+- Peaks and Valleys / Yukiya Mishima
+- Songs About Leaving / Carissa’s Wierd
+- Crywank / Alibi Lounge & Crywank
+
+## music singles removed
+- 芽吹くとき / yonige
+- Summertime / The Sundays
+- Cry / The Sundays
+- Stresser / Alan Stresser
+- No fair (feat. Effie) / Lunaa
+- style / 2hollis
+- The Lincolnshire Poacher / Three Mile Island
+
+## music titles: edition suffixes stripped
+- Magnolia Electric Co. (Deluxe Edition) → Magnolia Electric Co.
+- Inside In, Inside Out (15th Anniversary Deluxe) → Inside In / Inside Out
+
+## title cards (no cover yet; use setcover)
+- games: Rocket League
+- games: osu!
+- music: － ････ ･ －･ ･･ －－･ ････ － －･－･ ･－･･ ･･－ －･･･
+- music: i tried to run away when i was 6 but got too scared to cross the street

@@ -1,0 +1,231 @@
+- title: Counter-Strike 2
+  creator: Valve
+  year: 2023
+  genre: [Action, Free To Play]
+  status: active
+  rating: 5
+  cover: /img/media/games/counter-strike-2.jpg
+  steam_appid: 730
+
+- title: The Last of Us Part I
+  creator: Naughty Dog LLC
+  year: 2022
+  genre: [Action, Adventure]
+  status: completed
+  rating: 4.5
+  cover: /img/media/games/the-last-of-ustm-part-i.jpg
+  steam_appid: 1888930
+  date: "2024-11"
+
+- title: Celeste
+  creator: Maddy Makes Games Inc.
+  year: 2018
+  genre: [Action, Adventure, Indie]
+  status: completed
+  rating: 4
+  cover: /img/media/games/celeste.jpg
+  steam_appid: 504230
+
+- title: KovaaK's
+  creator: KovaaK Games
+  year: 2018
+  genre: [Action, Indie, Simulation]
+  status: active
+  cover: /img/media/games/kovaak-s.jpg
+  steam_appid: 824270
+  rating: 4
+
+- title: Rocket League
+  creator: ''
+  year: 2015
+  genre: [Sports, Racing]
+  status: inactive
+  rating: 3.5
+  genres_locked: true
+
+- title: Hollow Knight
+  creator: Team Cherry
+  year: 2017
+  genre: [Action, Adventure, Indie]
+  status: planning
+  cover: /img/media/games/hollow-knight.jpg
+  steam_appid: 367520
+
+- title: OneShot
+  creator: Future Cat LLC
+  year: 2016
+  genre: [Adventure, Casual, Indie]
+  status: planning
+  cover: /img/media/games/oneshot.jpg
+  steam_appid: 420530
+
+- title: Baba Is You
+  creator: Hempuli Oy
+  year: 2019
+  genre: [Indie]
+  status: planning
+  cover: /img/media/games/baba-is-you.jpg
+  steam_appid: 736260
+
+- title: 'Call of Juarez: Gunslinger'
+  creator: Techland
+  year: 2013
+  genre: [Action]
+  status: planning
+  cover: /img/media/games/call-of-juarez-gunslinger.jpg
+  steam_appid: 204450
+
+- title: Don't Starve Together
+  creator: Klei Entertainment
+  year: 2016
+  genre: [Action, Adventure, Indie]
+  status: planning
+  cover: /img/media/games/don-t-starve-together.jpg
+  steam_appid: 322330
+
+- title: Enter the Gungeon
+  creator: Dodge Roll
+  year: 2016
+  genre: [Action, Adventure, Indie]
+  status: planning
+  cover: /img/media/games/enter-the-gungeon.jpg
+  steam_appid: 311690
+
+- title: The Escapists 2
+  creator: Team17
+  year: 2017
+  genre: [Indie, Simulation, Strategy]
+  status: planning
+  cover: /img/media/games/the-escapists-2.jpg
+  steam_appid: 641990
+
+- title: Getting Over It with Bennett Foddy
+  creator: Bennett Foddy
+  year: 2017
+  genre: [Action]
+  status: planning
+  cover: /img/media/games/getting-over-it-with-bennett-foddy.jpg
+  steam_appid: 240720
+
+- title: It Takes Two
+  creator: Hazelight Studios
+  year: 2021
+  genre: [Action, Adventure]
+  status: completed
+  cover: /img/media/games/it-takes-two.jpg
+  steam_appid: 1426210
+  rating: 4.5
+
+- title: Lethal Company
+  creator: Zeekerss
+  year: 2023
+  genre: [Action, Adventure, Indie]
+  status: planning
+  cover: /img/media/games/lethal-company.jpg
+  steam_appid: 1966720
+
+- title: 'Ori and the Blind Forest: Definitive Edition'
+  creator: Moon Studios GmbH
+  year: 2016
+  genre: [Action]
+  status: planning
+  cover: /img/media/games/ori-and-the-blind-forest-definitive-edition.jpg
+  steam_appid: 387290
+
+- title: Papers, Please
+  creator: Lucas Pope
+  year: 2013
+  genre: [Adventure, Indie]
+  status: completed
+  cover: /img/media/games/papers-please.jpg
+  steam_appid: 239030
+  rating: 4.5
+
+- title: PC Building Simulator
+  creator: Claudiu Kiss
+  year: 2018
+  genre: [Indie, Simulation]
+  status: planning
+  cover: /img/media/games/pc-building-simulator.jpg
+  steam_appid: 621060
+
+- title: Pixel Piracy
+  creator: Vitali Kirpu
+  year: 2015
+  genre: [Adventure, Indie, RPG]
+  status: planning
+  cover: /img/media/games/pixel-piracy.jpg
+  steam_appid: 264140
+
+- title: Poly Bridge
+  creator: Dry Cactus
+  year: 2016
+  genre: [Indie, Simulation]
+  status: planning
+  cover: /img/media/games/poly-bridge.jpg
+  steam_appid: 367450
+
+- title: Portal 2
+  creator: Valve
+  year: 2011
+  genre: [Action, Adventure]
+  status: completed
+  cover: /img/media/games/portal-2.jpg
+  steam_appid: 620
+  rating: 4
+
+- title: Resident Evil 2
+  creator: CAPCOM Co., Ltd.
+  year: 2019
+  genre: [Action]
+  status: planning
+  cover: /img/media/games/resident-evil-2.jpg
+  steam_appid: 883710
+
+- title: Risk of Rain 2
+  creator: Hopoo Games
+  year: 2020
+  genre: [Action, Indie]
+  status: planning
+  cover: /img/media/games/risk-of-rain-2.jpg
+  steam_appid: 632360
+
+- title: A Short Hike
+  creator: adamgryu
+  year: 2019
+  genre: [Adventure, Indie]
+  status: completed
+  cover: /img/media/games/a-short-hike.jpg
+  steam_appid: 1055540
+  rating: 4
+
+- title: Stardew Valley
+  creator: ConcernedApe
+  year: 2016
+  genre: [Indie, RPG, Simulation]
+  status: planning
+  cover: /img/media/games/stardew-valley.jpg
+  steam_appid: 413150
+
+- title: Undertale
+  creator: tobyfox
+  year: 2015
+  genre: [Indie, RPG]
+  status: planning
+  cover: /img/media/games/undertale.jpg
+  steam_appid: 391540
+
+- title: osu!
+  creator: ppy
+  year: 2007
+  genre: []
+  status: active
+  rating: 5
+
+- title: Tomb Raider Game of the Year
+  creator: Crystal Dynamics
+  year: 2013
+  genre: [Action, Adventure]
+  status: planning
+  cover: /img/media/games/tomb-raider-game-of-the-year.jpg
+  steam_appid: 203160

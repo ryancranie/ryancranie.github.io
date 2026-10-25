@@ -1,0 +1,7538 @@
+{
+ "games|ashorthike|2019": {
+  "image": "a-short-hike.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1055540/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1055540/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "adamgryu",
+   "genre": [
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 1055540,
+   "title": "A Short Hike",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "games|babaisyou|2019": {
+  "image": "baba-is-you.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/736260/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/736260/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hempuli Oy",
+   "genre": [
+    "Indie"
+   ],
+   "steam_appid": 736260,
+   "title": "Baba Is You",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "games|callofjuarezgunslinger|2013": {
+  "image": "call-of-juarez-gunslinger.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/204450/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/204450/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Techland",
+   "genre": [
+    "Action"
+   ],
+   "steam_appid": 204450,
+   "title": "Call of Juarez: Gunslinger",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "games|celeste|2018": {
+  "image": "celeste.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/504230/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/504230/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Maddy Makes Games Inc.",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 504230,
+   "title": "Celeste",
+   "year": 2018
+  },
+  "reason": null
+ },
+ "games|counterstrike2|2023": {
+  "image": "counter-strike-2.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Valve",
+   "genre": [
+    "Action",
+    "Free To Play"
+   ],
+   "steam_appid": 730,
+   "title": "Counter-Strike 2",
+   "year": 2023
+  },
+  "reason": null
+ },
+ "games|dontstarvetogether|2016": {
+  "image": "don-t-starve-together.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Klei Entertainment",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 322330,
+   "title": "Don't Starve Together",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "games|enterthegungeon|2016": {
+  "image": "enter-the-gungeon.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311690/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311690/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Dodge Roll",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 311690,
+   "title": "Enter the Gungeon",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "games|gettingoveritwithbennettfoddy|2017": {
+  "image": "getting-over-it-with-bennett-foddy.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/240720/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/240720/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bennett Foddy",
+   "genre": [
+    "Action"
+   ],
+   "steam_appid": 240720,
+   "title": "Getting Over It with Bennett Foddy",
+   "year": 2017
+  },
+  "reason": null
+ },
+ "games|hollowknight|2017": {
+  "image": "hollow-knight.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Team Cherry",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 367520,
+   "title": "Hollow Knight",
+   "year": 2017
+  },
+  "reason": null
+ },
+ "games|ittakestwo|2021": {
+  "image": "it-takes-two.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hazelight Studios",
+   "genre": [
+    "Action",
+    "Adventure"
+   ],
+   "steam_appid": 1426210,
+   "title": "It Takes Two",
+   "year": 2021
+  },
+  "reason": null
+ },
+ "games|kovaaks|2018": {
+  "image": "kovaak-s.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/824270/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/824270/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "KovaaK Games",
+   "genre": [
+    "Action",
+    "Indie",
+    "Simulation"
+   ],
+   "steam_appid": 824270,
+   "title": "KovaaK's",
+   "year": 2018
+  },
+  "reason": null
+ },
+ "games|lethalcompany|2023": {
+  "image": "lethal-company.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966720/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966720/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Zeekerss",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 1966720,
+   "title": "Lethal Company",
+   "year": 2023
+  },
+  "reason": null
+ },
+ "games|oneshot|2016": {
+  "image": "oneshot.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/420530/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/420530/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Future Cat LLC",
+   "genre": [
+    "Adventure",
+    "Casual",
+    "Indie"
+   ],
+   "steam_appid": 420530,
+   "title": "OneShot",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "games|oriandtheblindforestdefinitiveedition|2016": {
+  "image": "ori-and-the-blind-forest-definitive-edition.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/387290/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/387290/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Moon Studios GmbH",
+   "genre": [
+    "Action"
+   ],
+   "steam_appid": 387290,
+   "title": "Ori and the Blind Forest: Definitive Edition",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "games|osu|2007": {
+  "image": null,
+  "image_urls": [],
+  "match": "weak",
+  "meta": null,
+  "reason": "closest Steam result \"McOsu - Donation - 1\", appid 608160"
+ },
+ "games|papersplease|2013": {
+  "image": "papers-please.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/239030/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/239030/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Lucas Pope",
+   "genre": [
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 239030,
+   "title": "Papers, Please",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "games|pcbuildingsimulator|2018": {
+  "image": "pc-building-simulator.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/621060/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/621060/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Claudiu Kiss",
+   "genre": [
+    "Indie",
+    "Simulation"
+   ],
+   "steam_appid": 621060,
+   "title": "PC Building Simulator",
+   "year": 2018
+  },
+  "reason": null
+ },
+ "games|pixelpiracy|2015": {
+  "image": "pixel-piracy.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/264140/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/264140/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Vitali Kirpu",
+   "genre": [
+    "Adventure",
+    "Indie",
+    "RPG"
+   ],
+   "steam_appid": 264140,
+   "title": "Pixel Piracy",
+   "year": 2015
+  },
+  "reason": null
+ },
+ "games|polybridge|2016": {
+  "image": "poly-bridge.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367450/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367450/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Dry Cactus",
+   "genre": [
+    "Indie",
+    "Simulation"
+   ],
+   "steam_appid": 367450,
+   "title": "Poly Bridge",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "games|portal2|2011": {
+  "image": "portal-2.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Valve",
+   "genre": [
+    "Action",
+    "Adventure"
+   ],
+   "steam_appid": 620,
+   "title": "Portal 2",
+   "year": 2011
+  },
+  "reason": null
+ },
+ "games|residentevil2|2019": {
+  "image": "resident-evil-2.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "CAPCOM Co., Ltd.",
+   "genre": [
+    "Action"
+   ],
+   "steam_appid": 883710,
+   "title": "Resident Evil 2",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "games|riskofrain2|2020": {
+  "image": "risk-of-rain-2.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632360/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632360/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hopoo Games",
+   "genre": [
+    "Action",
+    "Indie"
+   ],
+   "steam_appid": 632360,
+   "title": "Risk of Rain 2",
+   "year": 2020
+  },
+  "reason": null
+ },
+ "games|rocketleague|2015": {
+  "image": null,
+  "image_urls": [],
+  "match": "failed",
+  "meta": null,
+  "reason": "no Steam results (may not be on Steam)"
+ },
+ "games|stardewvalley|2016": {
+  "image": "stardew-valley.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "ConcernedApe",
+   "genre": [
+    "Indie",
+    "RPG",
+    "Simulation"
+   ],
+   "steam_appid": 413150,
+   "title": "Stardew Valley",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "games|theescapists2|2017": {
+  "image": "the-escapists-2.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/641990/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/641990/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Team17",
+   "genre": [
+    "Indie",
+    "Simulation",
+    "Strategy"
+   ],
+   "steam_appid": 641990,
+   "title": "The Escapists 2",
+   "year": 2017
+  },
+  "reason": null
+ },
+ "games|thelastofusparti|2022": {
+  "image": "the-last-of-ustm-part-i.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1888930/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1888930/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Naughty Dog LLC",
+   "genre": [
+    "Action",
+    "Adventure"
+   ],
+   "steam_appid": 1888930,
+   "title": "The Last of Us™ Part I",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "games|tombraider|2013": {
+  "image": "tomb-raider-game-of-the-year.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/203160/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/203160/library_600x900.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Crystal Dynamics",
+   "genre": [
+    "Action",
+    "Adventure"
+   ],
+   "steam_appid": 203160,
+   "title": "Tomb Raider Game of the Year",
+   "year": 2013
+  },
+  "reason": "matched \"Tomb Raider Game of the Year\" (appid 203160)"
+ },
+ "games|undertale|2015": {
+  "image": "undertale.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/391540/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/391540/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "tobyfox",
+   "genre": [
+    "Indie",
+    "RPG"
+   ],
+   "steam_appid": 391540,
+   "title": "Undertale",
+   "year": 2015
+  },
+  "reason": null
+ },
+ "lastfm|album.getTopTags|2hollis|2": [
+  "electropop",
+  "pop",
+  "hyperpop",
+  "Electroclash",
+  "EDM",
+  "dance",
+  "electronic",
+  "2023",
+  "witch house",
+  "hip hop"
+ ],
+ "lastfm|album.getTopTags|2hollis|star": [
+  "electropop",
+  "House",
+  "dance-pop",
+  "electro house",
+  "pop rap",
+  "3",
+  "1",
+  "2025",
+  "3 out of 5 - listenable",
+  "pop"
+ ],
+ "lastfm|album.getTopTags|7angels7plagues|jhazmyneslullaby": [],
+ "lastfm|album.getTopTags|abba|supertrouper": [
+  "1980",
+  "abba",
+  "pop",
+  "80s",
+  "super trouper",
+  "i have played all my cards",
+  "1980s",
+  "Benny Andersson",
+  "Nothing more to say",
+  "breakup"
+ ],
+ "lastfm|album.getTopTags|alexg|rules": [
+  "bedroom pop",
+  "indie",
+  "indie folk",
+  "singer-songwriter",
+  "Love",
+  "anxious",
+  "rock",
+  "Bittersweet",
+  "male vocals",
+  "Masterpiece"
+ ],
+ "lastfm|album.getTopTags|alexg|trick": [
+  "Lo-Fi",
+  "indie rock",
+  "indie folk",
+  "slowcore",
+  "bedroom pop",
+  "diy",
+  "2010s lo-fi",
+  "slacker rock",
+  "indie",
+  "psychedelic"
+ ],
+ "lastfm|album.getTopTags|alibiloungeandcrywank|crywank": [],
+ "lastfm|album.getTopTags|alphaville|foreveryoung": [
+  "80s",
+  "synthpop",
+  "new wave",
+  "1984",
+  "pop",
+  "electronic",
+  "alphaville",
+  "german",
+  "male vocalists",
+  "synth pop"
+ ],
+ "lastfm|album.getTopTags|americanfootball|americanfootball": [
+  "math rock",
+  "midwest emo",
+  "indie rock",
+  "emo",
+  "post-rock",
+  "1999",
+  "90s",
+  "indie",
+  "1990s",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|aphextwin|drukqs": [
+  "idm",
+  "2001",
+  "electronic",
+  "ambient",
+  "drill and bass",
+  "experimental",
+  "00s",
+  "Warp",
+  "instrumental",
+  "Impressionism"
+ ],
+ "lastfm|album.getTopTags|aphextwin|icarebecauseyoudo": [
+  "Best Albums of the 1990s"
+ ],
+ "lastfm|album.getTopTags|aphextwin|selectedambientworks8592": [
+  "Ambient Techno",
+  " idm"
+ ],
+ "lastfm|album.getTopTags|aphextwin|syro": [
+  "2014",
+  "idm",
+  "electronic",
+  "acid techno",
+  "drill and bass",
+  "techno",
+  "experimental",
+  "EDM",
+  "ambient",
+  "Acid"
+ ],
+ "lastfm|album.getTopTags|blackboxrecorder|englandmademe": [
+  "indie pop",
+  "britpop",
+  "favourite albums",
+  "indie rock",
+  "indie",
+  "pop",
+  "female vocalists",
+  "90s",
+  "AI",
+  "british"
+ ],
+ "lastfm|album.getTopTags|blackcountrynewroad|antsfromupthere": [
+  "post-rock",
+  "art rock",
+  "indie rock",
+  "2022",
+  "chamber pop",
+  "chamber music",
+  "2020s",
+  "windmill scene",
+  "rock",
+  "midwest emo"
+ ],
+ "lastfm|album.getTopTags|bladeeandecco2k|crest": [
+  "cloud rap",
+  "art pop",
+  "Uplifting",
+  "Love",
+  "Progressive",
+  "psychedelic",
+  "electropop",
+  "dance-pop",
+  "death",
+  "alternative"
+ ],
+ "lastfm|album.getTopTags|bladee|coldvisions": [
+  "rage",
+  "trap",
+  "tread",
+  "cloud rap",
+  "2024",
+  "experimental hip hop",
+  "hip hop",
+  "hyperpop",
+  "2020s",
+  "Hip-Hop"
+ ],
+ "lastfm|album.getTopTags|bladee|icedancer": [
+  "cloud rap",
+  "emo rap",
+  "trap",
+  "pop rap",
+  "alternative rnb",
+  "winter",
+  "quirky",
+  "lethargic",
+  "boastful",
+  "melodic"
+ ],
+ "lastfm|album.getTopTags|bladee|sulfursurfer": [
+  "2026",
+  "drill",
+  "wave",
+  "abstract hip hop",
+  "cloud rap",
+  "trap"
+ ],
+ "lastfm|album.getTopTags|blindfoldedandledtothewoods|nightmarewithdrawals": [],
+ "lastfm|album.getTopTags|boardsofcanada|geogaddi": [
+  "ambient",
+  "idm",
+  "electronic",
+  "2002",
+  "downtempo",
+  "Ambient Techno",
+  "electronica",
+  "Warp",
+  "experimental",
+  "2000s"
+ ],
+ "lastfm|album.getTopTags|boardsofcanada|hiscores": [
+  "idm",
+  "ambient",
+  "1996",
+  "electronic",
+  "downtempo",
+  "Ambient Techno",
+  "chillout",
+  "skam",
+  "electronica",
+  "ep"
+ ],
+ "lastfm|album.getTopTags|boardsofcanada|inabeautifulplaceoutinthecountry": [
+  "idm",
+  "ambient",
+  "electronic",
+  "downtempo",
+  "2000",
+  "Warp",
+  "chillout",
+  "Ambient Techno",
+  "00s",
+  "electronica"
+ ],
+ "lastfm|album.getTopTags|boardsofcanada|inferno": [
+  "2026",
+  "idm",
+  "downtempo",
+  "ambient",
+  "hauntology",
+  "electronic",
+  "Neo-Psychedelia",
+  "2020s",
+  "Progressive Electronic",
+  "chillout"
+ ],
+ "lastfm|album.getTopTags|boardsofcanada|musichastherighttochildren": [
+  "idm",
+  "ambient",
+  "electronic",
+  "downtempo",
+  "1998",
+  "electronica",
+  "90s",
+  "Ambient Techno",
+  "trip-hop",
+  "chillout"
+ ],
+ "lastfm|album.getTopTags|boardsofcanada|thecampfireheadphase": [
+  "ambient",
+  "downtempo",
+  "idm",
+  "electronic",
+  "2005",
+  "electronica",
+  "folktronica",
+  "chillout",
+  "instrumental",
+  "Warp"
+ ],
+ "lastfm|album.getTopTags|boardsofcanada|tomorrowsharvest": [],
+ "lastfm|album.getTopTags|boardsofcanada|transcanadahighway": [
+  "ambient",
+  "electronic",
+  "idm",
+  "downtempo",
+  "2006",
+  "favourite albums",
+  "chillout",
+  "Totec Radio",
+  "dance",
+  "j"
+ ],
+ "lastfm|album.getTopTags|boardsofcanada|twoism": [
+  "downtempo",
+  "ambient",
+  "idm",
+  "electronic",
+  "1995",
+  "trip-hop",
+  "chillout",
+  "electronica",
+  "Boards of Canada",
+  "Ambient Techno"
+ ],
+ "lastfm|album.getTopTags|boburnham|inside": [
+  "comedy",
+  "pop",
+  "netflix",
+  "nota 10"
+ ],
+ "lastfm|album.getTopTags|boburnham|theinsideouttakes": [
+  "comedy",
+  "humor"
+ ],
+ "lastfm|album.getTopTags|bornwithoutbones|baby": [
+  "alternative rock",
+  "rock",
+  "2013",
+  "indie rock"
+ ],
+ "lastfm|album.getTopTags|c418|minecraftvolumealpha": [],
+ "lastfm|album.getTopTags|carissaswierd|songsaboutleaving": [],
+ "lastfm|album.getTopTags|charlixcx|brat": [
+  "2024",
+  "electropop",
+  "pop",
+  "bubblegum bass",
+  "dance-pop",
+  "hyperpop",
+  "electro house",
+  "EDM",
+  "electronic",
+  "dance"
+ ],
+ "lastfm|album.getTopTags|clairo|charm": [
+  "2024",
+  "soft rock",
+  "Sophisti-Pop",
+  "pop soul",
+  "bedroom pop",
+  "pop",
+  "chamber pop",
+  "2020s",
+  "psychedelic pop",
+  "folk"
+ ],
+ "lastfm|album.getTopTags|cocteautwins|heavenorlasvegas": [
+  "dream pop",
+  "1990",
+  "shoegaze",
+  "ethereal",
+  "90s",
+  "ethereal wave",
+  "favourite albums",
+  "4ad",
+  "alternative",
+  "baggy"
+ ],
+ "lastfm|album.getTopTags|crywank|dontpissonmeimalreadydead": [
+  "anti-folk",
+  "emo",
+  "folk-punk",
+  "sadcore",
+  "screamo",
+  "UK",
+  "post-hardcore",
+  "freak folk",
+  "pop punk",
+  "math rock"
+ ],
+ "lastfm|album.getTopTags|crywank|jamesisgoingtodiesoon": [
+  "Lo-Fi",
+  "sad",
+  "indie",
+  "folk",
+  "depressing",
+  "UK",
+  "emo",
+  "british",
+  "folk punk",
+  "sadcore"
+ ],
+ "lastfm|album.getTopTags|crywank|justpoppingintosayhi": [],
+ "lastfm|album.getTopTags|crywank|narcissistonthevergeofanervousbreakdown": [
+  "2012",
+  "UK"
+ ],
+ "lastfm|album.getTopTags|crywank|tomorrowisnearlyyesterdayandeverydayisstupid": [
+  "anti-folk",
+  "sad",
+  "folk punk",
+  "sadcore",
+  "singer-songwriter",
+  "UK",
+  "acoustic",
+  "indie folk",
+  "acoustic punk",
+  "2013"
+ ],
+ "lastfm|album.getTopTags|crywank|tourdemos2013": [],
+ "lastfm|album.getTopTags|crywank|wearingbeigeonagreyday": [
+  "folk"
+ ],
+ "lastfm|album.getTopTags|cyberbullymomclub|amylocustwhatever": [],
+ "lastfm|album.getTopTags|death|thesoundofperseverance": [
+  "death metal",
+  "Technical Death Metal",
+  "progressive death metal",
+  "Progressive metal",
+  "1998",
+  "metal",
+  "Masterpiece",
+  "death",
+  "90s",
+  "Melodic Death Metal"
+ ],
+ "lastfm|album.getTopTags|drux|whatthelowdoes": [],
+ "lastfm|album.getTopTags|duster|together": [
+  "slowcore",
+  "2022",
+  "psychedelic",
+  "dream pop",
+  "space rock",
+  "Neo-Psychedelia",
+  "indie rock",
+  "Lo-Fi",
+  "space rock revival",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|ecco2k|e": [
+  "ambient pop",
+  "cloud rap",
+  "art pop",
+  "experimental hip hop",
+  "alternative rnb",
+  "uk bass",
+  "drugs",
+  "Alienation",
+  "Passionate",
+  "lonely"
+ ],
+ "lastfm|album.getTopTags|eden2001|musick": [],
+ "lastfm|album.getTopTags|elliottsmith|eitheror": [
+  "1997",
+  "singer-songwriter",
+  "indie folk",
+  "indie pop",
+  "indie",
+  "indie rock",
+  "folk",
+  "folk rock",
+  "acoustic",
+  "90s"
+ ],
+ "lastfm|album.getTopTags|elliottsmith|elliottsmith": [
+  "1995",
+  "singer-songwriter",
+  "indie folk",
+  "indie",
+  "indie rock",
+  "acoustic",
+  "folk",
+  "indie pop",
+  "90s",
+  "melancholy"
+ ],
+ "lastfm|album.getTopTags|elliottsmith|figure8": [
+  "2000",
+  "singer-songwriter",
+  "indie rock",
+  "indie",
+  "indie pop",
+  "folk",
+  "indie folk",
+  "00s",
+  "rock",
+  "favourite albums"
+ ],
+ "lastfm|album.getTopTags|elliottsmith|newmoon": [
+  "2007",
+  "singer-songwriter",
+  "indie rock",
+  "folk",
+  "indie",
+  "melancholy",
+  "rock",
+  "Searching",
+  "sad",
+  "Reflective"
+ ],
+ "lastfm|album.getTopTags|elliottsmith|xo": [
+  "1998",
+  "singer-songwriter",
+  "indie pop",
+  "indie",
+  "indie folk",
+  "folk",
+  "90s",
+  "chamber pop",
+  "indie rock",
+  "favourite albums"
+ ],
+ "lastfm|album.getTopTags|failbetterhealfaster|failbetterhealfaster": [],
+ "lastfm|album.getTopTags|feeblelittlehorse|girlwithfish": [
+  "noise pop",
+  "shoegaze",
+  "2023",
+  "indie rock",
+  "Lo-Fi",
+  "slacker rock",
+  "indie pop",
+  "indietronica",
+  "psychedelic",
+  "pop"
+ ],
+ "lastfm|album.getTopTags|fleshwater|werenotheretobeloved": [],
+ "lastfm|album.getTopTags|fratmouse|ratpack": [
+  "to get"
+ ],
+ "lastfm|album.getTopTags|freethrow|thosedaysaregone": [
+  "emo",
+  "rock",
+  "indie",
+  "indie rock",
+  "2014"
+ ],
+ "lastfm|album.getTopTags|glassbeach|thefirstglassbeachalbum": [
+  "indie rock",
+  "art rock",
+  "power pop",
+  "indietronica",
+  "emo",
+  "pop punk",
+  "Neo-Psychedelia",
+  "midwest emo",
+  "2019",
+  "Progressive Pop"
+ ],
+ "lastfm|album.getTopTags|grouper|themanwhodiedinhisboat": [
+  "2013",
+  "ambient",
+  "slowcore",
+  "drone",
+  "psychedelic folk",
+  "dream pop",
+  "folk",
+  "kranky",
+  "2013 releases",
+  "Reserved"
+ ],
+ "lastfm|album.getTopTags|haveanicelife|deathconsciousness": [
+  "shoegaze",
+  "post-punk",
+  "drone",
+  "2008",
+  "post-rock",
+  "ambient",
+  "Gothic Rock",
+  "rock",
+  "Lo-Fi",
+  "industrial"
+ ],
+ "lastfm|album.getTopTags|haveanicelife|seaofworry": [
+  "2019",
+  "shoegaze",
+  "post-punk",
+  "post-rock",
+  "Gothic Rock",
+  "dream pop",
+  "rock",
+  "alternative rock",
+  "emo",
+  "punk"
+ ],
+ "lastfm|album.getTopTags|haveanicelife|theunnaturalworld": [
+  "2014",
+  "shoegaze",
+  "post-punk",
+  "drone",
+  "post-rock",
+  "Gothic Rock",
+  "industrial",
+  "Post-Industrial",
+  "experimental",
+  "ambient"
+ ],
+ "lastfm|album.getTopTags|hiroshiyoshimura|greensfxversion": [
+  "new age",
+  "ambient",
+  "japanese",
+  "instrumental",
+  "field recordings",
+  "Progressive Electronic",
+  "electronic",
+  "dbdbdbdbdbdbdbdbdbdbdb",
+  "progressive ambient",
+  "kankyo ongaku"
+ ],
+ "lastfm|album.getTopTags|idiotchild|thefirstbreathisthebeginningofdeath": [
+  "noise rock",
+  "sludgenoise"
+ ],
+ "lastfm|album.getTopTags|itriedtorunawaywheniwas6butgottooscaredtocrossthestreet|itriedtorunawaywheniwas6butgottooscaredtocrossthestreet": [],
+ "lastfm|album.getTopTags|jackzebra|弓长张": [
+  "cloud rap",
+  "trap",
+  "Chicago drill",
+  "Regalia",
+  "plugg"
+ ],
+ "lastfm|album.getTopTags|jeffbuckley|grace": [
+  "1994",
+  "singer-songwriter",
+  "90s",
+  "alternative rock",
+  "favourite albums",
+  "rock",
+  "alternative",
+  "folk",
+  "folk rock",
+  "Masterpiece"
+ ],
+ "lastfm|album.getTopTags|jeffbuckley|sketchesformysweetheartthedrunk": [
+  "1998",
+  "alternative rock",
+  "rock",
+  "alternative",
+  "90s",
+  "1990s",
+  "jeff buckley",
+  "i own",
+  "8 out of 10",
+  "7 out of 10"
+ ],
+ "lastfm|album.getTopTags|kardashev|alunea": [
+  "2025",
+  "deathgaze",
+  "progressive death metal",
+  "Atmospheric metal",
+  "death post-metal",
+  "post death metal",
+  "best albums 2025"
+ ],
+ "lastfm|album.getTopTags|kardashev|liminalrite": [
+  "Progressive metal",
+  "deathgaze",
+  "2022",
+  "metal",
+  "deathcore",
+  "albums",
+  "progressive death metal",
+  "post metal",
+  "Atmospheric metal",
+  "tempe"
+ ],
+ "lastfm|album.getTopTags|katatonia|bravemurderday": [
+  "doom metal",
+  "Death Doom Metal",
+  "1996",
+  "death metal",
+  "metal",
+  "favourite albums",
+  "melancholic",
+  "90s",
+  "depressive metal",
+  "depressive"
+ ],
+ "lastfm|album.getTopTags|kent|vapenandammunition": [
+  "2002",
+  "swedish",
+  "alternative rock",
+  "pop rock",
+  "90s",
+  "nostalgia",
+  "best of 2002",
+  "Kent",
+  "00s",
+  "2000s"
+ ],
+ "lastfm|album.getTopTags|kingcrimson|inthecourtofthecrimsonking": [
+  "Progressive rock",
+  "1969",
+  "art rock",
+  "experimental",
+  "psychedelic",
+  "classic rock",
+  "rock",
+  "60s",
+  "Masterpiece",
+  "Psychedelic Rock"
+ ],
+ "lastfm|album.getTopTags|kingcrimson|red": [
+  "Progressive rock",
+  "1974",
+  "art rock",
+  "70s",
+  "experimental",
+  "rock",
+  "Masterpiece",
+  "Fusion",
+  "Avant-Garde",
+  "Avant-Prog"
+ ],
+ "lastfm|album.getTopTags|labisiffre|thesingerandthesong": [
+  "soul"
+ ],
+ "lastfm|album.getTopTags|lamp|forlovers": [
+  "shibuya-kei",
+  "2004",
+  "jazz pop",
+  "japanese",
+  "psychedelic pop",
+  "pop",
+  "female vocalists",
+  "Bossa Nova",
+  "2000s",
+  "male vocalists"
+ ],
+ "lastfm|album.getTopTags|laufey|anightatthesymphonyliveatthehollywoodbowl": [
+  "singer-songwriter",
+  "orchestral",
+  "classical crossover",
+  "vocal jazz",
+  "jazz pop",
+  "Traditional Pop"
+ ],
+ "lastfm|album.getTopTags|lifelover|pulver": [
+  "depressive black metal",
+  "black metal",
+  "depressive rock",
+  "metal",
+  "post-punk",
+  "favourite albums",
+  "rock",
+  "Suicidal Black Metal",
+  "blackgaze",
+  "boobs on cover"
+ ],
+ "lastfm|album.getTopTags|machinegirl|superfreq": [
+  "breaks",
+  "electronic",
+  "EDM",
+  "hardcore breaks",
+  "2024",
+  "2020s",
+  "Hardcore EDM",
+  "WEEB TRASH"
+ ],
+ "lastfm|album.getTopTags|margoguryan|27demos": [
+  "sunshine pop",
+  "60s",
+  "psychedelic",
+  "lounge",
+  "singer-songwriter",
+  "pop",
+  "female vocalists",
+  "baroque pop",
+  "2001",
+  "psychedelic pop"
+ ],
+ "lastfm|album.getTopTags|mechatok|wideawake": [],
+ "lastfm|album.getTopTags|meganddia|somethingrealandherehereandhere": [
+  "indie rock",
+  "indie pop",
+  "Acoustic Rock",
+  "folk rock",
+  "pop punk",
+  "emo pop"
+ ],
+ "lastfm|album.getTopTags|mineral|thepoweroffailing": [
+  "emo",
+  "indie rock",
+  "midwest emo",
+  "1997",
+  "post-hardcore",
+  "rock",
+  "alternative rock",
+  "1990s",
+  "revive the nineties",
+  "math rock"
+ ],
+ "lastfm|album.getTopTags|mounteerie|acrowlookedatme": [
+  "2017",
+  "singer-songwriter",
+  "indie folk",
+  "folk",
+  "slowcore",
+  "death",
+  "sad",
+  "contemporary folk",
+  "Heartbreaking",
+  "2010s"
+ ],
+ "lastfm|album.getTopTags|mounteerie|dawn": [
+  "indie folk",
+  "folk",
+  "singer-songwriter",
+  "2008",
+  "2000s",
+  "un",
+  "best albums",
+  "Totec Radio",
+  "albums i own on vinyl",
+  "own on vinyl"
+ ],
+ "lastfm|album.getTopTags|mybloodyvalentine|eps19881991andraretracks": [
+  "shoegaze",
+  "alternative rock",
+  "post-punk",
+  "indie rock",
+  "noise pop",
+  "noise rock",
+  "dream pop",
+  "post-rock",
+  "indie",
+  "alternative"
+ ],
+ "lastfm|album.getTopTags|ninajirachi|ilovemycomputer": [
+  "2025",
+  "electro house",
+  "electropop",
+  "complextro",
+  "bubblegum bass",
+  "dance",
+  "electronic",
+  "EDM",
+  "pop",
+  "House"
+ ],
+ "lastfm|album.getTopTags|ninasimone|wildisthewind": [
+  "jazz",
+  "1966",
+  "1001 Albums You Must Hear Before You Die",
+  "soul",
+  "60s",
+  "vocal jazz",
+  "blues",
+  "soul jazz",
+  "1960s",
+  "rnb"
+ ],
+ "lastfm|album.getTopTags|normajean|redeemer": [
+  "Tooth & Nail",
+  "Radiostar Studio",
+  "Solid State Records",
+  "century media records",
+  "ross robinson",
+  "metalcore",
+  "album",
+  "2006",
+  "CD",
+  "solid state"
+ ],
+ "lastfm|album.getTopTags|normajean|wrongdoers": [
+  "mathcore",
+  "2013",
+  "hardcore",
+  "metalcore",
+  "chaotic hardcore",
+  "christian",
+  "post-rock",
+  "vinyls i own",
+  "post-hardcore",
+  "Sludge"
+ ],
+ "lastfm|album.getTopTags|nouns|stillbummed": [
+  "noise pop",
+  "emo",
+  "slacker rock",
+  "punk",
+  "Lo-Fi",
+  "indietronica",
+  "alternative rock",
+  "post-rock",
+  "post-hardcore",
+  "indie rock"
+ ],
+ "lastfm|album.getTopTags|oklou|chokeenough": [
+  "2025",
+  "electronic",
+  "alt-pop",
+  "indietronica",
+  "ambient trance",
+  "alternative rnb",
+  "trance",
+  "ambient pop",
+  "folktronica",
+  "french"
+ ],
+ "lastfm|album.getTopTags|panchiko|deathmetal": [
+  "dream pop",
+  "indie rock",
+  "indietronica",
+  "trip hop",
+  "Lo-Fi",
+  "2000",
+  "shoegaze",
+  "2000s",
+  "post-Britpop",
+  "Neo-Psychedelia"
+ ],
+ "lastfm|album.getTopTags|panchiko|failedatmaths": [
+  "dream pop",
+  "indietronica",
+  "Neo-Psychedelia",
+  "indie rock",
+  "trip hop",
+  "alternative rock",
+  "electronic",
+  "post-Britpop",
+  "2023",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|panchiko|ferricoxidedemos19972001": [
+  "indie",
+  "shoegaze",
+  "compilation",
+  "indie rock",
+  "s2",
+  "I like this",
+  "2020s"
+ ],
+ "lastfm|album.getTopTags|paulbaribeau|grandledge": [
+  "singer-songwriter",
+  "acoustic",
+  "best of 2007",
+  "anti-folk",
+  "afros favorites"
+ ],
+ "lastfm|album.getTopTags|pradaaslife|scrapclub": [],
+ "lastfm|album.getTopTags|prefabsprout|stevemcqueen": [
+  "1985",
+  "Sophisti-Pop",
+  "new wave",
+  "80s",
+  "pop",
+  "pop rock",
+  "rock",
+  "1001 Albums You Must Hear Before You Die",
+  "soft rock",
+  "Sousaphonic AOTM 201102"
+ ],
+ "lastfm|album.getTopTags|radiohead|inrainbows": [
+  "alternative rock",
+  "alternative",
+  "2007",
+  "art rock",
+  "rock",
+  "best of 2007",
+  "favourite albums",
+  "electronic",
+  "indie",
+  "00s"
+ ],
+ "lastfm|album.getTopTags|radiohead|kidamnesia": [
+  "electronic",
+  "Experimental Rock",
+  "ambient",
+  "rock",
+  "idm",
+  "art rock",
+  "post-rock",
+  "experimental",
+  "alternative",
+  "ambient pop"
+ ],
+ "lastfm|album.getTopTags|radiohead|okcomputer": [
+  "alternative rock",
+  "alternative",
+  "1997",
+  "rock",
+  "favourite albums",
+  "art rock",
+  "90s",
+  "Masterpiece",
+  "experimental",
+  "electronic"
+ ],
+ "lastfm|album.getTopTags|radiohead|thebends": [
+  "alternative rock",
+  "1995",
+  "rock",
+  "alternative",
+  "90s",
+  "radiohead",
+  "britpop",
+  "favourite albums",
+  "indie",
+  "post-Britpop"
+ ],
+ "lastfm|album.getTopTags|sandyalexg|houseofsugar": [
+  "2019",
+  "yearning",
+  "indietronica",
+  "alternative",
+  "indie pop",
+  "experimental",
+  "indie rock",
+  "literate",
+  "melodic",
+  "trippy"
+ ],
+ "lastfm|album.getTopTags|silverstein|discoveringthewaterfront": [
+  "post-hardcore",
+  "screamo",
+  "emo",
+  "emocore",
+  "hardcore",
+  "2005",
+  "punk",
+  "pop punk",
+  "iconic albums",
+  "emo-pop"
+ ],
+ "lastfm|album.getTopTags|sleepingwithsirens|letscheerstothis": [],
+ "lastfm|album.getTopTags|slowdive|souvlaki": [
+  "shoegaze",
+  "dream pop",
+  "1993",
+  "favourite albums",
+  "90s",
+  "Neo-Psychedelia",
+  "Dreamy",
+  "ethereal",
+  "atmospheric",
+  "indie"
+ ],
+ "lastfm|album.getTopTags|songsohia|magnoliaelectricco": [
+  "Mellow",
+  "Alt-country",
+  "americana",
+  "folk",
+  "female vocals",
+  "singer-songwriter",
+  "country rock",
+  "depressive",
+  "sad",
+  "warm"
+ ],
+ "lastfm|album.getTopTags|squarepusher|goplastic": [
+  "idm",
+  "electronic",
+  "Drum and bass",
+  "experimental",
+  "Drum n Bass",
+  "2001",
+  "electronica",
+  "breakcore",
+  "s0n4r sp",
+  "2000s"
+ ],
+ "lastfm|album.getTopTags|squarepusher|hardnormaldaddy": [
+  "idm",
+  "electronic",
+  "jazz fusion",
+  "acid jazz",
+  "Drum and bass",
+  "drill and bass",
+  "electronica",
+  "Drum n Bass",
+  "jazz",
+  "nu jazz"
+ ],
+ "lastfm|album.getTopTags|starrycat|starrycat": [
+  "Lo-Fi",
+  "rock",
+  "twee pop",
+  "2013",
+  "slacker rock",
+  "indie pop",
+  "indie rock",
+  "bedroom pop",
+  "indie folk",
+  "2010s"
+ ],
+ "lastfm|album.getTopTags|stoortneer|engladtitelpåensorgligskiva": [],
+ "lastfm|album.getTopTags|sweetpill|wheretheheartis": [
+  "midwest emo",
+  "emo",
+  "math rock",
+  "emo-pop",
+  "2022",
+  "rock",
+  "punk",
+  "indie",
+  "female vocalist",
+  "alternative"
+ ],
+ "lastfm|album.getTopTags|thecranberries|everybodyelseisdoingitsowhycantwe": [],
+ "lastfm|album.getTopTags|thecure|disintegration": [
+  "1989",
+  "post-punk",
+  "80s",
+  "new wave",
+  "favourite albums",
+  "Gothic Rock",
+  "alternative",
+  "dream pop",
+  "alternative rock",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|thecure|kissmekissmekissme": [
+  "1987",
+  "new wave",
+  "post-punk",
+  "80s",
+  "alternative rock",
+  "The Cure",
+  "alternative",
+  "rock",
+  "Totec Radio",
+  "Gothic Rock"
+ ],
+ "lastfm|album.getTopTags|thecure|threeimaginaryboys": [
+  "post-punk",
+  "1979",
+  "new wave",
+  "70s",
+  "rock",
+  "alternative rock",
+  "indie",
+  "The Cure",
+  "80s",
+  "alternative"
+ ],
+ "lastfm|album.getTopTags|thekooks|insideininsideout": [
+  "2006",
+  "indie",
+  "british",
+  "indie rock",
+  "rock",
+  "britpop",
+  "00s",
+  "2005",
+  "indie pop",
+  "best of 2006"
+ ],
+ "lastfm|album.getTopTags|thelastwholeearthcatalog|doyoufacethebrutalreality": [],
+ "lastfm|album.getTopTags|thelastwholeearthcatalog|familybusiness": [
+  "jazz pop",
+  "electronic"
+ ],
+ "lastfm|album.getTopTags|thelastwholeearthcatalog|fromthispointicouldperhapsimagineiwasabetterperson": [],
+ "lastfm|album.getTopTags|thelastwholeearthcatalog|singleusestressballs": [],
+ "lastfm|album.getTopTags|thelastwholeearthcatalog|thesearesadtimes": [],
+ "lastfm|album.getTopTags|thelastwholeearthcatalog|werealldowntherabbithole": [],
+ "lastfm|album.getTopTags|themicrophones|theglowpt2": [
+  "indie folk",
+  "psychedelic folk",
+  "2001",
+  "folk",
+  "Lo-Fi",
+  "Lo-Fi Indie",
+  "noise rock",
+  "very calm and very good",
+  "slacker rock",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|thesmiths|hatfulofhollow": [
+  "1984",
+  "80s",
+  "indie",
+  "indie pop",
+  "jangle pop",
+  "alternative rock",
+  "alternative",
+  "post-punk",
+  "new wave",
+  "The Smiths"
+ ],
+ "lastfm|album.getTopTags|thesmiths|louderthanbombs": [
+  "1987",
+  "80s",
+  "jangle pop",
+  "indie pop",
+  "alternative",
+  "indie",
+  "favourite albums",
+  "The Smiths",
+  "post-punk",
+  "new wave"
+ ],
+ "lastfm|album.getTopTags|thesundays|blind": [
+  "dream pop",
+  "1992",
+  "90s",
+  "indie pop",
+  "sexy female vocals",
+  "indie",
+  "Love",
+  "love Kasia",
+  "Harriet Wheeler is so hot",
+  "love from Sophie"
+ ],
+ "lastfm|album.getTopTags|thesundays|readingwritingandarithmetic": [
+  "jangle pop",
+  "indie pop",
+  "dream pop",
+  "alternative",
+  "1990",
+  "90s",
+  "indie",
+  "where is my bong",
+  "i love singing along",
+  "records i own"
+ ],
+ "lastfm|album.getTopTags|thesundays|staticandsilence": [
+  "dream pop",
+  "1997",
+  "Records I consider buying",
+  "Love",
+  "love Kasia",
+  "sexy female vocals",
+  "Harriet Wheeler is so hot",
+  "Wonderful Women",
+  "pop rock",
+  "love from Sophie"
+ ],
+ "lastfm|album.getTopTags|titlefight|shed": [
+  "post-hardcore",
+  "emo",
+  "2011",
+  "hardcore",
+  "2010s",
+  "pop punk",
+  "punk",
+  "sideonedummy records",
+  "shed",
+  "midwest emo"
+ ],
+ "lastfm|album.getTopTags|toe|forlongtomorrow": [
+  "post-rock",
+  "math rock",
+  "2009",
+  "japanese",
+  "J-rock",
+  "post rock",
+  "rock",
+  "favourite albums",
+  "instrumental",
+  "indie"
+ ],
+ "lastfm|album.getTopTags|toe|thebookaboutmyidleplotonavagueanxiety": [
+  "math rock",
+  "post-rock",
+  "japanese",
+  "japan",
+  "2005",
+  "post rock",
+  "rock",
+  "emo",
+  "instrumental",
+  "indie rock"
+ ],
+ "lastfm|album.getTopTags|ttng|animals": [
+  "math rock",
+  "emo",
+  "indie rock",
+  "2008",
+  "indie",
+  "prog",
+  "Progressive rock",
+  "00s",
+  "amazing",
+  "chill"
+ ],
+ "lastfm|album.getTopTags|underoath|definethegreatline": [
+  "post-hardcore",
+  "metalcore",
+  "screamo",
+  "hardcore",
+  "metal",
+  "emo",
+  "Post-Metal",
+  "christian",
+  "Christian Metalcore",
+  "melodic hardcore"
+ ],
+ "lastfm|album.getTopTags|underscores|u": [
+  "electropop",
+  "2026",
+  "hyperpop",
+  "dance-pop",
+  "electro house",
+  "future bass",
+  "electronic dance music",
+  "alt-pop",
+  "bubblegum bass",
+  "electronic"
+ ],
+ "lastfm|album.getTopTags|weezer|pinkerton": [
+  "alternative rock",
+  "1996",
+  "emo",
+  "power pop",
+  "90s",
+  "rock",
+  "alternative",
+  "favourite albums",
+  "1990s",
+  "noise pop"
+ ],
+ "lastfm|album.getTopTags|yukiyamishima|peaksandvalleys": [],
+ "lastfm|album.getTopTags||": [],
+ "lastfm|album.getTopTags|ミドリ|あらためましてはじめましてミドリです": [
+  "noise rock",
+  "art punk",
+  "jazz punk",
+  "boobs on cover",
+  "Experimental Rock",
+  "jazz fusion",
+  "jazz-rock",
+  "post-hardcore",
+  "punk",
+  "hardcore punk"
+ ],
+ "lastfm|album.getTopTags|宇宙ネコ子|君のように生きれたら": [
+  "japanese",
+  "rock",
+  "indie",
+  "pop",
+  "shoegaze",
+  "indie rock",
+  "dream pop",
+  "2010s",
+  "2019"
+ ],
+ "lastfm|artist.getTopTags|": [
+  "glitch",
+  "electroacoustic",
+  "indie",
+  "ambient",
+  "acoustic",
+  "experimental"
+ ],
+ "lastfm|artist.getTopTags|7angels7plagues": [
+  "metalcore",
+  "hardcore",
+  "melodic hardcore",
+  "Straight Edge",
+  "metal",
+  "melodic metalcore",
+  "Progressive Metalcore",
+  "post-hardcore",
+  "mathcore",
+  "american"
+ ],
+ "lastfm|artist.getTopTags|alibiloungeandcrywank": [],
+ "lastfm|artist.getTopTags|aphextwin": [
+  "electronic",
+  "idm",
+  "ambient",
+  "experimental",
+  "electronica",
+  "techno",
+  "Ambient Techno",
+  "british",
+  "acid techno",
+  "Acid"
+ ],
+ "lastfm|artist.getTopTags|blindfoldedandledtothewoods": [
+  "deathcore",
+  "Technical Death Metal",
+  "death metal",
+  "Technical Deathcore",
+  "Avant-Garde Death Metal",
+  "New Zealand",
+  "progressive death metal",
+  "Dissonant Death Metal",
+  "mathcore",
+  "Avant-Garde"
+ ],
+ "lastfm|artist.getTopTags|boardsofcanada": [
+  "ambient",
+  "electronic",
+  "idm",
+  "chillout",
+  "electronica",
+  "downtempo",
+  "experimental",
+  "trip-hop",
+  "Scottish",
+  "psychedelic"
+ ],
+ "lastfm|artist.getTopTags|c418": [
+  "ambient",
+  "electronic",
+  "Impressionism",
+  "synthwave",
+  "ambient house",
+  "idm",
+  "Progressive House",
+  "minecraft",
+  "dark ambient",
+  "modern classical"
+ ],
+ "lastfm|artist.getTopTags|carissaswierd": [],
+ "lastfm|artist.getTopTags|crywank": [
+  "folk punk",
+  "sadcore",
+  "anti-folk",
+  "Lo-Fi",
+  "outsider",
+  "folk",
+  "acoustic",
+  "emo",
+  "singer-songwriter",
+  "british"
+ ],
+ "lastfm|artist.getTopTags|cyberbullymomclub": [
+  "Lo-Fi",
+  "bedroom pop",
+  "indie",
+  "emo",
+  "USA",
+  "anti-folk",
+  "All",
+  "Lo-Fi Indie",
+  "Philly",
+  "bummer"
+ ],
+ "lastfm|artist.getTopTags|drux": [
+  "cloud rap",
+  "punk",
+  "hardcore",
+  "black metal",
+  "hardcore punk",
+  "oldschool hardcore",
+  "Sweden",
+  "old school black metal",
+  "digicore",
+  "trap"
+ ],
+ "lastfm|artist.getTopTags|eden2001": [
+  "chinese",
+  "electronic"
+ ],
+ "lastfm|artist.getTopTags|failbetterhealfaster": [
+  "emo",
+  "punk",
+  "indie",
+  "jazz",
+  "recovery",
+  "alternative",
+  "USA",
+  "sad",
+  "folk punk",
+  "math rock"
+ ],
+ "lastfm|artist.getTopTags|fleshwater": [
+  "shoegaze",
+  "alternative metal",
+  "post-hardcore",
+  "alternative rock",
+  "alternative",
+  "Grunge",
+  "Nu Metal",
+  "grungegaze",
+  "metalgaze",
+  "metal"
+ ],
+ "lastfm|artist.getTopTags|fratmouse": [
+  "emo",
+  "indie",
+  "midwest emo",
+  "acoustic",
+  "folk rock",
+  "indie rock",
+  "USA",
+  "indie folk",
+  "singer songwriter",
+  "diy"
+ ],
+ "lastfm|artist.getTopTags|itriedtorunawaywheniwas6butgottooscaredtocrossthestreet": [
+  "Lo-Fi",
+  "folk",
+  "bedroom",
+  "indie",
+  "bedroom pop",
+  "singer-songwriter",
+  "rare sad girl",
+  "Lo-Fi Indie",
+  "acoustic",
+  "Bandcamp"
+ ],
+ "lastfm|artist.getTopTags|kardashev": [
+  "deathcore",
+  "Progressive deathcore",
+  "progressive death metal",
+  "deathgaze",
+  "Progressive metal",
+  "atmospheric deathcore",
+  "death metal",
+  "atmospheric",
+  "Post-Metal",
+  "atmospheric death metal"
+ ],
+ "lastfm|artist.getTopTags|mechatok": [
+  "electronic",
+  "ambient",
+  "Grime",
+  "abstract",
+  "germany",
+  "Berlin",
+  "instrumental",
+  "progressive trance",
+  "german",
+  "experimental"
+ ],
+ "lastfm|artist.getTopTags|pradaaslife": [
+  "rap",
+  "Hip-Hop",
+  "rnb",
+  "Sweden",
+  "glitchcore",
+  "underground rap",
+  "hyperpop",
+  "scrapclub",
+  "cloud rap"
+ ],
+ "lastfm|artist.getTopTags|sleepingwithsirens": [
+  "post-hardcore",
+  "screamo",
+  "emocore",
+  "experimental",
+  "hardcore",
+  "alternative rock",
+  "emo",
+  "rock",
+  "american",
+  "metalcore"
+ ],
+ "lastfm|artist.getTopTags|stoortneer": [
+  "Progressive metal",
+  "thall",
+  "DJENT",
+  "math metal",
+  "deathcore",
+  "melodic hardcore",
+  "instrumental",
+  "blackgaze",
+  "vildhjarta",
+  "blackened hardcore"
+ ],
+ "lastfm|artist.getTopTags|thecranberries": [
+  "rock",
+  "alternative",
+  "alternative rock",
+  "female vocalists",
+  "irish",
+  "90s",
+  "pop rock",
+  "indie",
+  "pop",
+  "indie rock"
+ ],
+ "lastfm|artist.getTopTags|thelastwholeearthcatalog": [
+  "folk",
+  "experimental",
+  "underrated",
+  "indie folk",
+  "singer-songwriter",
+  "acoustic",
+  "indie rock",
+  "United Kingdom",
+  "anti-folk",
+  "folk punk"
+ ],
+ "lastfm|artist.getTopTags|yukiyamishima": [],
+ "movies|5centimeterspersecond|2007": {
+  "image": "5-centimeters-per-second.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/dFipUR6W0y3PPkuVS8gjFd929m2.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Makoto Shinkai",
+   "genre": [
+    "Animation",
+    "Romance",
+    "Drama"
+   ],
+   "title": "5 Centimeters per Second",
+   "tmdb_id": 38142,
+   "year": 2007
+  },
+  "reason": null
+ },
+ "movies|abeautifulmind|2001": {
+  "image": "a-beautiful-mind.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/rEIg5yJdNOt9fmX4P8gU9LeNoTQ.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Ron Howard",
+   "genre": [
+    "Drama",
+    "Romance"
+   ],
+   "title": "A Beautiful Mind",
+   "tmdb_id": 453,
+   "year": 2001
+  },
+  "reason": null
+ },
+ "movies|akira|1988": {
+  "image": "akira.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Katsuhiro Otomo",
+   "genre": [
+    "Animation",
+    "Science Fiction",
+    "Action"
+   ],
+   "title": "Akira",
+   "tmdb_id": 149,
+   "year": 1988
+  },
+  "reason": null
+ },
+ "movies|asilentvoice|2016": {
+  "image": "a-silent-voice-the-movie.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Naoko Yamada",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Romance"
+   ],
+   "title": "A Silent Voice: The Movie",
+   "tmdb_id": 378064,
+   "year": 2016
+  },
+  "reason": "matched \"A Silent Voice: The Movie\" (2016)"
+ },
+ "movies|avatar|2009": {
+  "image": "avatar.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "James Cameron",
+   "genre": [
+    "Science Fiction",
+    "Action",
+    "Adventure"
+   ],
+   "title": "Avatar",
+   "tmdb_id": 19995,
+   "year": 2009
+  },
+  "reason": null
+ },
+ "movies|batmanvsupermandawnofjustice|2016": {
+  "image": "batman-v-superman-dawn-of-justice.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/5UsK3grJvtQrtzEgqNlDljJW96w.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Zack Snyder",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Batman v Superman: Dawn of Justice",
+   "tmdb_id": 209112,
+   "year": 2016
+  },
+  "reason": null
+ },
+ "movies|childrenofthesea|2019": {
+  "image": "children-of-the-sea.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/9Fch8X5C5yW2srPVBiq6LNRvwd.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Ayumu Watanabe",
+   "genre": [
+    "Animation",
+    "Fantasy",
+    "Adventure"
+   ],
+   "title": "Children of the Sea",
+   "tmdb_id": 585077,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "movies|coraline|2009": {
+  "image": "coraline.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/4jeFXQYytChdZYE9JYO7Un87IlW.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Henry Selick",
+   "genre": [
+    "Animation",
+    "Family",
+    "Fantasy"
+   ],
+   "title": "Coraline",
+   "tmdb_id": 14836,
+   "year": 2009
+  },
+  "reason": null
+ },
+ "movies|djangounchained|2012": {
+  "image": "django-unchained.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Quentin Tarantino",
+   "genre": [
+    "Drama",
+    "Western"
+   ],
+   "title": "Django Unchained",
+   "tmdb_id": 68718,
+   "year": 2012
+  },
+  "reason": null
+ },
+ "movies|evangelion10youarenotalone|2007": {
+  "image": "evangelion-1-0-you-are-not-alone.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/pETU4GurpeEjBOM8oytMH0yNBHx.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Kazuya Tsurumaki, Masayuki, Hideaki Anno",
+   "genre": [
+    "Animation",
+    "Science Fiction",
+    "Action"
+   ],
+   "title": "Evangelion: 1.0 You Are (Not) Alone",
+   "tmdb_id": 15137,
+   "year": 2007
+  },
+  "reason": null
+ },
+ "movies|evangelion20youcannotadvance|2009": {
+  "image": "evangelion-2-0-you-can-not-advance.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/7VLYN2CfJpB6PrcuzDKKqdGSUi6.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Masayuki, Kazuya Tsurumaki, Hideaki Anno",
+   "genre": [
+    "Animation",
+    "Science Fiction",
+    "Action"
+   ],
+   "title": "Evangelion: 2.0 You Can (Not) Advance",
+   "tmdb_id": 22843,
+   "year": 2009
+  },
+  "reason": null
+ },
+ "movies|evangelion3010thriceuponatime|2021": {
+  "image": "evangelion-3-0-1-0-thrice-upon-a-time.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/md5wZRRj8biHrGtyitgBZo7674t.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Kazuya Tsurumaki, Mahiro Maeda, Katsuichi Nakayama, Hideaki Anno",
+   "genre": [
+    "Animation",
+    "Action",
+    "Science Fiction"
+   ],
+   "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+   "tmdb_id": 283566,
+   "year": 2021
+  },
+  "reason": null
+ },
+ "movies|evangelion30youcannotredo|2012": {
+  "image": "evangelion-3-0-you-can-not-redo.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/d0s1xvykzl0kz7fP5S2ROYqphdz.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hideaki Anno, Masayuki, Mahiro Maeda, Kazuya Tsurumaki",
+   "genre": [
+    "Animation",
+    "Science Fiction",
+    "Action"
+   ],
+   "title": "Evangelion: 3.0 You Can (Not) Redo",
+   "tmdb_id": 75629,
+   "year": 2012
+  },
+  "reason": null
+ },
+ "movies|flavorsofyouth|2018": {
+  "image": "flavors-of-youth.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/ueHeH5ergeHx27L4SCI9qlmwczA.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Joshua, Li Haoling, Yoshitaka Takeuchi",
+   "genre": [
+    "Animation",
+    "Romance",
+    "Drama"
+   ],
+   "title": "Flavors of Youth",
+   "tmdb_id": 513347,
+   "year": 2018
+  },
+  "reason": null
+ },
+ "movies|fromuponpoppyhill|2011": {
+  "image": "from-up-on-poppy-hill.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/rRLYX4RZIyloHSJwvZKAhphAjiB.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Goro Miyazaki",
+   "genre": [
+    "Animation",
+    "Drama"
+   ],
+   "title": "From Up on Poppy Hill",
+   "tmdb_id": 83389,
+   "year": 2011
+  },
+  "reason": null
+ },
+ "movies|ghostintheshell|1995": {
+  "image": "ghost-in-the-shell.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/9gC88zYUBARRSThcG93MvW14sqx.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Mamoru Oshii",
+   "genre": [
+    "Action",
+    "Animation",
+    "Science Fiction"
+   ],
+   "title": "Ghost in the Shell",
+   "tmdb_id": 9323,
+   "year": 1995
+  },
+  "reason": null
+ },
+ "movies|goodtime|2017": {
+  "image": "good-time.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Josh Safdie, Benny Safdie",
+   "genre": [
+    "Crime",
+    "Thriller",
+    "Drama"
+   ],
+   "title": "Good Time",
+   "tmdb_id": 429200,
+   "year": 2017
+  },
+  "reason": null
+ },
+ "movies|goodwillhunting|1997": {
+  "image": "good-will-hunting.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Gus Van Sant",
+   "genre": [
+    "Drama"
+   ],
+   "title": "Good Will Hunting",
+   "tmdb_id": 489,
+   "year": 1997
+  },
+  "reason": null
+ },
+ "movies|harrypotterandthechamberofsecrets|2002": {
+  "image": "harry-potter-and-the-chamber-of-secrets.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Chris Columbus",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Chamber of Secrets",
+   "tmdb_id": 672,
+   "year": 2002
+  },
+  "reason": null
+ },
+ "movies|harrypotterandthedeathlyhallowspart1|2010": {
+  "image": "harry-potter-and-the-deathly-hallows-part-1.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "David Yates",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Deathly Hallows: Part 1",
+   "tmdb_id": 12444,
+   "year": 2010
+  },
+  "reason": null
+ },
+ "movies|harrypotterandthedeathlyhallowspart2|2011": {
+  "image": "harry-potter-and-the-deathly-hallows-part-2.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "David Yates",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Deathly Hallows: Part 2",
+   "tmdb_id": 12445,
+   "year": 2011
+  },
+  "reason": null
+ },
+ "movies|harrypotterandthegobletoffire|2005": {
+  "image": "harry-potter-and-the-goblet-of-fire.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Mike Newell",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Goblet of Fire",
+   "tmdb_id": 674,
+   "year": 2005
+  },
+  "reason": null
+ },
+ "movies|harrypotterandthehalfbloodprince|2009": {
+  "image": "harry-potter-and-the-half-blood-prince.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "David Yates",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Half-Blood Prince",
+   "tmdb_id": 767,
+   "year": 2009
+  },
+  "reason": null
+ },
+ "movies|harrypotterandtheorderofthephoenix|2007": {
+  "image": "harry-potter-and-the-order-of-the-phoenix.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "David Yates",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Order of the Phoenix",
+   "tmdb_id": 675,
+   "year": 2007
+  },
+  "reason": null
+ },
+ "movies|harrypotterandtheprisonerofazkaban|2004": {
+  "image": "harry-potter-and-the-prisoner-of-azkaban.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Alfonso Cuarón",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Prisoner of Azkaban",
+   "tmdb_id": 673,
+   "year": 2004
+  },
+  "reason": null
+ },
+ "movies|harrypotterandthesorcerersstone|2001": {
+  "image": "harry-potter-and-the-philosopher-s-stone.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Chris Columbus",
+   "genre": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Harry Potter and the Philosopher's Stone",
+   "tmdb_id": 671,
+   "year": 2001
+  },
+  "reason": "matched \"Harry Potter and the Philosopher's Stone\" (2001)"
+ },
+ "movies|hotfuzz|2007": {
+  "image": "hot-fuzz.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Edgar Wright",
+   "genre": [
+    "Crime",
+    "Action",
+    "Comedy"
+   ],
+   "title": "Hot Fuzz",
+   "tmdb_id": 4638,
+   "year": 2007
+  },
+  "reason": null
+ },
+ "movies|howlsmovingcastle|2004": {
+  "image": "howl-s-moving-castle.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hayao Miyazaki",
+   "genre": [
+    "Fantasy",
+    "Animation",
+    "Adventure"
+   ],
+   "title": "Howl's Moving Castle",
+   "tmdb_id": 4935,
+   "year": 2004
+  },
+  "reason": null
+ },
+ "movies|howtotrainyourdragon|2010": {
+  "image": "how-to-train-your-dragon.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Dean DeBlois, Chris Sanders",
+   "genre": [
+    "Fantasy",
+    "Adventure",
+    "Animation"
+   ],
+   "title": "How to Train Your Dragon",
+   "tmdb_id": 10191,
+   "year": 2010
+  },
+  "reason": null
+ },
+ "movies|interstellar|2014": {
+  "image": "interstellar.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Christopher Nolan",
+   "genre": [
+    "Adventure",
+    "Drama",
+    "Science Fiction"
+   ],
+   "title": "Interstellar",
+   "tmdb_id": 157336,
+   "year": 2014
+  },
+  "reason": null
+ },
+ "movies|iwanttoeatyourpancreas|2018": {
+  "image": "i-want-to-eat-your-pancreas.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/qpV8kvRfAntV7D4aOOsLIz7OdPc.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Shinichiro Ushijima",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Romance"
+   ],
+   "title": "I Want to Eat Your Pancreas",
+   "tmdb_id": 504253,
+   "year": 2018
+  },
+  "reason": null
+ },
+ "movies|juno|2007": {
+  "image": "juno.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/jNIn2tVhpvFD6P9IojldI3mNYcn.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Jason Reitman",
+   "genre": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "title": "Juno",
+   "tmdb_id": 7326,
+   "year": 2007
+  },
+  "reason": null
+ },
+ "movies|kikisdeliveryservice|1989": {
+  "image": "kiki-s-delivery-service.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hayao Miyazaki",
+   "genre": [
+    "Animation",
+    "Family",
+    "Fantasy"
+   ],
+   "title": "Kiki's Delivery Service",
+   "tmdb_id": 16859,
+   "year": 1989
+  },
+  "reason": null
+ },
+ "movies|kungfupanda4|2024": {
+  "image": "kung-fu-panda-4.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Mike Mitchell",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Adventure"
+   ],
+   "title": "Kung Fu Panda 4",
+   "tmdb_id": 1011985,
+   "year": 2024
+  },
+  "reason": null
+ },
+ "movies|littlemisssunshine|2006": {
+  "image": "little-miss-sunshine.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/niNdhTpPHSgw22tK0PLjQMV640v.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Jonathan Dayton, Valerie Faris",
+   "genre": [
+    "Comedy",
+    "Drama"
+   ],
+   "title": "Little Miss Sunshine",
+   "tmdb_id": 773,
+   "year": 2006
+  },
+  "reason": null
+ },
+ "movies|megamind|2010": {
+  "image": "megamind.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/uZ9ytt3sPTx62XTfN56ILSuYWRe.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Tom McGrath",
+   "genre": [
+    "Animation",
+    "Action",
+    "Comedy"
+   ],
+   "title": "Megamind",
+   "tmdb_id": 38055,
+   "year": 2010
+  },
+  "reason": null
+ },
+ "movies|myneighbortotoro|1988": {
+  "image": "my-neighbor-totoro.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hayao Miyazaki",
+   "genre": [
+    "Fantasy",
+    "Animation",
+    "Family"
+   ],
+   "title": "My Neighbor Totoro",
+   "tmdb_id": 8392,
+   "year": 1988
+  },
+  "reason": null
+ },
+ "movies|paprika|2006": {
+  "image": "paprika.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/nHJljo2Pi7XimYEgV9hvRchQWmg.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Satoshi Kon",
+   "genre": [
+    "Animation",
+    "Science Fiction",
+    "Thriller"
+   ],
+   "title": "Paprika",
+   "tmdb_id": 4977,
+   "year": 2006
+  },
+  "reason": null
+ },
+ "movies|paranorman|2012": {
+  "image": "paranorman.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/9DZPtuYTKYxt6vzHvZ5FLThG4fl.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Sam Fell, Chris Butler",
+   "genre": [
+    "Family",
+    "Animation",
+    "Adventure"
+   ],
+   "title": "ParaNorman",
+   "tmdb_id": 77174,
+   "year": 2012
+  },
+  "reason": null
+ },
+ "movies|parasite|2019": {
+  "image": "parasite.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bong Joon Ho",
+   "genre": [
+    "Comedy",
+    "Thriller",
+    "Drama"
+   ],
+   "title": "Parasite",
+   "tmdb_id": 496243,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "movies|perfectblue|1997": {
+  "image": "perfect-blue.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Satoshi Kon",
+   "genre": [
+    "Animation",
+    "Thriller"
+   ],
+   "title": "Perfect Blue",
+   "tmdb_id": 10494,
+   "year": 1998
+  },
+  "reason": null
+ },
+ "movies|pinocchio|1940": {
+  "image": "pinocchio.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/bnZJrLRnoQHpzEJdka1KYfsAF3N.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hamilton Luske, Ben Sharpsteen, Norman Ferguson, T. Hee, Jack Kinney, Bill Roberts, Wilfred Jackson",
+   "genre": [
+    "Animation",
+    "Family",
+    "Fantasy"
+   ],
+   "title": "Pinocchio",
+   "tmdb_id": 10895,
+   "year": 1940
+  },
+  "reason": null
+ },
+ "movies|princessmononoke|1997": {
+  "image": "princess-mononoke.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hayao Miyazaki",
+   "genre": [
+    "Adventure",
+    "Fantasy",
+    "Animation"
+   ],
+   "title": "Princess Mononoke",
+   "tmdb_id": 128,
+   "year": 1997
+  },
+  "reason": null
+ },
+ "movies|pussinbootsthelastwish|2022": {
+  "image": "puss-in-boots-the-last-wish.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/kuf6dutpsT0vSVehic3EZIqkOBt.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Joel Crawford",
+   "genre": [
+    "Animation",
+    "Adventure",
+    "Fantasy"
+   ],
+   "title": "Puss in Boots: The Last Wish",
+   "tmdb_id": 315162,
+   "year": 2022
+  },
+  "reason": null
+ },
+ "movies|ratatouille|2007": {
+  "image": "ratatouille.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Brad Bird",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Family"
+   ],
+   "title": "Ratatouille",
+   "tmdb_id": 2062,
+   "year": 2007
+  },
+  "reason": null
+ },
+ "movies|savingprivateryan|1998": {
+  "image": "saving-private-ryan.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Steven Spielberg",
+   "genre": [
+    "War",
+    "Drama",
+    "History"
+   ],
+   "title": "Saving Private Ryan",
+   "tmdb_id": 857,
+   "year": 1998
+  },
+  "reason": null
+ },
+ "movies|scottpilgrimvstheworld|2010": {
+  "image": "scott-pilgrim-vs-the-world.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Edgar Wright",
+   "genre": [
+    "Action",
+    "Comedy",
+    "Romance"
+   ],
+   "title": "Scott Pilgrim vs. the World",
+   "tmdb_id": 22538,
+   "year": 2010
+  },
+  "reason": null
+ },
+ "movies|spacejam|1996": {
+  "image": "space-jam.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/4RN5El3Pj2W4gpwgiAGLVfSJv2g.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Joe Pytka",
+   "genre": [
+    "Family",
+    "Science Fiction",
+    "Fantasy"
+   ],
+   "title": "Space Jam",
+   "tmdb_id": 2300,
+   "year": 1996
+  },
+  "reason": null
+ },
+ "movies|spidermanacrossthespiderverse|2023": {
+  "image": "spider-man-across-the-spider-verse.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Kemp Powers, Justin K. Thompson, Joaquim Dos Santos",
+   "genre": [
+    "Animation",
+    "Action",
+    "Adventure"
+   ],
+   "title": "Spider-Man: Across the Spider-Verse",
+   "tmdb_id": 569094,
+   "year": 2023
+  },
+  "reason": null
+ },
+ "movies|spidermanintothespiderverse|2018": {
+  "image": "spider-man-into-the-spider-verse.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+   "genre": [
+    "Animation",
+    "Action",
+    "Adventure"
+   ],
+   "title": "Spider-Man: Into the Spider-Verse",
+   "tmdb_id": 324857,
+   "year": 2018
+  },
+  "reason": null
+ },
+ "movies|spiritedaway|2001": {
+  "image": "spirited-away.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hayao Miyazaki",
+   "genre": [
+    "Animation",
+    "Family",
+    "Fantasy"
+   ],
+   "title": "Spirited Away",
+   "tmdb_id": 129,
+   "year": 2001
+  },
+  "reason": null
+ },
+ "movies|teamamericaworldpolice|2004": {
+  "image": "team-america-world-police.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/m1Q2VFe1DVVbjfu1LDZe7tlp9yb.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Trey Parker",
+   "genre": [
+    "Adventure",
+    "Action",
+    "Comedy"
+   ],
+   "title": "Team America: World Police",
+   "tmdb_id": 3989,
+   "year": 2004
+  },
+  "reason": null
+ },
+ "movies|theboyandtheheron|2023": {
+  "image": "the-boy-and-the-heron.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/f4oZTcfGrVTXKTWg157AwikXqmP.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hayao Miyazaki",
+   "genre": [
+    "Animation",
+    "Fantasy",
+    "Drama"
+   ],
+   "title": "The Boy and the Heron",
+   "tmdb_id": 508883,
+   "year": 2023
+  },
+  "reason": null
+ },
+ "movies|theendofevangelion|1997": {
+  "image": "neon-genesis-evangelion-the-end-of-evangelion.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/j6G24dqI4WgUtChhWjfnI4lnmiK.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Kazuya Tsurumaki, Hideaki Anno",
+   "genre": [
+    "Animation",
+    "Science Fiction",
+    "Drama"
+   ],
+   "title": "Neon Genesis Evangelion: The End of Evangelion",
+   "tmdb_id": 18491,
+   "year": 1997
+  },
+  "reason": "matched \"Neon Genesis Evangelion: The End of Evangelion\" (1997)"
+ },
+ "movies|thegardenofwords|2013": {
+  "image": "the-garden-of-words.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/mXUCVq3HMtS4Y9IQ8vmEOPyN0vH.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Makoto Shinkai",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Romance"
+   ],
+   "title": "The Garden of Words",
+   "tmdb_id": 198375,
+   "year": 2013
+  },
+  "reason": null
+ },
+ "movies|thelighthouse|2019": {
+  "image": "the-lighthouse.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/dwXmOYJVM1VIkkSXHY5zYSaLJLC.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Robert Eggers",
+   "genre": [
+    "Drama",
+    "Fantasy",
+    "Thriller"
+   ],
+   "title": "The Lighthouse",
+   "tmdb_id": 503919,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "movies|thenightmarebeforechristmas|1993": {
+  "image": "the-nightmare-before-christmas.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Henry Selick",
+   "genre": [
+    "Fantasy",
+    "Animation",
+    "Family"
+   ],
+   "title": "The Nightmare Before Christmas",
+   "tmdb_id": 9479,
+   "year": 1993
+  },
+  "reason": null
+ },
+ "movies|thetunneltosummertheexitofgoodbyes|2022": {
+  "image": "the-tunnel-to-summer-the-exit-of-goodbyes.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/5AGA6pbBKXZTI8k1c6odx30JuQR.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Tomohisa Taguchi",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Romance"
+   ],
+   "title": "The Tunnel to Summer, the Exit of Goodbyes",
+   "tmdb_id": 916192,
+   "year": 2022
+  },
+  "reason": null
+ },
+ "movies|thetwilightsagabreakingdawnpart1|2011": {
+  "image": "the-twilight-saga-breaking-dawn-part-1.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/qs8LsHKYlVRmJbFUiSUhhRAygwj.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bill Condon",
+   "genre": [
+    "Adventure",
+    "Fantasy",
+    "Romance"
+   ],
+   "title": "The Twilight Saga: Breaking Dawn - Part 1",
+   "tmdb_id": 50619,
+   "year": 2011
+  },
+  "reason": null
+ },
+ "movies|thetwilightsagabreakingdawnpart2|2012": {
+  "image": "the-twilight-saga-breaking-dawn-part-2.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bill Condon",
+   "genre": [
+    "Fantasy",
+    "Drama",
+    "Romance"
+   ],
+   "title": "The Twilight Saga: Breaking Dawn - Part 2",
+   "tmdb_id": 50620,
+   "year": 2012
+  },
+  "reason": null
+ },
+ "movies|thetwilightsagaeclipse|2010": {
+  "image": "the-twilight-saga-eclipse.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "David Slade",
+   "genre": [
+    "Adventure",
+    "Fantasy",
+    "Drama"
+   ],
+   "title": "The Twilight Saga: Eclipse",
+   "tmdb_id": 24021,
+   "year": 2010
+  },
+  "reason": null
+ },
+ "movies|thetwilightsaganewmoon|2009": {
+  "image": "the-twilight-saga-new-moon.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/k2qTooPlHffgNABNWxeJdGMglPK.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Chris Weitz",
+   "genre": [
+    "Adventure",
+    "Fantasy",
+    "Drama"
+   ],
+   "title": "The Twilight Saga: New Moon",
+   "tmdb_id": 18239,
+   "year": 2009
+  },
+  "reason": null
+ },
+ "movies|thewindrises|2013": {
+  "image": "the-wind-rises.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/jfwSexzlIzaOgxP9A8bTA6t8YYb.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Hayao Miyazaki",
+   "genre": [
+    "Animation",
+    "Drama",
+    "History"
+   ],
+   "title": "The Wind Rises",
+   "tmdb_id": 149870,
+   "year": 2013
+  },
+  "reason": null
+ },
+ "movies|twilight|2008": {
+  "image": "twilight.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Catherine Hardwicke",
+   "genre": [
+    "Fantasy",
+    "Drama",
+    "Romance"
+   ],
+   "title": "Twilight",
+   "tmdb_id": 8966,
+   "year": 2008
+  },
+  "reason": null
+ },
+ "movies|vampirehunterdbloodlust|2000": {
+  "image": "vampire-hunter-d-bloodlust.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/9ipbQRgOq6Ilxpwagfa98ikgR9v.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Yoshiaki Kawajiri",
+   "genre": [
+    "Animation",
+    "Fantasy",
+    "Horror"
+   ],
+   "title": "Vampire Hunter D: Bloodlust",
+   "tmdb_id": 15999,
+   "year": 2001
+  },
+  "reason": null
+ },
+ "movies|weatheringwithyou|2019": {
+  "image": "weathering-with-you.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Makoto Shinkai",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Fantasy"
+   ],
+   "title": "Weathering with You",
+   "tmdb_id": 568160,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "movies|whiplash|2014": {
+  "image": "whiplash.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Damien Chazelle",
+   "genre": [
+    "Drama",
+    "Music",
+    "Thriller"
+   ],
+   "title": "Whiplash",
+   "tmdb_id": 244786,
+   "year": 2014
+  },
+  "reason": null
+ },
+ "movies|whisperoftheheart|1995": {
+  "image": "whisper-of-the-heart.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/5FROLD8zpWFs9ja7aYho1uOMJHg.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Yoshifumi Kondo",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Family"
+   ],
+   "title": "Whisper of the Heart",
+   "tmdb_id": 37797,
+   "year": 1995
+  },
+  "reason": null
+ },
+ "movies|yourname|2016": {
+  "image": "your-name.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/vfJFJPepRKapMd5G2ro7klIRysq.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Makoto Shinkai",
+   "genre": [
+    "Animation",
+    "Romance",
+    "Drama"
+   ],
+   "title": "Your Name.",
+   "tmdb_id": 372058,
+   "year": 2016
+  },
+  "reason": null
+ },
+ "music": {
+  "image": null,
+  "image_urls": [],
+  "match": "failed",
+  "meta": null,
+  "reason": "no MusicBrainz results; no Deezer or iTunes match"
+ },
+ "music|100|itgetsdarker": {
+  "image": "it-gets-darker.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/7a3a3d8204500e8f7edbc5c4019f766e/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "100%",
+   "deezer_id": 319885657,
+   "genre": [],
+   "mbid": "a7757dd6-784a-4ee9-8da1-f1ed42e91610",
+   "primary_type": "Album",
+   "title": "It Gets Darker",
+   "year": 2015
+  },
+  "reason": null
+ },
+ "music|2hollis|2": {
+  "image": "2.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/d74b2021-d5a7-46ec-9c89-7098e00c7db7/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "2hollis",
+   "genre": [
+    "digicore",
+    "electro house",
+    "electroclash"
+   ],
+   "mbid": "d74b2021-d5a7-46ec-9c89-7098e00c7db7",
+   "primary_type": "Album",
+   "title": "2",
+   "year": 2023
+  },
+  "reason": null
+ },
+ "music|2hollis|star": {
+  "image": "star.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/63201d91-1628-4fb7-855e-70f3564457d0/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "2hollis",
+   "genre": [
+    "edm",
+    "dance-pop",
+    "digicore"
+   ],
+   "mbid": "63201d91-1628-4fb7-855e-70f3564457d0",
+   "primary_type": "Album",
+   "title": "star",
+   "year": 2025
+  },
+  "reason": null
+ },
+ "music|2hollis|style": {
+  "image": "style.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/21db5fd0-0376-4bf0-af9d-72eb8796a644/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "2hollis",
+   "genre": [
+    "hyphy",
+    "jerk rap",
+    "pop rap"
+   ],
+   "mbid": "21db5fd0-0376-4bf0-af9d-72eb8796a644",
+   "primary_type": "Single",
+   "title": "style",
+   "year": 2025
+  },
+  "reason": null
+ },
+ "music|7angels7plagues|jhazmyneslullaby": {
+  "image": "jhazmynes-lullaby.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/286238b4-e4b5-3022-82ac-9fa8d4c89752/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "7 Angels 7 Plagues",
+   "genre": [
+    "metalcore",
+    "christian hardcore",
+    "emo"
+   ],
+   "mbid": "286238b4-e4b5-3022-82ac-9fa8d4c89752",
+   "primary_type": "Album",
+   "title": "Jhazmyne’s Lullaby",
+   "year": 2001
+  },
+  "reason": null
+ },
+ "music|abba|supertrouper": {
+  "image": "super-trouper.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/24944755-2f68-3778-974e-f572a9e30108/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "ABBA",
+   "genre": [
+    "disco",
+    "europop",
+    "pop"
+   ],
+   "mbid": "24944755-2f68-3778-974e-f572a9e30108",
+   "primary_type": "Album",
+   "title": "Super Trouper",
+   "year": 1980
+  },
+  "reason": null
+ },
+ "music|alexg|houseofsugar": {
+  "image": "house-of-sugar.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ef315eab-4ddd-49d0-ae26-b7545ee818c7/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "(Sandy) Alex G",
+   "genre": [
+    "indie rock",
+    "pop",
+    "rock"
+   ],
+   "mbid": "ef315eab-4ddd-49d0-ae26-b7545ee818c7",
+   "primary_type": "Album",
+   "title": "House of Sugar",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "music|alexg|rules": {
+  "image": "rules.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/b531fecf-e246-428d-9769-9c5390b846da/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Alex G",
+   "genre": [
+    "lo-fi",
+    "pop",
+    "rock"
+   ],
+   "mbid": "b531fecf-e246-428d-9769-9c5390b846da",
+   "primary_type": "Album",
+   "title": "Rules",
+   "year": 2012
+  },
+  "reason": null
+ },
+ "music|alexg|trick": {
+  "image": "trick.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/a1851b11-5c14-497a-af7a-fa04c0946c78/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Alex G",
+   "genre": [
+    "bedroom pop",
+    "indie pop",
+    "indie rock"
+   ],
+   "mbid": "a1851b11-5c14-497a-af7a-fa04c0946c78",
+   "primary_type": "Album",
+   "title": "Trick",
+   "year": 2012
+  },
+  "reason": null
+ },
+ "music|alibilounge|crywank": {
+  "image": "crywank.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/2c04c74f-c0ff-4c41-99c0-ce27c5f20ddb/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Alibi Lounge & Crywank",
+   "genre": [],
+   "mbid": "2c04c74f-c0ff-4c41-99c0-ce27c5f20ddb",
+   "primary_type": "Album",
+   "title": "Crywank",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "music|alphaville|foreveryoung": {
+  "image": "forever-young.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/bd021fbe-fbe9-3564-96c7-14de208de37f/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Alphaville",
+   "genre": [
+    "electronic",
+    "new wave",
+    "synth-pop"
+   ],
+   "mbid": "bd021fbe-fbe9-3564-96c7-14de208de37f",
+   "primary_type": "Album",
+   "title": "Forever Young",
+   "year": 1984
+  },
+  "reason": null
+ },
+ "music|americanfootball|americanfootball": {
+  "image": "american-football.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/f98334d4-5eb5-48b2-820b-faa8db645c10/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "American Football",
+   "genre": [
+    "emo",
+    "indie rock",
+    "math pop"
+   ],
+   "mbid": "f98334d4-5eb5-48b2-820b-faa8db645c10",
+   "primary_type": "Album",
+   "title": "American Football",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "music|aphextwin|drukqs": {
+  "image": "drukqs.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/87f1a316-510f-36c3-9f2c-38230b0e56e0/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Aphex Twin",
+   "genre": [
+    "idm",
+    "drill and bass",
+    "electroacoustic"
+   ],
+   "mbid": "87f1a316-510f-36c3-9f2c-38230b0e56e0",
+   "primary_type": "Album",
+   "title": "Drukqs",
+   "year": 2001
+  },
+  "reason": null
+ },
+ "music|aphextwin|icarebecauseyoudo": {
+  "image": "i-care-because-you-do.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/79c6d3be-251c-3644-b07e-09d738e15a84/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Aphex Twin",
+   "genre": [
+    "idm",
+    "electronic",
+    "acid techno"
+   ],
+   "mbid": "79c6d3be-251c-3644-b07e-09d738e15a84",
+   "primary_type": "Album",
+   "title": "…I Care Because You Do",
+   "year": 1995
+  },
+  "reason": null
+ },
+ "music|aphextwin|selectedambientworks8592": {
+  "image": "selected-ambient-works-8592.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/6842c81d-ea77-3dfd-abf7-4323add3f4d4/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Aphex Twin",
+   "genre": [
+    "ambient techno",
+    "ambient",
+    "idm"
+   ],
+   "mbid": "6842c81d-ea77-3dfd-abf7-4323add3f4d4",
+   "primary_type": "Album",
+   "title": "Selected Ambient Works 85–92",
+   "year": 1992
+  },
+  "reason": null
+ },
+ "music|aphextwin|syro": {
+  "image": "syro.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/11a7c281-a260-4f77-a1d5-1ff2d4c917eb/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Aphex Twin",
+   "genre": [
+    "idm",
+    "ambient techno",
+    "acid techno"
+   ],
+   "mbid": "11a7c281-a260-4f77-a1d5-1ff2d4c917eb",
+   "primary_type": "Album",
+   "title": "Syro",
+   "year": 2014
+  },
+  "reason": null
+ },
+ "music|blackboxrecorder|englandmademe": {
+  "image": "england-made-me.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/321d0fde-e683-3e2a-8503-7a788b2f1b6f/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Black Box Recorder",
+   "genre": [
+    "indie rock",
+    "rock",
+    "britpop"
+   ],
+   "mbid": "321d0fde-e683-3e2a-8503-7a788b2f1b6f",
+   "primary_type": "Album",
+   "title": "England Made Me",
+   "year": 1998
+  },
+  "reason": null
+ },
+ "music|blackcountrynewroad|antsfromupthere": {
+  "image": "ants-from-up-there.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/d622ed70-ccc3-4658-8a0a-b7a2d577c28d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Black Country, New Road",
+   "genre": [
+    "post-rock",
+    "art rock",
+    "chamber pop"
+   ],
+   "mbid": "d622ed70-ccc3-4658-8a0a-b7a2d577c28d",
+   "primary_type": "Album",
+   "title": "Ants From Up There",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|bladee|coldvisions": {
+  "image": "cold-visions.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/0ab15adb-b131-4066-97d4-bf2e769fdec2/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bladee",
+   "genre": [
+    "hip hop",
+    "trap",
+    "rage"
+   ],
+   "mbid": "0ab15adb-b131-4066-97d4-bf2e769fdec2",
+   "primary_type": "Album",
+   "title": "Cold Visions",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|bladee|crest": {
+  "image": "crest.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/e259fd98-c979-413f-bc13-a859cbf3ae2b/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bladee & Ecco2K",
+   "genre": [
+    "cloud rap",
+    "progressive pop",
+    "dance-pop"
+   ],
+   "mbid": "e259fd98-c979-413f-bc13-a859cbf3ae2b",
+   "primary_type": "Album",
+   "title": "Crest",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|bladee|icedancer": {
+  "image": "icedancer.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/a802c9ce-5017-421f-9a16-b18740f677e4/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bladee",
+   "genre": [
+    "cloud rap",
+    "hip hop",
+    "pop"
+   ],
+   "mbid": "a802c9ce-5017-421f-9a16-b18740f677e4",
+   "primary_type": "Album",
+   "title": "Icedancer",
+   "year": 2018
+  },
+  "reason": null
+ },
+ "music|bladee|sulfursurfer": {
+  "image": "sulfur-surfer.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/8e048524-a96f-4657-8efd-5aa7406c8864/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bladee",
+   "genre": [],
+   "mbid": "8e048524-a96f-4657-8efd-5aa7406c8864",
+   "primary_type": "Album",
+   "title": "Sulfur Surfer",
+   "year": 2026
+  },
+  "reason": null
+ },
+ "music|blindfoldedandledtothewoods|nightmarewithdrawals": {
+  "image": "nightmare-withdrawals.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/3fb0b5b2-d9f2-4f12-9f98-92b3d18e6871/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Blindfolded and Led to the Woods",
+   "genre": [
+    "technical death metal",
+    "death metal",
+    "deathcore"
+   ],
+   "mbid": "3fb0b5b2-d9f2-4f12-9f98-92b3d18e6871",
+   "primary_type": "Album",
+   "title": "Nightmare Withdrawals",
+   "year": 2021
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|geogaddi": {
+  "image": "geogaddi.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/8183834a-6c8a-39ef-a7bc-a82f79b929e9/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "idm",
+    "electronic",
+    "ambient"
+   ],
+   "mbid": "8183834a-6c8a-39ef-a7bc-a82f79b929e9",
+   "primary_type": "Album",
+   "title": "Geogaddi",
+   "year": 2002
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|hiscores": {
+  "image": "hi-scores.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/7600e51e-065c-39d2-bd0e-556a968cce02/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "electronic",
+    "idm",
+    "ambient"
+   ],
+   "mbid": "7600e51e-065c-39d2-bd0e-556a968cce02",
+   "primary_type": "EP",
+   "title": "Hi Scores",
+   "year": 1996
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|inabeautifulplaceoutinthecountry": {
+  "image": "in-a-beautiful-place-out-in-the-country.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/c73833e3-384c-36fd-97a2-762a858dbff4/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "idm",
+    "electronic",
+    "ambient"
+   ],
+   "mbid": "c73833e3-384c-36fd-97a2-762a858dbff4",
+   "primary_type": "EP",
+   "title": "In a Beautiful Place Out in the Country",
+   "year": 2000
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|inferno": {
+  "image": "inferno.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/aca9719d-c640-41fc-a3a2-f3c52101e0ff/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "experimental",
+    "hauntology",
+    "idm"
+   ],
+   "mbid": "aca9719d-c640-41fc-a3a2-f3c52101e0ff",
+   "primary_type": "Album",
+   "title": "Inferno",
+   "year": 2026
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|musichastherighttochildren": {
+  "image": "music-has-the-right-to-children.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/17d74d52-c92b-3b8d-9f87-218ab2d1c4a0/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "idm",
+    "electronic",
+    "downtempo"
+   ],
+   "mbid": "17d74d52-c92b-3b8d-9f87-218ab2d1c4a0",
+   "primary_type": "Album",
+   "title": "Music Has the Right to Children",
+   "year": 1998
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|thecampfireheadphase": {
+  "image": "the-campfire-headphase.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/eddeaf610b6664d409346b06f23544b6/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "deezer_id": 2795781,
+   "genre": [],
+   "mbid": "646bff72-4c97-455a-a63e-930900bf32e7",
+   "primary_type": "Album",
+   "title": "The Campfire Headphase",
+   "year": 2005
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|tomorrowsharvest": {
+  "image": "tomorrows-harvest.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/77d7c506-8d47-4d68-9615-f25db638bbea/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "electronic",
+    "ambient",
+    "idm"
+   ],
+   "mbid": "77d7c506-8d47-4d68-9615-f25db638bbea",
+   "primary_type": "Album",
+   "title": "Tomorrow’s Harvest",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|transcanadahighway": {
+  "image": "trans-canada-highway.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/120c67b4-c2a9-3b76-b67f-ba25940479f2/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "downtempo",
+    "electronic",
+    "idm"
+   ],
+   "mbid": "120c67b4-c2a9-3b76-b67f-ba25940479f2",
+   "primary_type": "EP",
+   "title": "Trans Canada Highway",
+   "year": 2006
+  },
+  "reason": null
+ },
+ "music|boardsofcanada|twoism": {
+  "image": "twoism.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/e0243657-01ef-3516-b9aa-03d417d6e944/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Boards of Canada",
+   "genre": [
+    "electronic",
+    "idm",
+    "ambient"
+   ],
+   "mbid": "e0243657-01ef-3516-b9aa-03d417d6e944",
+   "primary_type": "EP",
+   "title": "Twoism",
+   "year": 1995
+  },
+  "reason": null
+ },
+ "music|boburnham|inside": {
+  "image": "inside.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/e40e0e2af0ea8eded8f8d99437e9e899/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Bo Burnham",
+   "deezer_id": 241210392,
+   "genre": [
+    "Films/Games",
+    "Comedy"
+   ],
+   "primary_type": "Album",
+   "title": "INSIDE",
+   "year": 2021
+  },
+  "reason": "Deezer fallback (no exact MusicBrainz match (closest \"Inside (The Songs)\" by Bo Burnham))"
+ },
+ "music|boburnham|theinsideouttakes": {
+  "image": "the-inside-outtakes.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/1d1cae70-7b92-4c8f-b3dd-ca9abec33737/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Bo Burnham",
+   "genre": [
+    "comedy",
+    "pop",
+    "rock"
+   ],
+   "mbid": "1d1cae70-7b92-4c8f-b3dd-ca9abec33737",
+   "primary_type": "Album",
+   "title": "THE INSIDE OUTTAKES",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|bornwithoutbones|baby": {
+  "image": "baby.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/f41f94a0-ced9-4664-98dd-9c69b6e3a925/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Born Without Bones",
+   "genre": [
+    "indie rock",
+    "rock"
+   ],
+   "mbid": "f41f94a0-ced9-4664-98dd-9c69b6e3a925",
+   "primary_type": "Album",
+   "title": "Baby",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|c418|minecraftvolumealpha": {
+  "image": "minecraft-volume-alpha.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/7f4856cd-f078-4c0d-aef7-48474d8fa890/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "C418",
+   "genre": [
+    "ambient",
+    "electronic",
+    "idm"
+   ],
+   "mbid": "7f4856cd-f078-4c0d-aef7-48474d8fa890",
+   "primary_type": "Album",
+   "title": "Minecraft – Volume Alpha",
+   "year": 2011
+  },
+  "reason": null
+ },
+ "music|carissaswierd|songsaboutleaving": {
+  "image": "songs-about-leaving.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/ab2a1e888d0e39739a4a76f1ea933fb7/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Carissa’s Wierd",
+   "deezer_id": 898257382,
+   "genre": [
+    "rock",
+    "slowcore",
+    "chamber pop"
+   ],
+   "mbid": "b8e69326-6882-3821-95ee-7609d9398ffd",
+   "primary_type": "Album",
+   "title": "Songs About Leaving",
+   "year": 2002
+  },
+  "reason": null
+ },
+ "music|charlixcx|brat": {
+  "image": "brat.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/e0fdb431-0109-420d-8a37-f99eaeb4d671/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Charli xcx",
+   "genre": [
+    "dance-pop",
+    "electropop",
+    "edm"
+   ],
+   "mbid": "e0fdb431-0109-420d-8a37-f99eaeb4d671",
+   "primary_type": "Album",
+   "title": "BRAT",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|clairo|charm": {
+  "image": "charm.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/6fb46378-9cb7-4693-b76d-a62f2cc09214/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Clairo",
+   "genre": [
+    "indie pop",
+    "singer-songwriter",
+    "soft rock"
+   ],
+   "mbid": "6fb46378-9cb7-4693-b76d-a62f2cc09214",
+   "primary_type": "Album",
+   "title": "Charm",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|cocteautwins|heavenorlasvegas": {
+  "image": "heaven-or-las-vegas.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/12fab6b9-4eaf-33b0-963e-cae03ac332fe/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Cocteau Twins",
+   "genre": [
+    "dream pop",
+    "downtempo",
+    "ethereal wave"
+   ],
+   "mbid": "12fab6b9-4eaf-33b0-963e-cae03ac332fe",
+   "primary_type": "Album",
+   "title": "Heaven or Las Vegas",
+   "year": 1990
+  },
+  "reason": null
+ },
+ "music|crywank|dontpissonmeimalreadydead": {
+  "image": "don-t-piss-on-me-i-m-already-dead.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/d5651388-77a7-485a-b936-6269e1af4a3d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Crywank",
+   "genre": [
+    "folk",
+    "emo",
+    "experimental"
+   ],
+   "mbid": "d5651388-77a7-485a-b936-6269e1af4a3d",
+   "primary_type": "Album",
+   "title": "Don't Piss On Me, I'm Already Dead",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "music|crywank|jamesisgoingtodiesoon": {
+  "image": "james-is-going-to-die-soon.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/093068a8-424c-4dec-b8ab-4571bb4d76c0/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Crywank",
+   "genre": [
+    "anti-folk",
+    "emo",
+    "folk"
+   ],
+   "mbid": "093068a8-424c-4dec-b8ab-4571bb4d76c0",
+   "primary_type": "Album",
+   "title": "James Is Going to Die Soon",
+   "year": 2010
+  },
+  "reason": null
+ },
+ "music|crywank|justpoppingintosayhi": {
+  "image": "just-popping-in-to-say-hi.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/0579d0af-cb58-4283-809d-e3fc64b5e77e/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Crywank",
+   "genre": [
+    "anti-folk",
+    "emo",
+    "folk"
+   ],
+   "mbid": "0579d0af-cb58-4283-809d-e3fc64b5e77e",
+   "primary_type": "Album",
+   "title": "Just Popping in to Say Hi",
+   "year": 2021
+  },
+  "reason": null
+ },
+ "music|crywank|narcissistonthevergeofanervousbreakdown": {
+  "image": "narcissist-on-the-verge-of-a-nervous-breakdown.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/4bacb9f7-6817-464b-9623-25a754717f7e/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Crywank",
+   "genre": [
+    "emo",
+    "folk",
+    "lo-fi"
+   ],
+   "mbid": "4bacb9f7-6817-464b-9623-25a754717f7e",
+   "primary_type": "Album",
+   "title": "Narcissist on the Verge of a Nervous Breakdown",
+   "year": 2012
+  },
+  "reason": null
+ },
+ "music|crywank|tomorrowisnearlyyesterdayandeverydayisstupid": {
+  "image": "tomorrow-is-nearly-yesterday-and-everyday-is-stupid.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/6572439063882b06a53b8b6f109418c4/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Crywank",
+   "deezer_id": 888930702,
+   "genre": [],
+   "mbid": "d4b45131-0534-4cad-974b-163e6a25e9ab",
+   "primary_type": "Album",
+   "title": "Tomorrow Is Nearly Yesterday And Everyday Is Stupid",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|crywank|tourdemos2013": {
+  "image": "tour-demos-2013.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/22a6c750-ce62-4340-b392-58264290033b/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Crywank",
+   "genre": [],
+   "mbid": "22a6c750-ce62-4340-b392-58264290033b",
+   "primary_type": "Album",
+   "title": "Tour Demos 2013",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|crywank|wearingbeigeonagreyday": {
+  "image": "wearing-beige-on-a-grey-day.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/1b6f16f0-34a1-47f7-b56a-14e74eb03f1f/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Crywank",
+   "genre": [
+    "anti-folk",
+    "emo",
+    "folk"
+   ],
+   "mbid": "1b6f16f0-34a1-47f7-b56a-14e74eb03f1f",
+   "primary_type": "Album",
+   "title": "Wearing Beige on a Grey Day",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "music|cyberbullymomclub|amylocustwhatever": {
+  "image": "amy-locust-whatever.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/395b3c1f-3db0-4901-ac0c-c1667479aebe/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Cyberbully Mom Club",
+   "genre": [
+    "lo-fi"
+   ],
+   "mbid": "395b3c1f-3db0-4901-ac0c-c1667479aebe",
+   "primary_type": "Album",
+   "title": "Amy Locust Whatever",
+   "year": 2014
+  },
+  "reason": null
+ },
+ "music|death|thesoundofperseverance": {
+  "image": "the-sound-of-perseverance.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/0cd38da9-90a9-3e0b-bef6-e70036c8a619/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Death",
+   "genre": [
+    "death metal",
+    "progressive metal",
+    "metal"
+   ],
+   "mbid": "0cd38da9-90a9-3e0b-bef6-e70036c8a619",
+   "primary_type": "Album",
+   "title": "The Sound of Perseverance",
+   "year": 1998
+  },
+  "reason": null
+ },
+ "music|dekommunalanställda|dekommunalanställdalovesyou": {
+  "image": "de-kommunalanstallda-loves-you.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/e37bba67897d9a1884323b0dac3f2930/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "De kommunalanställda",
+   "deezer_id": 476105765,
+   "genre": [
+    "Alternative",
+    "Indie Pop",
+    "Indie Rock"
+   ],
+   "primary_type": "Album",
+   "title": "De Kommunalanställda Loves You",
+   "year": 2023
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|dekommunalanställda|nushu": {
+  "image": "nushu.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/67263787a0e0917352c401b69475411f/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "De kommunalanställda",
+   "deezer_id": 769210721,
+   "genre": [
+    "Rock"
+   ],
+   "title": "Nushu",
+   "year": 2025
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|dion|grove": {
+  "image": "grove.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/9de9dbe6a1fb49052b89397f62e3bedd/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Dion",
+   "deezer_id": 379130007,
+   "genre": [],
+   "mbid": "e59c9ec9-4c2a-4e94-95c5-303349ddc38c",
+   "title": "Grove",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|drux|whatthelowdoes": {
+  "image": "what-the-low-does.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/6da4fcfd-09af-4597-a166-6055967517f3/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Drux",
+   "genre": [],
+   "mbid": "6da4fcfd-09af-4597-a166-6055967517f3",
+   "primary_type": "Album",
+   "title": "What The Low Does",
+   "year": 2025
+  },
+  "reason": null
+ },
+ "music|duster|together": {
+  "image": "together.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/c937b3cc-2d93-49c0-83cc-d341b5e17a49/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Duster",
+   "genre": [
+    "slowcore",
+    "dream pop",
+    "indie rock"
+   ],
+   "mbid": "c937b3cc-2d93-49c0-83cc-d341b5e17a49",
+   "primary_type": "Album",
+   "title": "Together",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|ecco2k|e": {
+  "image": "e.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/4d5b83dc-85b6-42c6-977e-46dd9e9d8e58/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Ecco2k",
+   "genre": [
+    "cloud rap",
+    "contemporary r&b",
+    "electronic"
+   ],
+   "mbid": "4d5b83dc-85b6-42c6-977e-46dd9e9d8e58",
+   "primary_type": "Album",
+   "title": "E",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "music|eden2001|musick": {
+  "image": "musick.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/154c4594-253d-4f71-840b-db1122bd00a8/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "eden2001",
+   "genre": [],
+   "mbid": "154c4594-253d-4f71-840b-db1122bd00a8",
+   "primary_type": "Album",
+   "title": "MUSICK",
+   "year": 2026
+  },
+  "reason": null
+ },
+ "music|elliottsmith|eitheror": {
+  "image": "either-or.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/dfb85157-313b-3f5f-8739-a5162bcb6345/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Elliott Smith",
+   "genre": [
+    "indie pop",
+    "folk rock",
+    "indie folk"
+   ],
+   "mbid": "dfb85157-313b-3f5f-8739-a5162bcb6345",
+   "primary_type": "Album",
+   "title": "Either/Or",
+   "year": 1997
+  },
+  "reason": null
+ },
+ "music|elliottsmith|elliottsmith": {
+  "image": "elliott-smith.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/d90675f8-ac35-3737-898a-b9860fc3f5f3/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Elliott Smith",
+   "genre": [
+    "indie folk",
+    "lo-fi",
+    "singer-songwriter"
+   ],
+   "mbid": "d90675f8-ac35-3737-898a-b9860fc3f5f3",
+   "primary_type": "Album",
+   "title": "Elliott Smith",
+   "year": 1995
+  },
+  "reason": null
+ },
+ "music|elliottsmith|figure8": {
+  "image": "figure-8.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/2fd75c21-7a92-3bcc-b045-d5bab5c36d11/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Elliott Smith",
+   "genre": [
+    "indie pop",
+    "indie rock",
+    "chamber pop"
+   ],
+   "mbid": "2fd75c21-7a92-3bcc-b045-d5bab5c36d11",
+   "primary_type": "Album",
+   "title": "Figure 8",
+   "year": 2000
+  },
+  "reason": null
+ },
+ "music|elliottsmith|newmoon": {
+  "image": "new-moon.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/313a9a34-e1f2-39d7-a17d-8fa69fac4fa6/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Elliott Smith",
+   "genre": [
+    "rock",
+    "blues",
+    "indie rock"
+   ],
+   "mbid": "313a9a34-e1f2-39d7-a17d-8fa69fac4fa6",
+   "primary_type": "Album",
+   "title": "New Moon",
+   "year": 2007
+  },
+  "reason": null
+ },
+ "music|elliottsmith|xo": {
+  "image": "xo.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/5672afcd-18af-4c38-a62a-6a7d76f7e529/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Elliott Smith",
+   "genre": [
+    "indie rock",
+    "chamber pop",
+    "indie folk"
+   ],
+   "mbid": "5672afcd-18af-4c38-a62a-6a7d76f7e529",
+   "primary_type": "Album",
+   "title": "XO",
+   "year": 1998
+  },
+  "reason": null
+ },
+ "music|failbetterhealfaster|failbetterhealfaster": {
+  "image": "fail-better-heal-faster.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/f1b403f17c0560060e2c49de45254067/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fail Better, Heal Faster",
+   "deezer_id": 922156571,
+   "genre": [
+    "jazz",
+    "punk"
+   ],
+   "mbid": "a24f443d-ffed-487b-97ee-0cc0a63b6264",
+   "primary_type": "Album",
+   "title": "Fail Better, Heal Faster",
+   "year": 2017
+  },
+  "reason": null
+ },
+ "music|fayewebster|fayewebster": {
+  "image": "faye-webster.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/58adb48e-c54c-4a9b-81c5-d6e70c510b18/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Faye Webster",
+   "genre": [],
+   "mbid": "58adb48e-c54c-4a9b-81c5-d6e70c510b18",
+   "primary_type": "Album",
+   "title": "Faye Webster",
+   "year": 2017
+  },
+  "reason": null
+ },
+ "music|feeblelittlehorse|girlwithfish": {
+  "image": "girl-with-fish.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/eb5864b7-84d7-4621-8f6f-96b71317f9ed/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "feeble little horse",
+   "genre": [
+    "dream pop",
+    "pop",
+    "post-punk"
+   ],
+   "mbid": "eb5864b7-84d7-4621-8f6f-96b71317f9ed",
+   "primary_type": "Album",
+   "title": "Girl With Fish",
+   "year": 2023
+  },
+  "reason": null
+ },
+ "music|fleshwater|werenotheretobeloved": {
+  "image": "were-not-here-to-be-loved.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/dc7bec45-b321-4dfc-be66-96eab5acb36e/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fleshwater",
+   "genre": [
+    "rock",
+    "shoegaze"
+   ],
+   "mbid": "dc7bec45-b321-4dfc-be66-96eab5acb36e",
+   "primary_type": "Album",
+   "title": "We’re Not Here to Be Loved",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|fratmouse|ratpack": {
+  "image": "rat-pack.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/5e40c0d8-14b2-49e5-8f67-a5341223532c/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Frat Mouse",
+   "genre": [
+    "emo",
+    "indie rock",
+    "midwest emo"
+   ],
+   "mbid": "5e40c0d8-14b2-49e5-8f67-a5341223532c",
+   "primary_type": "Album",
+   "title": "Rat Pack",
+   "year": 2020
+  },
+  "reason": null
+ },
+ "music|freethrow|thosedaysaregone": {
+  "image": "those-days-are-gone.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ae1c8764-8ad0-441f-882d-6089f985e36c/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Free Throw",
+   "genre": [],
+   "mbid": "ae1c8764-8ad0-441f-882d-6089f985e36c",
+   "primary_type": "Album",
+   "title": "Those Days Are Gone",
+   "year": 2014
+  },
+  "reason": null
+ },
+ "music|glassbeach|plasticdeath": {
+  "image": "plastic-death.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/9bcaf505-2c6c-4931-9623-1f22a8229aa6/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "glass beach",
+   "genre": [
+    "indie rock",
+    "bedroom pop",
+    "emo"
+   ],
+   "mbid": "9bcaf505-2c6c-4931-9623-1f22a8229aa6",
+   "primary_type": "Album",
+   "title": "plastic death",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|glassbeach|thefirstglassbeachalbum": {
+  "image": "the-first-glass-beach-album.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/a491e185-9c1e-47a0-964b-137b802aa928/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "glass beach",
+   "genre": [
+    "indie rock",
+    "art pop",
+    "emo"
+   ],
+   "mbid": "a491e185-9c1e-47a0-964b-137b802aa928",
+   "primary_type": "Album",
+   "title": "the first glass beach album",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "music|grouper|themanwhodiedinhisboat": {
+  "image": "the-man-who-died-in-his-boat.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/bf8711a9-51ca-4c10-829c-187f7ce32ced/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Grouper",
+   "genre": [
+    "ambient",
+    "dream pop",
+    "drone"
+   ],
+   "mbid": "bf8711a9-51ca-4c10-829c-187f7ce32ced",
+   "primary_type": "Album",
+   "title": "The Man Who Died in His Boat",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|haveanicelife|deathconsciousness": {
+  "image": "deathconsciousness.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/bb449522-eefd-3d7e-b712-b2cf7e9de0b1/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Have a Nice Life",
+   "genre": [
+    "post-punk",
+    "shoegaze",
+    "gothic rock"
+   ],
+   "mbid": "bb449522-eefd-3d7e-b712-b2cf7e9de0b1",
+   "primary_type": "Album",
+   "title": "Deathconsciousness",
+   "year": 2008
+  },
+  "reason": null
+ },
+ "music|haveanicelife|seaofworry": {
+  "image": "sea-of-worry.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ab34dfff-20e5-4503-90bc-466f2939bce4/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Have a Nice Life",
+   "genre": [
+    "shoegaze",
+    "doomgaze",
+    "drone"
+   ],
+   "mbid": "ab34dfff-20e5-4503-90bc-466f2939bce4",
+   "primary_type": "Album",
+   "title": "Sea of Worry",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "music|haveanicelife|theunnaturalworld": {
+  "image": "the-unnatural-world.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/3af581eb-d389-4357-b80c-36575667f56c/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Have a Nice Life",
+   "genre": [
+    "shoegaze",
+    "post-punk",
+    "drone"
+   ],
+   "mbid": "3af581eb-d389-4357-b80c-36575667f56c",
+   "primary_type": "Album",
+   "title": "The Unnatural World",
+   "year": 2014
+  },
+  "reason": null
+ },
+ "music|hiroshiyoshimura|green": {
+  "image": "green-sfx-version.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/8d6356d4ef54679286fd598377790f79/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Hiroshi Yoshimura",
+   "deezer_id": 697670701,
+   "genre": [
+    "Pop"
+   ],
+   "primary_type": "Album",
+   "title": "Green (SFX Version)",
+   "year": 1986
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|idiotchild|thefirstbreathisthebeginningofdeath": {
+  "image": "the-first-breath-is-the-beginning-of-death.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/d2685da5-267c-4778-8bbf-2582dc18eefc/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Idiot Child",
+   "genre": [],
+   "mbid": "d2685da5-267c-4778-8bbf-2582dc18eefc",
+   "primary_type": "Album",
+   "title": "The First Breath Is The Beginning Of Death",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|itriedtorunawaywheniwas6butgottooscaredtocrossthestreet|itriedtorunawaywheniwas6butgottooscaredtocrossthestreet": {
+  "image": null,
+  "image_urls": [],
+  "match": "failed",
+  "meta": null,
+  "reason": "no MusicBrainz results; no Deezer or iTunes match"
+ },
+ "music|jackzebra|弓长张": {
+  "image": "d0d191.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/1131db36-1425-4de4-8ae3-222641c0e77e/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "jackzebra",
+   "genre": [],
+   "mbid": "1131db36-1425-4de4-8ae3-222641c0e77e",
+   "primary_type": "EP",
+   "title": "弓长张",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|jeffbuckley|grace": {
+  "image": "grace.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ea29c347-696f-3165-986d-7bad1394b178/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Jeff Buckley",
+   "genre": [
+    "alternative rock",
+    "rock",
+    "singer-songwriter"
+   ],
+   "mbid": "ea29c347-696f-3165-986d-7bad1394b178",
+   "primary_type": "Album",
+   "title": "Grace",
+   "year": 1994
+  },
+  "reason": null
+ },
+ "music|jeffbuckley|sketchesformysweetheartthedrunk": {
+  "image": "sketches-for-my-sweetheart-the-drunk.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/98dd8826-eae5-3700-957e-397bd0cf82d4/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Jeff Buckley",
+   "genre": [
+    "rock",
+    "folk",
+    "alternative rock"
+   ],
+   "mbid": "98dd8826-eae5-3700-957e-397bd0cf82d4",
+   "primary_type": "Album",
+   "title": "Sketches for My Sweetheart the Drunk",
+   "year": 1998
+  },
+  "reason": null
+ },
+ "music|kardashev|alunea": {
+  "image": "alunea.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/386e4fd1-62b8-4b00-a5bd-576b2509155e/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Kardashev",
+   "genre": [
+    "deathcore",
+    "progressive metal"
+   ],
+   "mbid": "386e4fd1-62b8-4b00-a5bd-576b2509155e",
+   "primary_type": "Album",
+   "title": "Alunea",
+   "year": 2025
+  },
+  "reason": null
+ },
+ "music|kardashev|liminalrite": {
+  "image": "liminal-rite.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/2cf14676-aa6b-4237-84e3-312735e1019d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Kardashev",
+   "genre": [
+    "deathcore",
+    "death metal",
+    "post-metal"
+   ],
+   "mbid": "2cf14676-aa6b-4237-84e3-312735e1019d",
+   "primary_type": "Album",
+   "title": "Liminal Rite",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|katatonia|bravemurderday": {
+  "image": "brave-murder-day.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/9a86748d-33f5-37f8-a9f9-8be806d0ed92/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Katatonia",
+   "genre": [
+    "death-doom metal",
+    "black metal",
+    "doom metal"
+   ],
+   "mbid": "9a86748d-33f5-37f8-a9f9-8be806d0ed92",
+   "primary_type": "Album",
+   "title": "Brave Murder Day",
+   "year": 1996
+  },
+  "reason": null
+ },
+ "music|kent|vapenandammunition": {
+  "image": "vapen-ammunition.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/94a80122-4de2-3676-bf0b-f7d2f72ff8bd/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Kent",
+   "genre": [
+    "alternative rock",
+    "rock",
+    "indie rock"
+   ],
+   "mbid": "94a80122-4de2-3676-bf0b-f7d2f72ff8bd",
+   "primary_type": "Album",
+   "title": "Vapen & ammunition",
+   "year": 2002
+  },
+  "reason": null
+ },
+ "music|kingcrimson|inthecourtofthecrimsonking": {
+  "image": "in-the-court-of-the-crimson-king.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/a50636b5-5233-3329-a7f3-dba3d0e00ef7/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "King Crimson",
+   "genre": [
+    "progressive rock",
+    "art rock",
+    "rock"
+   ],
+   "mbid": "a50636b5-5233-3329-a7f3-dba3d0e00ef7",
+   "primary_type": "Album",
+   "title": "In the Court of the Crimson King",
+   "year": 1969
+  },
+  "reason": null
+ },
+ "music|kingcrimson|red": {
+  "image": "red.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/89bc97c8-921a-3758-8481-3b39c564e297/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "King Crimson",
+   "genre": [
+    "progressive rock",
+    "art rock",
+    "rock"
+   ],
+   "mbid": "89bc97c8-921a-3758-8481-3b39c564e297",
+   "primary_type": "Album",
+   "title": "Red",
+   "year": 1974
+  },
+  "reason": null
+ },
+ "music|labisiffre|thesingerandthesong": {
+  "image": "the-singer-and-the-song.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/285a3105-8da0-454f-8256-cb8fd7c9c9a1/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Labi Siffre",
+   "genre": [
+    "pop",
+    "soul"
+   ],
+   "mbid": "285a3105-8da0-454f-8256-cb8fd7c9c9a1",
+   "primary_type": "Album",
+   "title": "The Singer and the Song",
+   "year": 1971
+  },
+  "reason": null
+ },
+ "music|lamp|forlovers": {
+  "image": "for-lovers.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/1f1e8acf2420b6d04240281b41185213/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Lamp",
+   "deezer_id": 117715332,
+   "genre": [
+    "Asian Music"
+   ],
+   "primary_type": "Album",
+   "title": "For Lovers",
+   "year": 2004
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|latexfruit|voyuitwaaienjumpstyleversion": {
+  "image": "voyuitwaaien-jumpstyle-version.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/f23eec032d1d1cc1d97b95c93e16e620/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "latex fruit",
+   "deezer_id": 807535631,
+   "genre": [
+    "Electro"
+   ],
+   "title": "#voyuitwaaien (jumpstyle version)",
+   "year": 2025
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|laufey|anightatthesymphonyliveatthehollywoodbowl": {
+  "image": "a-night-at-the-symphony-live-at-the-hollywood-bowl.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/f0f5c3f1a56bb2dccc834db5b07ad07b/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Laufey",
+   "deezer_id": 676658701,
+   "genre": [
+    "Jazz"
+   ],
+   "primary_type": "Album",
+   "title": "A Night At The Symphony: Live at the Hollywood Bowl",
+   "year": 2024
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|lifelover|pulver": {
+  "image": "pulver.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/5c5cf1b4-6ee1-36f9-8684-ce45af64115f/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Lifelover",
+   "genre": [
+    "depressive black metal",
+    "post-punk"
+   ],
+   "mbid": "5c5cf1b4-6ee1-36f9-8684-ce45af64115f",
+   "primary_type": "Album",
+   "title": "Pulver",
+   "year": 2006
+  },
+  "reason": null
+ },
+ "music|lunaa|nofair": {
+  "image": "no-fair-feat-effie.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/81c29a0a4b62511fb83217e46473ceaa/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Lunaa",
+   "deezer_id": 457872515,
+   "genre": [
+    "Rap/Hip Hop"
+   ],
+   "primary_type": "Single",
+   "title": "No fair (feat. Effie)",
+   "year": 2023
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|machinegirl|superfreq": {
+  "image": "super-freq.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/0f713bce40ffe9de65339bb5cf7b6250/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Machine Girl",
+   "deezer_id": 563698492,
+   "genre": [
+    "Electro"
+   ],
+   "primary_type": "Ep",
+   "title": "SUPER FREQ",
+   "year": 2024
+  },
+  "reason": "Deezer fallback (no exact MusicBrainz match (closest \"SUPER FREQ EP\" by Machine Girl))"
+ },
+ "music|margoguryan|27demos": {
+  "image": "27-demos.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/9f9db364d801eefa751830578035b595/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Margo Guryan",
+   "deezer_id": 447470935,
+   "genre": [
+    "folk rock",
+    "pop",
+    "pop rock"
+   ],
+   "mbid": "1fd43698-61ba-4ea8-9d79-6cfcfb6a8099",
+   "primary_type": "Album",
+   "title": "27 Demos",
+   "year": 2014
+  },
+  "reason": null
+ },
+ "music|mechatok|wideawake": {
+  "image": "wide-awake.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/176329b1-8bd1-41c7-b79c-3727dd194b82/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Mechatok",
+   "genre": [],
+   "mbid": "176329b1-8bd1-41c7-b79c-3727dd194b82",
+   "primary_type": "Album",
+   "title": "Wide Awake",
+   "year": 2025
+  },
+  "reason": null
+ },
+ "music|meganddia|somethingrealandherehereandhere": {
+  "image": "something-real-here-here-and-here.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/281ba98f-0d0a-4712-a237-d530e72c3be1/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Meg & Dia",
+   "genre": [],
+   "mbid": "281ba98f-0d0a-4712-a237-d530e72c3be1",
+   "primary_type": "Album",
+   "title": "Something Real & Here, Here and Here",
+   "year": 2009
+  },
+  "reason": null
+ },
+ "music|mineral|thepoweroffailing": {
+  "image": "the-power-of-failing.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/3ff93a02-eec5-3624-b1fe-7b33a0795cbb/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Mineral",
+   "genre": [
+    "emo",
+    "rock",
+    "indie rock"
+   ],
+   "mbid": "3ff93a02-eec5-3624-b1fe-7b33a0795cbb",
+   "primary_type": "Album",
+   "title": "The Power of Failing",
+   "year": 1996
+  },
+  "reason": null
+ },
+ "music|mounteerie|acrowlookedatme": {
+  "image": "a-crow-looked-at-me.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ef53005d-918f-49c1-9e65-4c595d5939ae/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Mount Eerie",
+   "genre": [
+    "experimental",
+    "folk",
+    "folk rock"
+   ],
+   "mbid": "ef53005d-918f-49c1-9e65-4c595d5939ae",
+   "primary_type": "Album",
+   "title": "A Crow Looked at Me",
+   "year": 2017
+  },
+  "reason": null
+ },
+ "music|mounteerie|dawn": {
+  "image": "dawn.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/e362057e-1345-3ad9-8bd6-f1c51fd2fc76/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Mount Eerie",
+   "genre": [
+    "indie folk",
+    "singer-songwriter",
+    "indie rock"
+   ],
+   "mbid": "e362057e-1345-3ad9-8bd6-f1c51fd2fc76",
+   "primary_type": "Album",
+   "title": "Dawn",
+   "year": 2008
+  },
+  "reason": null
+ },
+ "music|mybloodyvalentine|eps19881991andraretracks": {
+  "image": "eps-1988-1991-and-rare-tracks.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/33ee7142dfc2c664e507edafb7f9dd48/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "my bloody valentine",
+   "deezer_id": 212768362,
+   "genre": [
+    "Alternative"
+   ],
+   "primary_type": "Album",
+   "title": "ep’s 1988-1991 and rare tracks",
+   "year": 2012
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|ninajirachi|ilovemycomputer": {
+  "image": "i-love-my-computer.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/6ab2d1f5-1730-499d-a814-6fe6eb9ec1f0/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Ninajirachi",
+   "genre": [
+    "electro house",
+    "electropop",
+    "complextro"
+   ],
+   "mbid": "6ab2d1f5-1730-499d-a814-6fe6eb9ec1f0",
+   "primary_type": "Album",
+   "title": "I Love My Computer",
+   "year": 2025
+  },
+  "reason": null
+ },
+ "music|ninasimone|wildisthewind": {
+  "image": "wild-is-the-wind.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/b4433a3e-d5ad-3d99-965c-96bfb6a0f071/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nina Simone",
+   "genre": [
+    "jazz",
+    "soul jazz"
+   ],
+   "mbid": "b4433a3e-d5ad-3d99-965c-96bfb6a0f071",
+   "primary_type": "Album",
+   "title": "Wild Is the Wind",
+   "year": 1966
+  },
+  "reason": null
+ },
+ "music|nomark|sneg": {
+  "image": "sneg.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/130c5aac-814f-43dc-ac4e-414e461e7107/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nomark",
+   "genre": [],
+   "mbid": "130c5aac-814f-43dc-ac4e-414e461e7107",
+   "title": "Sneg",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|normajean|redeemer": {
+  "image": "redeemer.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/b189f240-1ddd-3222-947a-d3ff3f6147fd/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Norma Jean",
+   "genre": [
+    "metalcore",
+    "mathcore",
+    "noise rock"
+   ],
+   "mbid": "b189f240-1ddd-3222-947a-d3ff3f6147fd",
+   "primary_type": "Album",
+   "title": "Redeemer",
+   "year": 2006
+  },
+  "reason": null
+ },
+ "music|normajean|wrongdoers": {
+  "image": "wrongdoers.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/531ba07f-22fc-42dc-b7d8-36157c3a7984/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Norma Jean",
+   "genre": [
+    "metalcore",
+    "rock"
+   ],
+   "mbid": "531ba07f-22fc-42dc-b7d8-36157c3a7984",
+   "primary_type": "Album",
+   "title": "Wrongdoers",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|nouns|stillbummed": {
+  "image": "still-bummed.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/e1f352fb-2025-48bb-99df-1db3f5d992b4/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nouns",
+   "genre": [
+    "emo",
+    "indietronica",
+    "midwest emo"
+   ],
+   "mbid": "e1f352fb-2025-48bb-99df-1db3f5d992b4",
+   "primary_type": "Album",
+   "title": "Still Bummed",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|oklou|chokeenough": {
+  "image": "choke-enough.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/45f8261c-e781-4a8f-b1f6-ca6616bd1dfe/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Oklou",
+   "genre": [
+    "electronic",
+    "alternative r&b",
+    "ambient pop"
+   ],
+   "mbid": "45f8261c-e781-4a8f-b1f6-ca6616bd1dfe",
+   "primary_type": "Album",
+   "title": "choke enough",
+   "year": 2025
+  },
+  "reason": null
+ },
+ "music|panchiko|deathmetal": {
+  "image": "d-e-a-t-h-m-e-t-a-l.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/e53da1e9-2197-4755-baf1-182de0c74e26/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Panchiko",
+   "genre": [
+    "indie rock",
+    "dream pop",
+    "electronic"
+   ],
+   "mbid": "e53da1e9-2197-4755-baf1-182de0c74e26",
+   "primary_type": "EP",
+   "title": "D>E>A>T>H>M>E>T>A>L",
+   "year": 2000
+  },
+  "reason": null
+ },
+ "music|panchiko|failedatmaths": {
+  "image": "failed-at-math-s.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/adbf3252-11fc-4bd1-9bbf-88ef3772ea16/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Panchiko",
+   "genre": [
+    "trip hop",
+    "dream pop",
+    "electronic"
+   ],
+   "mbid": "adbf3252-11fc-4bd1-9bbf-88ef3772ea16",
+   "primary_type": "Album",
+   "title": "Failed at Math(s)",
+   "year": 2023
+  },
+  "reason": null
+ },
+ "music|panchiko|ferricoxidedemos19972001": {
+  "image": "ferric-oxide-demos-1997-2001.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/3d5cbee0a9e0c3f744562ecc7db8bd9c/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Panchiko",
+   "deezer_id": 1101543092,
+   "genre": [
+    "Alternative"
+   ],
+   "primary_type": "Album",
+   "title": "Ferric Oxide (Demos 1997 - 2001)",
+   "year": 2020
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|paulbaribeau|grandledge": {
+  "image": "grand-ledge.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/cadcd5e2-b6f6-3adf-9c3b-9e6aa8c10362/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Paul Baribeau",
+   "genre": [
+    "folk",
+    "folk punk",
+    "punk"
+   ],
+   "mbid": "cadcd5e2-b6f6-3adf-9c3b-9e6aa8c10362",
+   "primary_type": "Album",
+   "title": "Grand Ledge",
+   "year": 2007
+  },
+  "reason": null
+ },
+ "music|pinegrove|cardinal": {
+  "image": "cardinal.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/5926cc46-a92b-49e0-9bfb-0b62047e4201/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Pinegrove",
+   "genre": [
+    "indie rock",
+    "folk rock",
+    "rock"
+   ],
+   "mbid": "5926cc46-a92b-49e0-9bfb-0b62047e4201",
+   "primary_type": "Album",
+   "title": "Cardinal",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "music|pinegrove|everythingsofar": {
+  "image": "everything-so-far.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/c21be7f0-b46b-469c-97bc-d172c53596e8/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Pinegrove",
+   "genre": [
+    "indie rock",
+    "rock"
+   ],
+   "mbid": "c21be7f0-b46b-469c-97bc-d172c53596e8",
+   "primary_type": "Album",
+   "title": "Everything So Far",
+   "year": 2015
+  },
+  "reason": null
+ },
+ "music|pradaaslife|scrapclub": {
+  "image": "scrapclub.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/7191a1e0-5bb2-4053-8896-93da5ecbd03b/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Pradaaslife",
+   "genre": [],
+   "mbid": "7191a1e0-5bb2-4053-8896-93da5ecbd03b",
+   "primary_type": "Album",
+   "title": "Scrapclub",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|prefabsprout|stevemcqueen": {
+  "image": "steve-mcqueen.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/c77d83f2de07426ed5a0e8e9fc967156/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Prefab Sprout",
+   "deezer_id": 114577362,
+   "genre": [],
+   "mbid": "41dcc351-8b81-44f4-a5c5-3e942a21c5de",
+   "primary_type": "Album",
+   "title": "Steve McQueen",
+   "year": 2000
+  },
+  "reason": null
+ },
+ "music|radiohead|inrainbows": {
+  "image": "in-rainbows.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/6e335887-60ba-38f0-95af-fae7774336bf/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Radiohead",
+   "genre": [
+    "alternative rock",
+    "rock",
+    "art rock"
+   ],
+   "mbid": "6e335887-60ba-38f0-95af-fae7774336bf",
+   "primary_type": "Album",
+   "title": "In Rainbows",
+   "year": 2007
+  },
+  "reason": null
+ },
+ "music|radiohead|kidamnesia": {
+  "image": "kid-a-mnesia.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/6f25f9fb-e9e3-4c0d-8904-ecb8b46cd8aa/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Radiohead",
+   "genre": [
+    "alternative rock",
+    "electronic",
+    "experimental"
+   ],
+   "mbid": "6f25f9fb-e9e3-4c0d-8904-ecb8b46cd8aa",
+   "primary_type": "Album",
+   "title": "KID A MNESIA",
+   "year": 2021
+  },
+  "reason": null
+ },
+ "music|radiohead|okcomputer": {
+  "image": "ok-computer.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/b1392450-e666-3926-a536-22c65f834433/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Radiohead",
+   "genre": [
+    "alternative rock",
+    "art rock",
+    "rock"
+   ],
+   "mbid": "b1392450-e666-3926-a536-22c65f834433",
+   "primary_type": "Album",
+   "title": "OK Computer",
+   "year": 1997
+  },
+  "reason": null
+ },
+ "music|radiohead|thebends": {
+  "image": "the-bends.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/b8048f24-c026-3398-b23a-b5e50716cbc7/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Radiohead",
+   "genre": [
+    "alternative rock",
+    "rock",
+    "britpop"
+   ],
+   "mbid": "b8048f24-c026-3398-b23a-b5e50716cbc7",
+   "primary_type": "Album",
+   "title": "The Bends",
+   "year": 1994
+  },
+  "reason": null
+ },
+ "music|royelotis|lingerheadingforthedoorsiriusxmsession": {
+  "image": "linger-heading-for-the-door-sirius-xm-session.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/39febc80-98ae-412a-8c17-68c326b258b3/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Royel Otis",
+   "genre": [],
+   "mbid": "39febc80-98ae-412a-8c17-68c326b258b3",
+   "title": "Linger / Heading For The Door (Sirius XM Session)",
+   "year": 2024
+  },
+  "reason": null
+ },
+ "music|silverstein|discoveringthewaterfront": {
+  "image": "discovering-the-waterfront.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/2d71b800-bcff-3ab1-8479-c68d69649f8d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Silverstein",
+   "genre": [
+    "post-hardcore",
+    "emo",
+    "alternative punk"
+   ],
+   "mbid": "2d71b800-bcff-3ab1-8479-c68d69649f8d",
+   "primary_type": "Album",
+   "title": "Discovering the Waterfront",
+   "year": 2005
+  },
+  "reason": null
+ },
+ "music|sleepingwithsirens|letscheerstothis": {
+  "image": "lets-cheers-to-this.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/91a2ea9a-a908-4b46-a985-e21657a7d93b/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Sleeping With Sirens",
+   "genre": [
+    "rock",
+    "alternative rock",
+    "emo pop"
+   ],
+   "mbid": "91a2ea9a-a908-4b46-a985-e21657a7d93b",
+   "primary_type": "Album",
+   "title": "Let’s Cheers to This",
+   "year": 2011
+  },
+  "reason": null
+ },
+ "music|slowdive|souvlaki": {
+  "image": "souvlaki.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/46482030-ef12-319c-9c5a-5d04c39d574b/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Slowdive",
+   "genre": [
+    "shoegaze",
+    "dream pop",
+    "alternative rock"
+   ],
+   "mbid": "46482030-ef12-319c-9c5a-5d04c39d574b",
+   "primary_type": "Album",
+   "title": "Souvlaki",
+   "year": 1993
+  },
+  "reason": null
+ },
+ "music|songsohia|magnoliaelectricco": {
+  "image": "magnolia-electric-co-deluxe-edition.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/1fa17d9f931f6356f791c76f5da60591/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Songs: Ohia",
+   "deezer_id": 7291528,
+   "genre": [
+    "Alternative"
+   ],
+   "primary_type": "Album",
+   "title": "Magnolia Electric Co. (Deluxe Edition)",
+   "year": 2013
+  },
+  "reason": "Deezer fallback (no exact MusicBrainz match (closest \"The Magnolia Electric Co.\" by Songs: Ohia))"
+ },
+ "music|squarepusher|goplastic": {
+  "image": "go-plastic.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/d23b8787-52a7-3b9c-bf94-862d17410ea7/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Squarepusher",
+   "genre": [
+    "electronic",
+    "breakcore",
+    "drill and bass"
+   ],
+   "mbid": "d23b8787-52a7-3b9c-bf94-862d17410ea7",
+   "primary_type": "Album",
+   "title": "Go Plastic",
+   "year": 2001
+  },
+  "reason": null
+ },
+ "music|squarepusher|hardnormaldaddy": {
+  "image": "hard-normal-daddy.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/f4168d4e-c0e8-388f-8baa-4de058d852e5/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Squarepusher",
+   "genre": [
+    "idm",
+    "electronic",
+    "drum and bass"
+   ],
+   "mbid": "f4168d4e-c0e8-388f-8baa-4de058d852e5",
+   "primary_type": "Album",
+   "title": "Hard Normal Daddy",
+   "year": 1997
+  },
+  "reason": null
+ },
+ "music|starrycat|starrycat": {
+  "image": "starry-cat.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/b3749275-2631-4bc8-9188-75610fa830be/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "starry cat",
+   "genre": [
+    "indie rock",
+    "lo-fi",
+    "pop"
+   ],
+   "mbid": "b3749275-2631-4bc8-9188-75610fa830be",
+   "primary_type": "Album",
+   "title": "starry cat",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "music|stoortneer|engladtitelpåensorgligskiva": {
+  "image": "en-glad-titel-pa-en-sorglig-skiva.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/989706e7-b742-4375-b19c-21bf9d951986/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "stoort neer",
+   "genre": [
+    "metal"
+   ],
+   "mbid": "989706e7-b742-4375-b19c-21bf9d951986",
+   "primary_type": "Album",
+   "title": "en glad titel på en sorglig skiva",
+   "year": 2018
+  },
+  "reason": null
+ },
+ "music|stove|sfavoritefriend": {
+  "image": "s-favorite-friend.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/aeed09b0-ca31-40d9-824c-581e45ddcdf4/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Stove",
+   "genre": [
+    "indie rock",
+    "rock"
+   ],
+   "mbid": "aeed09b0-ca31-40d9-824c-581e45ddcdf4",
+   "primary_type": "Album",
+   "title": "'s Favorite Friend",
+   "year": 2018
+  },
+  "reason": null
+ },
+ "music|stresser|stresser": {
+  "image": "stresser.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/f35e591b718a654cc4206dd5b4fff715/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Alan Stresser",
+   "deezer_id": 14970235,
+   "genre": [
+    "Rap/Hip Hop",
+    "Rock"
+   ],
+   "primary_type": "Single",
+   "title": "Stresser",
+   "year": 2017
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|sweetpill|wheretheheartis": {
+  "image": "where-the-heart-is.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/20729399-009b-4584-b5c6-b221c5faab2b/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Sweet Pill",
+   "genre": [
+    "punk",
+    "punk rock"
+   ],
+   "mbid": "20729399-009b-4584-b5c6-b221c5faab2b",
+   "primary_type": "Album",
+   "title": "Where the Heart Is",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "music|thecranberries|everybodyelseisdoingitsowhycantwe": {
+  "image": "everybody-else-is-doing-it-so-why-cant-we.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/e6b486b3-68e7-331c-a078-94fd71d61877/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Cranberries",
+   "genre": [
+    "alternative rock",
+    "rock",
+    "alternative pop"
+   ],
+   "mbid": "e6b486b3-68e7-331c-a078-94fd71d61877",
+   "primary_type": "Album",
+   "title": "Everybody Else Is Doing It, So Why Can’t We?",
+   "year": 1993
+  },
+  "reason": null
+ },
+ "music|thecure|disintegration": {
+  "image": "disintegration.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/494bf606-d2f7-36d0-8340-eadad8601d2b/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Cure",
+   "genre": [
+    "gothic rock",
+    "alternative rock",
+    "post-punk"
+   ],
+   "mbid": "494bf606-d2f7-36d0-8340-eadad8601d2b",
+   "primary_type": "Album",
+   "title": "Disintegration",
+   "year": 1989
+  },
+  "reason": null
+ },
+ "music|thecure|kissmekissmekissme": {
+  "image": "kiss-me-kiss-me-kiss-me.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ab132c83-097a-33f0-b557-edd6b6ce1c7d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Cure",
+   "genre": [
+    "alternative rock",
+    "new wave",
+    "rock"
+   ],
+   "mbid": "ab132c83-097a-33f0-b557-edd6b6ce1c7d",
+   "primary_type": "Album",
+   "title": "Kiss Me Kiss Me Kiss Me",
+   "year": 1987
+  },
+  "reason": null
+ },
+ "music|thecure|threeimaginaryboys": {
+  "image": "three-imaginary-boys.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/76dc56cc-0f0f-31df-90cc-4522ca211a0d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Cure",
+   "genre": [
+    "new wave",
+    "post-punk",
+    "alternative rock"
+   ],
+   "mbid": "76dc56cc-0f0f-31df-90cc-4522ca211a0d",
+   "primary_type": "Album",
+   "title": "Three Imaginary Boys",
+   "year": 1979
+  },
+  "reason": null
+ },
+ "music|thekooks|insideininsideout": {
+  "image": "inside-in-inside-out-15th-anniversary-deluxe.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/9d052cb6884ccfac9d64faf39f6fb99f/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "The Kooks",
+   "deezer_id": 253056772,
+   "genre": [
+    "Pop"
+   ],
+   "primary_type": "Album",
+   "title": "Inside In, Inside Out (15th Anniversary Deluxe)",
+   "year": 2021
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|thelastwholeearthcatalog|doyoufacethebrutalreality": {
+  "image": "do-you-face-the-brutal-reality.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/6675df26-1f7b-4529-a5c1-f8e0d4e0241f/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Last Whole Earth Catalog",
+   "genre": [],
+   "mbid": "6675df26-1f7b-4529-a5c1-f8e0d4e0241f",
+   "primary_type": "Album",
+   "title": "Do You Face The Brutal Reality?",
+   "year": 2023
+  },
+  "reason": null
+ },
+ "music|thelastwholeearthcatalog|familybusiness": {
+  "image": "family-business.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/76c633c205ab97b456b06f7ee2fe28a6/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Last Whole Earth Catalog",
+   "deezer_id": 283209262,
+   "genre": [
+    "electronic",
+    "experimental"
+   ],
+   "mbid": "2dc19705-d655-46d6-b44e-13f31839c4f1",
+   "primary_type": "Album",
+   "title": "Family Business",
+   "year": 2021
+  },
+  "reason": null
+ },
+ "music|thelastwholeearthcatalog|fromthispointicouldperhapsimagineiwasabetterperson": {
+  "image": "from-this-point-i-could-perhaps-imagine-i-was-a-better-person.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/24074ccde33b4e94842dae0cf86c0743/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "The Last Whole Earth Catalog",
+   "deezer_id": 96899452,
+   "genre": [
+    "Folk"
+   ],
+   "primary_type": "Album",
+   "title": "From This Point I Could Perhaps Imagine I Was a Better Person",
+   "year": 2019
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|thelastwholeearthcatalog|singleusestressballs": {
+  "image": "single-use-stress-balls.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/08c86e54ddea37bdcc137de796a3dba1/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "The Last Whole Earth Catalog",
+   "deezer_id": 934749221,
+   "genre": [
+    "Alternative",
+    "Indie Pop",
+    "Indie Rock"
+   ],
+   "primary_type": "Album",
+   "title": "Single Use Stress Balls",
+   "year": 2020
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|thelastwholeearthcatalog|thesearesadtimes": {
+  "image": "these-are-sad-times.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/caca6a72-20d4-4f6f-8f7b-dd174b2ab4df/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Last Whole Earth Catalog",
+   "genre": [],
+   "mbid": "caca6a72-20d4-4f6f-8f7b-dd174b2ab4df",
+   "primary_type": "Album",
+   "title": "These Are Sad Times",
+   "year": 2021
+  },
+  "reason": null
+ },
+ "music|thelastwholeearthcatalog|werealldowntherabbithole": {
+  "image": "we-re-all-down-the-rabbit-hole.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/15ac3a47026700c482f575ccac748596/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "The Last Whole Earth Catalog",
+   "deezer_id": 615855122,
+   "genre": [
+    "Alternative",
+    "Indie Pop",
+    "Indie Rock"
+   ],
+   "primary_type": "Album",
+   "title": "We're All Down The Rabbit Hole",
+   "year": 2024
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|themicrophones|theglowpt2": {
+  "image": "the-glow-pt-2.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/f478fad9-a746-3625-9f14-bc4a74918c0e/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "the Microphones",
+   "genre": [
+    "indie folk",
+    "lo-fi",
+    "rock"
+   ],
+   "mbid": "f478fad9-a746-3625-9f14-bc4a74918c0e",
+   "primary_type": "Album",
+   "title": "the Glow, pt. 2",
+   "year": 2001
+  },
+  "reason": null
+ },
+ "music|thesmiths|hatfulofhollow": {
+  "image": "hatful-of-hollow.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/f81500a3-d01a-30e7-8ec9-75f672e9a775/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Smiths",
+   "genre": [
+    "rock",
+    "alternative rock",
+    "indie rock"
+   ],
+   "mbid": "f81500a3-d01a-30e7-8ec9-75f672e9a775",
+   "primary_type": "Album",
+   "title": "Hatful of Hollow",
+   "year": 1984
+  },
+  "reason": null
+ },
+ "music|thesmiths|louderthanbombs": {
+  "image": "louder-than-bombs.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/329a3607-9b56-351c-84e7-c6f8f19d8056/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Smiths",
+   "genre": [
+    "indie rock",
+    "rock",
+    "alternative rock"
+   ],
+   "mbid": "329a3607-9b56-351c-84e7-c6f8f19d8056",
+   "primary_type": "Album",
+   "title": "Louder Than Bombs",
+   "year": 1987
+  },
+  "reason": null
+ },
+ "music|thesundays|blind": {
+  "image": "blind.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/2a2ea74e-3964-3439-9280-c47e6af9b116/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Sundays",
+   "genre": [
+    "indie rock",
+    "rock",
+    "dream pop"
+   ],
+   "mbid": "2a2ea74e-3964-3439-9280-c47e6af9b116",
+   "primary_type": "Album",
+   "title": "Blind",
+   "year": 1992
+  },
+  "reason": null
+ },
+ "music|thesundays|cry": {
+  "image": "cry.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/4e487c10-b4c3-380c-93de-eceebaa396af/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Sundays",
+   "genre": [
+    "indie rock",
+    "pop",
+    "rock"
+   ],
+   "mbid": "4e487c10-b4c3-380c-93de-eceebaa396af",
+   "primary_type": "Single",
+   "title": "Cry",
+   "year": 1997
+  },
+  "reason": null
+ },
+ "music|thesundays|readingwritingandarithmetic": {
+  "image": "reading-writing-and-arithmetic.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/a3915909-20c5-3dc5-931f-f0f9023bf2d8/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Sundays",
+   "genre": [
+    "dream pop",
+    "indie pop",
+    "jangle pop"
+   ],
+   "mbid": "a3915909-20c5-3dc5-931f-f0f9023bf2d8",
+   "primary_type": "Album",
+   "title": "Reading, Writing and Arithmetic",
+   "year": 1990
+  },
+  "reason": null
+ },
+ "music|thesundays|staticandsilence": {
+  "image": "static-silence.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/8d693db5-6f59-3da2-bec2-e1b782292606/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Sundays",
+   "genre": [
+    "folk rock",
+    "rock",
+    "alternative rock"
+   ],
+   "mbid": "8d693db5-6f59-3da2-bec2-e1b782292606",
+   "primary_type": "Album",
+   "title": "Static & Silence",
+   "year": 1997
+  },
+  "reason": null
+ },
+ "music|thesundays|summertime": {
+  "image": "summertime.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/2001d5e1-5b5c-3227-87bd-8df710afe70f/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Sundays",
+   "genre": [
+    "indie rock",
+    "pop",
+    "pop rock"
+   ],
+   "mbid": "2001d5e1-5b5c-3227-87bd-8df710afe70f",
+   "primary_type": "Single",
+   "title": "Summertime",
+   "year": 1997
+  },
+  "reason": null
+ },
+ "music|threemileisland|thelincolnshirepoacher": {
+  "image": "the-lincolnshire-poacher.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/cb5557c10ccfba47cb665b3b94ff7b41/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Three Mile Island",
+   "deezer_id": 51179082,
+   "genre": [
+    "Rock"
+   ],
+   "primary_type": "Single",
+   "title": "The Lincolnshire Poacher",
+   "year": 2017
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|titlefight|shed": {
+  "image": "shed.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/abc44a88-a89a-4809-87f7-5064001b015d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Title Fight",
+   "genre": [
+    "emo",
+    "punk",
+    "rock"
+   ],
+   "mbid": "abc44a88-a89a-4809-87f7-5064001b015d",
+   "primary_type": "Album",
+   "title": "Shed",
+   "year": 2011
+  },
+  "reason": null
+ },
+ "music|toe|forlongtomorrow": {
+  "image": "for-long-tomorrow.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/3a2e4685-550f-4b00-a233-4a7ac2957072/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "toe",
+   "genre": [
+    "post-rock",
+    "alternative rock",
+    "electronic"
+   ],
+   "mbid": "3a2e4685-550f-4b00-a233-4a7ac2957072",
+   "primary_type": "Album",
+   "title": "For Long Tomorrow",
+   "year": 2009
+  },
+  "reason": null
+ },
+ "music|toe|thebookaboutmyidleplotonavagueanxiety": {
+  "image": "the-book-about-my-idle-plot-on-a-vague-anxiety.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ba24af71-9a64-4e8f-b3a5-ffb8c5fd9f40/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "toe",
+   "genre": [
+    "math rock",
+    "post-rock",
+    "alternative rock"
+   ],
+   "mbid": "ba24af71-9a64-4e8f-b3a5-ffb8c5fd9f40",
+   "primary_type": "Album",
+   "title": "the book about my idle plot on a vague anxiety",
+   "year": 2005
+  },
+  "reason": null
+ },
+ "music|ttng|animals": {
+  "image": "animals.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/14358735ae2972f1c96dec9db7abceab/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "TTNG",
+   "deezer_id": 6768695,
+   "genre": [
+    "Alternative",
+    "Rock",
+    "Indie Rock/Rock pop"
+   ],
+   "primary_type": "Album",
+   "title": "Animals",
+   "year": 2008
+  },
+  "reason": "Deezer fallback (no exact MusicBrainz match (closest \"Animals Acoustic\" by TTNG))"
+ },
+ "music|underoath|definethegreatline": {
+  "image": "define-the-great-line.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/9f9d9f20-2653-32e9-b048-26abbaf227da/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Underoath",
+   "genre": [
+    "post-hardcore",
+    "metalcore",
+    "screamo"
+   ],
+   "mbid": "9f9d9f20-2653-32e9-b048-26abbaf227da",
+   "primary_type": "Album",
+   "title": "Define the Great Line",
+   "year": 2006
+  },
+  "reason": null
+ },
+ "music|underscores|u": {
+  "image": "u.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/cec81633-5419-4f92-b0ac-6e9c508a042f/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "underscores",
+   "genre": [
+    "electropop",
+    "edm",
+    "alternative pop"
+   ],
+   "mbid": "cec81633-5419-4f92-b0ac-6e9c508a042f",
+   "primary_type": "Album",
+   "title": "U",
+   "year": 2026
+  },
+  "reason": null
+ },
+ "music|weezer|pinkerton": {
+  "image": "pinkerton.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/385f30e2-0483-355d-aded-23e66aa20f87/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Weezer",
+   "genre": [
+    "alternative rock",
+    "emo",
+    "rock"
+   ],
+   "mbid": "385f30e2-0483-355d-aded-23e66aa20f87",
+   "primary_type": "Album",
+   "title": "Pinkerton",
+   "year": 1996
+  },
+  "reason": null
+ },
+ "music|yonige|芽吹くとき": {
+  "image": "134ca2.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/ce8e4ef9-5ce3-4523-8e9b-271e4d6f708c/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "yonige",
+   "genre": [],
+   "mbid": "ce8e4ef9-5ce3-4523-8e9b-271e4d6f708c",
+   "primary_type": "Single",
+   "title": "芽吹くとき",
+   "year": 2026
+  },
+  "reason": null
+ },
+ "music|yukiyamishima|peaksandvalleys": {
+  "image": "peaks-and-valleys.jpg",
+  "image_urls": [
+   "https://cdn-images.dzcdn.net/images/cover/6f5612b38e84aebd845be45a0c53f51f/500x500-000000-80-0-0.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "Yukiya Mishima",
+   "deezer_id": 785166641,
+   "genre": [],
+   "primary_type": "Album",
+   "title": "Peaks and Valleys",
+   "year": 2025
+  },
+  "reason": "Deezer fallback (no MusicBrainz results)"
+ },
+ "music|ミドリ|あらためましてはじめましてミドリです": {
+  "image": "629d4a.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/784bfc09-7d27-3902-aefe-50eafdc0566d/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "ミドリ",
+   "genre": [
+    "art punk",
+    "j-rock",
+    "jazz rock"
+   ],
+   "mbid": "784bfc09-7d27-3902-aefe-50eafdc0566d",
+   "primary_type": "Album",
+   "title": "あらためまして、はじめまして、ミドリです。",
+   "year": 2008
+  },
+  "reason": null
+ },
+ "music|宇宙ネコ子|君のように生きれたら": {
+  "image": "0f07d9.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/84490fb8-718c-437f-8609-5cdcc0a29dca/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "宇宙ネコ子",
+   "genre": [
+    "shoegaze",
+    "twee pop",
+    "dream pop"
+   ],
+   "mbid": "84490fb8-718c-437f-8609-5cdcc0a29dca",
+   "primary_type": "Album",
+   "title": "君のように生きれたら",
+   "year": 2019
+  },
+  "reason": null
+ },
+ "music|缺省|californianebula": {
+  "image": "california-nebula.jpg",
+  "image_urls": [
+   "https://coverartarchive.org/release-group/c9ec4d2f-2a34-45b3-9b12-00a7165f9ced/front-500"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "缺省",
+   "genre": [
+    "dream pop",
+    "noise pop",
+    "rock"
+   ],
+   "mbid": "c9ec4d2f-2a34-45b3-9b12-00a7165f9ced",
+   "primary_type": "EP",
+   "title": "California Nebula",
+   "year": 2017
+  },
+  "reason": null
+ },
+ "novels|cormacmccarthy|theroad|2006": {
+  "image": "the-road.jpg",
+  "image_urls": [
+   "https://covers.openlibrary.org/b/id/198120-L.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Cormac McCarthy",
+   "genre": [
+    "Fiction",
+    "Dystopia"
+   ],
+   "olid": "OL40873W",
+   "title": "The Road",
+   "year": 2006
+  },
+  "reason": null
+ },
+ "novels|danielkeyes|flowersforalgernon|1966": {
+  "image": "flowers-for-algernon.jpg",
+  "image_urls": [
+   "https://covers.openlibrary.org/b/id/12947700-L.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Daniel Keyes",
+   "genre": [
+    "institutionalization",
+    "dementia"
+   ],
+   "olid": "OL515754W",
+   "title": "Flowers for Algernon",
+   "year": 1966
+  },
+  "reason": null
+ },
+ "novels|georgeorwell|animalfarm|1945": {
+  "image": "animal-farm.jpg",
+  "image_urls": [
+   "https://covers.openlibrary.org/b/id/11261770-L.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "George Orwell",
+   "genre": [
+    "British and Irish fiction (fictional works by one author)",
+    "political satire"
+   ],
+   "olid": "OL1168007W",
+   "title": "Animal Farm",
+   "year": 1945
+  },
+  "reason": null
+ },
+ "novels|georgeorwell|nineteeneightyfour|1949": {
+  "image": "nineteen-eighty-four.jpg",
+  "image_urls": [
+   "https://covers.openlibrary.org/b/id/9267242-L.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "George Orwell",
+   "genre": [
+    "futurology",
+    "censorship"
+   ],
+   "olid": "OL1168083W",
+   "title": "Nineteen Eighty-Four",
+   "year": 1949
+  },
+  "reason": null
+ },
+ "novels|harperlee|tokillamockingbird|1960": {
+  "image": "to-kill-a-mockingbird.jpg",
+  "image_urls": [
+   "https://covers.openlibrary.org/b/id/14351077-L.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Harper Lee",
+   "genre": [
+    "fiction",
+    "fiction classics"
+   ],
+   "olid": "OL3140822W",
+   "title": "To Kill a Mockingbird",
+   "year": 1960
+  },
+  "reason": null
+ },
+ "novels|johnsteinbeck|ofmiceandmen|1937": {
+  "image": "of-mice-and-men.jpg",
+  "image_urls": [
+   "https://covers.openlibrary.org/b/id/14319003-L.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "John Steinbeck",
+   "genre": [
+    "contemporary fiction",
+    "literary fiction"
+   ],
+   "olid": "OL23204W",
+   "title": "Of Mice and Men",
+   "year": 1937
+  },
+  "reason": null
+ },
+ "novels|naotakahayashi|steinsgate|2009": {
+  "image": "steins-gate.jpg",
+  "image_urls": [
+   "https://t.vndb.org/cv/19/77819.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "NITRO PLUS",
+   "genre": [
+    "Visual Novel"
+   ],
+   "title": "Steins;Gate",
+   "vndb_id": "v2002",
+   "year": 2009
+  },
+  "reason": null
+ },
+ "novels|scadi|subahibiwonderfuleveryday|2010": {
+  "image": "wonderful-everyday-diskontinuierliches-dasein.jpg",
+  "image_urls": [
+   "https://t.vndb.org/cv/17/90017.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "KeroQ",
+   "genre": [
+    "Visual Novel"
+   ],
+   "title": "Wonderful Everyday ~Diskontinuierliches Dasein~",
+   "vndb_id": "v3144",
+   "year": 2010
+  },
+  "reason": null
+ },
+ "novels|yuvalnoahharari|sapiens|2011": {
+  "image": "sapiens.jpg",
+  "image_urls": [
+   "https://covers.openlibrary.org/b/id/8634250-L.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Yuval Noah Harari",
+   "genre": [
+    "Technology and civilization",
+    "Human beings"
+   ],
+   "olid": "OL17075811W",
+   "title": "Sapiens",
+   "year": 2011
+  },
+  "reason": null
+ },
+ "tv|angelbeats|2010": {
+  "image": "angel-beats.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/ld5fQq1PltjjLbWVww6KBV79DLt.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "CBC",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Drama"
+   ],
+   "title": "Angel Beats!",
+   "tmdb_id": 42942,
+   "year": 2010
+  },
+  "reason": null
+ },
+ "tv|attackontitan|2013": {
+  "image": "attack-on-titan.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "MBS",
+   "genre": [
+    "Animation",
+    "Sci-Fi & Fantasy",
+    "Action & Adventure"
+   ],
+   "title": "Attack on Titan",
+   "tmdb_id": 1429,
+   "year": 2013
+  },
+  "reason": null
+ },
+ "tv|beastars|2019": {
+  "image": "beastars.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/Ac60Pi9UsVirPE8vt2lrVckR2tr.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Mystery"
+   ],
+   "title": "BEASTARS",
+   "tmdb_id": 90937,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "tv|berserk|1997": {
+  "image": "berserk.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/xctRBSZzvoHDHz38ZZUGxRYetvG.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nippon TV",
+   "genre": [
+    "Action & Adventure",
+    "Sci-Fi & Fantasy",
+    "Animation"
+   ],
+   "title": "Berserk",
+   "tmdb_id": 35935,
+   "year": 1997
+  },
+  "reason": null
+ },
+ "tv|bettercallsaul|2015": {
+  "image": "better-call-saul.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Vince Gilligan",
+   "genre": [
+    "Crime",
+    "Drama"
+   ],
+   "title": "Better Call Saul",
+   "tmdb_id": 60059,
+   "year": 2015
+  },
+  "reason": null
+ },
+ "tv|bna|2020": {
+  "image": "bna.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/fwFYXaQz0mrY8v1HDky2wJsYa7t.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "BNA",
+   "tmdb_id": 92592,
+   "year": 2020
+  },
+  "reason": null
+ },
+ "tv|bojackhorseman|2014": {
+  "image": "bojack-horseman.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Raphael Bob-Waksberg",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Drama"
+   ],
+   "title": "BoJack Horseman",
+   "tmdb_id": 61222,
+   "year": 2014
+  },
+  "reason": null
+ },
+ "tv|breakingbad|2008": {
+  "image": "breaking-bad.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Vince Gilligan",
+   "genre": [
+    "Drama",
+    "Crime"
+   ],
+   "title": "Breaking Bad",
+   "tmdb_id": 1396,
+   "year": 2008
+  },
+  "reason": null
+ },
+ "tv|codegeasslelouchoftherebellion|2006": {
+  "image": "code-geass-lelouch-of-the-rebellion.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/vf1h4GamzZJZ45ZZRgJccxYu5ri.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "MBS",
+   "genre": [
+    "Animation",
+    "Sci-Fi & Fantasy",
+    "Action & Adventure"
+   ],
+   "title": "Code Geass: Lelouch of the Rebellion",
+   "tmdb_id": 31724,
+   "year": 2006
+  },
+  "reason": null
+ },
+ "tv|cowboybebop|1998": {
+  "image": "cowboy-bebop.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/xDiXDfZwC6XYC6fxHI1jl3A3Ill.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TV Tokyo",
+   "genre": [
+    "Animation",
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Cowboy Bebop",
+   "tmdb_id": 30991,
+   "year": 1998
+  },
+  "reason": null
+ },
+ "tv|cyberpunkedgerunners|2022": {
+  "image": "cyberpunk-edgerunners.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Rafał Jaki",
+   "genre": [
+    "Animation",
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Cyberpunk: Edgerunners",
+   "tmdb_id": 105248,
+   "year": 2022
+  },
+  "reason": null
+ },
+ "tv|darlinginthefranxx|2018": {
+  "image": "darling-in-the-franxx.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/m6R8gI3brohD6izeVCXFmuGeV2m.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TOKYO MX",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "DARLING in the FRANXX",
+   "tmdb_id": 76121,
+   "year": 2018
+  },
+  "reason": null
+ },
+ "tv|deathnote|2006": {
+  "image": "death-note.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nippon TV",
+   "genre": [
+    "Animation",
+    "Mystery",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Death Note",
+   "tmdb_id": 13916,
+   "year": 2006
+  },
+  "reason": null
+ },
+ "tv|doubledeckerdougandkirill|2018": {
+  "image": "double-decker-doug-kirill.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/4d8fa9HcmHqFaHuuD813Ty2dgyb.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TOKYO MX",
+   "genre": [
+    "Action & Adventure",
+    "Comedy",
+    "Mystery"
+   ],
+   "title": "Double Decker! Doug & Kirill",
+   "tmdb_id": 82046,
+   "year": 2018
+  },
+  "reason": null
+ },
+ "tv|fatestaynightunlimitedbladeworks|2014": {
+  "image": "fate-stay-night-unlimited-blade-works.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/jyqi5BkDoKKIA2WAoz3HBtRHld3.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Gunma TV",
+   "genre": [
+    "Action & Adventure",
+    "Animation",
+    "Drama"
+   ],
+   "title": "Fate/stay night [Unlimited Blade Works]",
+   "tmdb_id": 61415,
+   "year": 2014
+  },
+  "reason": null
+ },
+ "tv|fatezero|2011": {
+  "image": "fate-zero.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/chUbHBiMX7buj8TzOEIjHHPCJfF.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Gen Urobuchi",
+   "genre": [
+    "Action & Adventure",
+    "Animation",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Fate/Zero",
+   "tmdb_id": 45845,
+   "year": 2011
+  },
+  "reason": null
+ },
+ "tv|flcl|2000": {
+  "image": "flcl.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/FkgA8CcmiLJGVCRYRQ2g2UfVtF.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Adult Swim",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Action & Adventure"
+   ],
+   "title": "FLCL",
+   "tmdb_id": 5895,
+   "year": 2000
+  },
+  "reason": null
+ },
+ "tv|friends|1994": {
+  "image": "friends.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Marta Kauffman",
+   "genre": [
+    "Comedy"
+   ],
+   "title": "Friends",
+   "tmdb_id": 1668,
+   "year": 1994
+  },
+  "reason": null
+ },
+ "tv|fromthenewworld|2012": {
+  "image": "from-the-new-world.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/ywghUXAMWJ2uY43bPUgRCPnusJF.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "tv asahi",
+   "genre": [
+    "Animation",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "From the New World",
+   "tmdb_id": 53052,
+   "year": 2012
+  },
+  "reason": null
+ },
+ "tv|fullmetalalchemistbrotherhood|2009": {
+  "image": "fullmetal-alchemist-brotherhood.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "MBS",
+   "genre": [
+    "Animation",
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Fullmetal Alchemist: Brotherhood",
+   "tmdb_id": 31911,
+   "year": 2009
+  },
+  "reason": null
+ },
+ "tv|greatpretender|2020": {
+  "image": "great-pretender.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/Ang6RR0n5a49lEsKRqQrmGyDekF.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Comedy"
+   ],
+   "title": "Great Pretender",
+   "tmdb_id": 93816,
+   "year": 2020
+  },
+  "reason": null
+ },
+ "tv|haibanerenmei|2002": {
+  "image": "haibane-renmei.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/uSrIXnPIUkapk0JwMldDZTusl5O.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Haibane Renmei",
+   "tmdb_id": 34164,
+   "year": 2002
+  },
+  "reason": null
+ },
+ "tv|infernocop|2012": {
+  "image": "inferno-cop.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/qhxvFL1CZX1jqWMFC32CCtY2xIn.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "YouTube",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Action & Adventure"
+   ],
+   "title": "Inferno Cop",
+   "tmdb_id": 46798,
+   "year": 2012
+  },
+  "reason": null
+ },
+ "tv|kaguyasamaloveiswar|2019": {
+  "image": "kaguya-sama-love-is-war.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/5khbC6AuNgnvnoDbjIMKCOhEtIc.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Gunma TV",
+   "genre": [
+    "Comedy",
+    "Animation"
+   ],
+   "title": "Kaguya-sama: Love Is War",
+   "tmdb_id": 83121,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "tv|killlakill|2013": {
+  "image": "kill-la-kill.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/4F1WtP3dFIwLPOfa3u29VEVnNkf.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "MBS",
+   "genre": [
+    "Action & Adventure",
+    "Animation",
+    "Comedy"
+   ],
+   "title": "Kill la Kill",
+   "tmdb_id": 60728,
+   "year": 2013
+  },
+  "reason": null
+ },
+ "tv|madeinabyss|2017": {
+  "image": "made-in-abyss.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/n30CBH4BoN5Z34tCpOWIPGJYOaS.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "AT-X",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Action & Adventure"
+   ],
+   "title": "Made in Abyss",
+   "tmdb_id": 72636,
+   "year": 2017
+  },
+  "reason": null
+ },
+ "tv|mobpsycho100|2016": {
+  "image": "mob-psycho-100.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/vR7hwaGQ0ySRoq1WobiNRaPs4WO.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TOKYO MX",
+   "genre": [
+    "Animation",
+    "Action & Adventure",
+    "Comedy"
+   ],
+   "title": "Mob Psycho 100",
+   "tmdb_id": 67075,
+   "year": 2016
+  },
+  "reason": null
+ },
+ "tv|monster|2004": {
+  "image": "monster.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/n5XNKXnoXpoXyfiCtXHOf8q8PFM.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nippon TV",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Mystery"
+   ],
+   "title": "Monster",
+   "tmdb_id": 30981,
+   "year": 2004
+  },
+  "reason": null
+ },
+ "tv|myheroacademia|2016": {
+  "image": "my-hero-academia.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nippon TV",
+   "genre": [
+    "Action & Adventure",
+    "Animation",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "My Hero Academia",
+   "tmdb_id": 65930,
+   "year": 2016
+  },
+  "reason": null
+ },
+ "tv|neongenesisevangelion|1995": {
+  "image": "neon-genesis-evangelion.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/y2ah9t0navXyIvoHg1uIbIHO3tt.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TV Tokyo",
+   "genre": [
+    "Sci-Fi & Fantasy",
+    "Animation",
+    "Drama"
+   ],
+   "title": "Neon Genesis Evangelion",
+   "tmdb_id": 890,
+   "year": 1995
+  },
+  "reason": null
+ },
+ "tv|onepunchman|2015": {
+  "image": "one-punch-man.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/dT10AxJIXVvRwFAew4tt2RhzJrD.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TV Tokyo",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Action & Adventure"
+   ],
+   "title": "One-Punch Man",
+   "tmdb_id": 63926,
+   "year": 2015
+  },
+  "reason": null
+ },
+ "tv|oreshura|2013": {
+  "image": "oreshura.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/eG5MoVNpVQGg1v8jN7fbyYgRdMe.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TOKYO MX",
+   "genre": [
+    "Animation",
+    "Comedy"
+   ],
+   "title": "Oreshura",
+   "tmdb_id": 53296,
+   "year": 2013
+  },
+  "reason": null
+ },
+ "tv|owarimonogatarisecondseason|2017": {
+  "image": null,
+  "image_urls": [],
+  "match": "weak",
+  "meta": null,
+  "reason": "closest TMDB result \"Monogatari\" (2009), tmdb_id 46195"
+ },
+ "tv|pingpongtheanimation|2014": {
+  "image": "ping-pong-the-animation.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/frgVn3ww547TVQH8vS2bWKZnEBu.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Drama"
+   ],
+   "title": "Ping Pong the Animation",
+   "tmdb_id": 60811,
+   "year": 2014
+  },
+  "reason": null
+ },
+ "tv|rascaldoesnotdreamofbunnygirlsenpai|2018": {
+  "image": "rascal-does-not-dream-of-bunny-girl-senpai.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/fbqDG7GjodvaNecgv1q8kfSNPl5.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Gunma TV",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Drama"
+   ],
+   "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+   "tmdb_id": 82739,
+   "year": 2018
+  },
+  "reason": null
+ },
+ "tv|samuraichamploo|2004": {
+  "image": "samurai-champloo.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/lYpHeSm7BcUxAbBx1ucuEH7oGAe.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Shinichiro Watanabe",
+   "genre": [
+    "Animation",
+    "Action & Adventure",
+    "Comedy"
+   ],
+   "title": "Samurai Champloo",
+   "tmdb_id": 1063,
+   "year": 2004
+  },
+  "reason": null
+ },
+ "tv|sciencefellinlovesoitriedtoproveit|2020": {
+  "image": "science-fell-in-love-so-i-tried-to-prove-it.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/hY9YBN3arW6yWA01IhzVZvJfMbJ.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TOKYO MX",
+   "genre": [
+    "Animation",
+    "Comedy"
+   ],
+   "title": "Science Fell in Love, So I Tried to Prove It",
+   "tmdb_id": 90999,
+   "year": 2020
+  },
+  "reason": null
+ },
+ "tv|serialexperimentslain|1998": {
+  "image": "serial-experiments-lain.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/3MQo7PPuntw8GaZrsBPZcJLJity.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TV Tokyo",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Serial Experiments Lain",
+   "tmdb_id": 1087,
+   "year": 1998
+  },
+  "reason": null
+ },
+ "tv|steinsgate|2011": {
+  "image": "steins-gate.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/96R4bV7dB8ramaWceNKsxvJgCUd.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Teletama",
+   "genre": [
+    "Animation",
+    "Sci-Fi & Fantasy",
+    "Mystery"
+   ],
+   "title": "Steins;Gate",
+   "tmdb_id": 42509,
+   "year": 2011
+  },
+  "reason": null
+ },
+ "tv|swordartonline|2012": {
+  "image": "sword-art-online.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/9m8bFIXPg26taNrFSXGwEORVACD.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Gunma TV",
+   "genre": [
+    "Animation",
+    "Sci-Fi & Fantasy",
+    "Action & Adventure"
+   ],
+   "title": "Sword Art Online",
+   "tmdb_id": 45782,
+   "year": 2012
+  },
+  "reason": null
+ },
+ "tv|texhnolyze|2003": {
+  "image": "texhnolyze.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/9SMf3BS3cpz8qFXyLtgNZCSOD7i.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Texhnolyze",
+   "tmdb_id": 8838,
+   "year": 2003
+  },
+  "reason": null
+ },
+ "tv|thepromisedneverland|2019": {
+  "image": "the-promised-neverland.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/oBgRCpAbtMpk1v8wfdsIph7lPQE.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Mystery"
+   ],
+   "title": "The Promised Neverland",
+   "tmdb_id": 83097,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "tv|tokyoghoul|2014": {
+  "image": "tokyo-ghoul.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/1m4RlC9BTCbyY549TOdVQ5NRPcR.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TOKYO MX",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Tokyo Ghoul",
+   "tmdb_id": 61374,
+   "year": 2014
+  },
+  "reason": null
+ },
+ "tv|tomodachigame|2022": {
+  "image": "tomodachi-game.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/l9wfsCpH5Zot8PSskCShqiQc9I4.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Nippon TV",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Mystery"
+   ],
+   "title": "Tomodachi Game",
+   "tmdb_id": 137718,
+   "year": 2022
+  },
+  "reason": null
+ },
+ "tv|toradora|2008": {
+  "image": "toradora.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/2Z52nZaAQt1P7XJtu8fNlMXgdps.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TV Tokyo",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Drama"
+   ],
+   "title": "Toradora!",
+   "tmdb_id": 42916,
+   "year": 2008
+  },
+  "reason": null
+ },
+ "tv|trigun|1998": {
+  "image": "trigun.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/lwLFZFB3S2PeOLtWksaWerF6B4D.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Yasuhiro Nightow",
+   "genre": [
+    "Sci-Fi & Fantasy",
+    "Action & Adventure",
+    "Animation"
+   ],
+   "title": "TRIGUN",
+   "tmdb_id": 26453,
+   "year": 1998
+  },
+  "reason": null
+ },
+ "tv|tsukimonogatari|2014": {
+  "image": null,
+  "image_urls": [],
+  "match": "weak",
+  "meta": null,
+  "reason": "closest TMDB result \"Monogatari\" (2009), tmdb_id 46195"
+ },
+ "tv|vinlandsaga|2019": {
+  "image": "vinland-saga.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/vUHlpA5c1NXkds59reY3HMb4Abs.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "NHK G",
+   "genre": [
+    "Animation",
+    "War & Politics",
+    "Action & Adventure"
+   ],
+   "title": "Vinland Saga",
+   "tmdb_id": 88803,
+   "year": 2019
+  },
+  "reason": null
+ },
+ "tv|violetevergarden|2018": {
+  "image": "violet-evergarden.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/61EwFPqc0r1uJo6la49J55F8bQ8.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TOKYO MX",
+   "genre": [
+    "Animation",
+    "Drama",
+    "Sci-Fi & Fantasy"
+   ],
+   "title": "Violet Evergarden",
+   "tmdb_id": 75214,
+   "year": 2018
+  },
+  "reason": null
+ },
+ "tv|yourlieinapril|2014": {
+  "image": "your-lie-in-april.jpg",
+  "image_urls": [
+   "https://image.tmdb.org/t/p/w500/92P9cD5uOzLVgx0QDTnwkXffjEG.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fuji TV",
+   "genre": [
+    "Animation",
+    "Comedy",
+    "Drama"
+   ],
+   "title": "Your Lie in April",
+   "tmdb_id": 61663,
+   "year": 2014
+  },
+  "reason": null
+ }
+}

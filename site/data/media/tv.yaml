@@ -1,0 +1,344 @@
+- title: Better Call Saul
+  creator: Vince Gilligan
+  year: 2015
+  genre: [Crime, Drama]
+  status: completed
+  cover: /img/media/tv/better-call-saul.jpg
+  tmdb_id: 60059
+  rating: 5
+
+- title: BoJack Horseman
+  creator: Raphael Bob-Waksberg
+  year: 2014
+  genre: [Animation, Comedy, Drama]
+  status: completed
+  cover: /img/media/tv/bojack-horseman.jpg
+  tmdb_id: 61222
+  rating: 3.5
+
+- title: Breaking Bad
+  creator: Vince Gilligan
+  year: 2008
+  genre: [Drama, Crime]
+  status: completed
+  cover: /img/media/tv/breaking-bad.jpg
+  tmdb_id: 1396
+  rating: 5
+
+- title: Friends
+  creator: Marta Kauffman
+  year: 1994
+  genre: [Comedy]
+  status: completed
+  cover: /img/media/tv/friends.jpg
+  tmdb_id: 1668
+  rating: 3
+
+- title: 'Cyberpunk: Edgerunners'
+  creator: Rafał Jaki
+  year: 2022
+  genre: [Anime, Animation, Action & Adventure, Sci-Fi & Fantasy]
+  status: completed
+  cover: /img/media/tv/cyberpunk-edgerunners.jpg
+  tmdb_id: 105248
+
+- title: DARLING in the FRANXX
+  creator: TOKYO MX
+  year: 2018
+  genre: [Anime, Animation, Drama, Sci-Fi & Fantasy]
+  status: completed
+  cover: /img/media/tv/darling-in-the-franxx.jpg
+  tmdb_id: 76121
+
+- title: Death Note
+  creator: Nippon TV
+  year: 2006
+  genre: [Anime, Animation, Mystery, Sci-Fi & Fantasy]
+  status: completed
+  cover: /img/media/tv/death-note.jpg
+  tmdb_id: 13916
+  rating: 4
+  date: "2026-08"
+
+- title: Fate/Zero
+  creator: Gen Urobuchi
+  year: 2011
+  genre: [Anime, Action & Adventure, Animation, Sci-Fi & Fantasy]
+  status: completed
+  cover: /img/media/tv/fate-zero.jpg
+  tmdb_id: 45845
+
+- title: Inferno Cop
+  creator: YouTube
+  year: 2012
+  genre: [Anime, Animation, Comedy, Action & Adventure]
+  status: completed
+  cover: /img/media/tv/inferno-cop.jpg
+  tmdb_id: 46798
+
+- title: 'Kaguya-sama: Love Is War'
+  creator: Gunma TV
+  year: 2019
+  genre: [Anime, Comedy, Animation]
+  status: completed
+  cover: /img/media/tv/kaguya-sama-love-is-war.jpg
+  tmdb_id: 83121
+
+- title: Neon Genesis Evangelion
+  creator: TV Tokyo
+  year: 1995
+  genre: [Anime, Sci-Fi & Fantasy, Animation, Drama]
+  status: completed
+  cover: /img/media/tv/neon-genesis-evangelion.jpg
+  tmdb_id: 890
+
+- title: Serial Experiments Lain
+  creator: TV Tokyo
+  year: 1998
+  genre: [Anime, Animation, Drama, Sci-Fi & Fantasy]
+  status: completed
+  cover: /img/media/tv/serial-experiments-lain.jpg
+  tmdb_id: 1087
+  rating: 4
+
+- title: Sword Art Online S1
+  creator: Gunma TV
+  year: 2012
+  genre: [Anime, Animation, Sci-Fi & Fantasy, Action & Adventure]
+  status: completed
+  cover: /img/media/tv/sword-art-online.jpg
+  tmdb_id: 45782
+  rating: 3
+
+- title: Toradora!
+  creator: TV Tokyo
+  year: 2008
+  genre: [Anime, Animation, Comedy, Drama]
+  status: completed
+  cover: /img/media/tv/toradora.jpg
+  tmdb_id: 42916
+
+- title: Your Lie in April
+  creator: Fuji TV
+  year: 2014
+  genre: [Anime, Animation, Comedy, Drama]
+  status: completed
+  cover: /img/media/tv/your-lie-in-april.jpg
+  tmdb_id: 61663
+  rating: 4.5
+
+- title: Angel Beats!
+  creator: CBC
+  year: 2010
+  genre: [Anime, Animation, Comedy, Drama]
+  status: planning
+  cover: /img/media/tv/angel-beats.jpg
+  tmdb_id: 42942
+
+- title: Attack on Titan
+  creator: MBS
+  year: 2013
+  genre: [Anime, Animation, Sci-Fi & Fantasy, Action & Adventure]
+  status: planning
+  cover: /img/media/tv/attack-on-titan.jpg
+  tmdb_id: 1429
+
+- title: Berserk
+  creator: Nippon TV
+  year: 1997
+  genre: [Anime, Action & Adventure, Sci-Fi & Fantasy, Animation]
+  status: planning
+  cover: /img/media/tv/berserk.jpg
+  tmdb_id: 35935
+
+- title: BNA
+  creator: Fuji TV
+  year: 2020
+  genre: [Anime, Animation, Action & Adventure, Sci-Fi & Fantasy]
+  status: planning
+  cover: /img/media/tv/bna.jpg
+  tmdb_id: 92592
+
+- title: 'Code Geass: Lelouch of the Rebellion'
+  creator: MBS
+  year: 2006
+  genre: [Anime, Animation, Sci-Fi & Fantasy, Action & Adventure]
+  status: planning
+  cover: /img/media/tv/code-geass-lelouch-of-the-rebellion.jpg
+  tmdb_id: 31724
+
+- title: Cowboy Bebop
+  creator: TV Tokyo
+  year: 1998
+  genre: [Anime, Animation, Action & Adventure, Sci-Fi & Fantasy]
+  status: current
+  cover: /img/media/tv/cowboy-bebop.jpg
+  tmdb_id: 30991
+
+- title: Double Decker! Doug & Kirill
+  creator: TOKYO MX
+  year: 2018
+  genre: [Anime, Action & Adventure, Comedy, Mystery]
+  status: planning
+  cover: /img/media/tv/double-decker-doug-kirill.jpg
+  tmdb_id: 82046
+
+- title: Fate/stay night [Unlimited Blade Works]
+  creator: Gunma TV
+  year: 2014
+  genre: [Anime, Action & Adventure, Animation, Drama]
+  status: planning
+  cover: /img/media/tv/fate-stay-night-unlimited-blade-works.jpg
+  tmdb_id: 61415
+
+- title: FLCL
+  creator: Adult Swim
+  year: 2000
+  genre: [Anime, Animation, Comedy, Action & Adventure]
+  status: planning
+  cover: /img/media/tv/flcl.jpg
+  tmdb_id: 5895
+
+- title: From the New World
+  creator: tv asahi
+  year: 2012
+  genre: [Anime, Animation, Sci-Fi & Fantasy]
+  status: planning
+  cover: /img/media/tv/from-the-new-world.jpg
+  tmdb_id: 53052
+
+- title: 'Fullmetal Alchemist: Brotherhood'
+  creator: MBS
+  year: 2009
+  genre: [Anime, Animation, Action & Adventure, Sci-Fi & Fantasy]
+  status: planning
+  cover: /img/media/tv/fullmetal-alchemist-brotherhood.jpg
+  tmdb_id: 31911
+
+- title: Great Pretender
+  creator: Fuji TV
+  year: 2020
+  genre: [Anime, Animation, Drama, Comedy]
+  status: planning
+  cover: /img/media/tv/great-pretender.jpg
+  tmdb_id: 93816
+
+- title: Haibane Renmei
+  creator: Fuji TV
+  year: 2002
+  genre: [Anime, Animation, Drama, Sci-Fi & Fantasy]
+  status: planning
+  cover: /img/media/tv/haibane-renmei.jpg
+  tmdb_id: 34164
+
+- title: Made in Abyss
+  creator: AT-X
+  year: 2017
+  genre: [Anime, Animation, Drama, Action & Adventure]
+  status: planning
+  cover: /img/media/tv/made-in-abyss.jpg
+  tmdb_id: 72636
+
+- title: Mob Psycho 100
+  creator: TOKYO MX
+  year: 2016
+  genre: [Anime, Animation, Action & Adventure, Comedy]
+  status: planning
+  cover: /img/media/tv/mob-psycho-100.jpg
+  tmdb_id: 67075
+
+- title: Monster
+  creator: Nippon TV
+  year: 2004
+  genre: [Anime, Animation, Drama, Mystery]
+  status: planning
+  cover: /img/media/tv/monster.jpg
+  tmdb_id: 30981
+
+- title: One-Punch Man
+  creator: TV Tokyo
+  year: 2015
+  genre: [Anime, Animation, Comedy, Action & Adventure]
+  status: planning
+  cover: /img/media/tv/one-punch-man.jpg
+  tmdb_id: 63926
+
+- title: Ping Pong the Animation
+  creator: Fuji TV
+  year: 2014
+  genre: [Anime, Animation, Drama]
+  status: planning
+  cover: /img/media/tv/ping-pong-the-animation.jpg
+  tmdb_id: 60811
+
+- title: Samurai Champloo
+  creator: Shinichiro Watanabe
+  year: 2004
+  genre: [Anime, Animation, Action & Adventure, Comedy]
+  status: planning
+  cover: /img/media/tv/samurai-champloo.jpg
+  tmdb_id: 1063
+
+- title: Steins;Gate
+  creator: Teletama
+  year: 2011
+  genre: [Anime, Animation, Sci-Fi & Fantasy, Mystery]
+  status: planning
+  cover: /img/media/tv/steins-gate.jpg
+  tmdb_id: 42509
+
+- title: Texhnolyze
+  creator: Fuji TV
+  year: 2003
+  genre: [Anime, Animation, Drama, Sci-Fi & Fantasy]
+  status: planning
+  cover: /img/media/tv/texhnolyze.jpg
+  tmdb_id: 8838
+
+- title: The Promised Neverland
+  creator: Fuji TV
+  year: 2019
+  genre: [Anime, Animation, Drama, Mystery]
+  status: planning
+  cover: /img/media/tv/the-promised-neverland.jpg
+  tmdb_id: 83097
+
+- title: Tokyo Ghoul
+  creator: TOKYO MX
+  year: 2014
+  genre: [Anime, Animation, Drama, Sci-Fi & Fantasy]
+  status: planning
+  cover: /img/media/tv/tokyo-ghoul.jpg
+  tmdb_id: 61374
+
+- title: Tomodachi Game
+  creator: Nippon TV
+  year: 2022
+  genre: [Anime, Animation, Drama, Mystery]
+  status: planning
+  cover: /img/media/tv/tomodachi-game.jpg
+  tmdb_id: 137718
+
+- title: TRIGUN
+  creator: Yasuhiro Nightow
+  year: 1998
+  genre: [Anime, Sci-Fi & Fantasy, Action & Adventure, Animation]
+  status: planning
+  cover: /img/media/tv/trigun.jpg
+  tmdb_id: 26453
+
+- title: Vinland Saga
+  creator: NHK G
+  year: 2019
+  genre: [Anime, Animation, War & Politics, Action & Adventure]
+  status: planning
+  cover: /img/media/tv/vinland-saga.jpg
+  tmdb_id: 88803
+
+- title: Violet Evergarden
+  creator: TOKYO MX
+  year: 2018
+  genre: [Anime, Animation, Drama, Sci-Fi & Fantasy]
+  status: planning
+  cover: /img/media/tv/violet-evergarden.jpg
+  tmdb_id: 75214

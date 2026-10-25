@@ -1,0 +1,19 @@
+{{- /* Usage: partial "media-statuses.html" "tv" → the type's allowed statuses in display order,
+  each as dict(status, label, class). Finished = completed, active, inactive. */ -}}
+{{- $s := dict
+  "completed" (dict "status" "completed" "class" "tag-fleeting")
+  "active"    (dict "status" "active"    "class" "tag-fleeting"  "label" "active")
+  "inactive"  (dict "status" "inactive"  "class" "tag-inactive"  "label" "inactive")
+  "current"   (dict "status" "current"   "class" "tag-work")
+  "planning"  (dict "status" "planning"  "class" "tag-default")
+  "dropped"   (dict "status" "dropped"   "class" "tag-dropped"   "label" "dropped")
+-}}
+{{- $types := dict
+  "novels" (slice (merge $s.completed (dict "label" "read")) (merge $s.current (dict "label" "reading")) (merge $s.planning (dict "label" "to read")))
+  "movies" (slice (merge $s.completed (dict "label" "watched")) (merge $s.planning (dict "label" "to watch")))
+  "tv"     (slice (merge $s.completed (dict "label" "watched")) (merge $s.current (dict "label" "watching")) (merge $s.planning (dict "label" "to watch")) $s.dropped)
+  "games"  (slice (merge $s.completed (dict "label" "completed")) $s.active $s.inactive (merge $s.current (dict "label" "playing")) (merge $s.planning (dict "label" "to play")))
+  "music"  (slice (merge $s.completed (dict "label" "listened")) (merge $s.planning (dict "label" "to listen")))
+-}}
+{{- $result := index $types . | default slice -}}
+{{- return $result -}}

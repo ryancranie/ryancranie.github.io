@@ -1,9 +1,12 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-{{/* Collect all unique tags across posts in this section */}}
+{{/* Blog posts only, so this template never lists pages from other sections */}}
+{{ $posts := partial "sorted-blog-posts.html" . }}
+
+{{/* Collect all unique tags across blog posts */}}
 {{ $allTags := slice }}
-{{ range .Pages }}
+{{ range $posts }}
   {{ range .Params.tags }}
     {{ $allTags = $allTags | append . }}
   {{ end }}
@@ -21,7 +24,6 @@
 {{ end }}
 
 <div id="post-list">
-  {{ $posts := partial "sorted-blog-posts.html" . }}
   {{ range $posts }}
     {{ partial "post-row.html" . }}
   {{ end }}

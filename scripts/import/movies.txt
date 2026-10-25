@@ -1,0 +1,82 @@
+# Movies to import
+# Format: Title | Year | status | rating
+# status: completed | current | planning | active (default: planning)
+# rating: 1-5, halves allowed (optional)
+
+Kung Fu Panda 4 | 2024
+Spider-Man: Across the Spider-Verse | 2023
+The Boy and the Heron | 2023
+Puss in Boots: The Last Wish | 2022
+Parasite | 2019
+The Lighthouse | 2019
+Weathering with You | 2019 | completed
+Spider-Man: Into the Spider-Verse | 2018
+Good Time | 2017
+# Listed in Obsidian as the Ultimate Edition; TMDB has one entry for the film.
+Batman v Superman: Dawn of Justice | 2016
+Your Name | 2016 | completed
+Interstellar | 2014
+Whiplash | 2014
+Django Unchained | 2012
+ParaNorman | 2012
+The Twilight Saga: Breaking Dawn - Part 2 | 2012
+Harry Potter and the Deathly Hallows: Part 2 | 2011
+The Twilight Saga: Breaking Dawn - Part 1 | 2011
+Harry Potter and the Deathly Hallows: Part 1 | 2010
+How to Train Your Dragon | 2010
+Megamind | 2010
+Scott Pilgrim vs. the World | 2010
+The Twilight Saga: Eclipse | 2010
+Avatar | 2009
+Coraline | 2009
+Harry Potter and the Half-Blood Prince | 2009
+The Twilight Saga: New Moon | 2009
+Twilight | 2008
+Harry Potter and the Order of the Phoenix | 2007
+Hot Fuzz | 2007
+Juno | 2007
+Ratatouille | 2007
+Little Miss Sunshine | 2006
+Paprika | 2006 | completed
+Harry Potter and the Goblet of Fire | 2005
+Harry Potter and the Prisoner of Azkaban | 2004
+Howl's Moving Castle | 2004
+Team America: World Police | 2004
+Harry Potter and the Chamber of Secrets | 2002
+A Beautiful Mind | 2001
+Harry Potter and the Sorcerer's Stone | 2001
+Saving Private Ryan | 1998
+Good Will Hunting | 1997
+Space Jam | 1996
+Kiki's Delivery Service | 1989
+Pinocchio | 1940
+The Nightmare Before Christmas | 1993 | completed
+
+# Anime films - completed
+A Silent Voice | 2016 | completed
+Akira | 1988 | completed
+Children of the Sea | 2019 | completed
+Evangelion: 1.0 You Are (Not) Alone | 2007 | completed
+Evangelion: 2.0 You Can (Not) Advance | 2009 | completed
+Evangelion: 3.0 You Can (Not) Redo | 2012 | completed
+Evangelion: 3.0+1.0 Thrice Upon a Time | 2021 | completed
+I Want to Eat Your Pancreas | 2018 | completed
+My Neighbor Totoro | 1988 | completed
+The End of Evangelion | 1997 | completed
+Spirited Away | 2001 | completed
+Vampire Hunter D: Bloodlust | 2000 | completed
+Whisper of the Heart | 1995 | completed
+
+# Anime films - planning
+5 Centimeters per Second | 2007
+Flavors of Youth | 2018
+From Up on Poppy Hill | 2011
+Ghost in the Shell | 1995
+Perfect Blue | 1997
+Princess Mononoke | 1997
+The Garden of Words | 2013
+The Tunnel to Summer, the Exit of Goodbyes | 2022
+The Wind Rises | 2013
+
+# Removed: "Harry Potter and the Forbidden Journey (2010)" is a theme park ride,
+# not a film, so it won't match on TMDB. Add it back by hand if you want it.

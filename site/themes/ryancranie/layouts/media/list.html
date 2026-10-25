@@ -1,0 +1,70 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<p>Hi, here is my archive of <a href="/media/music/">music</a>, <a href="/media/games/">video games</a>, <a href="/media/movies/">movies</a>, <a href="/media/tv/">tv shows</a> and <a href="/media/novels/">novels</a>.</p>
+
+{{ $types := slice
+  (dict "key" "music"  "name" "music")
+  (dict "key" "games"  "name" "video games")
+  (dict "key" "movies" "name" "movies")
+  (dict "key" "tv"     "name" "tv shows")
+  (dict "key" "novels" "name" "novels")
+}}
+
+{{/* Each row: 5 favourites | divider | 1 "now". The script re-picks both on every load;
+  the server renders a sorted default for visitors without JS. */}}
+{{ $rows := dict }}
+{{ range $types }}
+  {{ $key := .key }}
+  {{ $entries := index hugo.Data.media $key | default slice }}
+  {{ $finished := partial "media-ranked.html" $entries }}
+  {{/* "now" is current entries; games also count active ones. Music's is the live Last.fm card. */}}
+  {{ $nowStatuses := cond (eq $key "games") (slice "current" "active") (slice "current") }}
+  {{ $nowPool := where $entries "status" "in" $nowStatuses }}
+  {{ $nowLabel := "now" }}
+  {{/* movies, tv, novels with nothing current: the most recently finished month instead, as "last" */}}
+  {{ if and (not $nowPool) (in (slice "movies" "tv" "novels") $key) }}
+    {{ $latest := "" }}
+    {{ range $e := $finished }}
+      {{ with findRE `^\d{4}-\d{2}` (string ($e.date | default "")) 1 }}{{ if gt (index . 0) $latest }}{{ $latest = index . 0 }}{{ end }}{{ end }}
+    {{ end }}
+    {{ range $e := $finished }}
+      {{ with findRE `^\d{4}-\d{2}` (string ($e.date | default "")) 1 }}{{ if and $latest (eq (index . 0) $latest) }}{{ $nowPool = $nowPool | append $e }}{{ end }}{{ end }}
+    {{ end }}
+    {{ $nowLabel = "last" }}
+  {{ end }}
+  {{ $live := eq $key "music" }}
+  {{ $now := cond (and (not $live) (gt (len $nowPool) 0)) (index $nowPool 0) false }}
+  {{ $top := $finished }}
+  {{ with $now }}{{ $top = where $finished "title" "ne" .title }}{{ end }}
+  {{ $rows = merge $rows (dict $key (dict "finished" $finished "now" (cond $live slice $nowPool))) }}
+
+  <section class="media-section">
+    <h2><a href="/media/{{ $key }}/" class="media-section-link">{{ .name }}</a></h2>
+    {{ if or $top $now $live }}
+    <div class="media-row" data-pool-row="{{ $key }}">
+      {{ range first 5 $top }}
+        {{ partial "media-card.html" (dict "item" . "type" $key "compact" true "class" "media-top") }}
+      {{ end }}
+      {{ if $live }}
+        <div class="media-now-divider" aria-hidden="true"></div>
+        <span class="media-now-label" id="nowplaying-label">last played</span>
+        {{ partial "media-card.html" (dict "item" (dict "title" "last.fm" "creator" "") "type" "music" "compact" true "showCreator" true "class" "media-now media-live") }}
+      {{ else if $now }}
+        <div class="media-now-divider" aria-hidden="true"></div>
+        <span class="media-now-label">{{ $nowLabel }}</span>
+        {{ partial "media-card.html" (dict "item" $now "type" $key "compact" true "class" "media-now") }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="media-empty">nothing here yet - <a href="/media/{{ $key }}/">see all</a></p>
+    {{ end }}
+  </section>
+{{ end }}
+
+{{ $nsfwMusic := slice }}
+{{ range where (index hugo.Data.media "music" | default slice) "nsfw" true }}
+  {{ $nsfwMusic = $nsfwMusic | append (dict "title" .title "creator" (.creator | default "")) }}
+{{ end }}
+{{ partial "media-pool.html" (dict "rows" $rows "nsfwMusic" $nsfwMusic) }}
+{{ end }}

@@ -1,0 +1,67 @@
+{{- /* Usage: partial "media-card.html" (dict "item" $entry "type" "novels" "compact" false "class" "" "label" "" "showCreator" false) */ -}}
+{{- $i := .item -}}
+{{- $type := .type -}}
+{{- $status := $i.status | default "planning" -}}
+{{- $info := dict "label" $status "class" "tag-default" -}}
+{{- range partial "media-statuses.html" $type }}{{ if eq .status $status }}{{ $info = . }}{{ end }}{{ end -}}
+{{- $rating := float ($i.rating | default 0) -}}
+{{- /* covers are local files only; anything else gets the typographic title card */ -}}
+{{- $cover := "" -}}
+{{- with $i.cover }}{{ if and (hasPrefix . "/img/media/") (not (hasSuffix . "placeholder.svg")) }}{{ $cover = . }}{{ end }}{{ end -}}
+{{- $month := partial "media-month.html" $i.date -}}
+{{- $dateUnix := 0 -}}
+{{- with $month }}{{ $dateUnix = .Unix }}{{ end -}}
+{{- $genres := slice -}}
+{{- range $i.genre }}{{ $genres = $genres | append (lower .) }}{{ end -}}
+{{- /* music: overarching genre groups for the dropdown; unmapped or missing genres → other */ -}}
+{{- $groups := slice -}}
+{{- if eq $type "music" -}}
+  {{- range $genres -}}
+    {{- $g := . -}}{{- $hit := false -}}
+    {{- range hugo.Data.media.genre_groups }}{{ if in .genres $g }}{{ $groups = $groups | append .group }}{{ $hit = true }}{{ end }}{{ end -}}
+    {{- if not $hit }}{{ $groups = $groups | append "other" }}{{ end -}}
+  {{- end -}}
+  {{- if not $genres }}{{ $groups = slice "other" }}{{ end -}}
+{{- end -}}
+<div class="media-card{{ if eq $type "music" }} media-card-square{{ end }}{{ with .class }} {{ . }}{{ end }}"
+  data-status="{{ $status }}"
+  data-genres="{{ delimit $genres "|" }}"
+  {{- with $groups }} data-groups="{{ delimit (uniq .) "|" }}"{{ end }}
+  data-rating="{{ $rating }}"
+  data-date="{{ $dateUnix }}"
+  data-title="{{ lower $i.title }}"
+  data-search="{{ $i.title }} {{ $i.creator }}"
+  data-year="{{ $i.year | default 0 }}">
+  {{- with .label }}
+  <p class="media-type-label">{{ . }}</p>
+  {{- end }}
+  <div class="media-cover{{ if not $cover }} is-missing{{ end }}{{ if $i.nsfw }} is-nsfw{{ end }}">
+    <img {{ with $cover }}src="{{ . }}" {{ end }}alt="{{ $i.title }}"
+      {{- if eq $type "music" }} width="500" height="500"{{ else }} width="400" height="600"{{ end }}
+      loading="lazy" decoding="async" onerror="this.onerror=null;this.parentNode.classList.add('is-missing')">
+    <div class="media-title-card" aria-hidden="true">
+      <span class="media-title-card-title">{{ $i.title }}</span>
+      <span class="media-title-card-creator">{{ $i.creator }}</span>
+    </div>
+    <button type="button" class="media-nsfw-reveal" onclick="this.parentNode.classList.add('is-revealed')">nsfw · click to reveal</button>
+  </div>
+  <p class="media-title">{{ $i.title }}</p>
+  {{- if and .compact .showCreator }}
+  <p class="media-meta media-card-creator">{{ $i.creator }}</p>
+  {{- end }}
+  {{- if not .compact }}
+  <p class="media-meta">{{ $i.creator }}{{ with $i.year }}{{ if $i.creator }} · {{ end }}{{ . }}{{ end }}</p>
+  {{- with $genres }}<p class="media-meta">{{ delimit . ", " }}</p>{{ end }}
+  <div class="media-status">
+    <span class="tag {{ $info.class }}">{{ $info.label }}</span>
+    {{- with $month }}<span class="media-date">{{ .Format "Jan 2006" }}</span>{{ end }}
+  </div>
+  {{- end }}
+  <p class="media-rating" aria-label="{{ $rating }} out of 5">
+    {{- if gt $rating 0 -}}
+      {{- $full := int (math.Floor $rating) -}}
+      {{- $half := cond (ge (sub $rating $full) 0.5) 1 0 -}}
+      <span class="media-rating-on">{{ strings.Repeat $full "●" }}{{ strings.Repeat $half "◐" }}</span><span class="media-rating-off">{{ strings.Repeat (sub (sub 5 $full) $half) "○" }}</span>
+    {{- end -}}
+  </p>
+</div>

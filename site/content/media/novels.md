@@ -1,0 +1,4 @@
+---
+title: "Novels"
+mediaType: "novels"
+---

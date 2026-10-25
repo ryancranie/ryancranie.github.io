@@ -1,0 +1,63 @@
+# Overarching genres for the music page's genre dropdown.
+# Each detailed genre (lowercase) can sit in several groups, so an album matches
+# every group any of its genres belongs to. Albums with an unmapped genre, or no
+# genres at all, also match "other".
+#
+# This is also the whitelist for `import_media.py regenre music`: only Last.fm tags
+# listed here are kept (matched ignoring case, spaces and punctuation, so "hip-hop"
+# and "dreampop" count). Anything else - "seen live", years, countries, languages,
+# moods, artist names - is ignored.
+
+- group: rock
+  genres: [rock, alternative rock, art rock, britpop, folk rock, gothic rock, j-rock, jazz rock,
+           noise rock, pop rock, progressive rock, punk rock, soft rock, indie rock/rock pop, new wave,
+           post-rock, psychedelic rock, psychedelic, garage rock, grunge, krautrock, space rock,
+           stoner rock, classic rock, hard rock, post-grunge]
+- group: indie & alternative
+  genres: [indie, alternative, alternative pop, alternative rock, alternative r&b, indie rock,
+           indie pop, indie folk, indie rock/rock pop, indietronica, bedroom pop, lo-fi, slowcore,
+           sadcore, jangle pop, twee pop, noise pop, chamber pop, j-rock, shibuya-kei, freak folk]
+- group: emo & math rock
+  genres: [emo, emo pop, midwest emo, math rock, math pop, screamo, skramz, emoviolence, mathcore,
+           emo rap, post-emo, slowcore]
+- group: punk & hardcore
+  genres: [punk, punk rock, post-punk, alternative punk, art punk, folk punk, post-hardcore,
+           christian hardcore, screamo, mathcore, metalcore, deathcore, hardcore, hardcore punk,
+           pop punk, coldwave, darkwave, emoviolence]
+- group: metal
+  genres: [metal, black metal, death metal, death-doom metal, deathcore, depressive black metal,
+           doom metal, doom, doomgaze, metalcore, post-metal, progressive metal, technical death metal,
+           blackgaze, post-black metal, atmospheric black metal, sludge metal, sludge, drone metal,
+           heavy metal, thrash metal, nu metal, dsbm, depressive suicidal black metal]
+- group: shoegaze & dream pop
+  genres: [shoegaze, dream pop, doomgaze, blackgaze, ethereal wave, noise pop, nu gaze, nugaze,
+           chillwave]
+- group: electronic
+  genres: [electronic, electronica, acid techno, ambient techno, breakcore, complextro, drill and bass,
+           drum and bass, edm, electro, electro house, electroclash, electropop, idm, indietronica,
+           synth-pop, synthpop, downtempo, trip hop, digicore, dance-pop, disco, techno, house,
+           deep house, uk garage, dubstep, jungle, footwork, breakbeat, chiptune, glitch, glitch pop,
+           hyperpop, vaporwave, witch house, synthwave, plunderphonics, dance, jersey club]
+- group: ambient & experimental
+  genres: [ambient, ambient pop, ambient techno, dark ambient, drone, experimental, electroacoustic,
+           hauntology, post-rock, noise rock, noise, idm, avant-garde, musique concrete,
+           field recordings, new age, environmental music, classical, modern classical,
+           neoclassical, contemporary classical, minimalism, plunderphonics]
+- group: hip hop
+  genres: [hip hop, rap, cloud rap, rage, trap, digicore, emo rap, underground hip hop,
+           experimental hip hop, abstract hip hop, plugg, pluggnb, jazz rap, conscious hip hop,
+           drill, phonk]
+- group: pop
+  genres: [pop, art pop, dance-pop, europop, electropop, synth-pop, synthpop, alternative pop,
+           bedroom pop, progressive pop, emo pop, ambient pop, indie pop, pop rock, disco, new wave,
+           city pop, j-pop, k-pop, hyperpop, glitch pop, chamber pop, sophisti-pop]
+- group: folk & singer-songwriter
+  genres: [folk, indie folk, folk rock, folk punk, anti-folk, singer-songwriter, acoustic, folk pop,
+           freak folk, americana, country, alt-country, chamber folk]
+- group: jazz & soul
+  genres: [jazz, jazz rock, soul jazz, soul, blues, contemporary r&b, alternative r&b, r&b, rnb,
+           neo-soul, funk, jazz fusion, fusion, bossa nova, jazz rap]
+- group: soundtrack
+  genres: [films/games, soundtrack, video game music, game soundtrack, ost, film score, score]
+- group: other
+  genres: [comedy, spoken word]

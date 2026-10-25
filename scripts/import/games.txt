@@ -1,0 +1,39 @@
+# Games to import
+# Format: Title | Year | status | rating
+# status: completed | current | planning | active (default: planning)
+# active = played regularly; counts as completed on the home and media rows.
+
+Counter-Strike 2 | 2023 | active | 5
+# osu! may not be on Steam; if no cover is found, add one by hand.
+osu! | 2007 | active | 5
+The Last of Us Part I | 2022 | completed | 4.5
+Celeste | 2018 | completed | 4
+
+# In your Steam favourites. Set to planning as asked; switch to active if you play them.
+KovaaK's | 2018
+Rocket League | 2015
+
+Hollow Knight | 2017
+OneShot | 2016
+Baba Is You | 2019
+Call of Juarez: Gunslinger | 2013
+Don't Starve Together | 2016
+Enter the Gungeon | 2016
+The Escapists 2 | 2017
+Getting Over It with Bennett Foddy | 2017
+It Takes Two | 2021
+Lethal Company | 2023
+Ori and the Blind Forest: Definitive Edition | 2016
+Papers, Please | 2013
+PC Building Simulator | 2018
+Pixel Piracy | 2015
+Poly Bridge | 2016
+Portal 2 | 2011
+# 2019 remake assumed (the Steam version).
+Resident Evil 2 | 2019
+Risk of Rain 2 | 2020
+A Short Hike | 2019
+Stardew Valley | 2016
+# 2013 reboot assumed (the Steam version).
+Tomb Raider | 2013
+Undertale | 2015

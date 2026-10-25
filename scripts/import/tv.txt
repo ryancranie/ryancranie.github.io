@@ -1,0 +1,56 @@
+# TV shows to import
+# Format: Title | First air year | status | rating
+# status: completed | current | planning | active (default: planning)
+
+# Live action / western animation
+# No status given in your list, so these default to planning (to watch).
+Better Call Saul | 2015
+BoJack Horseman | 2014
+Breaking Bad | 2008
+Friends | 1994
+
+# Anime series - completed
+Cyberpunk: Edgerunners | 2022 | completed
+DARLING in the FRANXX | 2018 | completed
+Death Note | 2006 | completed
+# Fate/Zero Season 2 merged: TMDB lists both seasons as one show.
+Fate/Zero | 2011 | completed
+Inferno Cop | 2012 | completed
+Kaguya-sama: Love is War | 2019 | completed
+Neon Genesis Evangelion | 1995 | completed
+Serial Experiments Lain | 1998 | completed
+Sword Art Online | 2012 | completed
+Toradora! | 2008 | completed
+Your Lie in April | 2014 | completed
+
+# Anime series - planning
+Angel Beats! | 2010
+Attack on Titan | 2013
+Berserk | 1997
+BNA | 2020
+Code Geass: Lelouch of the Rebellion | 2006
+Cowboy Bebop | 1998
+DOUBLE DECKER! DOUG & KIRILL | 2018
+Fate/stay night: Unlimited Blade Works | 2014
+# Also in your Obsidian TV list; merged into one entry.
+FLCL | 2000
+From the New World | 2012
+Fullmetal Alchemist: Brotherhood | 2009
+Great Pretender | 2020
+Haibane Renmei | 2002
+Made in Abyss | 2017
+Mob Psycho 100 | 2016
+Monster | 2004
+One-Punch Man | 2015
+# TMDB may group this under the wider Monogatari series. Check the match.
+Ping Pong the Animation | 2014
+Samurai Champloo | 2004
+Steins;Gate | 2011
+Texhnolyze | 2003
+The Promised Neverland | 2019
+Tokyo Ghoul | 2014
+Tomodachi Game | 2022
+Trigun | 1998
+# TMDB may group this under the wider Monogatari series. Check the match.
+Vinland Saga | 2019
+Violet Evergarden | 2018

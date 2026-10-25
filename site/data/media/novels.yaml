@@ -1,0 +1,82 @@
+- title: Flowers for Algernon
+  creator: Daniel Keyes
+  year: 1966
+  genre: [Science Fiction, Classic]
+  status: current
+  cover: /img/media/novels/flowers-for-algernon.jpg
+  olid: OL515754W
+  genres_locked: true
+
+- title: Sapiens
+  creator: Yuval Noah Harari
+  year: 2011
+  genre: [Non-fiction, History]
+  status: planning
+  cover: /img/media/novels/sapiens.jpg
+  olid: OL17075811W
+  genres_locked: true
+
+- title: The Road
+  creator: Cormac McCarthy
+  year: 2006
+  genre: [Fiction, Post-apocalyptic]
+  status: planning
+  cover: /img/media/novels/the-road.jpg
+  olid: OL40873W
+  genres_locked: true
+
+- title: Wonderful Everyday ~Diskontinuierliches Dasein~
+  creator: KeroQ
+  year: 2010
+  genre: [Visual Novel, Psychological]
+  status: completed
+  cover: /img/media/novels/wonderful-everyday-diskontinuierliches-dasein.jpg
+  vndb_id: v3144
+  genres_locked: true
+  nsfw: true
+  date: "2023-09"
+
+- title: Steins;Gate
+  creator: NITRO PLUS
+  year: 2009
+  genre: [Visual Novel, Science Fiction]
+  status: current
+  cover: /img/media/novels/steins-gate.jpg
+  vndb_id: v2002
+  genres_locked: true
+
+- title: Animal Farm
+  creator: George Orwell
+  year: 1945
+  genre: [Classic, Satire]
+  status: planning
+  cover: /img/media/novels/animal-farm.jpg
+  olid: OL1168007W
+  genres_locked: true
+
+- title: Nineteen Eighty-Four
+  creator: George Orwell
+  year: 1949
+  genre: [Classic, Dystopian]
+  status: planning
+  cover: /img/media/novels/nineteen-eighty-four.jpg
+  olid: OL1168083W
+  genres_locked: true
+
+- title: To Kill a Mockingbird
+  creator: Harper Lee
+  year: 1960
+  genre: [Classic, Fiction]
+  status: planning
+  cover: /img/media/novels/to-kill-a-mockingbird.jpg
+  olid: OL3140822W
+  genres_locked: true
+
+- title: Of Mice and Men
+  creator: John Steinbeck
+  year: 1937
+  genre: [Classic, Fiction]
+  status: planning
+  cover: /img/media/novels/of-mice-and-men.jpg
+  olid: OL23204W
+  genres_locked: true

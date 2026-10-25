@@ -1,0 +1,567 @@
+- title: Kung Fu Panda 4
+  creator: Mike Mitchell
+  year: 2024
+  genre: [Animation, Comedy, Adventure]
+  status: completed
+  cover: /img/media/movies/kung-fu-panda-4.jpg
+  tmdb_id: 1011985
+
+- title: 'Spider-Man: Across the Spider-Verse'
+  creator: Kemp Powers, Justin K. Thompson, Joaquim Dos Santos
+  year: 2023
+  genre: [Animation, Action, Adventure]
+  status: completed
+  cover: /img/media/movies/spider-man-across-the-spider-verse.jpg
+  tmdb_id: 569094
+
+- title: The Boy and the Heron
+  creator: Hayao Miyazaki
+  year: 2023
+  genre: [Anime, Animation, Fantasy, Drama]
+  status: completed
+  cover: /img/media/movies/the-boy-and-the-heron.jpg
+  tmdb_id: 508883
+  rating: 3.5
+
+- title: 'Puss in Boots: The Last Wish'
+  creator: Joel Crawford
+  year: 2022
+  genre: [Animation, Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/puss-in-boots-the-last-wish.jpg
+  tmdb_id: 315162
+
+- title: Parasite
+  creator: Bong Joon Ho
+  year: 2019
+  genre: [Comedy, Thriller, Drama]
+  status: completed
+  cover: /img/media/movies/parasite.jpg
+  tmdb_id: 496243
+  rating: 4.5
+
+- title: The Lighthouse
+  creator: Robert Eggers
+  year: 2019
+  genre: [Drama, Fantasy, Thriller]
+  status: planning
+  cover: /img/media/movies/the-lighthouse.jpg
+  tmdb_id: 503919
+
+- title: Weathering with You
+  creator: Makoto Shinkai
+  year: 2019
+  genre: [Anime, Animation, Drama, Fantasy]
+  status: completed
+  cover: /img/media/movies/weathering-with-you.jpg
+  tmdb_id: 568160
+
+- title: 'Spider-Man: Into the Spider-Verse'
+  creator: Bob Persichetti, Peter Ramsey, Rodney Rothman
+  year: 2018
+  genre: [Animation, Action, Adventure]
+  status: planning
+  cover: /img/media/movies/spider-man-into-the-spider-verse.jpg
+  tmdb_id: 324857
+
+- title: Good Time
+  creator: Josh Safdie, Benny Safdie
+  year: 2017
+  genre: [Crime, Thriller, Drama]
+  status: planning
+  cover: /img/media/movies/good-time.jpg
+  tmdb_id: 429200
+
+- title: 'Batman v Superman: Dawn of Justice'
+  creator: Zack Snyder
+  year: 2016
+  genre: [Action, Adventure, Fantasy]
+  status: planning
+  cover: /img/media/movies/batman-v-superman-dawn-of-justice.jpg
+  tmdb_id: 209112
+
+- title: Your Name.
+  creator: Makoto Shinkai
+  year: 2016
+  genre: [Anime, Animation, Romance, Drama]
+  status: completed
+  cover: /img/media/movies/your-name.jpg
+  tmdb_id: 372058
+
+- title: Interstellar
+  creator: Christopher Nolan
+  year: 2014
+  genre: [Adventure, Drama, Science Fiction]
+  status: planning
+  cover: /img/media/movies/interstellar.jpg
+  tmdb_id: 157336
+
+- title: Whiplash
+  creator: Damien Chazelle
+  year: 2014
+  genre: [Drama, Music, Thriller]
+  status: completed
+  cover: /img/media/movies/whiplash.jpg
+  tmdb_id: 244786
+  rating: 4.5
+
+- title: Django Unchained
+  creator: Quentin Tarantino
+  year: 2012
+  genre: [Drama, Western]
+  status: planning
+  cover: /img/media/movies/django-unchained.jpg
+  tmdb_id: 68718
+
+- title: ParaNorman
+  creator: Sam Fell, Chris Butler
+  year: 2012
+  genre: [Family, Animation, Adventure]
+  status: planning
+  cover: /img/media/movies/paranorman.jpg
+  tmdb_id: 77174
+
+- title: 'The Twilight Saga: Breaking Dawn - Part 2'
+  creator: Bill Condon
+  year: 2012
+  genre: [Fantasy, Drama, Romance]
+  status: completed
+  cover: /img/media/movies/the-twilight-saga-breaking-dawn-part-2.jpg
+  tmdb_id: 50620
+
+- title: 'Harry Potter and the Deathly Hallows: Part 2'
+  creator: David Yates
+  year: 2011
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-deathly-hallows-part-2.jpg
+  tmdb_id: 12445
+
+- title: 'The Twilight Saga: Breaking Dawn - Part 1'
+  creator: Bill Condon
+  year: 2011
+  genre: [Adventure, Fantasy, Romance]
+  status: completed
+  cover: /img/media/movies/the-twilight-saga-breaking-dawn-part-1.jpg
+  tmdb_id: 50619
+
+- title: 'Harry Potter and the Deathly Hallows: Part 1'
+  creator: David Yates
+  year: 2010
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-deathly-hallows-part-1.jpg
+  tmdb_id: 12444
+
+- title: How to Train Your Dragon
+  creator: Dean DeBlois, Chris Sanders
+  year: 2010
+  genre: [Fantasy, Adventure, Animation]
+  status: planning
+  cover: /img/media/movies/how-to-train-your-dragon.jpg
+  tmdb_id: 10191
+
+- title: Megamind
+  creator: Tom McGrath
+  year: 2010
+  genre: [Animation, Action, Comedy]
+  status: planning
+  cover: /img/media/movies/megamind.jpg
+  tmdb_id: 38055
+
+- title: Scott Pilgrim vs. the World
+  creator: Edgar Wright
+  year: 2010
+  genre: [Action, Comedy, Romance]
+  status: planning
+  cover: /img/media/movies/scott-pilgrim-vs-the-world.jpg
+  tmdb_id: 22538
+
+- title: 'The Twilight Saga: Eclipse'
+  creator: David Slade
+  year: 2010
+  genre: [Adventure, Fantasy, Drama]
+  status: completed
+  cover: /img/media/movies/the-twilight-saga-eclipse.jpg
+  tmdb_id: 24021
+
+- title: Avatar
+  creator: James Cameron
+  year: 2009
+  genre: [Science Fiction, Action, Adventure]
+  status: planning
+  cover: /img/media/movies/avatar.jpg
+  tmdb_id: 19995
+
+- title: Coraline
+  creator: Henry Selick
+  year: 2009
+  genre: [Animation, Family, Fantasy]
+  status: completed
+  cover: /img/media/movies/coraline.jpg
+  tmdb_id: 14836
+  rating: 4
+
+- title: Harry Potter and the Half-Blood Prince
+  creator: David Yates
+  year: 2009
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-half-blood-prince.jpg
+  tmdb_id: 767
+
+- title: 'The Twilight Saga: New Moon'
+  creator: Chris Weitz
+  year: 2009
+  genre: [Adventure, Fantasy, Drama]
+  status: completed
+  cover: /img/media/movies/the-twilight-saga-new-moon.jpg
+  tmdb_id: 18239
+
+- title: Twilight
+  creator: Catherine Hardwicke
+  year: 2008
+  genre: [Fantasy, Drama, Romance]
+  status: completed
+  cover: /img/media/movies/twilight.jpg
+  tmdb_id: 8966
+
+- title: Harry Potter and the Order of the Phoenix
+  creator: David Yates
+  year: 2007
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-order-of-the-phoenix.jpg
+  tmdb_id: 675
+
+- title: Hot Fuzz
+  creator: Edgar Wright
+  year: 2007
+  genre: [Crime, Action, Comedy]
+  status: planning
+  cover: /img/media/movies/hot-fuzz.jpg
+  tmdb_id: 4638
+
+- title: Juno
+  creator: Jason Reitman
+  year: 2007
+  genre: [Comedy, Drama, Romance]
+  status: planning
+  cover: /img/media/movies/juno.jpg
+  tmdb_id: 7326
+
+- title: Ratatouille
+  creator: Brad Bird
+  year: 2007
+  genre: [Animation, Comedy, Family]
+  status: completed
+  cover: /img/media/movies/ratatouille.jpg
+  tmdb_id: 2062
+
+- title: Little Miss Sunshine
+  creator: Jonathan Dayton, Valerie Faris
+  year: 2006
+  genre: [Comedy, Drama]
+  status: completed
+  cover: /img/media/movies/little-miss-sunshine.jpg
+  tmdb_id: 773
+  rating: 5
+
+- title: Paprika
+  creator: Satoshi Kon
+  year: 2006
+  genre: [Anime, Animation, Science Fiction, Thriller]
+  status: completed
+  cover: /img/media/movies/paprika.jpg
+  tmdb_id: 4977
+  rating: 3.5
+
+- title: Harry Potter and the Goblet of Fire
+  creator: Mike Newell
+  year: 2005
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-goblet-of-fire.jpg
+  tmdb_id: 674
+
+- title: Harry Potter and the Prisoner of Azkaban
+  creator: Alfonso Cuarón
+  year: 2004
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-prisoner-of-azkaban.jpg
+  tmdb_id: 673
+
+- title: Howl's Moving Castle
+  creator: Hayao Miyazaki
+  year: 2004
+  genre: [Anime, Fantasy, Animation, Adventure]
+  status: completed
+  cover: /img/media/movies/howl-s-moving-castle.jpg
+  tmdb_id: 4935
+  rating: 4
+
+- title: 'Team America: World Police'
+  creator: Trey Parker
+  year: 2004
+  genre: [Adventure, Action, Comedy]
+  status: planning
+  cover: /img/media/movies/team-america-world-police.jpg
+  tmdb_id: 3989
+
+- title: Harry Potter and the Chamber of Secrets
+  creator: Chris Columbus
+  year: 2002
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-chamber-of-secrets.jpg
+  tmdb_id: 672
+
+- title: A Beautiful Mind
+  creator: Ron Howard
+  year: 2001
+  genre: [Drama, Romance]
+  status: planning
+  cover: /img/media/movies/a-beautiful-mind.jpg
+  tmdb_id: 453
+
+- title: Harry Potter and the Sorcerer's Stone
+  creator: Chris Columbus
+  year: 2001
+  genre: [Adventure, Fantasy]
+  status: completed
+  cover: /img/media/movies/harry-potter-and-the-philosopher-s-stone.jpg
+  tmdb_id: 671
+
+- title: Saving Private Ryan
+  creator: Steven Spielberg
+  year: 1998
+  genre: [War, Drama, History]
+  status: planning
+  cover: /img/media/movies/saving-private-ryan.jpg
+  tmdb_id: 857
+
+- title: Good Will Hunting
+  creator: Gus Van Sant
+  year: 1997
+  genre: [Drama]
+  status: completed
+  cover: /img/media/movies/good-will-hunting.jpg
+  tmdb_id: 489
+  rating: 5
+
+- title: Space Jam
+  creator: Joe Pytka
+  year: 1996
+  genre: [Family, Science Fiction, Fantasy]
+  status: planning
+  cover: /img/media/movies/space-jam.jpg
+  tmdb_id: 2300
+
+- title: Kiki's Delivery Service
+  creator: Hayao Miyazaki
+  year: 1989
+  genre: [Anime, Animation, Family, Fantasy]
+  status: completed
+  cover: /img/media/movies/kiki-s-delivery-service.jpg
+  tmdb_id: 16859
+  rating: 5
+
+- title: Pinocchio
+  creator: Hamilton Luske, Ben Sharpsteen, Norman Ferguson, T. Hee, Jack Kinney, Bill Roberts, Wilfred Jackson
+  year: 1940
+  genre: [Animation, Family, Fantasy]
+  status: planning
+  cover: /img/media/movies/pinocchio.jpg
+  tmdb_id: 10895
+
+- title: 'A Silent Voice: The Movie'
+  creator: Naoko Yamada
+  year: 2016
+  genre: [Anime, Animation, Drama, Romance]
+  status: completed
+  cover: /img/media/movies/a-silent-voice-the-movie.jpg
+  tmdb_id: 378064
+  rating: 4
+
+- title: Akira
+  creator: Katsuhiro Otomo
+  year: 1988
+  genre: [Anime, Animation, Science Fiction, Action]
+  status: completed
+  cover: /img/media/movies/akira.jpg
+  tmdb_id: 149
+
+- title: Children of the Sea
+  creator: Ayumu Watanabe
+  year: 2019
+  genre: [Anime, Animation, Fantasy, Adventure]
+  status: completed
+  cover: /img/media/movies/children-of-the-sea.jpg
+  tmdb_id: 585077
+
+- title: 'Evangelion: 1.0 You Are (Not) Alone'
+  creator: Kazuya Tsurumaki, Masayuki, Hideaki Anno
+  year: 2007
+  genre: [Anime, Animation, Science Fiction, Action]
+  status: completed
+  cover: /img/media/movies/evangelion-1-0-you-are-not-alone.jpg
+  tmdb_id: 15137
+
+- title: 'Evangelion: 2.0 You Can (Not) Advance'
+  creator: Masayuki, Kazuya Tsurumaki, Hideaki Anno
+  year: 2009
+  genre: [Anime, Animation, Science Fiction, Action]
+  status: completed
+  cover: /img/media/movies/evangelion-2-0-you-can-not-advance.jpg
+  tmdb_id: 22843
+
+- title: 'Evangelion: 3.0 You Can (Not) Redo'
+  creator: Hideaki Anno, Masayuki, Mahiro Maeda, Kazuya Tsurumaki
+  year: 2012
+  genre: [Anime, Animation, Science Fiction, Action]
+  status: completed
+  cover: /img/media/movies/evangelion-3-0-you-can-not-redo.jpg
+  tmdb_id: 75629
+
+- title: 'Evangelion: 3.0+1.0 Thrice Upon a Time'
+  creator: Kazuya Tsurumaki, Mahiro Maeda, Katsuichi Nakayama, Hideaki Anno
+  year: 2021
+  genre: [Anime, Animation, Action, Science Fiction]
+  status: completed
+  cover: /img/media/movies/evangelion-3-0-1-0-thrice-upon-a-time.jpg
+  tmdb_id: 283566
+
+- title: I Want to Eat Your Pancreas
+  creator: Shinichiro Ushijima
+  year: 2018
+  genre: [Anime, Animation, Drama, Romance]
+  status: completed
+  cover: /img/media/movies/i-want-to-eat-your-pancreas.jpg
+  tmdb_id: 504253
+
+- title: My Neighbor Totoro
+  creator: Hayao Miyazaki
+  year: 1988
+  genre: [Anime, Fantasy, Animation, Family]
+  status: completed
+  cover: /img/media/movies/my-neighbor-totoro.jpg
+  tmdb_id: 8392
+  rating: 4.5
+
+- title: 'Neon Genesis Evangelion: The End of Evangelion'
+  creator: Kazuya Tsurumaki, Hideaki Anno
+  year: 1997
+  genre: [Anime, Animation, Science Fiction, Drama]
+  status: completed
+  cover: /img/media/movies/neon-genesis-evangelion-the-end-of-evangelion.jpg
+  tmdb_id: 18491
+
+- title: Spirited Away
+  creator: Hayao Miyazaki
+  year: 2001
+  genre: [Anime, Animation, Family, Fantasy]
+  status: completed
+  cover: /img/media/movies/spirited-away.jpg
+  tmdb_id: 129
+
+- title: 'Vampire Hunter D: Bloodlust'
+  creator: Yoshiaki Kawajiri
+  year: 2001
+  genre: [Anime, Animation, Fantasy, Horror]
+  status: completed
+  cover: /img/media/movies/vampire-hunter-d-bloodlust.jpg
+  tmdb_id: 15999
+  rating: 4
+
+- title: Whisper of the Heart
+  creator: Yoshifumi Kondo
+  year: 1995
+  genre: [Anime, Animation, Drama, Family]
+  status: completed
+  cover: /img/media/movies/whisper-of-the-heart.jpg
+  tmdb_id: 37797
+
+- title: 5 Centimeters per Second
+  creator: Makoto Shinkai
+  year: 2007
+  genre: [Anime, Animation, Romance, Drama]
+  status: planning
+  cover: /img/media/movies/5-centimeters-per-second.jpg
+  tmdb_id: 38142
+
+- title: Flavors of Youth
+  creator: Joshua, Li Haoling, Yoshitaka Takeuchi
+  year: 2018
+  genre: [Anime, Animation, Romance, Drama]
+  status: planning
+  cover: /img/media/movies/flavors-of-youth.jpg
+  tmdb_id: 513347
+
+- title: From Up on Poppy Hill
+  creator: Goro Miyazaki
+  year: 2011
+  genre: [Anime, Animation, Drama]
+  status: planning
+  cover: /img/media/movies/from-up-on-poppy-hill.jpg
+  tmdb_id: 83389
+
+- title: Ghost in the Shell
+  creator: Mamoru Oshii
+  year: 1995
+  genre: [Anime, Action, Animation, Science Fiction]
+  status: planning
+  cover: /img/media/movies/ghost-in-the-shell.jpg
+  tmdb_id: 9323
+
+- title: Perfect Blue
+  creator: Satoshi Kon
+  year: 1998
+  genre: [Anime, Animation, Thriller]
+  status: completed
+  cover: /img/media/movies/perfect-blue.jpg
+  tmdb_id: 10494
+  rating: 4
+
+- title: Princess Mononoke
+  creator: Hayao Miyazaki
+  year: 1997
+  genre: [Anime, Adventure, Fantasy, Animation]
+  status: completed
+  cover: /img/media/movies/princess-mononoke.jpg
+  tmdb_id: 128
+  rating: 4.5
+
+- title: The Garden of Words
+  creator: Makoto Shinkai
+  year: 2013
+  genre: [Anime, Animation, Drama, Romance]
+  status: planning
+  cover: /img/media/movies/the-garden-of-words.jpg
+  tmdb_id: 198375
+
+- title: The Tunnel to Summer, the Exit of Goodbyes
+  creator: Tomohisa Taguchi
+  year: 2022
+  genre: [Anime, Animation, Drama, Romance]
+  status: planning
+  cover: /img/media/movies/the-tunnel-to-summer-the-exit-of-goodbyes.jpg
+  tmdb_id: 916192
+
+- title: The Wind Rises
+  creator: Hayao Miyazaki
+  year: 2013
+  genre: [Anime, Animation, Drama, History]
+  status: planning
+  cover: /img/media/movies/the-wind-rises.jpg
+  tmdb_id: 149870
+
+- title: The Nightmare Before Christmas
+  creator: Henry Selick
+  year: 1993
+  genre: [Fantasy, Animation, Family]
+  status: completed
+  cover: /img/media/movies/the-nightmare-before-christmas.jpg
+  tmdb_id: 9479
+  rating: 3.5
+  date: "2026-10"

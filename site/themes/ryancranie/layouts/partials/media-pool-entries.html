@@ -1,0 +1,10 @@
+{{- /* Usage: partial "media-pool-entries.html" $entries → slice of plain dicts for the media-pool JSON */ -}}
+{{- $list := slice -}}
+{{- range . -}}
+  {{- $cover := "" -}}
+  {{- with .cover }}{{ if and (hasPrefix . "/img/media/") (not (hasSuffix . "placeholder.svg")) }}{{ $cover = . }}{{ end }}{{ end -}}
+  {{- $list = $list | append (dict "id" (printf "%s|%s" .title (.creator | default "")) "title" .title
+        "creator" (.creator | default "") "cover" $cover "rating" (float (.rating | default 0))
+        "nsfw" (.nsfw | default false)) -}}
+{{- end -}}
+{{- return $list -}}

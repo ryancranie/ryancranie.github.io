@@ -1,0 +1,8 @@
+{{- /* Usage: partial "media-month.html" .date → time at the start of that month, or false.
+  Dates are month precision ("2026-10"); full dates also work. */ -}}
+{{- $t := false -}}
+{{- with . -}}
+  {{- $m := findRE `^\d{4}-\d{2}` (string .) 1 -}}
+  {{- with $m }}{{ $t = time.AsTime (printf "%s-01" (index . 0)) }}{{ end -}}
+{{- end -}}
+{{- return $t -}}

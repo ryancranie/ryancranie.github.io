@@ -1,0 +1,142 @@
+{{ define "main" }}
+{{ $type := .Params.mediaType }}
+{{ $entries := index hugo.Data.media $type | default slice }}
+
+<a href="/media/" class="media-back-link">← media</a>
+<h1>{{ .Title }}</h1>
+
+{{ $allGenres := slice }}
+{{ range $entries }}
+  {{ range .genre }}{{ $allGenres = $allGenres | append (lower .) }}{{ end }}
+{{ end }}
+{{ $genres := sort ($allGenres | uniq) }}
+
+<div class="media-filters">
+  <div class="tag-filters media-filter-group" id="status-filters">
+    {{ range partial "media-statuses.html" $type }}
+    <button class="tag-filter" data-status="{{ .status }}" aria-label="Filter by {{ .label }}"><span class="tag {{ .class }}">{{ .label }}</span></button>
+    {{ end }}
+    <button class="tag-filter tag-filter-active" data-status="all" aria-label="Show all"><span class="tag tag-default">all</span></button>
+  </div>
+
+  {{ if eq $type "music" }}
+  {{/* music: overarching genre groups instead of the long list of detailed genres */}}
+  <label class="media-sort">
+    <span>genre</span>
+    <select id="media-group" class="media-select">
+      <option value="all">all genres</option>
+      {{ range hugo.Data.media.genre_groups }}
+        {{ if or (intersect .genres $allGenres) (eq .group "other") }}
+      <option value="{{ .group }}">{{ .group }}</option>
+        {{ end }}
+      {{ end }}
+    </select>
+  </label>
+  {{ else if $genres }}
+  <div class="tag-filters media-filter-group" id="genre-filters">
+    {{ range $genres }}
+    <button class="tag-filter" data-genre="{{ . }}" aria-label="Filter by {{ . }}"><span class="tag tag-default">{{ . }}</span></button>
+    {{ end }}
+    <button class="tag-filter tag-filter-active" data-genre="all" aria-label="All genres"><span class="tag tag-default">all</span></button>
+  </div>
+  {{ end }}
+
+  <input type="search" id="media-search" class="media-search" placeholder="search" aria-label="Search by title or creator" autocomplete="off" spellcheck="false">
+</div>
+
+<div class="media-grid" id="media-grid">
+  {{ range $entries }}
+    {{ partial "media-card.html" (dict "item" . "type" $type "compact" false) }}
+  {{ end }}
+</div>
+<p class="media-empty" id="media-empty"{{ if $entries }} hidden{{ end }}>nothing here yet</p>
+
+<script>
+(function(){
+  var grid = document.getElementById('media-grid');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.media-card'));
+  var empty = document.getElementById('media-empty');
+  var search = document.getElementById('media-search');
+  var groupSel = document.getElementById('media-group');
+  var activeStatus = 'all';
+  var activeGenre = 'all';
+
+  var statusBtns = document.querySelectorAll('#status-filters .tag-filter');
+  statusBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      activeStatus = this.dataset.status;
+      statusBtns.forEach(function(b){ b.classList.toggle('tag-filter-active', b === btn); });
+      filterCards();
+    });
+  });
+
+  /* genres are single select: a pill selects only itself; clicking it again (or "all") resets */
+  var genreBtns = document.querySelectorAll('#genre-filters .tag-filter');
+  genreBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var genre = this.dataset.genre;
+      activeGenre = (genre === activeGenre) ? 'all' : genre;
+      genreBtns.forEach(function(b){ b.classList.toggle('tag-filter-active', b.dataset.genre === activeGenre); });
+      filterCards();
+    });
+  });
+
+  if(groupSel) groupSel.addEventListener('change', filterCards);
+  search.addEventListener('input', filterCards);
+
+  /* search ignores case, accents and punctuation: "steins gate" finds "Steins;Gate" */
+  function fold(s){
+    return (s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
+  }
+  cards.forEach(function(card){ card._search = fold(card.dataset.search); });
+
+  function filterCards(){
+    var group = groupSel ? groupSel.value : 'all';
+    var query = fold(search.value);
+    var shown = 0;
+    cards.forEach(function(card){
+      var genres = card.dataset.genres ? card.dataset.genres.split('|') : [];
+      var groups = card.dataset.groups ? card.dataset.groups.split('|') : [];
+      var match = (activeStatus === 'all' || card.dataset.status === activeStatus) &&
+        (activeGenre === 'all' || genres.indexOf(activeGenre) !== -1) &&
+        (group === 'all' || groups.indexOf(group) !== -1) &&
+        (!query || card._search.indexOf(query) !== -1);
+      card.style.display = match ? '' : 'none';
+      if(match) shown++;
+    });
+    empty.hidden = shown !== 0;
+  }
+
+  function num(card, key){ return parseFloat(card.dataset[key]) || 0; }
+
+  /* fixed order: 0 finished + rated (rating desc), 1 finished + dated, 2 finished undated,
+     3 current, 4 planning, 5 dropped. Dated before undated, newest first; then title A-Z. */
+  var FINISHED = ['completed', 'active', 'inactive'];
+  function band(card){
+    var s = card.dataset.status;
+    if(FINISHED.indexOf(s) !== -1){
+      if(num(card, 'rating') > 0) return 0;
+      return num(card, 'date') > 0 ? 1 : 2;
+    }
+    return {current: 3, planning: 4, dropped: 5}[s] || 4;
+  }
+
+  function sortCards(){
+    cards.sort(function(a, b){
+      var ba = band(a), bb = band(b);
+      if(ba !== bb) return ba - bb;
+      if(ba === 0 && num(a, 'rating') !== num(b, 'rating')) return num(b, 'rating') - num(a, 'rating');
+      if(ba === 0 || ba === 1 || ba === 3){
+        var da = num(a, 'date'), db = num(b, 'date');
+        if((da > 0) !== (db > 0)) return da > 0 ? -1 : 1;
+        if(da !== db) return db - da;
+      }
+      return a.dataset.title.localeCompare(b.dataset.title);
+    });
+    cards.forEach(function(card){ grid.appendChild(card); });
+  }
+
+  sortCards();
+})();
+</script>
+{{ end }}
