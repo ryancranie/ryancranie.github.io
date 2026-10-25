@@ -7,7 +7,7 @@ existing entry's title, status, rating or date.
 
 Usage:
   python scripts/import_media.py import <type> scripts/import/<type>.txt --status <default> [--retry]
-  python scripts/import_media.py setcover <type> "<title>" <path-or-url> [--creator "<creator>"]
+  python scripts/import_media.py setcover <type> "<title>" <file | image URL | page URL> [--creator "<creator>"]
   python scripts/import_media.py localize <type> "<title>" [--creator "<creator>"]
   python scripts/import_media.py prune-singles
   python scripts/import_media.py regenre music
@@ -34,6 +34,7 @@ Anything needing a manual check is listed in scripts/import/report.txt.
 
 import argparse
 import hashlib
+import html
 import io
 import json
 import os
@@ -43,11 +44,15 @@ import time
 import unicodedata
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
-import requests
-import yaml
-from PIL import Image
+try:
+    import requests
+    import yaml
+    from PIL import Image
+except ImportError as missing:
+    sys.exit(f"Missing Python package: {missing.name}. Install them with "
+             f"`python -m pip install -r scripts/requirements.txt` (see scripts/README.md).")
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "site" / "data" / "media"
@@ -909,7 +914,7 @@ def cmd_import(media_type, input_file, default_status, retry=False):
                         existing[field] = meta[field]
                 if not existing.get("genres_locked"):
                     existing["genre"] = list(dict.fromkeys([*existing.get("genre", []), *meta.get("genre", [])]))
-            if cover and not has_cover(existing):
+            if cover and not has_cover(existing) and not existing.get("cover_locked"):
                 existing["cover"] = cover
             for field in ID_FIELDS:
                 if meta.get(field):
@@ -956,13 +961,20 @@ def cmd_import(media_type, input_file, default_status, retry=False):
 
 
 def pick_entry(media_type, title, creator):
+    """Loose title match (case, punctuation, full-width characters); falls back to titles
+    containing it. Stops with a list if more than one entry matches."""
     entries = load_entries(media_type)
     found = find_entries(entries, title, creator)
     if not found:
+        q = norm(title)
+        found = [e for e in entries if q and q in norm(e.get("title"))
+                 and (creator is None or norm(e.get("creator")) == norm(creator))]
+    if not found:
         sys.exit(f'No {media_type} entry titled "{title}".')
     if len(found) > 1:
-        sys.exit(f'Several entries titled "{title}" ({", ".join(e.get("creator") or "?" for e in found)}); '
-                 f"pass --creator.")
+        listing = "\n".join(f'  - {e["title"]} / {e.get("creator") or "?"}' for e in found)
+        sys.exit(f'Several {media_type} entries match "{title}":\n{listing}\n'
+                 f"Use the full title, or add --creator.")
     return entries, found[0]
 
 
@@ -977,27 +989,76 @@ def cover_filename(media_type, entry, entries):
     return name
 
 
-def cmd_setcover(media_type, title, source, creator=None):
-    entries, entry = pick_entry(media_type, title, creator)
-    if source.startswith(("http://", "https://")):
-        try:
-            response = request("GET", source, label="image", api=False)
-        except FetchError as e:
-            sys.exit(f"Download failed: {e}")
-        data = response.content
-    else:
+OG_IMAGE = re.compile(
+    r'<meta\s+[^>]*?(?:property|name)=["\'](?:og:image(?::secure_url)?|twitter:image)["\'][^>]*?content=["\']([^"\']+)'
+    r'|<meta\s+[^>]*?content=["\']([^"\']+)["\'][^>]*?(?:property|name)=["\'](?:og:image(?::secure_url)?|twitter:image)["\']',
+    re.I)
+
+
+def source_image(source):
+    """Image bytes from a local file, a direct image URL, or a web page's og:image
+    (Spotify, Bandcamp, SteamGridDB...). Bandcamp art is upgraded to its largest size (_10)."""
+    if not source.startswith(("http://", "https://")):
         path = Path(source).expanduser()
         if not path.is_file():
             sys.exit(f"No such file: {source}")
-        data = path.read_bytes()
-    filename = cover_filename(media_type, entry, entries)
-    if not save_image(media_type, data, filename):
+        return path.read_bytes(), str(path)
+    try:
+        response = request("GET", source, label="source", api=False)
+        if response.headers.get("Content-Type", "").startswith("image/"):
+            return response.content, source
+        match = OG_IMAGE.search(response.text)
+        if not match:
+            sys.exit("That page has no og:image. Pass a direct image URL or a file instead.")
+        image_url = urljoin(source, html.unescape(match.group(1) or match.group(2)))
+        if "bcbits.com" in image_url or "bandcamp.com" in source:
+            image_url = re.sub(r"_\d+\.(jpg|jpeg|png)$", r"_10.\1", image_url)
+        return request("GET", image_url, label="image", api=False).content, image_url
+    except FetchError as e:
+        sys.exit(f"Download failed: {e}")
+
+
+def save_cover(media_type, data, filename):
+    """Centre-crop to the card shape (music 1:1, others 2:3), resize without upscaling,
+    flatten transparency onto black, save as JPEG q85. Returns the final (width, height)."""
+    try:
+        img = Image.open(io.BytesIO(data))
+        img.load()
+    except (OSError, Image.DecompressionBombError):
         sys.exit("That isn't an image Pillow can read.")
+    if img.mode in ("RGBA", "LA", "PA") or (img.mode == "P" and "transparency" in img.info):
+        rgba = img.convert("RGBA")
+        img = Image.new("RGB", rgba.size, (0, 0, 0))
+        img.paste(rgba, mask=rgba.getchannel("A"))
+    else:
+        img = img.convert("RGB")
+    ratio = 1 if media_type == "music" else 2 / 3  # width / height
+    w, h = img.size
+    if w / h > ratio:
+        new_w = round(h * ratio)
+        img = img.crop(((w - new_w) // 2, 0, (w - new_w) // 2 + new_w, h))
+    else:
+        new_h = round(w / ratio)
+        img = img.crop((0, (h - new_h) // 2, w, (h - new_h) // 2 + new_h))
+    img.thumbnail(IMAGE_MAX.get(media_type, PORTRAIT_MAX), Image.LANCZOS)  # never upscales
+    dest = IMG_DIR / media_type / filename
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    img.save(dest, "JPEG", quality=85, optimize=True)
+    return img.size
+
+
+def cmd_setcover(media_type, title, source, creator=None):
+    entries, entry = pick_entry(media_type, title, creator)
+    data, origin = source_image(source)
+    filename = cover_filename(media_type, entry, entries)
+    width, height = save_cover(media_type, data, filename)
     entry["cover"] = f"/img/media/{media_type}/{filename}"
+    entry["cover_locked"] = True  # imports never replace a hand-set cover
     save_entries(media_type, entries)
     title_card_section()
     size = (IMG_DIR / media_type / filename).stat().st_size
-    print(f"Saved site/static{entry['cover']} ({size // 1024} KB); cover updated.")
+    print(f"{entry['title']} / {entry.get('creator') or '?'}: cover from {origin}")
+    print(f"Saved site/static{entry['cover']} ({width}x{height}, {size // 1024} KB).")
 
 
 def cmd_localize(media_type, title, creator=None):
@@ -1283,7 +1344,7 @@ def main():
         p.add_argument("type", choices=TYPES)
         p.add_argument("title")
         if name == "setcover":
-            p.add_argument("source", help="image path or URL")
+            p.add_argument("source", help="image file, image URL, or a page URL (uses its og:image)")
         p.add_argument("--creator")
     sub.add_parser("prune-singles", help="remove music entries that are singles")
     sub.add_parser("check", help="convert disallowed statuses and list title-card entries")

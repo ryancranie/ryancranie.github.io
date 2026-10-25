@@ -42,6 +42,7 @@
   status: inactive
   rating: 3.5
   genres_locked: true
+  cover: /img/media/games/rocket-league.jpg
 
 - title: Hollow Knight
   creator: Team Cherry
@@ -218,9 +219,11 @@
 - title: osu!
   creator: ppy
   year: 2007
-  genre: []
+  genre: [Rhythm]
   status: active
   rating: 5
+  cover: /img/media/games/osu.jpg
+  genres_locked: true
 
 - title: Tomb Raider Game of the Year
   creator: Crystal Dynamics
@@ -229,3 +232,156 @@
   status: planning
   cover: /img/media/games/tomb-raider-game-of-the-year.jpg
   steam_appid: 203160
+
+- title: BOKURA
+  creator: tokoronyori
+  year: 2021
+  genre: [Action, Adventure, Casual]
+  status: completed
+  rating: 3.5
+  cover: /img/media/games/bokura.jpg
+  steam_appid: 1801110
+
+- title: BattleBlock Theater
+  creator: The Behemoth
+  year: 2013
+  genre: [Action, Adventure, Casual]
+  status: completed
+  rating: 3
+  cover: /img/media/games/battleblock-theater.jpg
+  steam_appid: 238460
+
+- title: Castle Crashers
+  creator: The Behemoth
+  year: 2008
+  genre: [Action, Adventure, Casual]
+  status: completed
+  rating: 3
+  cover: /img/media/games/castle-crashers.jpg
+  steam_appid: 204360
+
+- title: DAVE THE DIVER
+  creator: MINTROCKET
+  year: 2023
+  genre: [Adventure, Casual, RPG]
+  status: planning
+  cover: /img/media/games/dave-the-diver.jpg
+  steam_appid: 1868140
+
+- title: Disco Elysium - The Final Cut
+  creator: ZA/UM
+  year: 2019
+  genre: [RPG]
+  status: planning
+  cover: /img/media/games/disco-elysium-the-final-cut.jpg
+  steam_appid: 632470
+
+- title: Do Not Feed the Monkeys
+  creator: Fictiorama Studios
+  year: 2018
+  genre: [Indie, Simulation, Strategy]
+  status: completed
+  rating: 3.5
+  cover: /img/media/games/do-not-feed-the-monkeys.jpg
+  steam_appid: 658850
+
+- title: GeoGuessr
+  creator: ''
+  year: 2013
+  genre: []
+  status: inactive
+
+- title: Heavy Rain
+  creator: Quantic Dream
+  year: 2010
+  genre: [Action, Adventure]
+  status: completed
+  rating: 3.5
+  cover: /img/media/games/heavy-rain.jpg
+  steam_appid: 960910
+
+- title: Stray
+  creator: BlueTwelve Studio
+  year: 2022
+  genre: [Adventure, Indie]
+  status: completed
+  rating: 4
+  cover: /img/media/games/stray.jpg
+  steam_appid: 1332010
+
+- title: Mirror's Edge Catalyst
+  creator: DICE
+  year: 2016
+  genre: [Action, Adventure]
+  status: planning
+  cover: /img/media/games/mirror-s-edgetm-catalyst.jpg
+  steam_appid: 1233570
+
+- title: OMORI
+  creator: OMOCAT, LLC
+  year: 2020
+  genre: [Adventure, Indie, RPG]
+  status: planning
+  cover: /img/media/games/omori.jpg
+  steam_appid: 1150690
+
+- title: Phasmophobia
+  creator: Kinetic Games
+  year: 2020
+  genre: [Action, Indie, Early Access]
+  status: inactive
+  rating: 4
+  cover: /img/media/games/phasmophobia.jpg
+  steam_appid: 739630
+
+- title: PICO PARK
+  creator: TECOPARK
+  year: 2019
+  genre: [Action, Casual, Indie]
+  status: completed
+  rating: 3
+  cover: /img/media/games/pico-park.jpg
+  steam_appid: 1509960
+
+- title: Quake Live
+  creator: id Software
+  year: 2010
+  genre: [Action]
+  status: inactive
+  rating: 4.5
+  cover: /img/media/games/quake-live.jpg
+  steam_appid: 282440
+
+- title: R.E.P.O.
+  creator: semiwork
+  year: 2025
+  genre: [Action, Early Access]
+  status: completed
+  rating: 4
+  cover: /img/media/games/r-e-p-o.jpg
+  steam_appid: 3241660
+
+- title: Terraria
+  creator: Re-Logic
+  year: 2011
+  genre: [Action, Adventure, Indie]
+  status: completed
+  rating: 3.5
+  cover: /img/media/games/terraria.jpg
+  steam_appid: 105600
+
+- title: 'Terraria: Calamity Mod'
+  creator: Fabsol
+  year: 2017
+  genre: [Action, Adventure]
+  status: completed
+  rating: 4
+  genres_locked: true
+
+- title: The Walking Dead
+  creator: Telltale Games
+  year: 2012
+  genre: [Adventure]
+  status: planning
+  cover: /img/media/games/the-walking-dead.jpg
+  steam_appid: 207610

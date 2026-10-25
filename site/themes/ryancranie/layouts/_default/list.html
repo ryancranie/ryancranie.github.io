@@ -4,57 +4,9 @@
 {{/* Blog posts only, so this template never lists pages from other sections */}}
 {{ $posts := partial "sorted-blog-posts.html" . }}
 
-{{/* Collect all unique tags across blog posts */}}
-{{ $allTags := slice }}
-{{ range $posts }}
-  {{ range .Params.tags }}
-    {{ $allTags = $allTags | append . }}
-  {{ end }}
-{{ end }}
-{{ $uniqueTags := $allTags | uniq }}
-
-{{ if $uniqueTags }}
-<div class="tag-filters">
-  {{ range $uniqueTags }}
-  <button class="tag-filter" data-tag="{{ lower . }}" aria-label="Filter by {{ . }}">
-    {{ partial "tag-pill.html" . }}
-  </button>
-  {{ end }}
-</div>
-{{ end }}
-
 <div id="post-list">
   {{ range $posts }}
     {{ partial "post-row.html" . }}
   {{ end }}
 </div>
-
-<script>
-var activeTags = [];
-document.querySelectorAll('.tag-filter').forEach(function(btn){
-  btn.addEventListener('click', function(){
-    var tag = this.dataset.tag;
-    var idx = activeTags.indexOf(tag);
-    if(idx === -1){
-      activeTags.push(tag);
-      this.classList.add('tag-filter-active');
-    } else {
-      activeTags.splice(idx,1);
-      this.classList.remove('tag-filter-active');
-    }
-    filterPosts();
-  });
-});
-function filterPosts(){
-  document.querySelectorAll('.post-row').forEach(function(row){
-    if(activeTags.length === 0){
-      row.style.display = '';
-      return;
-    }
-    var rowTags = row.dataset.tags ? row.dataset.tags.split(',') : [];
-    var match = activeTags.every(function(t){ return rowTags.indexOf(t) !== -1; });
-    row.style.display = match ? '' : 'none';
-  });
-}
-</script>
 {{ end }}

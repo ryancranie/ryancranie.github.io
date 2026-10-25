@@ -452,9 +452,10 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
+  /* one line from 320px up: ~61 mono chars at ~0.6em each, inside main's 1.5rem side padding */
   .hero-subtitle {
-    font-size: 12px;
-    white-space: normal;
+    font-size: min(13px, calc((100vw - 3rem) / 39));
+    white-space: nowrap;
   }
 }
 
@@ -526,10 +527,6 @@ a.has-tooltip {
   line-height: 1;
 }
 
-.tag-filter.active .tag {
-  outline: 1px solid rgba(255, 255, 255, 0.5);
-  outline-offset: 1px;
-}
 
 /* ===== Post single ===== */
 .post-meta-line {
@@ -785,7 +782,7 @@ a.has-tooltip {
 
 /* nothing finished yet: the message sits where the top cards go */
 .media-row-empty {
-  grid-column: 1 / 6;
+  grid-column: 1 / -3;
   grid-row: 2;
   margin: 0;
 }
@@ -964,26 +961,21 @@ a.has-tooltip {
   min-width: 0;
 }
 
+/* mobile: two rows, no sideways scroll. Row 1 is the first two cards (album 3 : film 2, so
+   the square and the 2:3 cover match in height), row 2 the rest in equal columns. Each card's
+   width comes from --m-basis, set in the template from which types are present. */
 @media (max-width: 768px) {
   .media-showcase {
-    display: flex;
-    gap: 0.75rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
+    display: flex !important;
+    flex-wrap: wrap;
   }
-  .media-showcase::-webkit-scrollbar { display: none; }
   .media-pick {
-    flex: 0 0 110px;
-    scroll-snap-align: start;
-  }
-  .media-pick-square {
-    flex-basis: 165px;
+    flex: 0 0 var(--m-basis, 100%);
   }
 }
 
-/* /media/ row: 5 favourites | divider | 1 now (equal card widths) */
+/* /media/ row: 5 favourites | divider | 1 now (equal card widths). The now column uses
+   negative lines so it stays last whatever the number of top cards. */
 .media-row {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr)) 1px minmax(0, 1fr);
@@ -992,17 +984,17 @@ a.has-tooltip {
 }
 
 .media-row > .media-card { grid-row: 2; }
-.media-row > .media-now { grid-column: 7; }
+.media-row > .media-now { grid-column: -2 / -1; }
 
 .media-now-divider {
-  grid-column: 6;
+  grid-column: -3 / -2;
   grid-row: 1 / 3;
   align-self: stretch;
   background: rgba(255, 255, 255, 0.15);
 }
 
 .media-now-label {
-  grid-column: 7;
+  grid-column: -2 / -1;
   grid-row: 1;
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
@@ -1012,31 +1004,50 @@ a.has-tooltip {
   color: rgba(255, 255, 255, 0.45);
 }
 
+/* mobile: no sideways scroll. The script sets --k, the number of top cards that fit at
+   ~100px each beside the divider and the now/last card; without JS it's 2. */
 @media (max-width: 768px) {
   .media-row {
-    display: flex;
-    gap: 0.75rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
+    --k: 2;
+    grid-template-columns: repeat(var(--k), minmax(0, 1fr)) 1px minmax(0, 1fr);
+    column-gap: 8px;
   }
-  .media-row::-webkit-scrollbar { display: none; }
-  .media-row > .media-card {
-    flex: 0 0 110px;
-    scroll-snap-align: start;
+  .media-row:not(.has-now) {
+    grid-template-columns: repeat(var(--k), minmax(0, 1fr));
   }
-  .media-now-divider {
-    flex: 0 0 1px;
+  .media-row > .media-top:nth-child(n+3) {
+    display: none;
   }
-  .media-row-empty {
-    flex: 0 0 auto;
-    align-self: center;
-  }
-  .media-now-label {
-    flex: 0 0 auto;
-    writing-mode: vertical-rl;
-  }
+}
+
+/* /media/ intro: stats line, last-updated date */
+.media-stats {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0;
+}
+
+.media-stats a {
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.media-stats a:hover {
+  color: #fff;
+}
+
+.media-updated {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.55);
+  text-align: right;
+  margin: 0.25rem 0 0;
+}
+
+.media-intro-rule {
+  margin: 1.25rem 0 2rem;
 }
 
 /* Type pages */

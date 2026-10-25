@@ -78,11 +78,31 @@
     var favs = shuffle(rest.filter(function(e){ return e.rating >= 4; })).slice(0, 5);
     var others = shuffle(rest.filter(function(e){ return e.rating < 4; }))
       .sort(function(a, b){ return b.rating - a.rating; });
-    var picks = favs.concat(others).slice(0, 5);
+    var picks = favs.concat(others).slice(0, row._k || 5);
     row.querySelectorAll('.media-top').forEach(function(card, i){
-      card.style.display = picks[i] ? '' : 'none';
+      card.style.display = picks[i] ? 'flex' : 'none';
       if(picks[i]) fill(card, picks[i]);
     });
+  }
+
+  /* how many top cards fit: 5 on desktop; on mobile as many ~100px cards as fit beside the
+     divider and the now/last card (1 to 5) */
+  var MOBILE = window.matchMedia('(max-width: 768px)');
+  var MIN_CARD = 100;
+  function fitCount(row){
+    if(!MOBILE.matches) return 5;
+    var w = row.clientWidth, gap = parseFloat(getComputedStyle(row).columnGap) || 0;
+    var k = row.classList.contains('has-now')
+      ? Math.floor((w - 1) / (MIN_CARD + gap)) - 1   /* k cards + 1px divider + now card */
+      : Math.floor((w + gap) / (MIN_CARD + gap));
+    return Math.max(1, Math.min(5, k));
+  }
+  function fitRow(row){
+    var k = fitCount(row);
+    if(k === row._k) return false;
+    row._k = k;
+    row.style.setProperty('--k', k);
+    return true;
   }
 
   /* music: the last scrobble, through my own endpoint */
@@ -114,9 +134,21 @@
       .catch(unavailable);
   }
 
+  var rows = document.querySelectorAll('[data-pool-row]');
   pickShowcase();
-  document.querySelectorAll('[data-pool-row]').forEach(pickRow);
+  rows.forEach(function(row){ fitRow(row); pickRow(row); });
   loadLive();
+
+  /* on resize, re-pick a row only when its number of cards changes */
+  var pending = false;
+  window.addEventListener('resize', function(){
+    if(pending) return;
+    pending = true;
+    requestAnimationFrame(function(){
+      pending = false;
+      rows.forEach(function(row){ if(fitRow(row)) pickRow(row); });
+    });
+  });
 
   /* refresh buttons re-run the same picks for their own row only */
   document.querySelectorAll('[data-refresh]').forEach(function(btn){

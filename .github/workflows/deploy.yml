@@ -19,6 +19,8 @@ jobs:
         with:
           hugo-version: '0.168.0'
           extended: true
+      - name: Media last updated
+        run: echo "HUGO_PARAMS_MEDIAUPDATED=$(git log -1 --format=%cs -- site/data/media)" >> "$GITHUB_ENV"
       - name: Build
         run: hugo --minify --source site
       - name: Deploy

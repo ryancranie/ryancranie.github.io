@@ -36,6 +36,46 @@
   },
   "reason": null
  },
+ "games|battleblocktheater|2013": {
+  "image": "battleblock-theater.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238460/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238460/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Behemoth",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Casual"
+   ],
+   "steam_appid": 238460,
+   "title": "BattleBlock Theater®",
+   "year": 2013
+  },
+  "reason": null
+ },
+ "games|bokura|2021": {
+  "image": "bokura.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1801110/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1801110/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "tokoronyori",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Casual"
+   ],
+   "steam_appid": 1801110,
+   "title": "BOKURA",
+   "year": 2021
+  },
+  "reason": null
+ },
  "games|callofjuarezgunslinger|2013": {
   "image": "call-of-juarez-gunslinger.jpg",
   "image_urls": [
@@ -51,6 +91,26 @@
    "steam_appid": 204450,
    "title": "Call of Juarez: Gunslinger",
    "year": 2013
+  },
+  "reason": null
+ },
+ "games|castlecrashers|2008": {
+  "image": "castle-crashers.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/204360/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/204360/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "The Behemoth",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Casual"
+   ],
+   "steam_appid": 204360,
+   "title": "Castle Crashers®",
+   "year": 2008
   },
   "reason": null
  },
@@ -90,6 +150,64 @@
    "steam_appid": 730,
    "title": "Counter-Strike 2",
    "year": 2023
+  },
+  "reason": null
+ },
+ "games|davethediver|2023": {
+  "image": "dave-the-diver.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "MINTROCKET",
+   "genre": [
+    "Adventure",
+    "Casual",
+    "RPG"
+   ],
+   "steam_appid": 1868140,
+   "title": "DAVE THE DIVER",
+   "year": 2023
+  },
+  "reason": null
+ },
+ "games|discoelysium|2019": {
+  "image": "disco-elysium-the-final-cut.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/library_600x900.jpg"
+  ],
+  "match": "partial",
+  "meta": {
+   "creator": "ZA/UM",
+   "genre": [
+    "RPG"
+   ],
+   "steam_appid": 632470,
+   "title": "Disco Elysium - The Final Cut",
+   "year": 2019
+  },
+  "reason": "matched \"Disco Elysium - The Final Cut\" (appid 632470)"
+ },
+ "games|donotfeedthemonkeys|2018": {
+  "image": "do-not-feed-the-monkeys.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/658850/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/658850/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Fictiorama Studios",
+   "genre": [
+    "Indie",
+    "Simulation",
+    "Strategy"
+   ],
+   "steam_appid": 658850,
+   "title": "Do Not Feed the Monkeys",
+   "year": 2018
   },
   "reason": null
  },
@@ -133,6 +251,13 @@
   },
   "reason": null
  },
+ "games|geoguessr|2013": {
+  "image": null,
+  "image_urls": [],
+  "match": "weak",
+  "meta": null,
+  "reason": "closest Steam result \"GeoGuessr Steam Edition\", appid 3478870"
+ },
  "games|gettingoveritwithbennettfoddy|2017": {
   "image": "getting-over-it-with-bennett-foddy.jpg",
   "image_urls": [
@@ -148,6 +273,25 @@
    "steam_appid": 240720,
    "title": "Getting Over It with Bennett Foddy",
    "year": 2017
+  },
+  "reason": null
+ },
+ "games|heavyrain|2010": {
+  "image": "heavy-rain.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960910/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960910/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Quantic Dream",
+   "genre": [
+    "Action",
+    "Adventure"
+   ],
+   "steam_appid": 960910,
+   "title": "Heavy Rain",
+   "year": 2010
   },
   "reason": null
  },
@@ -227,6 +371,45 @@
    "steam_appid": 1966720,
    "title": "Lethal Company",
    "year": 2023
+  },
+  "reason": null
+ },
+ "games|mirrorsedgecatalyst|2016": {
+  "image": "mirror-s-edgetm-catalyst.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1233570/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1233570/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "DICE",
+   "genre": [
+    "Action",
+    "Adventure"
+   ],
+   "steam_appid": 1233570,
+   "title": "Mirror's Edge™ Catalyst",
+   "year": 2016
+  },
+  "reason": null
+ },
+ "games|omori|2020": {
+  "image": "omori.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1150690/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1150690/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "OMOCAT, LLC",
+   "genre": [
+    "Adventure",
+    "Indie",
+    "RPG"
+   ],
+   "steam_appid": 1150690,
+   "title": "OMORI",
+   "year": 2020
   },
   "reason": null
  },
@@ -313,6 +496,46 @@
   },
   "reason": null
  },
+ "games|phasmophobia|2020": {
+  "image": "phasmophobia.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/739630/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/739630/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Kinetic Games",
+   "genre": [
+    "Action",
+    "Indie",
+    "Early Access"
+   ],
+   "steam_appid": 739630,
+   "title": "Phasmophobia",
+   "year": 2020
+  },
+  "reason": null
+ },
+ "games|picopark|2019": {
+  "image": "pico-park.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1509960/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1509960/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "TECOPARK",
+   "genre": [
+    "Action",
+    "Casual",
+    "Indie"
+   ],
+   "steam_appid": 1509960,
+   "title": "PICO PARK",
+   "year": 2019
+  },
+  "reason": null
+ },
  "games|pixelpiracy|2015": {
   "image": "pixel-piracy.jpg",
   "image_urls": [
@@ -368,6 +591,43 @@
    "steam_appid": 620,
    "title": "Portal 2",
    "year": 2011
+  },
+  "reason": null
+ },
+ "games|quakelive|2010": {
+  "image": "quake-live.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/282440/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/282440/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "id Software",
+   "genre": [
+    "Action"
+   ],
+   "steam_appid": 282440,
+   "title": "Quake Live",
+   "year": 2010
+  },
+  "reason": null
+ },
+ "games|repo|2025": {
+  "image": "r-e-p-o.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3241660/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3241660/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "semiwork",
+   "genre": [
+    "Action",
+    "Early Access"
+   ],
+   "steam_appid": 3241660,
+   "title": "R.E.P.O.",
+   "year": 2025
   },
   "reason": null
  },
@@ -435,6 +695,52 @@
   },
   "reason": null
  },
+ "games|stray|2022": {
+  "image": "stray.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1332010/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1332010/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "BlueTwelve Studio",
+   "genre": [
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 1332010,
+   "title": "Stray",
+   "year": 2022
+  },
+  "reason": null
+ },
+ "games|terrariacalamitymod|2017": {
+  "image": null,
+  "image_urls": [],
+  "match": "failed",
+  "meta": null,
+  "reason": "no Steam results (may not be on Steam)"
+ },
+ "games|terraria|2011": {
+  "image": "terraria.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Re-Logic",
+   "genre": [
+    "Action",
+    "Adventure",
+    "Indie"
+   ],
+   "steam_appid": 105600,
+   "title": "Terraria",
+   "year": 2011
+  },
+  "reason": null
+ },
  "games|theescapists2|2017": {
   "image": "the-escapists-2.jpg",
   "image_urls": [
@@ -471,6 +777,24 @@
    "steam_appid": 1888930,
    "title": "The Last of Us™ Part I",
    "year": 2022
+  },
+  "reason": null
+ },
+ "games|thewalkingdead|2012": {
+  "image": "the-walking-dead.jpg",
+  "image_urls": [
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/207610/library_600x900_2x.jpg",
+   "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/207610/library_600x900.jpg"
+  ],
+  "match": "exact",
+  "meta": {
+   "creator": "Telltale Games",
+   "genre": [
+    "Adventure"
+   ],
+   "steam_appid": 207610,
+   "title": "The Walking Dead",
+   "year": 2012
   },
   "reason": null
  },

@@ -6,8 +6,8 @@
 
 {{ $types := slice
   (dict "key" "music"  "label" "album")
-  (dict "key" "games"  "label" "game")
   (dict "key" "movies" "label" "film")
+  (dict "key" "games"  "label" "game")
   (dict "key" "tv"     "label" "tv")
   (dict "key" "novels" "label" "novel")
 }}
@@ -26,14 +26,25 @@
 
 {{ if $picks }}
 <div class="media-heading media-heading-home">
-  <h2><a href="/media/" class="media-section-link">Favourite Media</a></h2>
+  <h2><a href="/media/" class="media-section-link">Media I like</a></h2>
   {{ partial "media-refresh.html" "showcase" }}
 </div>
 {{/* the square album (first) at 3fr, portrait covers at 2fr, so all covers are the same height */}}
 {{ $portrait := len (where $picks "key" "ne" "music") }}
 <div class="media-showcase" style="grid-template-columns:{{ if lt $portrait (len $picks) }}minmax(0, 3fr) {{ end }}{{ with $portrait }}repeat({{ . }}, minmax(0, 2fr)){{ end }};">
-  {{ range $picks }}
-  <div class="media-pick{{ if eq .key "music" }} media-pick-square{{ end }}" data-pool-pick="{{ .key }}">
+  {{/* mobile widths: the first two cards share row 1 (square album 3 : portrait 2), the rest
+    split row 2 equally; gaps are 1rem */}}
+  {{ $n := len $picks }}
+  {{ $squareFirst := and (gt $n 0) (eq (index $picks 0).key "music") }}
+  {{ range $i, $p := $picks }}
+    {{ $basis := "100%" }}
+    {{ if and (lt $i 2) (ge $n 2) }}
+      {{ $basis = cond $squareFirst (cond (eq $i 0) "calc((100% - 1rem) * 0.6)" "calc((100% - 1rem) * 0.4)") "calc((100% - 1rem) / 2)" }}
+    {{ else if ge $i 2 }}
+      {{ $k := sub $n 2 }}
+      {{ $basis = printf "calc((100%% - %drem) / %d)" (sub $k 1) $k }}
+    {{ end }}
+  <div class="media-pick{{ if eq .key "music" }} media-pick-square{{ end }}" data-pool-pick="{{ .key }}" style="--m-basis: {{ $basis | safeCSS }};">
     {{ partial "media-card.html" (dict "item" .item "type" .key "compact" true "label" .label) }}
   </div>
   {{ end }}

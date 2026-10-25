@@ -46,10 +46,10 @@
     </div>
     <div class="nav-links">
       <a href="/" class="{{ if .IsHome }}active{{ end }}">home</a>
-      <a href="/it-portfolio/" class="{{ if eq .RelPermalink "/it-portfolio/" }}active{{ end }}">portfolio</a>
-      <a href="/experience/" class="{{ if eq .RelPermalink "/experience/" }}active{{ end }}">experience</a>
       <a href="/blog/" class="{{ if or (eq .RelPermalink "/blog/") (strings.HasPrefix .RelPermalink "/blog/") }}active{{ end }}">blog</a>
       <a href="/media/" class="{{ if strings.HasPrefix .RelPermalink "/media/" }}active{{ end }}">media</a>
+      <a href="/it-portfolio/" class="{{ if eq .RelPermalink "/it-portfolio/" }}active{{ end }}">portfolio</a>
+      <a href="/experience/" class="{{ if eq .RelPermalink "/experience/" }}active{{ end }}">experience</a>
       <a href="https://cv.ryancranie.com" target="_blank" rel="noopener">cv ↗</a>
     </div>
     <div class="nav-right">
@@ -138,10 +138,10 @@
   </svg>
 </button>
   <a href="/">home</a>
-  <a href="/it-portfolio/">portfolio</a>
-  <a href="/experience/">experience</a>
   <a href="/blog/">blog</a>
   <a href="/media/">media</a>
+  <a href="/it-portfolio/">portfolio</a>
+  <a href="/experience/">experience</a>
   <a href="https://cv.ryancranie.com" target="_blank">cv ↗</a>
 </div>
 

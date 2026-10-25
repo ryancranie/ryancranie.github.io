@@ -16,6 +16,9 @@
 - osu! | 2007 | active | 5  →  weak: closest Steam result "McOsu - Donation - 1", appid 608160 (added from input text, title card)
 - Rocket League | 2015  →  failed: no Steam results (may not be on Steam) (added from input text, title card)
 - Tomb Raider | 2013  →  matched "Tomb Raider Game of the Year" (appid 203160)
+- Disco Elysium | 2019 | planning  →  matched "Disco Elysium - The Final Cut" (appid 632470)
+- GeoGuessr | 2013 | inactive  →  weak: closest Steam result "GeoGuessr Steam Edition", appid 3478870 (added from input text, title card)
+- Terraria: Calamity Mod | 2017 | completed | 4  →  failed: no Steam results (may not be on Steam) (added from input text, title card)
 
 ## music
 - TTNG | Animals  →  Deezer fallback (no exact MusicBrainz match (closest "Animals Acoustic" by TTNG))
@@ -67,7 +70,5 @@
 - Inside In, Inside Out (15th Anniversary Deluxe) → Inside In / Inside Out
 
 ## title cards (no cover yet; use setcover)
-- games: Rocket League
-- games: osu!
-- music: － ････ ･ －･ ･･ －－･ ････ － －･－･ ･－･･ ･･－ －･･･
-- music: i tried to run away when i was 6 but got too scared to cross the street
+- games: GeoGuessr
+- games: Terraria: Calamity Mod

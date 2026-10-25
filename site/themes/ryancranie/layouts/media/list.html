@@ -1,15 +1,31 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-<p>Hi, here is my archive of <a href="/media/music/">music</a>, <a href="/media/games/">video games</a>, <a href="/media/movies/">movies</a>, <a href="/media/tv/">tv shows</a> and <a href="/media/novels/">novels</a>.</p>
+<p>Hi, here's my archive of everything I listen to, play, watch and read, with my own ratings out of 5. Each row is a random pick from my favourites and reshuffles on every visit. Click a heading to see the full list.</p>
 
 {{ $types := slice
-  (dict "key" "music"  "name" "music")
-  (dict "key" "games"  "name" "video games")
-  (dict "key" "movies" "name" "movies")
-  (dict "key" "tv"     "name" "tv shows")
-  (dict "key" "novels" "name" "novels")
+  (dict "key" "music"  "name" "music"       "one" "album" "many" "albums")
+  (dict "key" "movies" "name" "movies"      "one" "film"  "many" "films")
+  (dict "key" "games"  "name" "video games" "one" "game"  "many" "games")
+  (dict "key" "tv"     "name" "tv shows"    "one" "show"  "many" "shows")
+  (dict "key" "novels" "name" "novels"      "one" "novel" "many" "novels")
 }}
+
+{{/* finished entries only (completed, active, inactive); zeros shown */}}
+<p class="media-stats">
+  {{- range $i, $t := $types -}}
+    {{- $n := len (where (index hugo.Data.media $t.key | default slice) "status" "in" (slice "completed" "active" "inactive")) -}}
+    {{- if $i }} · {{ end -}}
+    <a href="/media/{{ $t.key }}/">{{ $n }} {{ cond (eq $n 1) $t.one $t.many }}</a>
+  {{- end -}}
+</p>
+{{/* HUGO_PARAMS_MEDIAUPDATED is the last commit touching site/data/media (set in the deploy
+  workflow); locally it falls back to the build time */}}
+{{ $updated := now }}
+{{ with site.Params.mediaupdated }}{{ $updated = time.AsTime . }}{{ end }}
+<p class="media-updated">updated {{ $updated.Format "2 Jan 2006" }}</p>
+
+<hr class="media-intro-rule">
 
 {{/* Each row: 5 favourites | divider | 1 "now". The script re-picks both on every load;
   the server renders a sorted default for visitors without JS. */}}
@@ -45,7 +61,7 @@
       {{ if or $top $now $live }}{{ partial "media-refresh.html" $key }}{{ end }}
     </div>
     {{ if or $top $now $live }}
-    <div class="media-row" data-pool-row="{{ $key }}">
+    <div class="media-row{{ if or $now $live }} has-now{{ end }}" data-pool-row="{{ $key }}">
       {{ range first 5 $top }}
         {{ partial "media-card.html" (dict "item" . "type" $key "compact" true "class" "media-top") }}
       {{ else }}

@@ -37,3 +37,26 @@ Stardew Valley | 2016
 # 2013 reboot assumed (the Steam version).
 Tomb Raider | 2013
 Undertale | 2015
+
+# Added 2026-10-25
+Bokura | 2021 | completed | 3.5
+BattleBlock Theater | 2013 | completed | 3
+Castle Crashers | 2008 | completed | 3
+Dave the Diver | 2023 | planning
+Disco Elysium | 2019 | planning
+Do Not Feed the Monkeys | 2018 | completed | 3.5
+# GeoGuessr may not have a Steam portrait image
+GeoGuessr | 2013 | inactive
+Heavy Rain | 2010 | completed | 3.5
+Stray | 2022 | completed | 4
+Mirror's Edge Catalyst | 2016 | planning
+OMORI | 2020 | planning
+Phasmophobia | 2020 | inactive | 4
+Pico Park | 2019 | completed | 3
+Quake Live | 2010 | inactive | 4.5
+R.E.P.O. | 2025 | completed | 4
+Terraria | 2011 | completed | 3.5
+# A mod, not a Steam app: creator Fabsol, genres locked, title card
+Terraria: Calamity Mod | 2017 | completed | 4
+# Telltale's Season One
+The Walking Dead | 2012 | planning
