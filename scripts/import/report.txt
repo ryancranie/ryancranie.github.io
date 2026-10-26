@@ -47,12 +47,6 @@
 ## data edits: titles not found
 (nothing to check)
 
-## music dates from Last.fm
-- filled 0 dates; earliest scrobble in the history: 2021-01-06
-- 2 completed albums without a date have no matching scrobbles:
-- Scrapclub / Pradaaslife
-- － ････ ･ －･ ･･ －－･ ････ － －･－･ ･－･･ ･･－ －･･･ / ･ ･－･ ･－ ･･･ ･ －･･
-
 ## music genres: no usable Last.fm tags
 - Peaks and Valleys / Yukiya Mishima
 - Songs About Leaving / Carissa’s Wierd

@@ -11,14 +11,14 @@ Usage:
   python scripts/import_media.py localize <type> "<title>" [--creator "<creator>"]
   python scripts/import_media.py prune-singles
   python scripts/import_media.py regenre music
-  python scripts/import_media.py lastfm-dates
+  python scripts/import_media.py lastfm-sync
   python scripts/import_media.py check
 
 Types: movies, tv, novels, games, music. Input lines (# lines ignored; status
 and rating optional, --status is the default status):
   movies, tv, games: Title | Year | status | rating
   novels:            Author | Title | Year | status | rating [| vn]
-  music:             Artist | Album | status | rating
+  music:             Artist | Album | status | rating   (status ignored: Last.fm decides)
 
 Each entry hits its API once. Results (ids, metadata, image filename) are cached
 in scripts/import/cache.json keyed by type + the line's identifying fields, so
@@ -27,9 +27,13 @@ failed matches and entries without a cover.
 
 Sources: TMDB (movies, tv), Open Library and VNDB (novels), Steam (games),
 MusicBrainz + Cover Art Archive, then Deezer, then iTunes (music).
-Movies and TV need TMDB_API_KEY, regenre needs LASTFM_API_KEY, both in .env at
-the repo root (never printed). Entries with genres_locked: true keep their genres.
+Movies and TV need TMDB_API_KEY, regenre and lastfm-sync need LASTFM_API_KEY, both
+in .env at the repo root (never printed). Entries with genres_locked: true keep their genres.
 Anything needing a manual check is listed in scripts/import/report.txt.
+
+Music is driven by Last.fm: music.yaml holds hand-kept fields only (rating, comment, covers,
+genres, listened); lastfm-sync writes music_lastfm.json (tracklists, scrobbled tracks, last
+listened, auto-added albums) and the templates derive status and date from the two.
 """
 
 import argparse
@@ -60,6 +64,9 @@ IMG_DIR = ROOT / "site" / "static" / "img" / "media"
 IMPORT_DIR = ROOT / "scripts" / "import"
 CACHE_FILE = IMPORT_DIR / "cache.json"
 REPORT_FILE = IMPORT_DIR / "report.txt"
+MUSIC_LASTFM_FILE = DATA_DIR / "music_lastfm.json"
+MUSIC_EXCLUDE_FILE = DATA_DIR / "music_exclude.yaml"
+SYNC_REPORT_FILE = IMPORT_DIR / "lastfm_sync_report.txt"
 
 USER_AGENT = "ryancranie.com-media-import/1.0 (mail@ryancranie.com)"
 TYPES = ("movies", "tv", "novels", "games", "music")
@@ -77,6 +84,9 @@ NEAREST = {"active": "completed", "inactive": "completed", "current": "planning"
 NEAREST_BY_TYPE = {"games": {"current": "active"}}
 ID_FIELDS = ("tmdb_id", "mbid", "deezer_id", "itunes_id", "steam_appid", "olid", "vndb_id")
 MAX_GENRES = 3
+# music.yaml is hand-kept: status and date come from Last.fm (music_lastfm.json), so only these stay
+MUSIC_FIELDS = ("title", "creator", "year", "genre", "genres_locked", "rating", "comment", "nsfw",
+                "cover", "cover_locked", "listened", "mbid")
 IMAGE_MAX = {"music": (500, 500)}  # everything else is portrait
 PORTRAIT_MAX = (400, 600)
 
@@ -169,7 +179,9 @@ def strip_edition(text):
 
 EDITION_BRACKETS = re.compile(
     r"\s*[\(\[][^\)\]]*\b(deluxe|remaster(ed)?|expanded|anniversary|reissue|bonus tracks?)\b[^\)\]]*[\)\]]\s*$", re.I)
-EDITION_DASH = re.compile(r"\s+-\s+(reissue|remaster(ed)?(\s+\d{4})?|deluxe(\s+edition)?)\s*$", re.I)
+EDITION_DASH = re.compile(
+    r"\s+-\s+(reissue|remaster(ed)?(\s+\d{4})?|\d{4}\s+remaster(ed)?|(super\s+)?deluxe(\s+(edition|version))?|expanded(\s+edition)?)\s*$",
+    re.I)
 
 
 def strip_edition_suffix(title):
@@ -313,6 +325,8 @@ def tidy_entry(entry):
 
 
 def save_entries(media_type, entries):
+    if media_type == "music":
+        entries = [{k: v for k, v in e.items() if k in MUSIC_FIELDS} for e in entries]
     chunks = [
         yaml.safe_dump([tidy_entry(e)], sort_keys=False, allow_unicode=True, default_flow_style=None, width=1000)
         for e in entries
@@ -1111,6 +1125,7 @@ def cmd_prune_singles():
 
     kept = [e for e in entries if e not in singles]
     save_entries("music", kept)
+    add_exclusions(singles)
     remove_unused_images("music", singles, kept)
     dropped = remove_input_lines("music", singles, cache)
     # keep singles removed by earlier runs; "could not check" lines are refreshed each run
@@ -1147,6 +1162,19 @@ def lastfm_tags(cache, method, **params):
     return cache[key]
 
 
+def lastfm_genres(cache, whitelist, artist, album):
+    """Up to MAX_GENRES whitelisted genres from the album's Last.fm tags, else the artist's."""
+    def keep(tags):
+        kept = []
+        for t in tags:
+            genre = whitelist.get(norm(t))
+            if genre and genre not in kept:
+                kept.append(genre)
+        return kept[:MAX_GENRES]
+    return (keep(lastfm_tags(cache, "album.getTopTags", artist=artist, album=album))
+            or keep(lastfm_tags(cache, "artist.getTopTags", artist=artist)))
+
+
 def genre_groups_of(genres, groups):
     found = [g["group"] for g in groups if set(map(str.lower, genres)) & set(g["genres"])]
     unmapped = [x for x in genres if not any(x.lower() in g["genres"] for g in groups)]
@@ -1179,23 +1207,13 @@ def cmd_regenre(media_type):
             renamed.append(f'- {e["title"]} → {new}')
             e["title"] = new
 
-    def keep(tags):
-        kept = []
-        for t in tags:
-            genre = whitelist.get(norm(t))
-            if genre and genre not in kept:
-                kept.append(genre)
-        return kept[:MAX_GENRES]
-
     untagged = []
     for n, e in enumerate(entries, 1):
         if e.get("genres_locked"):
             continue
         artist = e.get("creator") or ""
         try:
-            kept = keep(lastfm_tags(cache, "album.getTopTags", artist=artist, album=e["title"]))
-            if not kept:
-                kept = keep(lastfm_tags(cache, "artist.getTopTags", artist=artist))
+            kept = lastfm_genres(cache, whitelist, artist, e["title"])
         except FetchError as err:
             print(f"[{n}/{len(entries)}] {e['title']} → lookup error, kept old genres: {err}")
             continue
@@ -1231,11 +1249,11 @@ def save_json(path, data):
 
 
 def fetch_scrobbles(since=None):
-    """Every scrobble newer than `since` (unix time), oldest first, as [uts, artist, album].
+    """Every scrobble newer than `since` (unix time), oldest first, as [uts, artist, album, track].
     Pages are fetched with a fixed upper bound ("to"), so an interrupted run resumes from
     scrobbles.partial.json without pages shifting under it."""
     partial = json.loads(SCROBBLES_PARTIAL.read_text(encoding="utf-8")) if SCROBBLES_PARTIAL.exists() else None
-    if partial and partial.get("since") == since:
+    if partial and partial.get("since") == since and all(len(x) == 4 for x in partial["scrobbles"][:1]):
         print(f"Resuming from page {partial['page'] + 1}")
     else:
         partial = {"since": since, "to": int(time.time()), "page": 0, "pages": None, "scrobbles": []}
@@ -1270,7 +1288,7 @@ def fetch_scrobbles(since=None):
             if t.get("@attr", {}).get("nowplaying") or "date" not in t:
                 continue  # the "now playing" entry has no timestamp
             partial["scrobbles"].append([int(t["date"]["uts"]), t.get("artist", {}).get("#text", ""),
-                                         t.get("album", {}).get("#text", "")])
+                                         t.get("album", {}).get("#text", ""), t.get("name", "")])
         partial["page"] += 1
         save_json(SCROBBLES_PARTIAL, partial)
         if partial["page"] % 10 == 0 or partial["page"] == partial["pages"]:
@@ -1280,48 +1298,435 @@ def fetch_scrobbles(since=None):
     return sorted(partial["scrobbles"])
 
 
-def cmd_lastfm_dates():
-    """Set date ("YYYY-MM" of the first scrobble) on completed music entries that have none."""
-    if not os.environ.get("LASTFM_API_KEY"):
-        sys.exit("LASTFM_API_KEY is not set (add it to .env at the repo root).")
-    saved = json.loads(SCROBBLES_FILE.read_text(encoding="utf-8")) if SCROBBLES_FILE.exists() else []
-    since = max((s[0] for s in saved), default=None)
-    print(f"{len(saved)} scrobbles saved; fetching {'newer than ' + time.strftime('%Y-%m-%d %H:%M', time.gmtime(since)) if since else 'the full history'}...")
-    new = fetch_scrobbles(since)
-    scrobbles = sorted({tuple(s) for s in saved + new})
-    save_json(SCROBBLES_FILE, [list(s) for s in scrobbles])
-    print(f"{len(new)} new; {len(scrobbles)} scrobbles in total")
+# ---------------------------------------------------------------- music: Last.fm sync
 
-    def album_keys(title):
-        return {norm(strip_edition_suffix(title)), norm(strip_edition(title))} - {""}
+# auto-added albums must be an Album or EP on MusicBrainz, without these secondary types
+AUTO_TYPES = {"Album", "EP"}
+AUTO_EXCLUDED_SECONDARY = {"Compilation", "Soundtrack", "Live", "Remix", "DJ-mix"}
+AUTO_MIN_TRACKS = 4       # no MusicBrainz match: Last.fm tracklist must be at least this long
+CANDIDATE_MIN_TRACKS = 3  # distinct tracks scrobbled before an album's tracklist is fetched
+LISTENED_SHARE = 0.7      # listened (complete) once this share of the tracklist has been scrobbled
 
-    # earliest scrobble per (album key) → list of (artist, uts); scrobbles are oldest first
-    first = {}
-    for uts, artist, album in scrobbles:
-        for key in album_keys(album):
-            seen = first.setdefault(key, {})
-            seen.setdefault(norm(artist), uts)
+TRACK_SUFFIXES = (
+    re.compile(r"\s+-\s+.*\bremaster(ed)?\b.*$", re.I),                  # "- Remastered 2011", "- 2011 Remaster"
+    re.compile(r"\s*[\(\[][^\)\]]*\bremaster(ed)?\b[^\)\]]*[\)\]]", re.I),  # "(Remastered)"
+    re.compile(r"\s*[\(\[]\s*(feat|ft|featuring|with)\b\.?[^\)\]]*[\)\]]", re.I),  # "(feat. ...)"
+    re.compile(r"\s+(feat|ft|featuring)\.?\s.*$", re.I),                 # "Song feat. X"
+    re.compile(r"\s*[\(\[][^\)\]]*\bbonus\b[^\)\]]*[\)\]]", re.I),        # "(Bonus Track)"
+    re.compile(r"\s+-\s+bonus track$", re.I),
+    re.compile(r"\s*[\(\[]\s*original mix\s*[\)\]]|\s+-\s+original mix$", re.I),  # "(Original Mix)"
+)
+BONUS = re.compile(r"\bbonus\b", re.I)
 
-    entries = load_entries("music")
-    filled, missing = [], []
-    for e in entries:
-        if e.get("status") != "completed" or e.get("date"):
-            continue  # never overwrite an existing date
-        hits = [uts for key in album_keys(e["title"]) for artist, uts in first.get(key, {}).items()
-                if artist == norm(e.get("creator")) or creator_ok(e.get("creator"), artist)]
-        if hits:
-            e["date"] = time.strftime("%Y-%m", time.gmtime(min(hits)))
-            filled.append(f'- {e["title"]} / {e.get("creator")} → {e["date"]}')
+
+def key_part(text):
+    """norm(), but titles made only of symbols (e.g. Morse code) keep their characters."""
+    text = str(text or "")
+    return norm(text) or re.sub(r"\s+", "", unicodedata.normalize("NFKC", text).casefold())
+
+
+def album_key(artist, album):
+    """One key for every edition of an album: "(Deluxe Edition)", "- Reissue" etc. are dropped."""
+    return f"{key_part(artist)}|{key_part(strip_edition_suffix(album or ''))}"
+
+
+def track_key(name):
+    previous = None
+    name = str(name or "")
+    while previous != name:
+        previous = name
+        for pattern in TRACK_SUFFIXES:
+            name = pattern.sub("", name)
+    return key_part(name)
+
+
+def manual_key(entry):
+    """How the templates find an entry's album: lower-cased "title|creator" (Hugo's `lower`)."""
+    return f"{entry['title']}|{entry.get('creator') or ''}".lower()
+
+
+def load_exclusions():
+    if not MUSIC_EXCLUDE_FILE.exists():
+        return []
+    return yaml.safe_load(MUSIC_EXCLUDE_FILE.read_text(encoding="utf-8")) or []
+
+
+def add_exclusions(entries):
+    """Append entries (title, creator) to music_exclude.yaml, skipping ones already there."""
+    excluded = load_exclusions()
+    have = {album_key(e.get("creator"), e.get("title")) for e in excluded}
+    added = [{"title": e["title"], "creator": e.get("creator") or ""} for e in entries
+             if album_key(e.get("creator"), e.get("title")) not in have]
+    if added:
+        text = MUSIC_EXCLUDE_FILE.read_text(encoding="utf-8") if MUSIC_EXCLUDE_FILE.exists() else ""
+        text = text.rstrip("\n") + ("\n\n" if text.strip() else "")
+        chunks = [yaml.safe_dump([e], sort_keys=False, allow_unicode=True, width=1000) for e in added]
+        MUSIC_EXCLUDE_FILE.write_text(text + "\n".join(chunks), encoding="utf-8")
+    return added
+
+
+def same_album(a, b):
+    """Album keys match on the album part and loosely on the artist ("A & B" contains "A")."""
+    a_artist, a_album = a.split("|", 1)
+    b_artist, b_album = b.split("|", 1)
+    return a_album == b_album and (a_artist == b_artist or creator_ok(a_artist, b_artist))
+
+
+def load_lastfm_state():
+    if MUSIC_LASTFM_FILE.exists():
+        state = json.loads(MUSIC_LASTFM_FILE.read_text(encoding="utf-8"))
+    else:
+        state = {}
+    state.setdefault("synced_to", None)
+    state.setdefault("manual", {})
+    state.setdefault("auto", [])
+    state.setdefault("albums", {})
+    return state
+
+
+def save_lastfm_state(state):
+    """One album per line, keys sorted, so the committed file diffs cleanly."""
+    def one(value):
+        return json.dumps(value, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    parts = []
+    for name in ("synced_to", "manual", "auto", "albums"):
+        value = state[name]
+        if isinstance(value, dict) and value:
+            inner = ",\n".join(f"  {one(k)}: {one(v)}" for k, v in sorted(value.items()))
+            parts.append(f" {one(name)}: {{\n{inner}\n }}")
         else:
-            missing.append(f'- {e["title"]} / {e.get("creator")}')
-    save_entries("music", entries)
+            parts.append(f" {one(name)}: {one(value)}")
+    tmp = MUSIC_LASTFM_FILE.with_suffix(".tmp")
+    tmp.write_text("{\n" + ",\n".join(parts) + "\n}\n", encoding="utf-8")
+    tmp.replace(MUSIC_LASTFM_FILE)
 
-    earliest = time.strftime("%Y-%m-%d", time.gmtime(scrobbles[0][0])) if scrobbles else "none"
-    write_report_section("music dates from Last.fm", [
-        f"- filled {len(filled)} dates; earliest scrobble in the history: {earliest}",
-        f"- {len(missing)} completed albums without a date have no matching scrobbles:", *missing])
-    print(f"\nFilled {len(filled)} dates; {len(missing)} albums with no matching scrobbles. "
-          f"Earliest scrobble: {earliest}. API calls: {stats['api']}.")
+
+def new_scrobbles(state):
+    """Scrobbles after the saved sync point. First run: the local seed file when it has track
+    names (lastfm_scrobbles.json, gitignored), else the full history (saved as the seed)."""
+    since = state["synced_to"]
+    if since:
+        print(f"Fetching scrobbles newer than {time.strftime('%Y-%m-%d %H:%M', time.gmtime(since))} UTC...")
+        return fetch_scrobbles(since)
+    seed = json.loads(SCROBBLES_FILE.read_text(encoding="utf-8")) if SCROBBLES_FILE.exists() else []
+    if seed and all(len(s) == 4 for s in seed):
+        newest = max(s[0] for s in seed)
+        print(f"Seeding from {SCROBBLES_FILE.name} ({len(seed)} scrobbles), then fetching newer ones...")
+        scrobbles = sorted({tuple(s) for s in seed + fetch_scrobbles(newest)})
+    else:
+        if seed:
+            print(f"{SCROBBLES_FILE.name} has no track names; fetching the full history instead...")
+        else:
+            print("No sync state yet; fetching the full history...")
+        scrobbles = fetch_scrobbles(None)
+    save_json(SCROBBLES_FILE, [list(s) for s in scrobbles])
+    return [list(s) for s in scrobbles]
+
+
+def merge_scrobbles(state, scrobbles):
+    """Add scrobbles to each album's tracks ({track key: day last scrobbled}) and plays
+    ({track key: number of scrobbles})."""
+    albums = state["albums"]
+    for uts, artist, album, track in scrobbles:
+        if not album or not track:
+            continue  # no album name: can't count it towards one
+        key = album_key(artist, album)
+        a = albums.setdefault(key, {"artist": artist, "album": strip_edition_suffix(album), "tracks": {}, "plays": {}})
+        if not a.get("scrobbled"):
+            a["artist"], a["album"] = artist, strip_edition_suffix(album)  # a stub from music.yaml
+        a["scrobbled"] = True
+        a["album_raw"] = album
+        day = time.strftime("%Y-%m-%d", time.gmtime(uts))
+        t = track_key(track)
+        if day > a["tracks"].get(t, ""):
+            a["tracks"][t] = day
+        plays = a.setdefault("plays", {})
+        plays[t] = plays.get(t, 0) + 1
+    if scrobbles:
+        state["synced_to"] = max(state["synced_to"] or 0, max(s[0] for s in scrobbles))
+
+
+def upgrade_tracks(state):
+    """Older state kept tracks as a plain list, or had no per-track play counts. Rebuild both from
+    the local seed when it covers everything synced; otherwise date each track by the album's
+    last listen (counts then start from the next sync)."""
+    albums = state["albums"]
+    if not any(isinstance(a.get("tracks"), list) or (a.get("tracks") and "plays" not in a)
+               for a in albums.values()):
+        return
+    seed = json.loads(SCROBBLES_FILE.read_text(encoding="utf-8")) if SCROBBLES_FILE.exists() else []
+    if seed and all(len(x) == 4 for x in seed) and max(x[0] for x in seed) >= (state["synced_to"] or 0):
+        print(f"Rebuilding per-track listen dates from {SCROBBLES_FILE.name}...")
+        for a in albums.values():
+            a["tracks"], a["plays"], a["scrobbled"] = {}, {}, False
+            a.pop("last_listened", None)
+        synced_to = state["synced_to"]
+        merge_scrobbles(state, [x for x in seed if x[0] <= (synced_to or x[0])])
+        state["synced_to"] = synced_to
+    else:
+        for a in albums.values():
+            if isinstance(a.get("tracks"), list):
+                a["tracks"] = {t: a.get("last_listened", "") for t in a["tracks"]}
+            a.setdefault("plays", {})
+
+
+def link_manual(state, entries):
+    """music.yaml entry → album key. Exact key first, else the scrobbled album with the same
+    title and a matching artist (most tracks wins); entries with no scrobbles get a stub."""
+    albums = state["albums"]
+    by_title = {}
+    for key in albums:
+        by_title.setdefault(key.split("|", 1)[1], []).append(key)
+    manual = {}
+    for e in entries:
+        key = album_key(e.get("creator"), e["title"])
+        if not albums.get(key, {}).get("scrobbled"):
+            titles = {key.split("|", 1)[1], key_part(strip_edition(e["title"]))}
+            found = [k for t in titles for k in by_title.get(t, [])
+                     if albums[k].get("scrobbled") and creator_ok(e.get("creator"), albums[k]["artist"])]
+            if found:
+                key = max(found, key=lambda k: len(albums[k]["tracks"]))
+        if key not in albums:
+            albums[key] = {"artist": e.get("creator") or "", "album": e["title"], "tracks": {}, "plays": {}}
+        if e.get("mbid"):
+            a = albums[key]
+            if a.get("tracklist_mbid", a.get("mbid")) not in (None, e["mbid"]):
+                # the mbid was changed in music.yaml: re-fetch the tracklist from that release group
+                a.pop("tracklist", None)
+                a["tracklist_mbid"], a["mb_checked"] = e["mbid"], False
+            a["mbid"] = e["mbid"]
+        manual[manual_key(e)] = key
+    state["manual"] = manual
+
+
+def is_excluded(key, exclusions):
+    return any(same_album(key, album_key(x.get("creator"), x.get("title"))) for x in exclusions)
+
+
+def lastfm_call(method, **params):
+    """A Last.fm API call; "not found" (error 6 or a 4xx) gives None."""
+    query = {"method": method, "api_key": os.environ["LASTFM_API_KEY"], "format": "json", **params}
+    try:
+        data = get_json(LASTFM_API, query, label="Last.fm")
+    except FetchError as e:
+        if "returned HTTP 4" not in str(e):
+            raise
+        return None
+    return None if "error" in data else data
+
+
+def clean_tracklist(names):
+    """Normalised track names, in order, without duplicates or bonus tracks."""
+    out = []
+    for name in names:
+        if BONUS.search(name or ""):
+            continue
+        key = track_key(name)
+        if key and key not in out:
+            out.append(key)
+    return out
+
+
+def lastfm_tracklist(a):
+    names = []
+    for album in dict.fromkeys([a["album"], a.get("album_raw") or a["album"]]):
+        data = lastfm_call("album.getInfo", artist=a["artist"], album=album, autocorrect=1)
+        tracks = ((data or {}).get("album") or {}).get("tracks") or {}
+        tracks = tracks.get("track", []) if isinstance(tracks, dict) else []
+        names = [t.get("name") for t in ([tracks] if isinstance(tracks, dict) else tracks)]
+        if names:
+            break
+    return clean_tracklist(names)
+
+
+def mb_release_group(a):
+    """Find the album's MusicBrainz release group once; caches mbid, type and secondary types."""
+    if a.get("mb_checked"):
+        return
+    if a.get("mbid"):
+        rg = get_json(f"{MB_API}/release-group/{a['mbid']}", {"fmt": "json"}, label="MusicBrainz")
+        a["type"], a["secondary"] = rg.get("primary-type"), rg.get("secondary-types", [])
+        a.setdefault("year", year_of(rg.get("first-release-date")))
+        a["mb_checked"] = True
+        return
+    title = a["album"]
+    query = f'releasegroup:{lucene_phrase(title)} AND artist:{lucene_phrase(a["artist"])}'
+    groups = get_json(f"{MB_API}/release-group", {"query": query, "limit": 10, "fmt": "json"},
+                      label="MusicBrainz").get("release-groups", [])
+    matches = [g for g in groups if g.get("score", 0) >= 85
+               and key_part(strip_edition_suffix(g.get("title") or "")) == key_part(title)
+               and creator_ok(a["artist"], credit_name(g.get("artist-credit")))]
+    if matches:
+        rank = {"Album": 0, "EP": 1, "Single": 2}
+        g = sorted(matches, key=lambda g: (rank.get(g.get("primary-type"), 3), -g.get("score", 0)))[0]
+        a["mbid"], a["type"], a["secondary"] = g["id"], g.get("primary-type"), g.get("secondary-types", [])
+        a["year"] = year_of(g.get("first-release-date"))
+    a["mb_checked"] = True
+
+
+def mb_tracklist(a):
+    """The earliest official release of the album's release group (the standard edition)."""
+    mb_release_group(a)
+    if not a.get("mbid"):
+        return []
+    releases = get_json(f"{MB_API}/release", {"release-group": a["mbid"], "status": "official",
+                                              "limit": 100, "fmt": "json"}, label="MusicBrainz").get("releases", [])
+    if not releases:
+        return []
+    first = sorted(releases, key=lambda r: (r.get("date") or "9999", BONUS.search(r.get("disambiguation") or "") is not None))[0]
+    release = get_json(f"{MB_API}/release/{first['id']}", {"inc": "recordings", "fmt": "json"}, label="MusicBrainz")
+    return clean_tracklist(t.get("title") for m in release.get("media", []) for t in m.get("tracks", []))
+
+
+def fetch_tracklist(a):
+    if a.get("tracklist_mbid"):  # pinned by an mbid set in music.yaml
+        tracks = mb_tracklist(a)
+        a["tracklist"], a["tracklist_source"] = tracks, "musicbrainz" if tracks else None
+        return
+    tracks = lastfm_tracklist(a)
+    source = "lastfm"
+    if not tracks:
+        tracks, source = mb_tracklist(a), "musicbrainz"
+    a["tracklist"] = tracks
+    a["tracklist_source"] = source if tracks else None
+
+
+def auto_cover(a, key, taken):
+    """Cover Art Archive → Deezer → iTunes, saved under img/media/music/. Never reuses a
+    filename another entry owns."""
+    item = {"title": a["album"], "creator": a["artist"]}
+    urls = [CAA_FRONT.format(a["mbid"])] if a.get("mbid") and caa_exists(a["mbid"]) else music_fallback_cover(item, {})
+    if not urls:
+        return
+    name = slugify(a["album"]) + ".jpg"
+    if f"/img/media/music/{name}" in taken:
+        name = slugify(f"{a['album']} {a['artist']}") + ".jpg"
+    if f"/img/media/music/{name}" in taken:
+        name = slugify(f"{a['album']} {a['artist']} {key}") + ".jpg"
+    (IMG_DIR / "music" / name).unlink(missing_ok=True)  # unowned leftover: replace it
+    if download_image("music", urls, name):
+        a["cover"] = f"/img/media/music/{name}"
+        taken.add(a["cover"])
+
+
+def cmd_lastfm_sync():
+    if not os.environ.get("LASTFM_API_KEY"):
+        sys.exit("LASTFM_API_KEY is not set (add it to .env at the repo root, or as a CI secret).")
+    state = load_lastfm_state()
+    albums = state["albums"]
+    before_complete = {k for k, a in albums.items() if a.get("complete")}
+    before_auto = set(state["auto"])
+
+    upgrade_tracks(state)
+    scrobbles = new_scrobbles(state)
+    merge_scrobbles(state, scrobbles)
+    entries = load_entries("music")
+    exclusions = load_exclusions()
+    link_manual(state, entries)
+    save_lastfm_state(state)
+    print(f"{len(scrobbles)} new scrobbles; {len(albums)} albums scrobbled or in music.yaml.")
+
+    # tracklists: every music.yaml album, plus scrobbled albums with enough distinct tracks
+    linked = set(state["manual"].values())
+    candidates = [k for k, a in albums.items()
+                  if k in linked or (len(a["tracks"]) >= CANDIDATE_MIN_TRACKS and not is_excluded(k, exclusions))]
+    todo = [k for k in candidates if "tracklist" not in albums[k]]
+    print(f"{len(candidates)} candidate albums; fetching {len(todo)} tracklists...")
+    for n, key in enumerate(todo, 1):
+        a = albums[key]
+        try:
+            fetch_tracklist(a)
+        except FetchError as e:
+            print(f"  [{n}/{len(todo)}] {a['album']} / {a['artist']} → lookup error, retried next run: {e}")
+            continue
+        if n % 25 == 0 or n == len(todo):
+            print(f"  [{n}/{len(todo)}] tracklists fetched")
+            save_lastfm_state(state)
+
+    # completeness: at least LISTENED_SHARE of the tracklist scrobbled at least once. Last listened
+    # and scrobble_count count only tracks on the tracklist, so another release with the same name (American
+    # Football's EP and later LPs) doesn't date it; albums without a tracklist use every track.
+    for a in albums.values():
+        tracklist = a.get("tracklist") or []
+        played = len(set(tracklist) & set(a["tracks"]))
+        a["played"], a["total"] = played, len(tracklist)
+        a["complete"] = bool(tracklist) and played / len(tracklist) >= LISTENED_SHARE
+        days = [d for t, d in a["tracks"].items() if t in tracklist] if tracklist else list(a["tracks"].values())
+        a["scrobble_count"] = sum(n for t, n in a.get("plays", {}).items() if not tracklist or t in tracklist)
+        if days and max(days):
+            a["last_listened"] = max(days)
+        else:
+            a.pop("last_listened", None)
+    save_lastfm_state(state)
+
+    # auto-add complete albums that aren't in music.yaml or excluded
+    cache = load_cache()
+    groups, whitelist = genre_whitelist()
+    taken = {e.get("cover") for e in entries if e.get("cover")}
+    taken |= {a["cover"] for k, a in albums.items() if a.get("cover") and k in before_auto}
+    auto = []
+    pending = [k for k, a in albums.items() if a.get("complete") and k not in linked and not is_excluded(k, exclusions)]
+    print(f"{len(pending)} complete albums outside music.yaml; checking release types...")
+    for n, key in enumerate(pending, 1):
+        a = albums[key]
+        try:
+            mb_release_group(a)
+            if a.get("mbid"):
+                ok = a.get("type") in AUTO_TYPES and not set(a.get("secondary") or []) & AUTO_EXCLUDED_SECONDARY
+            else:
+                ok = a.get("tracklist_source") == "lastfm" and len(a["tracklist"]) >= AUTO_MIN_TRACKS
+            if not ok:
+                continue
+            if not a.get("cover"):
+                auto_cover(a, key, taken)
+            if "genres" not in a:
+                a["genres"] = lastfm_genres(cache, whitelist, a["artist"], a["album"])
+        except FetchError as e:
+            print(f"  [{n}/{len(pending)}] {a['album']} / {a['artist']} → lookup error, retried next run: {e}")
+            if key in before_auto:
+                auto.append(key)  # keep showing it meanwhile
+            continue
+        auto.append(key)
+        if n % 25 == 0:
+            print(f"  [{n}/{len(pending)}] checked")
+            save_lastfm_state(state)
+    state["auto"] = sorted(auto)
+
+    # covers of albums that are no longer auto-added (now in music.yaml, excluded, ...)
+    used = {e.get("cover") for e in entries} | {albums[k].get("cover") for k in auto}
+    for key, a in albums.items():
+        if a.get("cover") and key not in auto:
+            if a["cover"] not in used:
+                (ROOT / "site" / "static" / a["cover"].lstrip("/")).unlink(missing_ok=True)
+            del a["cover"]
+    save_lastfm_state(state)
+
+    # report
+    def label(k):
+        return f"{albums[k]['album']} / {albums[k]['artist']}"
+    by_entry = {manual_key(e): e for e in entries}
+    newly_complete = sorted(label(k) for k, a in albums.items()
+                            if a.get("complete") and k not in before_complete and (k in linked or k in auto))
+    newly_auto = sorted(label(k) for k in auto if k not in before_auto)
+    to_listen = sorted(f"{e['title']} / {e.get('creator')}  ({albums[k]['played']}/{albums[k]['total']})"
+                       for mk, k in state["manual"].items() for e in [by_entry[mk]]
+                       if not e.get("listened") and not albums[k].get("complete"))
+    no_tracklist = sorted(label(k) for k in candidates if albums[k].get("tracklist") == [])
+    sections = [("newly completed", newly_complete), ("newly auto-added", newly_auto),
+                ('music.yaml albums not complete (shown as "to listen"; listened: true overrides)', to_listen),
+                ("no tracklist found (can't be complete)", no_tracklist)]
+    listened = sum(1 for mk, k in state["manual"].items()
+                   if by_entry[mk].get("listened") or albums[k].get("complete"))
+    counts = (f"listened {listened + len(auto)} ({listened} from music.yaml, {len(auto)} auto-added) · "
+              f"to listen {len(to_listen)} · excluded {len(exclusions)}")
+    out = [f"# Last.fm sync report ({time.strftime('%Y-%m-%d %H:%M', time.gmtime())} UTC)",
+           f"# scrobbles synced to {time.strftime('%Y-%m-%d %H:%M', time.gmtime(state['synced_to'] or 0))} UTC",
+           f"# {counts}", ""]
+    for title, lines in sections:
+        out += [f"## {title} ({len(lines)})", *(f"- {l}" for l in lines), ""]
+    SYNC_REPORT_FILE.write_text("\n".join(out), encoding="utf-8")
+    print("\n" + "\n".join(out))
+    print(f"API calls: {stats['api']}, images downloaded: {stats['images']}.")
 
 
 def cmd_check():
@@ -1350,9 +1755,9 @@ def main():
         if name == "setcover":
             p.add_argument("source", help="image file, image URL, or a page URL (uses its og:image)")
         p.add_argument("--creator")
-    sub.add_parser("prune-singles", help="remove music entries that are singles")
+    sub.add_parser("prune-singles", help="remove music entries that are singles (and exclude them)")
     sub.add_parser("check", help="convert disallowed statuses and list title-card entries")
-    sub.add_parser("lastfm-dates", help="date completed albums by their first Last.fm scrobble")
+    sub.add_parser("lastfm-sync", help="sync music with Last.fm scrobbles (music_lastfm.json)")
     rg = sub.add_parser("regenre", help="re-tag genres from Last.fm (music)")
     rg.add_argument("type", choices=["music"])
     args = parser.parse_args()
@@ -1365,8 +1770,8 @@ def main():
         cmd_localize(args.type, args.title, args.creator)
     elif args.command == "prune-singles":
         cmd_prune_singles()
-    elif args.command == "lastfm-dates":
-        cmd_lastfm_dates()
+    elif args.command == "lastfm-sync":
+        cmd_lastfm_sync()
     elif args.command == "regenre":
         cmd_regenre(args.type)
     else:

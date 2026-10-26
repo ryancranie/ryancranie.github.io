@@ -1,0 +1,65 @@
+# Last.fm sync report (2026-10-26 21:37 UTC)
+# scrobbles synced to 2026-10-26 18:31 UTC
+# listened 255 (108 from music.yaml, 147 auto-added) · to listen 36 · excluded 20
+
+## newly completed (0)
+
+## newly auto-added (0)
+
+## music.yaml albums not complete (shown as "to listen"; listened: true overrides) (36)
+- A Night At The Symphony: Live at the Hollywood Bowl / Laufey  (0/0)
+- Define the Great Line / Underoath  (1/11)
+- Discovering the Waterfront / Silverstein  (7/11)
+- Elliott Smith / Elliott Smith  (6/12)
+- Everybody Else Is Doing It, So Why Can’t We? / The Cranberries  (3/12)
+- Ferric Oxide (Demos 1997 - 2001) / Panchiko  (9/18)
+- For Long Tomorrow / toe  (6/13)
+- Forever Young / Alphaville  (2/10)
+- Geogaddi / Boards of Canada  (12/23)
+- Girl With Fish / feeble little horse  (3/11)
+- Grand Ledge / Paul Baribeau  (6/9)
+- Hard Normal Daddy / Squarepusher  (5/12)
+- Hatful of Hollow / The Smiths  (6/16)
+- House of Sugar / (Sandy) Alex G  (1/13)
+- Inferno / Boards of Canada  (12/18)
+- Inside In / Inside Out / The Kooks  (8/14)
+- Liminal Rite / Kardashev  (6/11)
+- MUSICK / eden2001  (14/24)
+- Magnolia Electric Co. / Songs: Ohia  (8/17)
+- New Moon / Elliott Smith  (1/24)
+- Peaks and Valleys / Yukiya Mishima  (0/0)
+- Red / King Crimson  (3/5)
+- Rules / Alex G  (3/13)
+- Scrapclub / Pradaaslife  (0/14)
+- Shed / Title Fight  (8/12)
+- Sketches for My Sweetheart the Drunk / Jeff Buckley  (9/19)
+- Something Real & Here, Here and Here / Meg & Dia  (7/24)
+- Songs About Leaving / Carissa’s Wierd  (7/12)
+- Super Trouper / ABBA  (1/10)
+- The Singer and the Song / Labi Siffre  (1/15)
+- The Unnatural World / Have a Nice Life  (5/8)
+- Those Days Are Gone / Free Throw  (6/11)
+- Trick / Alex G  (8/16)
+- What The Low Does / Drux  (2/10)
+- Wide Awake / Mechatok  (2/11)
+- XO / Elliott Smith  (6/14)
+
+## no tracklist found (can't be complete) (18)
+- A B A N D O N T H E F L E S H ! / TOKYOPILL
+- A Night At The Symphony: Live at the Hollywood Bowl / Laufey
+- Cheer to Fear / Micah Preite
+- D&G / Ecco2K
+- D&G / Thaiboy Digital
+- Hanamonogatari Gekihanongakushu (Original Soundtrack) / 物語シリーズ
+- Peaks and Valleys / Yukiya Mishima
+- Subarashiki Hibi Theme Song CD Part 2 "Naglfar no Senjou nite" / Monet
+- Sweet Pill on Audiotree Live / Sweet Pill
+- Trash Island / Bladee
+- Trash Island / Ecco2K
+- breather / Chell and the Vetos
+- in luuv with you / LUUV.
+- outer space / J'San
+- サクラノ詩 ヴォーカルCD / Monet
+- サクラノ詩 ヴォーカルCD / はな
+- サクラノ詩 ヴォーカルCD / ピクセルビー
+- サクラノ詩 ヴォーカルCD / 松本文紀

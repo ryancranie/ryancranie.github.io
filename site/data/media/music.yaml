@@ -2,210 +2,166 @@
   creator: Have a Nice Life
   year: 2008
   genre: [shoegaze, post-punk, drone]
-  status: completed
   cover: /img/media/music/deathconsciousness.jpg
   mbid: bb449522-eefd-3d7e-b712-b2cf7e9de0b1
   rating: 4.5
-  date: "2022-05"
 
 - title: American Football
   creator: American Football
-  year: 2016
+  year: 1999
   genre: [math rock, midwest emo, indie rock]
-  status: completed
   cover: /img/media/music/american-football.jpg
-  mbid: f98334d4-5eb5-48b2-820b-faa8db645c10
+  mbid: 8e40a68c-58e8-3c92-a763-645fda2ce8a7
   rating: 4
-  date: "2022-04"
+  cover_locked: true
 
 - title: Music Has the Right to Children
   creator: Boards of Canada
   year: 1998
   genre: [idm, ambient, electronic]
-  status: completed
   cover: /img/media/music/music-has-the-right-to-children.jpg
   mbid: 17d74d52-c92b-3b8d-9f87-218ab2d1c4a0
   rating: 5
-  date: "2026-02"
 
 - title: Static & Silence
   creator: The Sundays
   year: 1997
   genre: [dream pop, pop rock]
-  status: completed
   cover: /img/media/music/static-silence.jpg
   mbid: 8d693db5-6f59-3da2-bec2-e1b782292606
   rating: 4.5
-  date: "2024-01"
 
 - title: Grace
   creator: Jeff Buckley
   year: 1994
   genre: [singer-songwriter, alternative rock, rock]
-  status: completed
   cover: /img/media/music/grace.jpg
   mbid: ea29c347-696f-3165-986d-7bad1394b178
   rating: 5
-  date: "2025-03"
-  comment: "it's never over"
+  comment: it's never over
 
 - title: Blind
   creator: The Sundays
   year: 1992
   genre: [dream pop, indie pop, indie]
-  status: completed
   cover: /img/media/music/blind.jpg
   mbid: 2a2ea74e-3964-3439-9280-c47e6af9b116
-  date: "2023-12"
 
 - title: The Bends
   creator: Radiohead
   year: 1994
   genre: [alternative rock, rock, alternative]
-  status: completed
   cover: /img/media/music/the-bends.jpg
   mbid: b8048f24-c026-3398-b23a-b5e50716cbc7
-  date: "2023-03"
 
 - title: U
   creator: underscores
   genre: [electropop, hyperpop, dance-pop]
-  status: completed
   cover: /img/media/music/u.jpg
   year: 2026
   mbid: cec81633-5419-4f92-b0ac-6e9c508a042f
   rating: 5
-  date: "2026-06"
 
 - title: Animals
   creator: TTNG
   year: 2008
   genre: [math rock, emo, indie rock]
-  status: completed
   cover: /img/media/music/animals.jpg
-  deezer_id: 6768695
   rating: 4
-  date: "2026-07"
 
 - title: Reading, Writing and Arithmetic
   creator: The Sundays
   year: 1990
   genre: [jangle pop, indie pop, dream pop]
-  status: completed
   cover: /img/media/music/reading-writing-and-arithmetic.jpg
   mbid: a3915909-20c5-3dc5-931f-f0f9023bf2d8
-  date: "2023-12"
 
 - title: Either/Or
   creator: Elliott Smith
   year: 1997
   genre: [singer-songwriter, indie folk, indie pop]
-  status: completed
   cover: /img/media/music/either-or.jpg
   mbid: dfb85157-313b-3f5f-8739-a5162bcb6345
   rating: 4
-  date: "2024-04"
 
 - title: Jhazmyne’s Lullaby
   creator: 7 Angels 7 Plagues
   genre: [metalcore, hardcore, metal]
-  status: completed
   cover: /img/media/music/jhazmynes-lullaby.jpg
   year: 2001
   mbid: 286238b4-e4b5-3022-82ac-9fa8d4c89752
   rating: 5
-  date: "2026-03"
 
 - title: Disintegration
   creator: The Cure
   genre: [post-punk, new wave, gothic rock]
-  status: completed
   cover: /img/media/music/disintegration.jpg
   year: 1989
   mbid: 494bf606-d2f7-36d0-8340-eadad8601d2b
   rating: 4
-  date: "2026-07"
 
 - title: choke enough
   creator: Oklou
   genre: [electronic, indietronica, ambient pop]
-  status: completed
   cover: /img/media/music/choke-enough.jpg
   year: 2025
   mbid: 45f8261c-e781-4a8f-b1f6-ca6616bd1dfe
-  date: "2026-01"
 
 - title: Drukqs
   creator: Aphex Twin
   year: 2001
   genre: [idm, electronic, ambient]
-  status: completed
   cover: /img/media/music/drukqs.jpg
   mbid: 87f1a316-510f-36c3-9f2c-38230b0e56e0
-  date: "2022-07"
 
 - title: Brave Murder Day
   creator: Katatonia
   year: 1996
   genre: [doom metal, death-doom metal, death metal]
-  status: completed
   cover: /img/media/music/brave-murder-day.jpg
   mbid: 9a86748d-33f5-37f8-a9f9-8be806d0ed92
   rating: 4
-  date: "2025-07"
 
 - title: Redeemer
   creator: Norma Jean
   year: 2006
   genre: [metalcore]
-  status: completed
   cover: /img/media/music/redeemer.jpg
   mbid: b189f240-1ddd-3222-947a-d3ff3f6147fd
   rating: 4.5
-  date: "2026-09"
 
 - title: the book about my idle plot on a vague anxiety
   creator: toe
   year: 2005
   genre: [math rock, post-rock, rock]
-  status: completed
   cover: /img/media/music/the-book-about-my-idle-plot-on-a-vague-anxiety.jpg
   mbid: ba24af71-9a64-4e8f-b3a5-ffb8c5fd9f40
   rating: 4
-  date: "2026-07"
 
 - title: Tomorrow’s Harvest
   creator: Boards of Canada
   year: 2013
   genre: [ambient, electronic, idm]
-  status: completed
   cover: /img/media/music/tomorrows-harvest.jpg
   mbid: 77d7c506-8d47-4d68-9615-f25db638bbea
-  date: "2026-02"
 
 - title: Cold Visions
   creator: Bladee
   year: 2024
   genre: [rage, trap, cloud rap]
-  status: completed
   cover: /img/media/music/cold-visions.jpg
   mbid: 0ab15adb-b131-4066-97d4-bf2e769fdec2
-  date: "2024-04"
 
 - title: SUPER FREQ
   creator: Machine Girl
   year: 2024
   genre: [electronic, edm]
-  status: completed
   cover: /img/media/music/super-freq.jpg
-  deezer_id: 563698492
-  date: "2026-07"
 
 - title: Figure 8
   creator: Elliott Smith
   year: 2000
   genre: [singer-songwriter, indie rock, indie]
-  status: planning
   cover: /img/media/music/figure-8.jpg
   mbid: 2fd75c21-7a92-3bcc-b045-d5bab5c36d11
 
@@ -213,165 +169,129 @@
   creator: Ecco2k
   year: 2019
   genre: [ambient pop, cloud rap, art pop]
-  status: completed
   cover: /img/media/music/e.jpg
   mbid: 4d5b83dc-85b6-42c6-977e-46dd9e9d8e58
   rating: 3.5
-  date: "2021-12"
 
 - title: I Love My Computer
   creator: Ninajirachi
   year: 2025
   genre: [electro house, electropop, complextro]
-  status: completed
   cover: /img/media/music/i-love-my-computer.jpg
   mbid: 6ab2d1f5-1730-499d-a814-6fe6eb9ec1f0
-  date: "2026-08"
 
 - title: The Campfire Headphase
   creator: Boards of Canada
   year: 2005
   genre: [ambient, downtempo, idm]
-  status: completed
   cover: /img/media/music/the-campfire-headphase.jpg
   mbid: 646bff72-4c97-455a-a63e-930900bf32e7
-  deezer_id: 2795781
-  date: "2026-02"
 
 - title: en glad titel på en sorglig skiva
   creator: stoort neer
   year: 2018
   genre: [progressive metal, deathcore, blackgaze]
-  status: completed
   cover: /img/media/music/en-glad-titel-pa-en-sorglig-skiva.jpg
   mbid: 989706e7-b742-4375-b19c-21bf9d951986
   rating: 4
-  date: "2026-03"
 
 - title: Syro
   creator: Aphex Twin
   year: 2014
   genre: [idm, electronic, acid techno]
-  status: completed
   cover: /img/media/music/syro.jpg
   mbid: 11a7c281-a260-4f77-a1d5-1ff2d4c917eb
-  date: "2026-05"
 
 - title: The Power of Failing
   creator: Mineral
   year: 1996
   genre: [emo, indie rock, midwest emo]
-  status: completed
   cover: /img/media/music/the-power-of-failing.jpg
   mbid: 3ff93a02-eec5-3624-b1fe-7b33a0795cbb
-  date: "2026-05"
 
 - title: Sulfur Surfer
   creator: Bladee
   year: 2026
   genre: [drill, abstract hip hop, cloud rap]
-  status: completed
   cover: /img/media/music/sulfur-surfer.jpg
   mbid: 8e048524-a96f-4657-8efd-5aa7406c8864
-  date: "2026-09"
 
 - title: Vapen & ammunition
   creator: Kent
   genre: [alternative rock, pop rock]
-  status: completed
   cover: /img/media/music/vapen-ammunition.jpg
   year: 2002
   mbid: 94a80122-4de2-3676-bf0b-f7d2f72ff8bd
-  date: "2026-06"
 
 - title: star
   creator: 2hollis
   year: 2025
   genre: [electropop, house, dance-pop]
-  status: completed
   cover: /img/media/music/star.jpg
   mbid: 63201d91-1628-4fb7-855e-70f3564457d0
-  date: "2025-06"
 
 - title: Selected Ambient Works 85–92
   creator: Aphex Twin
   year: 1992
   genre: [ambient techno, idm]
-  status: completed
   cover: /img/media/music/selected-ambient-works-8592.jpg
   mbid: 6842c81d-ea77-3dfd-abf7-4323add3f4d4
   rating: 4
-  date: "2023-02"
 
 - title: Inferno
   creator: Boards of Canada
   year: 2026
   genre: [idm, downtempo, ambient]
-  status: completed
   cover: /img/media/music/inferno.jpg
   mbid: aca9719d-c640-41fc-a3a2-f3c52101e0ff
-  date: "2026-06"
 
 - title: MUSICK
   creator: eden2001
   year: 2026
   genre: [electronic]
-  status: completed
   cover: /img/media/music/musick.jpg
   mbid: 154c4594-253d-4f71-840b-db1122bd00a8
-  date: "2026-04"
 
 - title: …I Care Because You Do
   creator: Aphex Twin
   year: 1995
   genre: [electronic, idm, ambient]
-  status: completed
   cover: /img/media/music/i-care-because-you-do.jpg
   mbid: 79c6d3be-251c-3644-b07e-09d738e15a84
   rating: 4
-  date: "2026-05"
 
 - title: Three Imaginary Boys
   creator: The Cure
   year: 1979
   genre: [post-punk, new wave, rock]
-  status: completed
   cover: /img/media/music/three-imaginary-boys.jpg
   mbid: 76dc56cc-0f0f-31df-90cc-4522ca211a0d
-  date: "2021-04"
 
 - title: Go Plastic
   creator: Squarepusher
   year: 2001
   genre: [idm, electronic, drum and bass]
-  status: completed
   cover: /img/media/music/go-plastic.jpg
   mbid: d23b8787-52a7-3b9c-bf94-862d17410ea7
-  date: "2026-05"
 
 - title: Forever Young
   creator: Alphaville
   year: 1984
   genre: [synthpop, new wave, pop]
-  status: completed
   cover: /img/media/music/forever-young.jpg
   mbid: bd021fbe-fbe9-3564-96c7-14de208de37f
-  date: "2026-08"
 
 - title: Nightmare Withdrawals
   creator: Blindfolded and Led to the Woods
   year: 2021
   genre: [deathcore, technical death metal, death metal]
-  status: completed
   cover: /img/media/music/nightmare-withdrawals.jpg
   mbid: 3fb0b5b2-d9f2-4f12-9f98-92b3d18e6871
-  date: "2026-03"
 
 - title: Geogaddi
   creator: Boards of Canada
   year: 2002
   genre: [ambient, idm, electronic]
-  status: planning
   cover: /img/media/music/geogaddi.jpg
   mbid: 8183834a-6c8a-39ef-a7bc-a82f79b929e9
 
@@ -379,25 +299,20 @@
   creator: Norma Jean
   year: 2013
   genre: [mathcore, hardcore, metalcore]
-  status: completed
   cover: /img/media/music/wrongdoers.jpg
   mbid: 531ba07f-22fc-42dc-b7d8-36157c3a7984
-  date: "2026-09"
 
 - title: For Long Tomorrow
   creator: toe
   year: 2009
   genre: [post-rock, math rock, j-rock]
-  status: completed
   cover: /img/media/music/for-long-tomorrow.jpg
   mbid: 3a2e4685-550f-4b00-a233-4a7ac2957072
-  date: "2026-07"
 
 - title: Red
   creator: King Crimson
   year: 1974
   genre: [progressive rock, art rock, experimental]
-  status: planning
   cover: /img/media/music/red.jpg
   mbid: 89bc97c8-921a-3758-8481-3b39c564e297
 
@@ -405,34 +320,27 @@
   creator: Yukiya Mishima
   year: 2025
   genre: []
-  status: planning
   cover: /img/media/music/peaks-and-valleys.jpg
-  deezer_id: 785166641
 
 - title: 君のように生きれたら
   creator: 宇宙ネコ子
   year: 2019
   genre: [rock, indie, pop]
-  status: completed
   cover: /img/media/music/0f07d9.jpg
   mbid: 84490fb8-718c-437f-8609-5cdcc0a29dca
-  date: "2026-09"
 
 - title: '2'
   creator: 2hollis
   genre: [electropop, pop, hyperpop]
-  status: completed
   cover: /img/media/music/2.jpg
   year: 2023
   mbid: d74b2021-d5a7-46ec-9c89-7098e00c7db7
   rating: 2
-  date: "2025-08"
 
 - title: Scrapclub
   creator: Pradaaslife
   year: 2024
   genre: [rap, hip hop, rnb]
-  status: completed
   cover: /img/media/music/scrapclub.jpg
   mbid: 7191a1e0-5bb2-4053-8896-93da5ecbd03b
 
@@ -440,110 +348,86 @@
   creator: Title Fight
   year: 2011
   genre: [post-hardcore, emo, hardcore]
-  status: completed
   cover: /img/media/music/shed.jpg
   mbid: abc44a88-a89a-4809-87f7-5064001b015d
-  date: "2022-11"
 
 - title: Sketches for My Sweetheart the Drunk
   creator: Jeff Buckley
   year: 1998
   genre: [alternative rock, rock, alternative]
-  status: completed
   cover: /img/media/music/sketches-for-my-sweetheart-the-drunk.jpg
   mbid: 98dd8826-eae5-3700-957e-397bd0cf82d4
-  date: "2025-12"
 
 - title: Kiss Me Kiss Me Kiss Me
   creator: The Cure
   year: 1987
   genre: [new wave, post-punk, alternative rock]
-  status: completed
   cover: /img/media/music/kiss-me-kiss-me-kiss-me.jpg
   mbid: ab132c83-097a-33f0-b557-edd6b6ce1c7d
   rating: 3.5
-  date: "2023-09"
 
 - title: Crest
   creator: Bladee & Ecco2K
   year: 2022
   genre: [cloud rap, art pop, psychedelic]
-  status: completed
   cover: /img/media/music/crest.jpg
   mbid: e259fd98-c979-413f-bc13-a859cbf3ae2b
-  date: "2022-03"
 
 - title: Something Real & Here, Here and Here
   creator: Meg & Dia
   genre: [indie rock, indie pop, folk rock]
-  status: completed
   cover: /img/media/music/something-real-here-here-and-here.jpg
   year: 2009
   mbid: 281ba98f-0d0a-4712-a237-d530e72c3be1
-  date: "2026-06"
 
 - title: Elliott Smith
   creator: Elliott Smith
   year: 1995
   genre: [singer-songwriter, indie folk, indie]
-  status: completed
   cover: /img/media/music/elliott-smith.jpg
   mbid: d90675f8-ac35-3737-898a-b9860fc3f5f3
-  date: "2023-12"
 
 - title: In Rainbows
   creator: Radiohead
   year: 2007
   genre: [alternative rock, alternative, art rock]
-  status: completed
   cover: /img/media/music/in-rainbows.jpg
   mbid: 6e335887-60ba-38f0-95af-fae7774336bf
-  date: "2022-12"
 
 - title: Minecraft – Volume Alpha
   creator: C418
   year: 2011
   genre: [ambient, electronic, synthwave]
-  status: completed
   cover: /img/media/music/minecraft-volume-alpha.jpg
   mbid: 7f4856cd-f078-4c0d-aef7-48474d8fa890
-  date: "2021-11"
 
 - title: XO
   creator: Elliott Smith
   year: 1998
   genre: [singer-songwriter, indie pop, indie]
-  status: completed
   cover: /img/media/music/xo.jpg
   mbid: 5672afcd-18af-4c38-a62a-6a7d76f7e529
-  date: "2025-12"
 
 - title: あらためまして、はじめまして、ミドリです。
   creator: ミドリ
   year: 2008
   genre: [noise rock, art punk, jazz fusion]
-  status: completed
   cover: /img/media/music/629d4a.jpg
   mbid: 784bfc09-7d27-3902-aefe-50eafdc0566d
   rating: 3.5
   nsfw: true
-  date: "2023-02"
 
 - title: Songs About Leaving
   creator: Carissa’s Wierd
   year: 2002
   genre: []
-  status: completed
   cover: /img/media/music/songs-about-leaving.jpg
   mbid: b8e69326-6882-3821-95ee-7609d9398ffd
-  deezer_id: 898257382
-  date: "2023-02"
 
 - title: Define the Great Line
   creator: Underoath
   year: 2006
   genre: [post-hardcore, metalcore, screamo]
-  status: planning
   cover: /img/media/music/define-the-great-line.jpg
   mbid: 9f9d9f20-2653-32e9-b048-26abbaf227da
 
@@ -551,7 +435,6 @@
   creator: Weezer
   year: 1996
   genre: [alternative rock, emo, rock]
-  status: planning
   cover: /img/media/music/pinkerton.jpg
   mbid: 385f30e2-0483-355d-aded-23e66aa20f87
 
@@ -559,14 +442,12 @@
   creator: Death
   year: 1998
   genre: [death metal, technical death metal, progressive metal]
-  status: planning
   cover: /img/media/music/the-sound-of-perseverance.jpg
   mbid: 0cd38da9-90a9-3e0b-bef6-e70036c8a619
 
 - title: In the Court of the Crimson King
   creator: King Crimson
   genre: [progressive rock, art rock, experimental]
-  status: planning
   cover: /img/media/music/in-the-court-of-the-crimson-king.jpg
   year: 1969
   mbid: a50636b5-5233-3329-a7f3-dba3d0e00ef7
@@ -574,7 +455,6 @@
 - title: The Singer and the Song
   creator: Labi Siffre
   genre: [soul]
-  status: planning
   cover: /img/media/music/the-singer-and-the-song.jpg
   year: 1971
   mbid: 285a3105-8da0-454f-8256-cb8fd7c9c9a1
@@ -582,262 +462,203 @@
 - title: Super Trouper
   creator: ABBA
   genre: [pop]
-  status: completed
   cover: /img/media/music/super-trouper.jpg
   year: 1980
   mbid: 24944755-2f68-3778-974e-f572a9e30108
-  date: "2026-02"
 
 - title: Heaven or Las Vegas
   creator: Cocteau Twins
   year: 1990
   genre: [dream pop, shoegaze, ethereal wave]
-  status: completed
   cover: /img/media/music/heaven-or-las-vegas.jpg
   mbid: 12fab6b9-4eaf-33b0-963e-cae03ac332fe
-  date: "2022-05"
 
 - title: What The Low Does
   creator: Drux
   genre: [cloud rap, punk, hardcore]
-  status: completed
   cover: /img/media/music/what-the-low-does.jpg
   year: 2025
   mbid: 6da4fcfd-09af-4597-a166-6055967517f3
-  date: "2025-05"
 
 - title: 弓长张
   creator: jackzebra
   genre: [cloud rap, trap, plugg]
-  status: completed
   cover: /img/media/music/d0d191.jpg
   year: 2024
   mbid: 1131db36-1425-4de4-8ae3-222641c0e77e
   rating: 3.5
-  date: "2025-05"
 
 - title: For Lovers
   creator: Lamp
   year: 2004
   genre: [shibuya-kei, pop, bossa nova]
-  status: completed
   cover: /img/media/music/for-lovers.jpg
-  deezer_id: 117715332
   rating: 4.5
-  date: "2022-07"
 
 - title: D>E>A>T>H>M>E>T>A>L
   creator: Panchiko
   year: 2000
   genre: [dream pop, indie rock, indietronica]
-  status: completed
   cover: /img/media/music/d-e-a-t-h-m-e-t-a-l.jpg
   mbid: e53da1e9-2197-4755-baf1-182de0c74e26
-  date: "2023-03"
 
 - title: These Are Sad Times
   creator: The Last Whole Earth Catalog
   year: 2021
   genre: [folk, experimental, indie folk]
-  status: completed
   cover: /img/media/music/these-are-sad-times.jpg
   mbid: caca6a72-20d4-4f6f-8f7b-dd174b2ab4df
-  date: "2023-10"
 
 - title: Icedancer
   creator: Bladee
   year: 2018
   genre: [cloud rap, emo rap, trap]
-  status: completed
   cover: /img/media/music/icedancer.jpg
   mbid: a802c9ce-5017-421f-9a16-b18740f677e4
   rating: 3.5
-  date: "2021-08"
 
 - title: Hi Scores
   creator: Boards of Canada
   year: 1996
   genre: [idm, ambient, electronic]
-  status: completed
   cover: /img/media/music/hi-scores.jpg
   mbid: 7600e51e-065c-39d2-bd0e-556a968cce02
-  date: "2022-01"
 
 - title: In a Beautiful Place Out in the Country
   creator: Boards of Canada
   year: 2000
   genre: [idm, ambient, electronic]
-  status: completed
   cover: /img/media/music/in-a-beautiful-place-out-in-the-country.jpg
   mbid: c73833e3-384c-36fd-97a2-762a858dbff4
-  date: "2026-02"
 
 - title: Trans Canada Highway
   creator: Boards of Canada
   genre: [ambient, electronic, idm]
-  status: completed
   cover: /img/media/music/trans-canada-highway.jpg
   year: 2006
   mbid: 120c67b4-c2a9-3b76-b67f-ba25940479f2
-  date: "2026-02"
 
 - title: Twoism
   creator: Boards of Canada
   year: 1995
   genre: [downtempo, ambient, idm]
-  status: completed
   cover: /img/media/music/twoism.jpg
   mbid: e0243657-01ef-3516-b9aa-03d417d6e944
-  date: "2026-03"
 
 - title: Girl With Fish
   creator: feeble little horse
   year: 2023
   genre: [noise pop, shoegaze, indie rock]
-  status: completed
   cover: /img/media/music/girl-with-fish.jpg
   mbid: eb5864b7-84d7-4621-8f6f-96b71317f9ed
-  date: "2024-04"
 
 - title: The First Breath Is The Beginning Of Death
   creator: Idiot Child
   year: 2024
   genre: [noise rock]
-  status: completed
   cover: /img/media/music/the-first-breath-is-the-beginning-of-death.jpg
   mbid: d2685da5-267c-4778-8bbf-2582dc18eefc
-  date: "2026-05"
 
 - title: OK Computer
   creator: Radiohead
   year: 1997
   genre: [alternative rock, alternative, rock]
-  status: completed
   cover: /img/media/music/ok-computer.jpg
   mbid: b1392450-e666-3926-a536-22c65f834433
-  date: "2022-01"
 
 - title: Hatful of Hollow
   creator: The Smiths
   genre: [indie, indie pop, jangle pop]
-  status: completed
   cover: /img/media/music/hatful-of-hollow.jpg
   year: 1984
   mbid: f81500a3-d01a-30e7-8ec9-75f672e9a775
-  date: "2023-10"
 
 - title: Trick
   creator: Alex G
   genre: [lo-fi, indie rock, indie folk]
-  status: completed
   cover: /img/media/music/trick.jpg
   year: 2012
   mbid: a1851b11-5c14-497a-af7a-fa04c0946c78
-  date: "2022-03"
 
 - title: The Unnatural World
   creator: Have a Nice Life
   year: 2014
   genre: [shoegaze, post-punk, drone]
-  status: completed
   cover: /img/media/music/the-unnatural-world.jpg
   mbid: 3af581eb-d389-4357-b80c-36575667f56c
-  date: "2025-06"
 
 - title: Wide Awake
   creator: Mechatok
   year: 2025
   genre: [electronic, ambient, experimental]
-  status: completed
   cover: /img/media/music/wide-awake.jpg
   mbid: 176329b1-8bd1-41c7-b79c-3727dd194b82
-  date: "2026-07"
 
 - title: Discovering the Waterfront
   creator: Silverstein
   year: 2005
   genre: [post-hardcore, screamo, emo]
-  status: completed
   cover: /img/media/music/discovering-the-waterfront.jpg
   mbid: 2d71b800-bcff-3ab1-8479-c68d69649f8d
-  date: "2026-06"
 
 - title: Let’s Cheers to This
   creator: Sleeping With Sirens
   year: 2011
   genre: [post-hardcore, screamo, experimental]
-  status: completed
   cover: /img/media/music/lets-cheers-to-this.jpg
   mbid: 91a2ea9a-a908-4b46-a985-e21657a7d93b
-  date: "2021-09"
 
 - title: Magnolia Electric Co.
   creator: 'Songs: Ohia'
   genre: [alt-country, americana, folk]
-  status: completed
   cover: /img/media/music/magnolia-electric-co-deluxe-edition.jpg
   year: 2013
-  deezer_id: 7291528
-  date: "2024-04"
 
 - title: Hard Normal Daddy
   creator: Squarepusher
   year: 1997
   genre: [idm, electronic, jazz fusion]
-  status: completed
   cover: /img/media/music/hard-normal-daddy.jpg
   mbid: f4168d4e-c0e8-388f-8baa-4de058d852e5
-  date: "2026-05"
 
 - title: － ････ ･ －･ ･･ －－･ ････ － －･－･ ･－･･ ･･－ －･･･
   creator: ･ ･－･ ･－ ･･･ ･ －･･
   genre: [glitch, electroacoustic, indie]
-  status: completed
   cover: /img/media/music/3bbe23.jpg
 
 - title: Tomorrow Is Nearly Yesterday And Everyday Is Stupid
   creator: Crywank
   year: 2013
   genre: [anti-folk, folk punk, sadcore]
-  status: completed
   cover: /img/media/music/tomorrow-is-nearly-yesterday-and-everyday-is-stupid.jpg
   mbid: d4b45131-0534-4cad-974b-163e6a25e9ab
-  deezer_id: 888930702
   rating: 3.5
-  date: "2023-10"
 
 - title: Don't Piss On Me, I'm Already Dead
   creator: Crywank
   year: 2016
   genre: [anti-folk, emo, folk punk]
-  status: completed
   cover: /img/media/music/don-t-piss-on-me-i-m-already-dead.jpg
   mbid: d5651388-77a7-485a-b936-6269e1af4a3d
-  date: "2023-12"
 
 - title: Narcissist on the Verge of a Nervous Breakdown
   creator: Crywank
   year: 2012
   genre: [folk punk, sadcore, anti-folk]
-  status: completed
   cover: /img/media/music/narcissist-on-the-verge-of-a-nervous-breakdown.jpg
   mbid: 4bacb9f7-6817-464b-9623-25a754717f7e
-  date: "2023-11"
 
 - title: James Is Going to Die Soon
   creator: Crywank
   year: 2010
   genre: [lo-fi, indie, folk]
-  status: completed
   cover: /img/media/music/james-is-going-to-die-soon.jpg
   mbid: 093068a8-424c-4dec-b8ab-4571bb4d76c0
-  date: "2023-10"
 
 - title: Alunea
   creator: Kardashev
   year: 2025
   genre: [deathcore, progressive metal, death metal]
-  status: planning
   cover: /img/media/music/alunea.jpg
   mbid: 386e4fd1-62b8-4b00-a5bd-576b2509155e
 
@@ -845,170 +666,129 @@
   creator: Cyberbully Mom Club
   year: 2014
   genre: [lo-fi, bedroom pop, indie]
-  status: completed
   cover: /img/media/music/amy-locust-whatever.jpg
   mbid: 395b3c1f-3db0-4901-ac0c-c1667479aebe
   rating: 1
-  date: "2022-04"
 
 - title: Wearing Beige on a Grey Day
   creator: Crywank
   genre: [folk]
-  status: completed
   cover: /img/media/music/wearing-beige-on-a-grey-day.jpg
   year: 2019
   mbid: 1b6f16f0-34a1-47f7-b56a-14e74eb03f1f
-  date: "2023-10"
 
 - title: Grand Ledge
   creator: Paul Baribeau
   year: 2007
   genre: [singer-songwriter, acoustic, anti-folk]
-  status: completed
   cover: /img/media/music/grand-ledge.jpg
   mbid: cadcd5e2-b6f6-3adf-9c3b-9e6aa8c10362
-  date: "2025-05"
 
 - title: KID A MNESIA
   creator: Radiohead
   year: 2021
   genre: [electronic, ambient, rock]
-  status: completed
   cover: /img/media/music/kid-a-mnesia.jpg
   mbid: 6f25f9fb-e9e3-4c0d-8904-ecb8b46cd8aa
-  date: "2023-05"
 
 - title: Family Business
   creator: The Last Whole Earth Catalog
   year: 2021
   genre: [electronic]
-  status: completed
   cover: /img/media/music/family-business.jpg
   mbid: 2dc19705-d655-46d6-b44e-13f31839c4f1
-  deezer_id: 283209262
-  date: "2024-01"
 
 - title: Single Use Stress Balls
   creator: The Last Whole Earth Catalog
   year: 2020
   genre: [folk, experimental, indie folk]
-  status: completed
   cover: /img/media/music/single-use-stress-balls.jpg
-  deezer_id: 934749221
   rating: 4
-  date: "2024-07"
 
 - title: Ants From Up There
   creator: Black Country, New Road
   year: 2022
   genre: [post-rock, art rock, indie rock]
-  status: completed
   cover: /img/media/music/ants-from-up-there.jpg
   mbid: d622ed70-ccc3-4658-8a0a-b7a2d577c28d
-  date: "2024-02"
 
 - title: Green (SFX Version)
   creator: Hiroshi Yoshimura
   year: 1986
   genre: [new age, ambient, field recordings]
-  status: completed
   cover: /img/media/music/green-sfx-version.jpg
-  deezer_id: 697670701
-  date: "2022-04"
 
 - title: Charm
   creator: Clairo
   year: 2024
   genre: [soft rock, sophisti-pop, bedroom pop]
-  status: completed
   cover: /img/media/music/charm.jpg
   mbid: 6fb46378-9cb7-4693-b76d-a62f2cc09214
-  date: "2024-10"
 
 - title: Inside In / Inside Out
   creator: The Kooks
   year: 2021
   genre: [indie, indie rock, rock]
-  status: planning
   cover: /img/media/music/inside-in-inside-out-15th-anniversary-deluxe.jpg
-  deezer_id: 253056772
 
 - title: New Moon
   creator: Elliott Smith
   year: 2007
   genre: [singer-songwriter, indie rock, folk]
-  status: completed
   cover: /img/media/music/new-moon.jpg
   mbid: 313a9a34-e1f2-39d7-a17d-8fa69fac4fa6
-  date: "2025-05"
 
 - title: Liminal Rite
   creator: Kardashev
   year: 2022
   genre: [progressive metal, metal, deathcore]
-  status: completed
   cover: /img/media/music/liminal-rite.jpg
   mbid: 2cf14676-aa6b-4237-84e3-312735e1019d
-  date: "2025-07"
 
 - title: House of Sugar
   creator: (Sandy) Alex G
   year: 2019
   genre: [indietronica, alternative, indie pop]
-  status: completed
   cover: /img/media/music/house-of-sugar.jpg
   mbid: ef315eab-4ddd-49d0-ae26-b7545ee818c7
-  date: "2022-03"
 
 - title: Just Popping in to Say Hi
   creator: Crywank
   year: 2021
   genre: [folk punk, sadcore, anti-folk]
-  status: completed
   cover: /img/media/music/just-popping-in-to-say-hi.jpg
   mbid: 0579d0af-cb58-4283-809d-e3fc64b5e77e
-  date: "2023-12"
 
 - title: Tour Demos 2013
   creator: Crywank
   year: 2013
   genre: [folk punk, sadcore, anti-folk]
-  status: completed
   cover: /img/media/music/tour-demos-2013.jpg
   mbid: 22a6c750-ce62-4340-b392-58264290033b
-  date: "2025-01"
 
 - title: Together
   creator: Duster
   year: 2022
   genre: [slowcore, psychedelic, dream pop]
-  status: completed
   cover: /img/media/music/together.jpg
   mbid: c937b3cc-2d93-49c0-83cc-d341b5e17a49
-  deezer_id: 301454417
-  date: "2022-04"
 
 - title: i tried to run away when i was 6 but got too scared to cross the street
   creator: i tried to run away when i was 6 (but got too scared to cross the street)
   genre: [lo-fi, folk, indie]
-  status: completed
-  date: "2024-01"
   cover: /img/media/music/i-tried-to-run-away-when-i-was-6-but-got-too-scared-to-cross-the-street.jpg
 
 - title: Souvlaki
   creator: Slowdive
   year: 1993
   genre: [shoegaze, dream pop, indie]
-  status: completed
   cover: /img/media/music/souvlaki.jpg
   mbid: 46482030-ef12-319c-9c5a-5d04c39d574b
-  date: "2023-11"
 
 - title: Everybody Else Is Doing It, So Why Can’t We?
   creator: The Cranberries
   year: 1993
   genre: [rock, alternative, alternative rock]
-  status: planning
   cover: /img/media/music/everybody-else-is-doing-it-so-why-cant-we.jpg
   mbid: e6b486b3-68e7-331c-a078-94fd71d61877
 
@@ -1016,7 +796,6 @@
   creator: Alex G
   year: 2012
   genre: [bedroom pop, indie, indie folk]
-  status: planning
   cover: /img/media/music/rules.jpg
   mbid: b531fecf-e246-428d-9769-9c5390b846da
 
@@ -1024,81 +803,60 @@
   creator: Have a Nice Life
   year: 2019
   genre: [shoegaze, post-punk, post-rock]
-  status: completed
   cover: /img/media/music/sea-of-worry.jpg
   mbid: ab34dfff-20e5-4503-90bc-466f2939bce4
-  date: "2025-06"
 
 - title: 'A Night At The Symphony: Live at the Hollywood Bowl'
   creator: Laufey
   year: 2024
   genre: [singer-songwriter]
-  status: completed
   cover: /img/media/music/a-night-at-the-symphony-live-at-the-hollywood-bowl.jpg
-  deezer_id: 676658701
-  date: "2024-12"
 
 - title: Where the Heart Is
   creator: Sweet Pill
   year: 2022
   genre: [midwest emo, emo, math rock]
-  status: completed
   cover: /img/media/music/where-the-heart-is.jpg
   mbid: 20729399-009b-4584-b5c6-b221c5faab2b
-  date: "2025-01"
 
 - title: A Crow Looked at Me
   creator: Mount Eerie
   year: 2017
   genre: [singer-songwriter, indie folk, folk]
-  status: completed
   cover: /img/media/music/a-crow-looked-at-me.jpg
   mbid: ef53005d-918f-49c1-9e65-4c595d5939ae
   rating: 3.5
-  date: "2022-05"
 
 - title: 27 Demos
   creator: Margo Guryan
   year: 2014
   genre: [psychedelic, singer-songwriter, pop]
-  status: completed
   mbid: 1fd43698-61ba-4ea8-9d79-6cfcfb6a8099
   cover: /img/media/music/27-demos.jpg
-  deezer_id: 447470935
-  date: "2023-12"
 
 - title: INSIDE
   creator: Bo Burnham
   year: 2021
   genre: [comedy, pop]
-  status: completed
   cover: /img/media/music/inside.jpg
-  deezer_id: 241210392
-  date: "2024-03"
 
 - title: Crywank
   creator: Alibi Lounge & Crywank
   year: 2019
   genre: []
-  status: completed
   cover: /img/media/music/crywank.jpg
   mbid: 2c04c74f-c0ff-4c41-99c0-ce27c5f20ddb
-  date: "2023-10"
 
 - title: We're All Down The Rabbit Hole
   creator: The Last Whole Earth Catalog
   year: 2024
   genre: [folk, experimental, indie folk]
-  status: completed
   cover: /img/media/music/we-re-all-down-the-rabbit-hole.jpg
-  deezer_id: 615855122
-  date: "2024-08"
 
 - title: the Glow, pt. 2
   creator: the Microphones
   year: 2001
   genre: [indie folk, folk, lo-fi]
-  status: planning
   cover: /img/media/music/the-glow-pt-2.jpg
   mbid: f478fad9-a746-3625-9f14-bc4a74918c0e
 
@@ -1106,116 +864,88 @@
   creator: The Last Whole Earth Catalog
   year: 2019
   genre: [folk, experimental, indie folk]
-  status: completed
   cover: /img/media/music/from-this-point-i-could-perhaps-imagine-i-was-a-better-person.jpg
-  deezer_id: 96899452
-  date: "2023-11"
 
 - title: We’re Not Here to Be Loved
   creator: Fleshwater
   year: 2022
   genre: [shoegaze, post-hardcore, alternative rock]
-  status: completed
   cover: /img/media/music/were-not-here-to-be-loved.jpg
   mbid: dc7bec45-b321-4dfc-be66-96eab5acb36e
-  date: "2023-08"
 
 - title: Ferric Oxide (Demos 1997 - 2001)
   creator: Panchiko
   year: 2020
   genre: [indie, shoegaze, indie rock]
-  status: completed
   cover: /img/media/music/ferric-oxide-demos-1997-2001.jpg
-  deezer_id: 1101543092
-  date: "2023-01"
 
 - title: BRAT
   creator: Charli xcx
   year: 2024
   genre: [electropop, pop, dance-pop]
-  status: completed
   cover: /img/media/music/brat.jpg
   mbid: e0fdb431-0109-420d-8a37-f99eaeb4d671
   rating: 4
-  date: "2024-06"
 
 - title: Fail Better, Heal Faster
   creator: Fail Better, Heal Faster
   year: 2017
   genre: [emo, punk, indie]
-  status: completed
   cover: /img/media/music/fail-better-heal-faster.jpg
   mbid: a24f443d-ffed-487b-97ee-0cc0a63b6264
-  deezer_id: 922156571
-  date: "2021-06"
 
 - title: Those Days Are Gone
   creator: Free Throw
   year: 2014
   genre: [emo, rock, indie]
-  status: completed
   cover: /img/media/music/those-days-are-gone.jpg
   mbid: ae1c8764-8ad0-441f-882d-6089f985e36c
-  date: "2021-09"
 
 - title: ep’s 1988-1991 and rare tracks
   creator: my bloody valentine
   year: 2012
   genre: [shoegaze, alternative rock, post-punk]
-  status: planning
   cover: /img/media/music/eps-1988-1991-and-rare-tracks.jpg
-  deezer_id: 212768362
 
 - title: Rat Pack
   creator: Frat Mouse
   year: 2020
   genre: [emo, indie, midwest emo]
-  status: completed
   cover: /img/media/music/rat-pack.jpg
   mbid: 5e40c0d8-14b2-49e5-8f67-a5341223532c
-  date: "2023-01"
 
 - title: THE INSIDE OUTTAKES
   creator: Bo Burnham
   year: 2022
   genre: [comedy]
-  status: completed
   cover: /img/media/music/the-inside-outtakes.jpg
   mbid: 1d1cae70-7b92-4c8f-b3dd-ca9abec33737
-  date: "2024-03"
 
 - title: starry cat
   creator: starry cat
   year: 2013
   genre: [lo-fi, rock, twee pop]
-  status: completed
   cover: /img/media/music/starry-cat.jpg
   mbid: b3749275-2631-4bc8-9188-75610fa830be
   rating: 3
-  date: "2021-08"
 
 - title: Baby
   creator: Born Without Bones
   year: 2013
   genre: [alternative rock, rock, indie rock]
-  status: completed
   cover: /img/media/music/baby.jpg
   mbid: f41f94a0-ced9-4664-98dd-9c69b6e3a925
-  date: "2021-04"
 
 - title: Do You Face The Brutal Reality?
   creator: The Last Whole Earth Catalog
   year: 2023
   genre: [folk, experimental, indie folk]
-  status: completed
   cover: /img/media/music/do-you-face-the-brutal-reality.jpg
   mbid: 6675df26-1f7b-4529-a5c1-f8e0d4e0241f
-  date: "2024-01"
 
 - title: England Made Me
   creator: Black Box Recorder
   genre: [indie pop, britpop, indie rock]
-  status: planning
   cover: /img/media/music/england-made-me.jpg
   year: 1998
   mbid: 321d0fde-e683-3e2a-8503-7a788b2f1b6f
@@ -1224,81 +954,70 @@
   creator: Mount Eerie
   year: 2008
   genre: [indie folk, folk, singer-songwriter]
-  status: completed
   cover: /img/media/music/dawn.jpg
   mbid: e362057e-1345-3ad9-8bd6-f1c51fd2fc76
-  date: "2023-11"
 
 - title: The Man Who Died in His Boat
   creator: Grouper
   year: 2013
   genre: [ambient, slowcore, drone]
-  status: completed
   cover: /img/media/music/the-man-who-died-in-his-boat.jpg
   mbid: bf8711a9-51ca-4c10-829c-187f7ce32ced
-  date: "2024-01"
 
 - title: Wild Is the Wind
   creator: Nina Simone
   year: 1966
   genre: [jazz, soul, blues]
-  status: completed
   cover: /img/media/music/wild-is-the-wind.jpg
   mbid: b4433a3e-d5ad-3d99-965c-96bfb6a0f071
-  date: "2024-03"
 
 - title: the first glass beach album
   creator: glass beach
   year: 2019
   genre: [indie rock, art rock, indietronica]
-  status: completed
   cover: /img/media/music/the-first-glass-beach-album.jpg
   mbid: a491e185-9c1e-47a0-964b-137b802aa928
-  date: "2021-04"
 
 - title: Pulver
   creator: Lifelover
   year: 2006
   genre: [depressive black metal, black metal, metal]
-  status: completed
   cover: /img/media/music/pulver.jpg
   mbid: 5c5cf1b4-6ee1-36f9-8684-ce45af64115f
   nsfw: true
-  date: "2024-04"
 
 - title: Louder Than Bombs
   creator: The Smiths
   year: 1987
   genre: [jangle pop, indie pop, alternative]
-  status: completed
   cover: /img/media/music/louder-than-bombs.jpg
   mbid: 329a3607-9b56-351c-84e7-c6f8f19d8056
-  date: "2023-11"
 
 - title: Failed at Math(s)
   creator: Panchiko
   year: 2023
   genre: [dream pop, indietronica, indie rock]
-  status: completed
   cover: /img/media/music/failed-at-math-s.jpg
   mbid: adbf3252-11fc-4bd1-9bbf-88ef3772ea16
-  date: "2023-12"
 
 - title: Steve McQueen
   creator: Prefab Sprout
   year: 2000
   genre: [sophisti-pop, new wave, pop]
-  status: completed
   cover: /img/media/music/steve-mcqueen.jpg
   mbid: 41dcc351-8b81-44f4-a5c5-3e942a21c5de
-  deezer_id: 114577362
-  date: "2023-12"
 
 - title: Still Bummed
   creator: Nouns
   year: 2013
   genre: [noise pop, emo, punk]
-  status: completed
   cover: /img/media/music/still-bummed.jpg
   mbid: e1f352fb-2025-48bb-99df-1db3f5d992b4
-  date: "2022-03"
+
+- title: Draining Love Story
+  creator: Sewerslvt
+  year: 2020
+  genre: [drum and bass, ambient, breakcore]
+  cover: /img/media/music/draining-love-story.jpg
+  mbid: a807b4de-9773-4f69-921f-d220eddcf11b
+  nsfw: true

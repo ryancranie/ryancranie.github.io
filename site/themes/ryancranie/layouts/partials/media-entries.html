@@ -1,0 +1,42 @@
+{{- /* Usage: partialCached "media-entries.html" "music" "music" → the type's entries. Other types
+  are their data file as is. Music merges music.yaml (hand-kept fields) with music_lastfm.json
+  (written by `import_media.py lastfm-sync`):
+    listened (completed): listened: true, or 70%+ of the tracklist scrobbled (played / total)
+    to listen (planning): in music.yaml but under that
+    auto-added complete albums are listened too; music_exclude.yaml entries never show
+  date is the last listen (YYYY-MM-DD) and scrobbles the album's scrobble count, listened albums only. */ -}}
+{{- $type := . -}}
+{{- $entries := index hugo.Data.media $type | default slice -}}
+{{- if eq $type "music" -}}
+  {{- $lf := index hugo.Data.media "music_lastfm" | default dict -}}
+  {{- $albums := $lf.albums | default dict -}}
+  {{- $manual := $lf.manual | default dict -}}
+  {{- $excluded := slice -}}
+  {{- range index hugo.Data.media "music_exclude" | default slice }}{{ $excluded = $excluded | append (lower (printf "%s|%s" .title (.creator | default ""))) }}{{ end -}}
+  {{- $out := slice -}}
+  {{- range $entries -}}
+    {{- $k := lower (printf "%s|%s" .title (.creator | default "")) -}}
+    {{- if not (in $excluded $k) -}}
+      {{- $a := dict -}}
+      {{- with index $manual $k }}{{ with index $albums . }}{{ $a = . }}{{ end }}{{ end -}}
+      {{- $total := int ($a.total | default 0) -}}
+      {{- $listened := or .listened $a.complete (and (gt $total 0) (ge (div (float ($a.played | default 0)) $total) 0.7)) -}}
+      {{- $extra := dict "status" (cond $listened "completed" "planning") -}}
+      {{- if and $listened $a.last_listened }}{{ $extra = merge $extra (dict "date" $a.last_listened) }}{{ end -}}
+      {{- if $listened }}{{ $extra = merge $extra (dict "scrobbles" (int ($a.scrobble_count | default 0))) }}{{ end -}}
+      {{- $out = $out | append (merge . $extra) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $lf.auto | default slice -}}
+    {{- with index $albums . -}}
+      {{- $e := dict "title" .album "creator" .artist "genre" (.genres | default slice) "status" "completed" "auto" true -}}
+      {{- with .year }}{{ $e = merge $e (dict "year" .) }}{{ end -}}
+      {{- with .cover }}{{ $e = merge $e (dict "cover" .) }}{{ end -}}
+      {{- with .last_listened }}{{ $e = merge $e (dict "date" .) }}{{ end -}}
+      {{- with .scrobble_count }}{{ $e = merge $e (dict "scrobbles" (int .)) }}{{ end -}}
+      {{- $out = $out | append $e -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $entries = $out -}}
+{{- end -}}
+{{- return $entries -}}

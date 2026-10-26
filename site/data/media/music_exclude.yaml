@@ -1,0 +1,62 @@
+# Albums never shown on the site, even when every track has been scrobbled.
+# lastfm-sync never auto-adds these; prune-singles appends the singles it removes.
+
+- title: Linger / Heading For The Door (Sirius XM Session)
+  creator: Royel Otis
+
+- title: '#voyuitwaaien (jumpstyle version)'
+  creator: latex fruit
+
+- title: Nushu
+  creator: De kommunalanställda
+
+- title: Sneg
+  creator: Nomark
+
+- title: Grove
+  creator: Dion
+
+- title: '''s Favorite Friend'
+  creator: Stove
+
+- title: Cardinal
+  creator: Pinegrove
+
+- title: California Nebula
+  creator: 缺省
+
+- title: De Kommunalanställda Loves You
+  creator: De kommunalanställda
+
+- title: Everything So Far
+  creator: Pinegrove
+
+- title: Faye Webster
+  creator: Faye Webster
+
+- title: It Gets Darker
+  creator: 100%
+
+- title: plastic death
+  creator: glass beach
+
+- title: 芽吹くとき
+  creator: yonige
+
+- title: Summertime
+  creator: The Sundays
+
+- title: Cry
+  creator: The Sundays
+
+- title: Stresser
+  creator: Alan Stresser
+
+- title: No fair (feat. Effie)
+  creator: Lunaa
+
+- title: style
+  creator: 2hollis
+
+- title: The Lincolnshire Poacher
+  creator: Three Mile Island

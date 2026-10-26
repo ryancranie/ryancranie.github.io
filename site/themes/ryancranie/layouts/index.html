@@ -16,7 +16,7 @@
 {{ $pool := dict }}
 {{ $picks := slice }}
 {{ range $types }}
-  {{ $ranked := where (partial "media-ranked.html" (index hugo.Data.media .key | default slice)) "nsfw" "ne" true }}
+  {{ $ranked := where (partial "media-ranked.html" (partialCached "media-entries.html" .key .key)) "nsfw" "ne" true }}
   {{ if $ranked }}
     {{ $favs := where $ranked "rating" "ge" 4 }}
     {{ $pool = merge $pool (dict .key (cond (gt (len $favs) 0) $favs $ranked)) }}
@@ -45,7 +45,7 @@
       {{ $basis = printf "calc((100%% - %drem) / %d)" (sub $k 1) $k }}
     {{ end }}
   <div class="media-pick{{ if eq .key "music" }} media-pick-square{{ end }}" data-pool-pick="{{ .key }}" style="--m-basis: {{ $basis | safeCSS }};">
-    <a class="media-pick-link" href="/media/{{ .key }}/?focus={{ partial "media-slug.html" .item.title }}">
+    <a class="media-pick-link" href="/media/{{ .key }}/?focus={{ partial "media-slug.html" .item }}">
       {{ partial "media-card.html" (dict "item" .item "type" .key "compact" true "label" .label) }}
     </a>
   </div>

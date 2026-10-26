@@ -14,7 +14,7 @@
 {{/* finished entries only (completed, active, inactive); zeros shown */}}
 <p class="media-stats">
   {{- range $i, $t := $types -}}
-    {{- $n := len (where (index hugo.Data.media $t.key | default slice) "status" "in" (slice "completed" "active" "inactive")) -}}
+    {{- $n := len (where (partialCached "media-entries.html" $t.key $t.key) "status" "in" (slice "completed" "active" "inactive")) -}}
     {{- if $i }} · {{ end -}}
     <a href="/media/{{ $t.key }}/">{{ $n }} {{ cond (eq $n 1) $t.one $t.many }}</a>
   {{- end -}}
@@ -32,7 +32,7 @@
 {{ $rows := dict }}
 {{ range $types }}
   {{ $key := .key }}
-  {{ $entries := index hugo.Data.media $key | default slice }}
+  {{ $entries := partialCached "media-entries.html" $key $key }}
   {{ $finished := partial "media-ranked.html" $entries }}
   {{/* "now" is current entries; games use active ones. Music's is the live Last.fm card. */}}
   {{ $nowStatus := cond (eq $key "games") "active" "current" }}
@@ -85,7 +85,7 @@
 {{ end }}
 
 {{ $nsfwMusic := slice }}
-{{ range where (index hugo.Data.media "music" | default slice) "nsfw" true }}
+{{ range where (partialCached "media-entries.html" "music" "music") "nsfw" true }}
   {{ $nsfwMusic = $nsfwMusic | append (dict "title" .title "creator" (.creator | default "")) }}
 {{ end }}
 {{ partial "media-pool.html" (dict "rows" $rows "nsfwMusic" $nsfwMusic) }}

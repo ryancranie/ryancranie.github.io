@@ -861,6 +861,18 @@
   "pop"
  ],
  "lastfm|album.getTopTags|7angels7plagues|jhazmyneslullaby": [],
+ "lastfm|album.getTopTags|7angels7plagues|untilthedaybreathesandtheshadowsflee": [
+  "metalcore",
+  "hardcore",
+  "2000",
+  "hardcore punk",
+  "punk rock",
+  "metal",
+  "punk",
+  "screamo",
+  "emo",
+  "post-hardcore"
+ ],
  "lastfm|album.getTopTags|abba|supertrouper": [
   "1980",
   "abba",
@@ -922,6 +934,14 @@
   "1990s",
   "rock"
  ],
+ "lastfm|album.getTopTags|americanfootball|americanfootball2": [
+  "midwest emo",
+  "math rock",
+  "indie pop",
+  "indie",
+  "emo",
+  "indie rock"
+ ],
  "lastfm|album.getTopTags|aphextwin|drukqs": [
   "idm",
   "2001",
@@ -952,6 +972,93 @@
   "EDM",
   "ambient",
   "Acid"
+ ],
+ "lastfm|album.getTopTags|arcadefire|funeral": [
+  "indie rock",
+  "2004",
+  "indie",
+  "favourite albums",
+  "00s",
+  "alternative",
+  "chamber pop",
+  "rock",
+  "baroque pop",
+  "1001 Albums You Must Hear Before You Die"
+ ],
+ "lastfm|album.getTopTags|arcadefire|neonbible": [
+  "2007",
+  "indie rock",
+  "indie",
+  "alternative",
+  "00s",
+  "baroque pop",
+  "rock",
+  "art rock",
+  "favourite albums",
+  "best of 2007"
+ ],
+ "lastfm|album.getTopTags|arcadefire|we": [
+  "2022",
+  "art rock",
+  "2020s",
+  "rock",
+  "indie",
+  "Canadian",
+  "indie rock",
+  "AI",
+  "4",
+  "2022 releases"
+ ],
+ "lastfm|album.getTopTags|beachbunny|animalism": [
+  "indie folk",
+  "lofi",
+  "bedroom pop"
+ ],
+ "lastfm|album.getTopTags|beachbunny|beachbunnyonaudiotreelive": [],
+ "lastfm|album.getTopTags|beachbunny|blamegame": [
+  "2021",
+  "indie pop",
+  "3-5"
+ ],
+ "lastfm|album.getTopTags|beachbunny|crybaby": [],
+ "lastfm|album.getTopTags|beachbunny|emotionalcreature": [
+  "2022",
+  "pop punk",
+  "indie pop",
+  "power pop",
+  "Pop-punk",
+  "female vocalists",
+  "indie rock",
+  "slacker rock",
+  "4",
+  "emo pop"
+ ],
+ "lastfm|album.getTopTags|beachbunny|honeymoon": [
+  "2020",
+  "power pop",
+  "indie pop",
+  "indie rock",
+  "midwest emo",
+  "2020s",
+  "vinyl",
+  "yellow",
+  "indie",
+  "pop rock"
+ ],
+ "lastfm|album.getTopTags|beachbunny|poolparty": [],
+ "lastfm|album.getTopTags|beachbunny|promqueen": [],
+ "lastfm|album.getTopTags|bennybenji|hymnsfromthecardealership": [],
+ "lastfm|album.getTopTags|björk|vespertine": [
+  "electronic",
+  "2001",
+  "art pop",
+  "favourite albums",
+  "electronica",
+  "glitch pop",
+  "experimental",
+  "ambient pop",
+  "00s",
+  "alternative"
  ],
  "lastfm|album.getTopTags|blackboxrecorder|englandmademe": [
   "indie pop",
@@ -989,6 +1096,31 @@
   "death",
   "alternative"
  ],
+ "lastfm|album.getTopTags|bladeeandmechatok|goodluck": [],
+ "lastfm|album.getTopTags|bladee|333": [
+  "cloud rap",
+  "trap",
+  "pop rap",
+  "ambient pop",
+  "art pop",
+  "spring",
+  "psychedelic",
+  "soothing",
+  "atmospheric",
+  "warm"
+ ],
+ "lastfm|album.getTopTags|bladee|avp": [
+  "cloud rap",
+  "trap",
+  "emo rap",
+  "cold",
+  "ethereal",
+  "surreal",
+  "atmospheric",
+  "winter",
+  "drugs",
+  "male vocals"
+ ],
  "lastfm|album.getTopTags|bladee|coldvisions": [
   "rage",
   "trap",
@@ -1000,6 +1132,62 @@
   "hyperpop",
   "2020s",
   "Hip-Hop"
+ ],
+ "lastfm|album.getTopTags|bladee|crest": [
+  "synthpop",
+  "art pop",
+  "dance-pop",
+  "electropop",
+  "cloud rap",
+  "ambient pop",
+  "psychedelic",
+  "futuristic",
+  "Bittersweet",
+  "melodic"
+ ],
+ "lastfm|album.getTopTags|bladee|eversince": [
+  "cloud rap",
+  "emo rap",
+  "trap",
+  "ambient pop",
+  "drill",
+  "alternative rnb",
+  "experimental hip hop",
+  "ethereal",
+  "sad",
+  "Alienation"
+ ],
+ "lastfm|album.getTopTags|bladee|exeter": [
+  "cloud rap",
+  "experimental hip hop",
+  "pop rap",
+  "trap",
+  "2020",
+  "digicore",
+  "art pop",
+  "alternative rnb",
+  "Uplifting",
+  "rhythmic"
+ ],
+ "lastfm|album.getTopTags|bladee|gluee": [
+  "cloud rap",
+  "experimental hip hop",
+  "trap",
+  "emo rap",
+  "alternative rnb",
+  "Avant-Garde",
+  "surreal",
+  "ambient pop",
+  "depressive",
+  "lethargic"
+ ],
+ "lastfm|album.getTopTags|bladee|goodluck": [
+  "electropop",
+  "trance",
+  "dance pop",
+  "dance-pop",
+  "bubblegum bass",
+  "pop rap"
  ],
  "lastfm|album.getTopTags|bladee|icedancer": [
   "cloud rap",
@@ -1013,6 +1201,18 @@
   "boastful",
   "melodic"
  ],
+ "lastfm|album.getTopTags|bladee|redlight": [
+  "cloud rap",
+  "emo rap",
+  "alternative rnb",
+  "trap",
+  "tread",
+  "ambient pop",
+  "2018",
+  "self-hatred",
+  "cold",
+  "boastful"
+ ],
  "lastfm|album.getTopTags|bladee|sulfursurfer": [
   "2026",
   "drill",
@@ -1021,7 +1221,40 @@
   "cloud rap",
   "trap"
  ],
+ "lastfm|album.getTopTags|bladee|thefool": [
+  "cloud rap",
+  "pop rap",
+  "trap",
+  "trance",
+  "spiritual",
+  "Uplifting",
+  "Love",
+  "romantic",
+  "existential",
+  "atmospheric"
+ ],
+ "lastfm|album.getTopTags|bladee|workingondying": [
+  "cloud rap",
+  "tread",
+  "emo rap",
+  "alternative rnb",
+  "quirky",
+  "cold",
+  "nocturnal",
+  "melancholic",
+  "lonely",
+  "introspective"
+ ],
  "lastfm|album.getTopTags|blindfoldedandledtothewoods|nightmarewithdrawals": [],
+ "lastfm|album.getTopTags|bluesmiley|return": [
+  "shoegaze",
+  "Neo-Psychedelia",
+  "noise pop",
+  "fuzz",
+  "lol doomergaze",
+  "Lo-Fi Indie",
+  "slacker rock"
+ ],
  "lastfm|album.getTopTags|boardsofcanada|geogaddi": [
   "ambient",
   "idm",
@@ -1135,8 +1368,24 @@
   "2013",
   "indie rock"
  ],
+ "lastfm|album.getTopTags|bôa|getthere": [
+  "4"
+ ],
+ "lastfm|album.getTopTags|bôa|twilight": [
+  "alternative rock",
+  "indie rock",
+  "2001",
+  "rock",
+  "post-Britpop",
+  "indie pop",
+  "post-grunge",
+  "2000s",
+  "british",
+  "indie"
+ ],
  "lastfm|album.getTopTags|c418|minecraftvolumealpha": [],
  "lastfm|album.getTopTags|carissaswierd|songsaboutleaving": [],
+ "lastfm|album.getTopTags|charlieburg|twomoonlight": [],
  "lastfm|album.getTopTags|charlixcx|brat": [
   "2024",
   "electropop",
@@ -1161,6 +1410,7 @@
   "psychedelic pop",
   "folk"
  ],
+ "lastfm|album.getTopTags|claykslider|kkslidercovers3": [],
  "lastfm|album.getTopTags|cocteautwins|heavenorlasvegas": [
   "dream pop",
   "1990",
@@ -1172,6 +1422,43 @@
   "4ad",
   "alternative",
   "baggy"
+ ],
+ "lastfm|album.getTopTags|cocteautwins|treasure": [
+  "dream pop",
+  "1984",
+  "ethereal",
+  "ethereal wave",
+  "post-punk",
+  "80s",
+  "4ad",
+  "shoegaze",
+  "Dreamy",
+  "perfect"
+ ],
+ "lastfm|album.getTopTags|computerwife|computerwife": [
+  "indietronica",
+  "shoegaze",
+  "female vocals",
+  "indie rock",
+  "post-punk",
+  "sad",
+  "dream pop",
+  "Lo-Fi",
+  "abstract",
+  "raw"
+ ],
+ "lastfm|album.getTopTags|cortex|cortexvol2": [],
+ "lastfm|album.getTopTags|cortex|troupeaubleu": [
+  "jazz",
+  "jazz-funk",
+  "samba-jazz",
+  "Fusion",
+  "jazz fusion",
+  "jazz pop",
+  "1975",
+  "easy listening",
+  "psychedelic",
+  "lounge"
  ],
  "lastfm|album.getTopTags|crywank|dontpissonmeimalreadydead": [
   "anti-folk",
@@ -1218,6 +1505,18 @@
  "lastfm|album.getTopTags|crywank|wearingbeigeonagreyday": [
   "folk"
  ],
+ "lastfm|album.getTopTags|currentjoys|wildheart": [
+  "post-punk",
+  "dream pop",
+  "jangle pop",
+  "slacker rock",
+  "bedroom pop",
+  "hypnagogic pop",
+  "indie surf",
+  "indie pop",
+  "alternative rock",
+  "pop"
+ ],
  "lastfm|album.getTopTags|cyberbullymomclub|amylocustwhatever": [],
  "lastfm|album.getTopTags|death|thesoundofperseverance": [
   "death metal",
@@ -1231,7 +1530,117 @@
   "90s",
   "Melodic Death Metal"
  ],
+ "lastfm|album.getTopTags|deftones|diamondeyes": [
+  "alternative metal",
+  "2010",
+  "alternative rock",
+  "best of 2010",
+  "metal",
+  "Nu Metal",
+  "shoegaze",
+  "Experimental Rock",
+  "alternative",
+  "Post-Metal"
+ ],
+ "lastfm|album.getTopTags|derekandthedominos|laylaandotherassortedlovesongs": [
+  "blues rock",
+  "blues",
+  "1970",
+  "classic rock",
+  "1001 Albums You Must Hear Before You Die",
+  "rock",
+  "70s",
+  "blues-rock",
+  "vinyl",
+  "allboutguitar"
+ ],
+ "lastfm|album.getTopTags|destroylonely|foreverily": [],
+ "lastfm|album.getTopTags|destroylonely|lord": [
+  "cloud rap",
+  "Southern Hip Hop",
+  "pop rap",
+  "trap",
+  "plugg"
+ ],
+ "lastfm|album.getTopTags|destroylonely|nostylist": [
+  "rage",
+  "Southern Hip Hop",
+  "pop rap",
+  "trap",
+  "plugg",
+  "2022",
+  "nocturnal",
+  "drugs",
+  "atmospheric",
+  "dark"
+ ],
+ "lastfm|album.getTopTags|destroylonely|nsultra": [
+  "rage",
+  "Southern Hip Hop",
+  "pop rap",
+  "trap",
+  "plugg"
+ ],
+ "lastfm|album.getTopTags|dominicfike|dontforgetaboutmedemos": [
+  "2018",
+  "alternative",
+  "alternative pop",
+  "indie rock",
+  "jangle pop",
+  "AI",
+  "experimental",
+  "alternative rnb",
+  "Bmson"
+ ],
+ "lastfm|album.getTopTags|dropnineteens|delaware": [
+  "shoegaze",
+  "1992",
+  "noise pop",
+  "indie rock",
+  "indie",
+  "rock",
+  "Lo-Fi",
+  "Delaware",
+  "90s",
+  "nice album art"
+ ],
  "lastfm|album.getTopTags|drux|whatthelowdoes": [],
+ "lastfm|album.getTopTags|duster|contemporarymovement": [
+  "slowcore",
+  "dream pop",
+  "slacker rock",
+  "post-rock",
+  "Lo-Fi",
+  "2000",
+  "space rock",
+  "space rock revival",
+  "indie rock",
+  "psychedelic"
+ ],
+ "lastfm|album.getTopTags|duster|duster": [
+  "slowcore",
+  "shoegaze",
+  "2019",
+  "space rock",
+  "space rock revival",
+  "psychedelic",
+  "indie rock",
+  "GUSIC",
+  "atmospheric",
+  "Neo-Psychedelia"
+ ],
+ "lastfm|album.getTopTags|duster|stratosphere": [
+  "slowcore",
+  "1998",
+  "space rock",
+  "post-rock",
+  "Lo-Fi",
+  "slacker rock",
+  "dream pop",
+  "space rock revival",
+  "shoegaze",
+  "indie rock"
+ ],
  "lastfm|album.getTopTags|duster|together": [
   "slowcore",
   "2022",
@@ -1243,6 +1652,18 @@
   "Lo-Fi",
   "space rock revival",
   "rock"
+ ],
+ "lastfm|album.getTopTags|duster|transmissionflux": [
+  "slowcore",
+  "space rock revival",
+  "space rock",
+  "shoegaze",
+  "Lo-Fi",
+  "slacker rock",
+  "rock",
+  "psychedelic",
+  "warm",
+  "indie rock"
  ],
  "lastfm|album.getTopTags|ecco2k|e": [
   "ambient pop",
@@ -1256,7 +1677,32 @@
   "Passionate",
   "lonely"
  ],
+ "lastfm|album.getTopTags|ecco2k|pxe": [
+  "glitch pop",
+  "pop",
+  "glitch",
+  "electronic",
+  "noise pop",
+  "art pop",
+  "Post-Industrial",
+  "indietronica",
+  "surreal",
+  "glitch hop"
+ ],
  "lastfm|album.getTopTags|eden2001|musick": [],
+ "lastfm|album.getTopTags|eiafuawn|birdsintheground": [
+  "indie folk",
+  "slowcore",
+  "slacker rock",
+  "indie rock",
+  "2005",
+  "rock",
+  "folk",
+  "Lo-Fi",
+  "alternative rock",
+  "test"
+ ],
+ "lastfm|album.getTopTags|elephantinred|big": [],
  "lastfm|album.getTopTags|elliottsmith|eitheror": [
   "1997",
   "singer-songwriter",
@@ -1341,6 +1787,62 @@
   "indie rock",
   "2014"
  ],
+ "lastfm|album.getTopTags|gene|olympian": [
+  "1995",
+  "britpop",
+  "90s",
+  "british",
+  "Totec Radio",
+  "registret",
+  "CD-Sammlung",
+  "my album",
+  "c30 c60 c90 go",
+  "WhiteSabbat"
+ ],
+ "lastfm|album.getTopTags|georgeclanton|slide": [
+  "2018",
+  "synthpop",
+  "chillwave",
+  "shoegaze",
+  "Neo-Psychedelia",
+  "hypnagogic pop",
+  "vaporwave",
+  "pop",
+  "alternative dance",
+  "dream pop"
+ ],
+ "lastfm|album.getTopTags|germanerrormessage|haunts": [
+  "Lo-Fi",
+  "folk",
+  "indie folk",
+  "rock",
+  "slowcore",
+  "alternative",
+  "indie rock",
+  "slacker rock",
+  "dark folk",
+  "winter"
+ ],
+ "lastfm|album.getTopTags|germanerrormessage|tocarryalongside": [],
+ "lastfm|album.getTopTags|glaive|alldogsgotoheaven": [],
+ "lastfm|album.getTopTags|glaive|cypressgrove": [
+  "alt-pop",
+  "pop rap",
+  "emo rap",
+  "trap",
+  "digicore",
+  "hyperpop",
+  "pop",
+  "hip hop",
+  "electronic"
+ ],
+ "lastfm|album.getTopTags|glaive|thenillbehappy": [
+  "alt-pop",
+  "pop rap",
+  "emo rap",
+  "digicore",
+  "hyperpop"
+ ],
  "lastfm|album.getTopTags|glassbeach|thefirstglassbeachalbum": [
   "indie rock",
   "art rock",
@@ -1364,6 +1866,20 @@
   "kranky",
   "2013 releases",
   "Reserved"
+ ],
+ "lastfm|album.getTopTags|guardpetal|memorybox": [],
+ "lastfm|album.getTopTags|hana|subahibithemesong": [],
+ "lastfm|album.getTopTags|harunemuri|harutosyura": [
+  "j-pop",
+  "japanese",
+  "noise pop",
+  "J-rock",
+  "pop",
+  "japanese rock",
+  "electronic",
+  "japan",
+  "experimental",
+  "post-hardcore"
  ],
  "lastfm|album.getTopTags|haveanicelife|deathconsciousness": [
   "shoegaze",
@@ -1401,6 +1917,18 @@
   "experimental",
   "ambient"
  ],
+ "lastfm|album.getTopTags|heyily|internetbreath": [
+  "chiptune",
+  "power pop",
+  "bedroom pop",
+  "emo",
+  "pop punk",
+  "punk",
+  "8-bit",
+  "indie punk",
+  "8 bit",
+  "8bit"
+ ],
  "lastfm|album.getTopTags|hiroshiyoshimura|greensfxversion": [
   "new age",
   "ambient",
@@ -1413,6 +1941,18 @@
   "progressive ambient",
   "kankyo ongaku"
  ],
+ "lastfm|album.getTopTags|hiroshiyoshimura|musicforninepostcards": [
+  "ambient",
+  "new age",
+  "minimalism",
+  "instrumental",
+  "1982",
+  "japanese",
+  "electronic",
+  "melancholic",
+  "calm",
+  "lonely"
+ ],
  "lastfm|album.getTopTags|idiotchild|thefirstbreathisthebeginningofdeath": [
   "noise rock",
   "sludgenoise"
@@ -1424,6 +1964,12 @@
   "Chicago drill",
   "Regalia",
   "plugg"
+ ],
+ "lastfm|album.getTopTags|jank|versacesummer": [
+  "twinkly",
+  "awkward pop",
+  "weed pop",
+  "sparklepunk"
  ],
  "lastfm|album.getTopTags|jeffbuckley|grace": [
   "1994",
@@ -1449,6 +1995,50 @@
   "8 out of 10",
   "7 out of 10"
  ],
+ "lastfm|album.getTopTags|jinsang|life": [
+  "Hip-Hop",
+  "instrumental",
+  "beats",
+  "american",
+  "Lo-Fi",
+  "2016",
+  "hip hop",
+  "California",
+  "USA",
+  "chill"
+ ],
+ "lastfm|album.getTopTags|jjdoom|keytothekuffsredux": [],
+ "lastfm|album.getTopTags|joeyy|attention2retail": [
+  "cloud rap",
+  "pop rap",
+  "plugg",
+  "trap",
+  "pluggnb"
+ ],
+ "lastfm|album.getTopTags|joeyy|buyersremorse": [],
+ "lastfm|album.getTopTags|joeyy|justtired": [
+  "cloud rap",
+  "ambient",
+  "nod",
+  "experimental hip hop",
+  "plugg"
+ ],
+ "lastfm|album.getTopTags|joeyy|miry": [
+  "nod"
+ ],
+ "lastfm|album.getTopTags|jpegmafia|scaringthehoes": [
+  "experimental hip hop",
+  "hardcore hip hop",
+  "2023",
+  "glitch hop",
+  "industrial hip hop",
+  "jazz rap",
+  "experimental hip-hop",
+  "hardcore hip-hop",
+  "Hip-Hop",
+  "trap"
+ ],
+ "lastfm|album.getTopTags|kapilseshasayee|asacredbore": [],
  "lastfm|album.getTopTags|kardashev|alunea": [
   "2025",
   "deathgaze",
@@ -1541,6 +2131,7 @@
   "jazz pop",
   "Traditional Pop"
  ],
+ "lastfm|album.getTopTags|lesspeople|onedayitsover": [],
  "lastfm|album.getTopTags|lifelover|pulver": [
   "depressive black metal",
   "black metal",
@@ -1553,6 +2144,70 @@
   "blackgaze",
   "boobs on cover"
  ],
+ "lastfm|album.getTopTags|lilbaby|myturn": [
+  "2020",
+  "lil baby"
+ ],
+ "lastfm|album.getTopTags|lilbaby|thevoiceoftheheroes": [
+  "2021",
+  "lil baby",
+  "Lik baby"
+ ],
+ "lastfm|album.getTopTags|lilpeep|comeoverwhenyouresoberpt1": [
+  "emo rap",
+  "Hip-Hop",
+  "emo",
+  "rap",
+  "cloud rap",
+  "trap",
+  "2017",
+  "pop punk",
+  "post-nerdcore",
+  "punk"
+ ],
+ "lastfm|album.getTopTags|liltecca|weloveyoutecca2": [
+  "Lil Tecca"
+ ],
+ "lastfm|album.getTopTags|littlebigleague|thesearegoodpeople": [
+  "post rock",
+  "shoegaze",
+  "2010s post Rock",
+  "indie rock",
+  "20120s Indie Rock",
+  "20113",
+  "tiny engines",
+  "2010s shoegaze"
+ ],
+ "lastfm|album.getTopTags|lomelda|mforempathy": [
+  "bedroom pop",
+  "indie folk",
+  "bobcore"
+ ],
+ "lastfm|album.getTopTags|lovejoy|areyoualright": [
+  "indie pop",
+  "power pop",
+  "indie rock"
+ ],
+ "lastfm|album.getTopTags|lovewank|lovewankdemos": [],
+ "lastfm|album.getTopTags|macabreplaza|outwiththeoldinwiththetaboo": [
+  "easy listening",
+  "Sophisti-Pop",
+  "bedroom pop",
+  "indie surf",
+  "utopian virtual"
+ ],
+ "lastfm|album.getTopTags|machinegirl|becauseimyoungarrogantandhateeverythingyoustandfor": [
+  "digital hardcore",
+  "breakcore",
+  "synth punk",
+  "Gabber",
+  "hardcore breaks",
+  "2017",
+  "psychedelic",
+  "breakbeat",
+  "manic",
+  "noisy"
+ ],
  "lastfm|album.getTopTags|machinegirl|superfreq": [
   "breaks",
   "electronic",
@@ -1563,6 +2218,27 @@
   "Hardcore EDM",
   "WEEB TRASH"
  ],
+ "lastfm|album.getTopTags|machinegirl|wlfgrl": [
+  "footwork",
+  "breakcore",
+  "2014",
+  "electronic",
+  "hardcore breaks",
+  "uk bass",
+  "EDM",
+  "jungle",
+  "digital hardcore",
+  "Drum and bass"
+ ],
+ "lastfm|album.getTopTags|magetears|oldsongs": [
+  "acoustic",
+  "sad",
+  "existential",
+  "soothing",
+  "GUSIC",
+  "self-hatred"
+ ],
+ "lastfm|album.getTopTags|marcioz|howtomakelovetay": [],
  "lastfm|album.getTopTags|margoguryan|27demos": [
   "sunshine pop",
   "60s",
@@ -1575,6 +2251,37 @@
   "2001",
   "psychedelic pop"
  ],
+ "lastfm|album.getTopTags|massofthefermentingdregs|awakeningsleeping": [
+  "shoegaze",
+  "j-pop",
+  "J-rock",
+  "dream pop",
+  "mostly green"
+ ],
+ "lastfm|album.getTopTags|massofthefermentingdregs|massofthefermentingdregs": [
+  "shoegaze",
+  "alternative rock",
+  "noise rock",
+  "post-rock",
+  "J-rock",
+  "japanese",
+  "post-hardcore",
+  "2008",
+  "rock",
+  "indie rock"
+ ],
+ "lastfm|album.getTopTags|massofthefermentingdregs|worldisyours": [
+  "japanese",
+  "post-hardcore",
+  "indie",
+  "shoegaze",
+  "2009",
+  "shimokita-kei",
+  "female vocalists",
+  "J-rock",
+  "alternative",
+  "indie rock"
+ ],
  "lastfm|album.getTopTags|mechatok|wideawake": [],
  "lastfm|album.getTopTags|meganddia|somethingrealandherehereandhere": [
   "indie rock",
@@ -1584,6 +2291,7 @@
   "pop punk",
   "emo pop"
  ],
+ "lastfm|album.getTopTags|michaelcerapalin|idontknowhowtoexplainitep": [],
  "lastfm|album.getTopTags|mineral|thepoweroffailing": [
   "emo",
   "indie rock",
@@ -1595,6 +2303,42 @@
   "1990s",
   "revive the nineties",
   "math rock"
+ ],
+ "lastfm|album.getTopTags|mitski|bethecowboy": [
+  "2018",
+  "indie rock",
+  "art pop",
+  "indie pop",
+  "chamber pop",
+  "new wave",
+  "indie",
+  "dream pop",
+  "2010s",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|mitski|thelandisinhospitableandsoarewe": [
+  "2023",
+  "indie folk",
+  "americana",
+  "chamber pop",
+  "singer-songwriter",
+  "folk",
+  "Alt-country",
+  "countrypolitan",
+  "orchestral pop",
+  "indie rock"
+ ],
+ "lastfm|album.getTopTags|modernbaseball|youregonnamissitall": [
+  "emo",
+  "pop punk",
+  "midwest emo",
+  "indie rock",
+  "literate",
+  "fun",
+  "indie",
+  "ironic",
+  "witty",
+  "Rebellious"
  ],
  "lastfm|album.getTopTags|mounteerie|acrowlookedatme": [
   "2017",
@@ -1620,6 +2364,25 @@
   "albums i own on vinyl",
   "own on vinyl"
  ],
+ "lastfm|album.getTopTags|mounteerie|nowonly": [
+  "2018",
+  "indie folk",
+  "experimental",
+  "folk",
+  "avant-folk",
+  "indie rock",
+  "indie",
+  "Lo-Fi",
+  "singer songwriter",
+  "singer-songwriter"
+ ],
+ "lastfm|album.getTopTags|movements|feelsomething": [
+  "emo",
+  "post-hardcore",
+  "2017",
+  "fearless records"
+ ],
+ "lastfm|album.getTopTags|mujo|nostalgia": [],
  "lastfm|album.getTopTags|mybloodyvalentine|eps19881991andraretracks": [
   "shoegaze",
   "alternative rock",
@@ -1631,6 +2394,54 @@
   "post-rock",
   "indie",
   "alternative"
+ ],
+ "lastfm|album.getTopTags|mybloodyvalentine|isntanything": [
+  "shoegaze",
+  "post-punk",
+  "noise pop",
+  "dream pop",
+  "Totec Radio",
+  "80s",
+  "indie",
+  "sensual",
+  "noise",
+  "sexy"
+ ],
+ "lastfm|album.getTopTags|mybloodyvalentine|loveless": [
+  "shoegaze",
+  "dream pop",
+  "1991",
+  "noise pop",
+  "90s",
+  "favourite albums",
+  "alternative",
+  "alternative rock",
+  "indie",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|mybloodyvalentine|mbv": [
+  "shoegaze",
+  "2013",
+  "dream pop",
+  "best of 2013",
+  "noise pop",
+  "10s",
+  "rock",
+  "best albums of 2013",
+  "2010s",
+  "Dreamy"
+ ],
+ "lastfm|album.getTopTags|neutralmilkhotel|intheaeroplaneoverthesea": [
+  "indie rock",
+  "indie",
+  "1998",
+  "Lo-Fi",
+  "indie folk",
+  "folk",
+  "favourite albums",
+  "psychedelic folk",
+  "90s",
+  "singer-songwriter"
  ],
  "lastfm|album.getTopTags|ninajirachi|ilovemycomputer": [
   "2025",
@@ -1656,6 +2467,7 @@
   "1960s",
   "rnb"
  ],
+ "lastfm|album.getTopTags|nomark|zazacetekdjsvinjaremix": [],
  "lastfm|album.getTopTags|normajean|redeemer": [
   "Tooth & Nail",
   "Radiostar Studio",
@@ -1704,6 +2516,33 @@
   "folktronica",
   "french"
  ],
+ "lastfm|album.getTopTags|onionskin|cruciateligamentrupture": [],
+ "lastfm|album.getTopTags|origamiangel|gamigang": [
+  "math rock",
+  "emo",
+  "pop punk",
+  "emo pop",
+  "midwest emo",
+  "2020s",
+  "to get",
+  "2021"
+ ],
+ "lastfm|album.getTopTags|origamiangel|gen3": [],
+ "lastfm|album.getTopTags|origamiangel|somewherecity": [
+  "midwest emo",
+  "pop punk",
+  "emo-pop",
+  "emo",
+  "Easycore",
+  "math pop",
+  "math rock",
+  "2010s",
+  "2019",
+  "rock"
+ ],
+ "lastfm|album.getTopTags|osooso|sorethumb": [
+  "2022"
+ ],
  "lastfm|album.getTopTags|panchiko|deathmetal": [
   "dream pop",
   "indie rock",
@@ -1737,12 +2576,41 @@
   "I like this",
   "2020s"
  ],
+ "lastfm|album.getTopTags|panuccispizza|donttipthedeliveryboy": [
+  "I like this",
+  "album",
+  "2010s"
+ ],
+ "lastfm|album.getTopTags|parannoul|skyhundred": [
+  "2024",
+  "shoegaze",
+  "noise pop",
+  "emo",
+  "indietronica",
+  "alternative rock",
+  "rock",
+  "noise rock",
+  "indie rock",
+  "dream pop"
+ ],
  "lastfm|album.getTopTags|paulbaribeau|grandledge": [
   "singer-songwriter",
   "acoustic",
   "best of 2007",
   "anti-folk",
   "afros favorites"
+ ],
+ "lastfm|album.getTopTags|pinkpantheress|tohellwithit": [
+  "2021",
+  "bedroom pop",
+  "alt-pop",
+  "Drum and bass",
+  "contemporary rnb",
+  "2-step",
+  "UK Garage",
+  "liquid drum and bass",
+  "atmospheric drum and bass",
+  "pop"
  ],
  "lastfm|album.getTopTags|pradaaslife|scrapclub": [],
  "lastfm|album.getTopTags|prefabsprout|stevemcqueen": [
@@ -1757,6 +2625,31 @@
   "soft rock",
   "Sousaphonic AOTM 201102"
  ],
+ "lastfm|album.getTopTags|pup|morbidstuff": [
+  "2019",
+  "vinyl",
+  "pop punk",
+  "power pop",
+  "post-hardcore",
+  "indie rock",
+  "emo",
+  "hardcore punk",
+  "punk rock",
+  "fav"
+ ],
+ "lastfm|album.getTopTags|pup|thedreamisover": [
+  "post-hardcore",
+  "pop punk",
+  "punk",
+  "indie rock",
+  "2016",
+  "rock",
+  "power pop",
+  "skate punk",
+  "punk rock",
+  "emo"
+ ],
+ "lastfm|album.getTopTags|quicklyquickly|thelongandshortofit": [],
  "lastfm|album.getTopTags|radiohead|inrainbows": [
   "alternative rock",
   "alternative",
@@ -1768,6 +2661,18 @@
   "electronic",
   "indie",
   "00s"
+ ],
+ "lastfm|album.getTopTags|radiohead|kida": [
+  "electronic",
+  "experimental",
+  "2000",
+  "alternative",
+  "art rock",
+  "Experimental Rock",
+  "alternative rock",
+  "favourite albums",
+  "rock",
+  "ambient"
  ],
  "lastfm|album.getTopTags|radiohead|kidamnesia": [
   "electronic",
@@ -1805,6 +2710,25 @@
   "indie",
   "post-Britpop"
  ],
+ "lastfm|album.getTopTags|rexorangecounty|pony": [
+  "2019",
+  "indie pop",
+  "male",
+  "alt",
+  "contemporary rnb",
+  "jazz rap",
+  "Neo-Soul",
+  "discgetologist",
+  "less than 40 minutes"
+ ],
+ "lastfm|album.getTopTags|sammyraeandthefriends|thegoodlife": [
+  "short",
+  "happy",
+  "new",
+  "full",
+  "4star",
+  "ch2025"
+ ],
  "lastfm|album.getTopTags|sandyalexg|houseofsugar": [
   "2019",
   "yearning",
@@ -1816,6 +2740,45 @@
   "literate",
   "melodic",
   "trippy"
+ ],
+ "lastfm|album.getTopTags|sapientdream|dream": [
+  "electronic"
+ ],
+ "lastfm|album.getTopTags|sewerslvt|draininglovestory": [
+  "atmospheric drum and bass",
+  "Drum and bass",
+  "2020",
+  "ambient",
+  "breakcore",
+  "atmospheric",
+  "electronic",
+  "breakbeat",
+  "dreambreak",
+  "2020s"
+ ],
+ "lastfm|album.getTopTags|sewerslvt|irly": [
+  "atmospheric drum and bass",
+  "psychedelic",
+  "Drum and bass",
+  "atmospheric",
+  "liquid drum and bass",
+  "Post-Industrial",
+  "instrumental",
+  "breaks",
+  "hardcore techno",
+  "noisy"
+ ],
+ "lastfm|album.getTopTags|signcrushesmotorist|illbeokay": [
+  "Lo-Fi",
+  "slowcore",
+  "slacker rock",
+  "rock",
+  "alternative rock",
+  "alternative",
+  "indie rock",
+  "Lo-Fi Indie",
+  "doggy",
+  "to get"
  ],
  "lastfm|album.getTopTags|silverstein|discoveringthewaterfront": [
   "post-hardcore",
@@ -1891,6 +2854,53 @@
   "2010s"
  ],
  "lastfm|album.getTopTags|stoortneer|engladtitelpåensorgligskiva": [],
+ "lastfm|album.getTopTags|sufjanstevens|carrieandlowell": [
+  "2015",
+  "indie folk",
+  "singer-songwriter",
+  "best of 2015",
+  "folk",
+  "chamber folk",
+  "indie",
+  "2010s",
+  "ambient pop",
+  "sad"
+ ],
+ "lastfm|album.getTopTags|sugardrop|eventually": [],
+ "lastfm|album.getTopTags|summer2000|johnkrasinski": [
+  "shoegaze",
+  "indie rock",
+  "midwest emo",
+  "dream pop"
+ ],
+ "lastfm|album.getTopTags|sundots|room": [
+  "slowcore"
+ ],
+ "lastfm|album.getTopTags|surfcurse|buds": [
+  "surf punk",
+  "2013",
+  "Perfect Albums",
+  "Lo-Fi Indie",
+  "vegas indie",
+  "dreamo",
+  "indie surf",
+  "Pov Indie"
+ ],
+ "lastfm|album.getTopTags|surfcurse|heavensurroundsyou": [
+  "2019"
+ ],
+ "lastfm|album.getTopTags|sweetpill|starchild": [
+  "alt-rock",
+  "punk pop",
+  "alternative rock",
+  "indie rock",
+  "slowcore",
+  "math rock",
+  "post-hardcore",
+  "pop punk",
+  "Emo rock",
+  "indie emo"
+ ],
  "lastfm|album.getTopTags|sweetpill|wheretheheartis": [
   "midwest emo",
   "emo",
@@ -1940,6 +2950,22 @@
   "80s",
   "alternative"
  ],
+ "lastfm|album.getTopTags|thedismembermentplan|emergencyandi": [
+  "1999",
+  "indie rock",
+  "post-hardcore",
+  "90s",
+  "indie",
+  "post-punk",
+  "math rock",
+  "vinyl",
+  "rock",
+  "alternative"
+ ],
+ "lastfm|album.getTopTags|thegarden|uwantthescoop": [
+  "ambient drone punk post-punk garage rock gothic",
+  "hyperpunk"
+ ],
  "lastfm|album.getTopTags|thekooks|insideininsideout": [
   "2006",
   "indie",
@@ -1959,8 +2985,26 @@
  ],
  "lastfm|album.getTopTags|thelastwholeearthcatalog|fromthispointicouldperhapsimagineiwasabetterperson": [],
  "lastfm|album.getTopTags|thelastwholeearthcatalog|singleusestressballs": [],
+ "lastfm|album.getTopTags|thelastwholeearthcatalog|thereitisnt": [
+  "indie",
+  "rock",
+  "alternative",
+  "indie rock"
+ ],
  "lastfm|album.getTopTags|thelastwholeearthcatalog|thesearesadtimes": [],
  "lastfm|album.getTopTags|thelastwholeearthcatalog|werealldowntherabbithole": [],
+ "lastfm|album.getTopTags|themicrophones|itwashotwestayedinthewater": [
+  "2000",
+  "indie folk",
+  "psychedelic folk",
+  "slacker rock",
+  "Lo-Fi",
+  "folk",
+  "indie rock",
+  "a decouvrir",
+  "vinyl",
+  "rock"
+ ],
  "lastfm|album.getTopTags|themicrophones|theglowpt2": [
   "indie folk",
   "psychedelic folk",
@@ -1972,6 +3016,10 @@
   "very calm and very good",
   "slacker rock",
   "rock"
+ ],
+ "lastfm|album.getTopTags|theovandenhoff|heartacheisanemptyroom": [],
+ "lastfm|album.getTopTags|thereputation|thereputation": [
+  "2002"
  ],
  "lastfm|album.getTopTags|thesmiths|hatfulofhollow": [
   "1984",
@@ -1996,6 +3044,66 @@
   "The Smiths",
   "post-punk",
   "new wave"
+ ],
+ "lastfm|album.getTopTags|thesmiths|meatismurder": [
+  "1985",
+  "80s",
+  "jangle pop",
+  "indie",
+  "indie pop",
+  "new wave",
+  "alternative rock",
+  "post-punk",
+  "favourite albums",
+  "alternative"
+ ],
+ "lastfm|album.getTopTags|thesmiths|thequeenisdead": [
+  "1986",
+  "80s",
+  "jangle pop",
+  "favourite albums",
+  "indie",
+  "indie pop",
+  "post-punk",
+  "alternative",
+  "alternative rock",
+  "new wave"
+ ],
+ "lastfm|album.getTopTags|thesmiths|thesmiths": [
+  "1984",
+  "indie pop",
+  "80s",
+  "jangle pop",
+  "indie",
+  "post-punk",
+  "new wave",
+  "alternative",
+  "alternative rock",
+  "indie rock"
+ ],
+ "lastfm|album.getTopTags|thestrokes|angles": [
+  "2011",
+  "indie rock",
+  "indie",
+  "Garage Rock",
+  "rock",
+  "new wave",
+  "best of 2011",
+  "alternative",
+  "10s",
+  "Post-punk revival"
+ ],
+ "lastfm|album.getTopTags|thestrokes|isthisit": [
+  "indie rock",
+  "2001",
+  "rock",
+  "indie",
+  "Garage Rock",
+  "00s",
+  "garage rock revival",
+  "alternative rock",
+  "alternative",
+  "favourite albums"
  ],
  "lastfm|album.getTopTags|thesundays|blind": [
   "dream pop",
@@ -2069,6 +3177,27 @@
   "instrumental",
   "indie rock"
  ],
+ "lastfm|album.getTopTags|tokyopill|abandonthefleshep": [],
+ "lastfm|album.getTopTags|tokyopill|serialexperimentspain": [
+  "jungle",
+  "atmospheric drum and bass",
+  "auto-tagged"
+ ],
+ "lastfm|album.getTopTags|tokyopill|tokyodriftclub": [],
+ "lastfm|album.getTopTags|tokyopill|virtualdeath95": [
+  "jungle",
+  "electronic",
+  "atmospheric drum and bass",
+  "plunderphonics"
+ ],
+ "lastfm|album.getTopTags|tokyopill|welcometothewired": [
+  "atmospheric drum and bass",
+  "breakcore",
+  "Drum and bass",
+  "electronic",
+  "auto-tagged"
+ ],
+ "lastfm|album.getTopTags|tokyopill|welcometothewiredep": [],
  "lastfm|album.getTopTags|ttng|animals": [
   "math rock",
   "emo",
@@ -2080,6 +3209,19 @@
   "00s",
   "amazing",
   "chill"
+ ],
+ "lastfm|album.getTopTags|tvroom|tvdinner": [],
+ "lastfm|album.getTopTags|twice|summernights": [
+  "dance",
+  "2018",
+  "j-pop",
+  "japanese",
+  "electropop",
+  "pop",
+  "female vocal",
+  "summer",
+  "k-pop",
+  "dream pop"
  ],
  "lastfm|album.getTopTags|underoath|definethegreatline": [
   "post-hardcore",
@@ -2105,6 +3247,16 @@
   "bubblegum bass",
   "electronic"
  ],
+ "lastfm|album.getTopTags|vansire|angelyouth": [
+  "2018",
+  "dream pop",
+  "Neo-Psychedelia",
+  "rap",
+  "Lo-Fi",
+  "bedroom pop",
+  "psychedelic pop",
+  "hypnagogic pop"
+ ],
  "lastfm|album.getTopTags|weezer|pinkerton": [
   "alternative rock",
   "1996",
@@ -2117,6 +3269,8 @@
   "1990s",
   "noise pop"
  ],
+ "lastfm|album.getTopTags|yotclub|bipolar": [],
+ "lastfm|album.getTopTags|yotclub|naturemachine": [],
  "lastfm|album.getTopTags|yukiyamishima|peaksandvalleys": [],
  "lastfm|album.getTopTags||": [],
  "lastfm|album.getTopTags|ミドリ|あらためましてはじめましてミドリです": [
@@ -2175,6 +3329,38 @@
   "acid techno",
   "Acid"
  ],
+ "lastfm|artist.getTopTags|beachbunny": [
+  "indie rock",
+  "indie pop",
+  "pop rock",
+  "indie",
+  "power pop",
+  "alternative rock",
+  "USA",
+  "pop punk",
+  "female vocalists",
+  "american"
+ ],
+ "lastfm|artist.getTopTags|bennybenji": [
+  "Lo-Fi",
+  "shoegaze",
+  "slowcore",
+  "United States",
+  "small room",
+  "Lo-Fi Indie"
+ ],
+ "lastfm|artist.getTopTags|bladeeandmechatok": [
+  "trap",
+  "cloud rap",
+  "bass",
+  "rap",
+  "hyperpop",
+  "pop rap",
+  "Sweden",
+  "post-trap",
+  "stockholm",
+  "post-internet"
+ ],
  "lastfm|artist.getTopTags|blindfoldedandledtothewoods": [
   "deathcore",
   "Technical Death Metal",
@@ -2199,6 +3385,18 @@
   "Scottish",
   "psychedelic"
  ],
+ "lastfm|artist.getTopTags|bôa": [
+  "alternative rock",
+  "alternative",
+  "rock",
+  "indie",
+  "female vocalists",
+  "british",
+  "indie rock",
+  "anime",
+  "serial experiments lain",
+  "acoustic"
+ ],
  "lastfm|artist.getTopTags|c418": [
   "ambient",
   "electronic",
@@ -2212,6 +3410,32 @@
   "modern classical"
  ],
  "lastfm|artist.getTopTags|carissaswierd": [],
+ "lastfm|artist.getTopTags|charlieburg": [
+  "rnb",
+  "soul",
+  "singer-songwriter",
+  "indie",
+  "USA"
+ ],
+ "lastfm|artist.getTopTags|claykslider": [
+  "chiptune",
+  "cover",
+  "nintendo",
+  "video game",
+  "Animal Crossing"
+ ],
+ "lastfm|artist.getTopTags|cortex": [
+  "post-punk",
+  "jazz",
+  "french",
+  "funk",
+  "swedish",
+  "punk",
+  "70s",
+  "jazz funk",
+  "free jazz",
+  "Post punk"
+ ],
  "lastfm|artist.getTopTags|crywank": [
   "folk punk",
   "sadcore",
@@ -2236,6 +3460,18 @@
   "Philly",
   "bummer"
  ],
+ "lastfm|artist.getTopTags|destroylonely": [
+  "opium",
+  "trap",
+  "plugg",
+  "rage",
+  "Woman beater",
+  "rap",
+  "atlanta",
+  "cloud rap",
+  "destroy lonely",
+  "hip hop"
+ ],
  "lastfm|artist.getTopTags|drux": [
   "cloud rap",
   "punk",
@@ -2252,6 +3488,7 @@
   "chinese",
   "electronic"
  ],
+ "lastfm|artist.getTopTags|elephantinred": [],
  "lastfm|artist.getTopTags|failbetterhealfaster": [
   "emo",
   "punk",
@@ -2288,6 +3525,49 @@
   "singer songwriter",
   "diy"
  ],
+ "lastfm|artist.getTopTags|germanerrormessage": [
+  "folk",
+  "indie",
+  "singer-songwriter",
+  "Lo-Fi",
+  "indie folk",
+  "indie pop",
+  "alternative",
+  "rare sad boy",
+  "rare sads",
+  "acoustic"
+ ],
+ "lastfm|artist.getTopTags|glaive": [
+  "digicore",
+  "hyperpop",
+  "emo rap",
+  "electronic",
+  "pop",
+  "electropop",
+  "pop rap",
+  "trap",
+  "indie pop",
+  "american"
+ ],
+ "lastfm|artist.getTopTags|guardpetal": [
+  "folk",
+  "emo",
+  "indie folk",
+  "emo folk",
+  "tweemo"
+ ],
+ "lastfm|artist.getTopTags|hana": [
+  "ambient",
+  "downtempo",
+  "electronic",
+  "pop",
+  "indie pop",
+  "j-pop",
+  "indie",
+  "american",
+  "female vocalists",
+  "USA"
+ ],
  "lastfm|artist.getTopTags|itriedtorunawaywheniwas6butgottooscaredtocrossthestreet": [
   "Lo-Fi",
   "folk",
@@ -2299,6 +3579,45 @@
   "Lo-Fi Indie",
   "acoustic",
   "Bandcamp"
+ ],
+ "lastfm|artist.getTopTags|jank": [
+  "emo",
+  "math rock",
+  "weed pop",
+  "indie",
+  "indie rock",
+  "punk",
+  "alternative rock",
+  "midwest emo",
+  "United States",
+  "pop punk"
+ ],
+ "lastfm|artist.getTopTags|jjdoom": [
+  "Hip-Hop",
+  "underground hip-hop",
+  "rap",
+  "mf doom",
+  "underground rap",
+  "hip hop",
+  "experimental",
+  "abstract hip-hop",
+  "alternative",
+  "Progressive"
+ ],
+ "lastfm|artist.getTopTags|joeyy": [
+  "cloud rap",
+  "trap",
+  "nod",
+  "movie",
+  "pluggnb",
+  "plugg",
+  "rap",
+  "loser",
+  "shed theory",
+  "goat"
+ ],
+ "lastfm|artist.getTopTags|kapilseshasayee": [
+  "experimental"
  ],
  "lastfm|artist.getTopTags|kardashev": [
   "deathcore",
@@ -2312,6 +3631,60 @@
   "Post-Metal",
   "atmospheric death metal"
  ],
+ "lastfm|artist.getTopTags|lesspeople": [
+  "instrumental hip-hop",
+  "beats",
+  "chillhop",
+  "Lo-Fi",
+  "instrumental",
+  "Hip-Hop",
+  "electronic",
+  "trip hop",
+  "american",
+  "USA"
+ ],
+ "lastfm|artist.getTopTags|lilbaby": [
+  "rap",
+  "Hip-Hop",
+  "trap",
+  "hip hop",
+  "atlanta",
+  "georgia",
+  "american",
+  "Gangsta Rap",
+  "pop rap",
+  "Southern Hip Hop"
+ ],
+ "lastfm|artist.getTopTags|liltecca": [
+  "rap",
+  "Hip-Hop",
+  "trap",
+  "hip hop",
+  "new york",
+  "United States",
+  "pop rap",
+  "queens",
+  "Lil Tecca",
+  "male vocalists"
+ ],
+ "lastfm|artist.getTopTags|lovewank": [
+  "folk",
+  "Love",
+  "anti-folk",
+  "indie",
+  "happy",
+  "indie rock",
+  "indie pop",
+  "outsider",
+  "Acoustic Rock",
+  "freak folk"
+ ],
+ "lastfm|artist.getTopTags|marcioz": [
+  "brazil",
+  "electronic",
+  "willowcore",
+  "All"
+ ],
  "lastfm|artist.getTopTags|mechatok": [
   "electronic",
   "ambient",
@@ -2324,6 +3697,81 @@
   "german",
   "experimental"
  ],
+ "lastfm|artist.getTopTags|michaelcerapalin": [
+  "math rock",
+  "midwest emo",
+  "emo",
+  "indie",
+  "indie rock",
+  "emo pop",
+  "rock",
+  "United States",
+  "pop punk",
+  "USA"
+ ],
+ "lastfm|artist.getTopTags|mujo": [
+  "beats",
+  "instrumental hip-hop",
+  "Hip-Hop",
+  "Lo-Fi",
+  "hungary",
+  "hungarian",
+  "hip hop",
+  "chillhop",
+  "electronic",
+  "chill"
+ ],
+ "lastfm|artist.getTopTags|nomark": [
+  "Hip-Hop",
+  "japanese",
+  "chillout",
+  "instrumental hip-hop",
+  "hip hop",
+  "instrumental",
+  "chill out",
+  "Jazz Hop",
+  "trip-hop",
+  "downtempo"
+ ],
+ "lastfm|artist.getTopTags|onionskin": [
+  "sadcore"
+ ],
+ "lastfm|artist.getTopTags|origamiangel": [
+  "emo",
+  "pop punk",
+  "midwest emo",
+  "math rock",
+  "indie rock",
+  "punk",
+  "Easycore",
+  "rock",
+  "indie",
+  "emo pop"
+ ],
+ "lastfm|artist.getTopTags|osooso": [
+  "emo",
+  "pop punk",
+  "midwest emo",
+  "alternative",
+  "indie rock",
+  "american",
+  "power pop",
+  "alternative rock",
+  "punk rock",
+  "USA"
+ ],
+ "lastfm|artist.getTopTags|panuccispizza": [
+  "emo",
+  "math rock",
+  "indie rock",
+  "indie",
+  "Philadelphia",
+  "american",
+  "folk punk",
+  "midwest emo",
+  "folk rock",
+  "acoustic"
+ ],
  "lastfm|artist.getTopTags|pradaaslife": [
   "rap",
   "Hip-Hop",
@@ -2334,6 +3782,30 @@
   "hyperpop",
   "scrapclub",
   "cloud rap"
+ ],
+ "lastfm|artist.getTopTags|quicklyquickly": [
+  "Lo-Fi",
+  "portland",
+  "electronic",
+  "singer-songwriter",
+  "oregon",
+  "indie pop",
+  "american",
+  "indie folk",
+  "jazz fusion",
+  "lo-fi hip-hop"
+ ],
+ "lastfm|artist.getTopTags|sammyraeandthefriends": [
+  "soul",
+  "jazz",
+  "funk",
+  "indie",
+  "rock",
+  "blues",
+  "folk",
+  "pop",
+  "alternative",
+  "USA"
  ],
  "lastfm|artist.getTopTags|sleepingwithsirens": [
   "post-hardcore",
@@ -2359,6 +3831,30 @@
   "vildhjarta",
   "blackened hardcore"
  ],
+ "lastfm|artist.getTopTags|sugardrop": [
+  "shoegaze",
+  "indie",
+  "japanese",
+  "indie rock",
+  "J-rock",
+  "Japanese Indie",
+  "Grunge",
+  "jrock",
+  "indie pop",
+  "power pop"
+ ],
+ "lastfm|artist.getTopTags|surfcurse": [
+  "Lo-Fi",
+  "Surf",
+  "indie",
+  "indie rock",
+  "Garage Rock",
+  "surf rock",
+  "surf punk",
+  "jangle pop",
+  "american",
+  "punk rock"
+ ],
  "lastfm|artist.getTopTags|thecranberries": [
   "rock",
   "alternative",
@@ -2371,6 +3867,18 @@
   "pop",
   "indie rock"
  ],
+ "lastfm|artist.getTopTags|thegarden": [
+  "post-punk",
+  "art punk",
+  "punk",
+  "Experimental Rock",
+  "vada vada",
+  "ambient",
+  "experimental",
+  "synth punk",
+  "drone",
+  "USA"
+ ],
  "lastfm|artist.getTopTags|thelastwholeearthcatalog": [
   "folk",
   "experimental",
@@ -2382,6 +3890,58 @@
   "United Kingdom",
   "anti-folk",
   "folk punk"
+ ],
+ "lastfm|artist.getTopTags|theovandenhoff": [
+  "post-punk",
+  "canada",
+  "Gothic Rock"
+ ],
+ "lastfm|artist.getTopTags|thereputation": [
+  "power pop",
+  "indie",
+  "female vocalists",
+  "rock",
+  "kentsimbtemp2",
+  "chicago",
+  "alternative",
+  "Pop/Rock",
+  "bmx",
+  "spotify"
+ ],
+ "lastfm|artist.getTopTags|tokyopill": [
+  "breakcore",
+  "Drum and bass",
+  "jungle",
+  "japanese",
+  "idm",
+  "breakbeat",
+  "electronic",
+  "rapistcore",
+  "anime breakcore"
+ ],
+ "lastfm|artist.getTopTags|tvroom": [
+  "indie pop",
+  "hyperpop",
+  "pop",
+  "indie",
+  "indie rock",
+  "american",
+  "electronic",
+  "Lo-Fi",
+  "english",
+  "bopcore"
+ ],
+ "lastfm|artist.getTopTags|yotclub": [
+  "Lo-Fi",
+  "indie",
+  "dream pop",
+  "bedroom pop",
+  "indie pop",
+  "indie rock",
+  "shoegaze",
+  "american",
+  "pop",
+  "USA"
  ],
  "lastfm|artist.getTopTags|yukiyamishima": [],
  "movies|5centimeterspersecond|2007": {

@@ -4,13 +4,15 @@
 {{- $status := $i.status | default "planning" -}}
 {{- $info := dict "label" $status "class" "tag-default" -}}
 {{- range partial "media-statuses.html" $type }}{{ if eq .status $status }}{{ $info = . }}{{ end }}{{ end -}}
-{{- $rating := float ($i.rating | default 0) -}}
+{{- /* planning entries (to listen/watch/read/play) never show or sort by a rating; it stays in the data */ -}}
+{{- $rating := cond (eq $status "planning") 0.0 (float ($i.rating | default 0)) -}}
 {{- /* covers are local files only; anything else gets the typographic title card */ -}}
 {{- $cover := "" -}}
 {{- with $i.cover }}{{ if and (hasPrefix . "/img/media/") (not (hasSuffix . "placeholder.svg")) }}{{ $cover = . }}{{ end }}{{ end -}}
 {{- $month := partial "media-month.html" $i.date -}}
 {{- $dateUnix := 0 -}}
 {{- with $month }}{{ $dateUnix = .Unix }}{{ end -}}
+{{- with findRE `^\d{4}-\d{2}-\d{2}$` (string ($i.date | default "")) 1 }}{{ $dateUnix = (time.AsTime (index . 0)).Unix }}{{ end -}}
 {{- $genres := slice -}}
 {{- range $i.genre }}{{ $genres = $genres | append (lower .) }}{{ end -}}
 {{- /* music: overarching genre groups for the dropdown; unmapped or missing genres → other */ -}}
@@ -24,7 +26,7 @@
   {{- if not $genres }}{{ $groups = slice "other" }}{{ end -}}
 {{- end -}}
 <div class="media-card{{ if eq $type "music" }} media-card-square{{ end }}{{ with .class }} {{ . }}{{ end }}"
-  {{- if not .compact }} id="{{ partial "media-slug.html" $i.title }}"{{ end }}
+  {{- if not .compact }} id="{{ partial "media-slug.html" $i }}"{{ end }}
   data-status="{{ $status }}"
   data-genres="{{ delimit $genres "|" }}"
   {{- with $groups }} data-groups="{{ delimit (uniq .) "|" }}"{{ end }}
@@ -53,17 +55,29 @@
   {{- end }}
   {{- if not .compact }}
   <p class="media-meta">{{ $i.creator }}{{ with $i.year }}{{ if $i.creator }} · {{ end }}{{ . }}{{ end }}</p>
-  {{- with $genres }}<p class="media-meta">{{ delimit . ", " }}</p>{{ end }}
+  {{- if ne $type "music" }}{{ with $genres }}<p class="media-meta">{{ delimit . ", " }}</p>{{ end }}{{ end }}
   <div class="media-status">
     <span class="tag {{ $info.class }}">{{ $info.label }}</span>
     {{- with $month }}<span class="media-date">{{ .Format "Jan 2006" }}</span>{{ end }}
   </div>
   {{- end }}
-  <p class="media-rating" aria-label="{{ $rating }} out of 5">
+  {{- /* music type pages: listened albums' scrobble count after the dots ("●●●●○ · 2,000 scrobbles") */ -}}
+  {{- $scrobbles := 0 -}}
+  {{- if and (not .compact) (eq $status "completed") }}{{ $scrobbles = int ($i.scrobbles | default 0) }}{{ end -}}
+  {{- $scrobbleText := "" -}}
+  {{- if gt $scrobbles 0 }}{{ $scrobbleText = printf "%s %s" (lang.FormatNumberCustom 0 $scrobbles "- . ,") (cond (eq $scrobbles 1) "scrobble" "scrobbles") }}{{ end }}
+  {{- $label := slice -}}
+  {{- if gt $rating 0 }}{{ $label = $label | append (printf "%v out of 5" $rating) }}{{ end -}}
+  {{- with $scrobbleText }}{{ $label = $label | append . }}{{ end }}
+  <p class="media-rating"{{ with $label }} aria-label="{{ delimit . ", " }}"{{ end }}>
     {{- if gt $rating 0 -}}
       {{- $full := int (math.Floor $rating) -}}
       {{- $half := cond (ge (sub $rating $full) 0.5) 1 0 -}}
       <span class="media-rating-on">{{ strings.Repeat $full "●" }}{{ strings.Repeat $half "◐" }}</span><span class="media-rating-off">{{ strings.Repeat (sub (sub 5 $full) $half) "○" }}</span>
+    {{- end -}}
+    {{- with $scrobbleText -}}
+      {{- if gt $rating 0 }}<span class="media-scrobbles"> · </span>{{ end -}}
+      <span class="media-scrobbles">{{ . }}</span>
     {{- end -}}
   </p>
 </div>

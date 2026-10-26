@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $type := .Params.mediaType }}
-{{ $entries := index hugo.Data.media $type | default slice }}
+{{ $entries := partialCached "media-entries.html" $type $type }}
 
 <a href="/media/" class="media-back-link">← media</a>
 <h1>{{ .Title }}</h1>
@@ -32,6 +32,14 @@
       {{ end }}
     </select>
   </label>
+  <label class="media-sort">
+    <span>sort</span>
+    <select id="media-order" class="media-select" autocomplete="off">
+      <option value="default" selected>default</option>
+      <option value="rating">rating</option>
+      <option value="last">last listened</option>
+    </select>
+  </label>
   {{ else if $genres }}
   <div class="tag-filters media-filter-group" id="genre-filters">
     {{ range $genres }}
@@ -58,6 +66,7 @@
   var empty = document.getElementById('media-empty');
   var search = document.getElementById('media-search');
   var groupSel = document.getElementById('media-group');
+  var orderSel = document.getElementById('media-order');
   var activeStatus = 'all';
   var activeGenre = 'all';
 
@@ -90,8 +99,12 @@
   }
   cards.forEach(function(card){ card._search = fold(card.dataset.search); });
 
+  /* music's "rating" sort shows only rated listened albums */
+  function ratedOnly(){ return !!orderSel && orderSel.value === 'rating'; }
+
   function filterCards(){
     var group = groupSel ? groupSel.value : 'all';
+    var rated = ratedOnly();
     var query = fold(search.value);
     var shown = 0;
     cards.forEach(function(card){
@@ -100,7 +113,8 @@
       var match = (activeStatus === 'all' || card.dataset.status === activeStatus) &&
         (activeGenre === 'all' || genres.indexOf(activeGenre) !== -1) &&
         (group === 'all' || groups.indexOf(group) !== -1) &&
-        (!query || card._search.indexOf(query) !== -1);
+        (!query || card._search.indexOf(query) !== -1) &&
+        (!rated || (card.dataset.status === 'completed' && parseFloat(card.dataset.rating) > 0));
       card.style.display = match ? '' : 'none';
       if(match) shown++;
     });
@@ -109,13 +123,21 @@
 
   function num(card, key){ return parseFloat(card.dataset[key]) || 0; }
 
-  /* fixed order: 0 finished + rated (rating desc), 1 finished + dated, 2 finished undated,
-     3 current, 4 planning, 5 dropped. Dated before undated, newest first; then title A-Z. */
+  /* fixed order: -1 in progress (games active, novels/tv current), 0 finished + rated
+     (rating desc), 1 finished + dated, 2 finished undated, 4 planning, 5 dropped.
+     In progress and rated sort by rating, then date; dated before undated, newest first;
+     then title A-Z. */
+  var IN_PROGRESS = {{ cond (eq $type "games") "active" "current" }};
   var FINISHED = ['completed', 'active', 'inactive'];
+  /* the lowest rating that ranks in band 0; lower-rated finished entries sort by date with the
+     unrated. Music's sort dropdown: default 4+, rating any, last listened none. */
+  var RATED_MIN = {default: 4, rating: 0.5, last: Infinity};
+  function ratedMin(){ return orderSel ? RATED_MIN[orderSel.value] || 4 : 0.5; }
   function band(card){
     var s = card.dataset.status;
+    if(s === IN_PROGRESS) return -1;
     if(FINISHED.indexOf(s) !== -1){
-      if(num(card, 'rating') > 0) return 0;
+      if(num(card, 'rating') >= ratedMin()) return 0;
       return num(card, 'date') > 0 ? 1 : 2;
     }
     return {current: 3, planning: 4, dropped: 5}[s] || 4;
@@ -125,8 +147,8 @@
     cards.sort(function(a, b){
       var ba = band(a), bb = band(b);
       if(ba !== bb) return ba - bb;
-      if(ba === 0 && num(a, 'rating') !== num(b, 'rating')) return num(b, 'rating') - num(a, 'rating');
-      if(ba === 0 || ba === 1 || ba === 3){
+      if(ba <= 0 && num(a, 'rating') !== num(b, 'rating')) return num(b, 'rating') - num(a, 'rating');
+      if(ba <= 1 || ba === 3){
         var da = num(a, 'date'), db = num(b, 'date');
         if((da > 0) !== (db > 0)) return da > 0 ? -1 : 1;
         if(da !== db) return db - da;
@@ -137,6 +159,7 @@
   }
 
   sortCards();
+  if(orderSel) orderSel.addEventListener('change', function(){ sortCards(); filterCards(); });
 
   /* /media/<type>/?focus=<slug> (home showcase links): show everything, centre and flash that
      card, then drop the parameter so the address bar is just /media/<type>/ */

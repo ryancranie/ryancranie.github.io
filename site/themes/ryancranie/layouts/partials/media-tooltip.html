@@ -1,6 +1,7 @@
 {{- /* Usage: partial "media-tooltip.html" . — once per page. Cards with data-comment (the entry's
-  optional comment field) show it in a box that follows the cursor; mouse devices only. One
-  shared element and listener for every card, including ones the pool script refills. */ -}}
+  optional comment field) show it in a box that follows the cursor while it's over the cover
+  (nsfw-blurred ones too); mouse devices only. One shared element and listener for every card,
+  including ones the pool script refills. */ -}}
 <script>
 (function(){
   if(!window.matchMedia('(hover: hover)').matches) return;
@@ -17,7 +18,8 @@
 
   document.addEventListener('pointermove', function(e){
     if(e.pointerType !== 'mouse') return hide();
-    var card = e.target.closest ? e.target.closest('.media-card[data-comment]') : null;
+    var cover = e.target.closest ? e.target.closest('.media-cover') : null;
+    var card = cover && cover.closest('.media-card[data-comment]');
     if(!card) return hide();
     if(card !== current || tip.textContent !== card.dataset.comment){
       current = card;
@@ -33,6 +35,6 @@
   }, {passive: true});
   document.addEventListener('mouseleave', hide);
   window.addEventListener('blur', hide);
-  window.addEventListener('scroll', function(){ if(current && !current.matches(':hover')) hide(); }, {passive: true});
+  window.addEventListener('scroll', function(){ if(current && !current.querySelector('.media-cover:hover')) hide(); }, {passive: true});
 })();
 </script>

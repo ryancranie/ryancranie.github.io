@@ -966,6 +966,14 @@ a.has-tooltip {
 .media-rating-on { color: rgba(255, 255, 255, 0.85); }
 .media-rating-off { color: rgba(255, 255, 255, 0.25); }
 
+/* music: scrobble count after the dots, same mono line */
+.media-scrobbles {
+  font-size: 11px;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.45);
+  white-space: pre;
+}
+
 .media-rating:empty {
   display: none;
 }
@@ -976,36 +984,6 @@ a.has-tooltip {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.45);
-}
-
-/* Comment tooltip: follows the cursor over cards with a comment (mouse devices only) */
-.media-tooltip {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  max-width: 240px;
-  padding: 5px 8px;
-  background: rgba(38, 38, 38, 0.95);
-  border: 0.5px solid rgba(255, 255, 255, 0.15);
-  border-radius: 4px;
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  line-height: 1.4;
-  color: rgba(255, 255, 255, 0.85);
-  white-space: normal;
-  overflow-wrap: break-word;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.1s ease;
-}
-
-.media-tooltip.is-visible {
-  opacity: 1;
-}
-
-@media (hover: none) {
-  .media-tooltip { display: none; }
 }
 
 /* Home page showcase: one random favourite per type */
@@ -1150,8 +1128,15 @@ a.has-tooltip {
   color: rgba(255, 255, 255, 0.45);
 }
 
+/* music's "genre" and "sort" labels share a width so the two selects line up */
+.media-sort > span {
+  min-width: 5ch;
+}
+
+/* form controls on type pages; the comment tooltip shares their look */
 .media-sort select,
-.media-search {
+.media-search,
+.media-tooltip {
   font-family: 'JetBrains Mono', monospace;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.55);
@@ -1179,6 +1164,32 @@ a.has-tooltip {
 .media-search:focus {
   border-color: rgba(255, 255, 255, 0.35);
   outline: none;
+}
+
+/* Comment tooltip: follows the cursor over covers of cards with a comment (mouse devices only).
+   Looks like the search box (shared rule above); only layout and wrapping are its own. */
+.media-tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: auto;
+  max-width: 240px;
+  line-height: 1.4;
+  white-space: normal;
+  overflow-wrap: break-word;
+  cursor: default;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.media-tooltip.is-visible {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .media-tooltip { display: none; }
 }
 
 .media-grid {
