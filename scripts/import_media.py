@@ -67,12 +67,14 @@ STATUSES = {
     "novels": ("completed", "current", "planning"),
     "movies": ("completed", "planning"),
     "tv": ("completed", "current", "planning", "dropped"),
-    "games": ("completed", "current", "planning", "active", "inactive"),
+    "games": ("completed", "planning", "active", "inactive"),
     "music": ("completed", "planning"),
 }
 ALL_STATUSES = ("completed", "active", "inactive", "current", "planning", "dropped")
 # nearest allowed status when a type doesn't allow one (completed and planning are always allowed)
 NEAREST = {"active": "completed", "inactive": "completed", "current": "planning", "dropped": "planning"}
+# per-type overrides: games have no "current", in progress is "active"
+NEAREST_BY_TYPE = {"games": {"current": "active"}}
 ID_FIELDS = ("tmdb_id", "mbid", "deezer_id", "itunes_id", "steam_appid", "olid", "vndb_id")
 MAX_GENRES = 3
 IMAGE_MAX = {"music": (500, 500)}  # everything else is portrait
@@ -442,7 +444,9 @@ def cache_key(media_type, item):
 
 
 def allowed_status(media_type, status):
-    return status if status in STATUSES[media_type] else NEAREST.get(status, "planning")
+    if status in STATUSES[media_type]:
+        return status
+    return NEAREST_BY_TYPE.get(media_type, {}).get(status) or NEAREST.get(status, "planning")
 
 
 # ---------------------------------------------------------------- lookups

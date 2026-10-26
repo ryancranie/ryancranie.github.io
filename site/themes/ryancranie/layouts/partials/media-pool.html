@@ -37,6 +37,8 @@
       img.removeAttribute('src');
     }
     img.alt = e.title;
+    if(e.comment) card.dataset.comment = e.comment;
+    else delete card.dataset.comment;
     cover.querySelector('.media-title-card-title').textContent = e.title;
     cover.querySelector('.media-title-card-creator').textContent = e.creator;
     card.querySelector('.media-title').textContent = e.title;
@@ -61,7 +63,11 @@
   function pickShowcase(){
     document.querySelectorAll('[data-pool-pick]').forEach(function(wrap){
       var list = pool.pick[wrap.dataset.poolPick];
-      if(list && list.length) fill(wrap.querySelector('.media-card'), random(list));
+      if(!list || !list.length) return;
+      var e = random(list);
+      fill(wrap.querySelector('.media-card'), e);
+      var link = wrap.querySelector('.media-pick-link');
+      if(link) link.href = '/media/' + wrap.dataset.poolPick + '/?focus=' + encodeURIComponent(e.slug);
     });
   }
 

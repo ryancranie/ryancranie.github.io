@@ -1,0 +1,38 @@
+{{- /* Usage: partial "media-tooltip.html" . — once per page. Cards with data-comment (the entry's
+  optional comment field) show it in a box that follows the cursor; mouse devices only. One
+  shared element and listener for every card, including ones the pool script refills. */ -}}
+<script>
+(function(){
+  if(!window.matchMedia('(hover: hover)').matches) return;
+  var tip = document.createElement('div');
+  tip.className = 'media-tooltip';
+  tip.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(tip);
+  var OFFSET = 14, current = null;
+
+  function hide(){
+    current = null;
+    tip.classList.remove('is-visible');
+  }
+
+  document.addEventListener('pointermove', function(e){
+    if(e.pointerType !== 'mouse') return hide();
+    var card = e.target.closest ? e.target.closest('.media-card[data-comment]') : null;
+    if(!card) return hide();
+    if(card !== current || tip.textContent !== card.dataset.comment){
+      current = card;
+      tip.textContent = card.dataset.comment;
+    }
+    /* 14px right and below the cursor; flip to the other side at the viewport edges */
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    var x = e.clientX + OFFSET, y = e.clientY + OFFSET;
+    if(x + w > window.innerWidth) x = e.clientX - OFFSET - w;
+    if(y + h > window.innerHeight) y = e.clientY - OFFSET - h;
+    tip.style.transform = 'translate(' + Math.max(0, x) + 'px,' + Math.max(0, y) + 'px)';
+    tip.classList.add('is-visible');
+  }, {passive: true});
+  document.addEventListener('mouseleave', hide);
+  window.addEventListener('blur', hide);
+  window.addEventListener('scroll', function(){ if(current && !current.matches(':hover')) hide(); }, {passive: true});
+})();
+</script>

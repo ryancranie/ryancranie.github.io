@@ -10,7 +10,9 @@
 (nothing to check)
 
 ## novels
-(nothing to check)
+- Leo Tolstoy | The Death of Ivan Ilyich | 1886 | planning  →  weak: closest Open Library result "The death of Ivan Ilyich and The devil" by Лев Толстой (added from input text, title card)
+- Natalia Ginzburg | The Dry Heart | 1947 | planning  →  no cover on Open Library or VNDB
+- Albert Camus | The Outsider | 1942 | planning  →  failed: no Open Library or VNDB results (added from input text, title card)
 
 ## games
 - osu! | 2007 | active | 5  →  weak: closest Steam result "McOsu - Donation - 1", appid 608160 (added from input text, title card)

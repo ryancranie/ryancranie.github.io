@@ -1,0 +1,5 @@
+{{- /* Usage: partial "media-slug.html" .title → "nineteen-eighty-four", the card's id on type pages.
+  Titles with no letters or digits get a short hash instead. */ -}}
+{{- $slug := strings.Trim (replaceRE `[^\p{L}\p{N}]+` "-" (lower .)) "-" -}}
+{{- if not $slug }}{{ $slug = printf "t-%s" (substr (md5 .) 0 8) }}{{ end -}}
+{{- return $slug -}}

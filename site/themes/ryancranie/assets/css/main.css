@@ -322,6 +322,19 @@ pre code {
   border: 0.5px solid rgba(134, 239, 172, 0.18);
 }
 
+/* games: playing (active) and inactive */
+.tag-playing {
+  background: rgba(59, 130, 246, 0.15);
+  color: #93c5fd;
+  border: 0.5px solid rgba(147, 197, 253, 0.35);
+}
+
+.tag-paused {
+  background: rgba(234, 179, 8, 0.15);
+  color: #fde047;
+  border: 0.5px solid rgba(253, 224, 71, 0.35);
+}
+
 .tag-dropped {
   background: rgba(239, 68, 68, 0.1);
   color: rgba(248, 113, 113, 0.7);
@@ -816,6 +829,22 @@ a.has-tooltip {
   overflow: hidden;
 }
 
+/* type pages: the card a home showcase link points at flashes, then fades back over 1.5s */
+.media-card .media-cover,
+.media-card .media-cover img {
+  transition: box-shadow 1.5s ease, border-color 1.5s ease;
+}
+
+.media-card.is-highlight .media-cover {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+  transition: none;
+}
+
+.media-card.is-highlight .media-cover img {
+  border-color: rgba(255, 255, 255, 0.6);
+  transition: none;
+}
+
 .media-card-square .media-cover {
   aspect-ratio: 1 / 1;
 }
@@ -949,6 +978,36 @@ a.has-tooltip {
   color: rgba(255, 255, 255, 0.45);
 }
 
+/* Comment tooltip: follows the cursor over cards with a comment (mouse devices only) */
+.media-tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  max-width: 240px;
+  padding: 5px 8px;
+  background: rgba(38, 38, 38, 0.95);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.85);
+  white-space: normal;
+  overflow-wrap: break-word;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.media-tooltip.is-visible {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .media-tooltip { display: none; }
+}
+
 /* Home page showcase: one random favourite per type */
 .media-showcase {
   display: grid;
@@ -960,6 +1019,12 @@ a.has-tooltip {
 
 .media-pick {
   min-width: 0;
+}
+
+.media-pick-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
 }
 
 /* mobile: two rows, no sideways scroll. Row 1 is the first two cards (album 3 : film 2, so

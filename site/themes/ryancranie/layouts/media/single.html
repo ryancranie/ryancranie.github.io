@@ -137,6 +137,39 @@
   }
 
   sortCards();
+
+  /* /media/<type>/?focus=<slug> (home showcase links): show everything, centre and flash that
+     card, then drop the parameter so the address bar is just /media/<type>/ */
+  function resetFilters(){
+    activeStatus = 'all';
+    activeGenre = 'all';
+    statusBtns.forEach(function(b){ b.classList.toggle('tag-filter-active', b.dataset.status === 'all'); });
+    genreBtns.forEach(function(b){ b.classList.toggle('tag-filter-active', b.dataset.genre === 'all'); });
+    if(groupSel) groupSel.value = 'all';
+    search.value = '';
+    filterCards();
+  }
+
+  function showFocus(){
+    var params = new URLSearchParams(location.search);
+    var id = params.get('focus');
+    if(id === null) return;
+    history.replaceState(history.state, '', location.pathname);
+    var card = id && document.getElementById(id);
+    if(!card || !grid.contains(card)) return;
+    resetFilters();
+    requestAnimationFrame(function(){
+      card.scrollIntoView({behavior: 'smooth', block: 'center'});
+      card.classList.remove('is-highlight');
+      void card.offsetWidth;
+      card.classList.add('is-highlight');
+      clearTimeout(card._flash);
+      card._flash = setTimeout(function(){ card.classList.remove('is-highlight'); }, 900);
+    });
+  }
+
+  showFocus();
 })();
 </script>
+{{ partial "media-tooltip.html" . }}
 {{ end }}

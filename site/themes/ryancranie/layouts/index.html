@@ -45,11 +45,14 @@
       {{ $basis = printf "calc((100%% - %drem) / %d)" (sub $k 1) $k }}
     {{ end }}
   <div class="media-pick{{ if eq .key "music" }} media-pick-square{{ end }}" data-pool-pick="{{ .key }}" style="--m-basis: {{ $basis | safeCSS }};">
-    {{ partial "media-card.html" (dict "item" .item "type" .key "compact" true "label" .label) }}
+    <a class="media-pick-link" href="/media/{{ .key }}/?focus={{ partial "media-slug.html" .item.title }}">
+      {{ partial "media-card.html" (dict "item" .item "type" .key "compact" true "label" .label) }}
+    </a>
   </div>
   {{ end }}
 </div>
 {{ partial "media-pool.html" (dict "pick" $pool) }}
+{{ partial "media-tooltip.html" . }}
 {{ end }}
 
 <h2>Recent posts</h2>

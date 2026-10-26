@@ -6782,6 +6782,13 @@
   },
   "reason": null
  },
+ "novels|albertcamus|theoutsider|1942": {
+  "image": null,
+  "image_urls": [],
+  "match": "failed",
+  "meta": null,
+  "reason": "no Open Library or VNDB results"
+ },
  "novels|cormacmccarthy|theroad|2006": {
   "image": "the-road.jpg",
   "image_urls": [
@@ -6890,6 +6897,13 @@
   },
   "reason": null
  },
+ "novels|leotolstoy|thedeathofivanilyich|1886": {
+  "image": null,
+  "image_urls": [],
+  "match": "weak",
+  "meta": null,
+  "reason": "closest Open Library result \"The death of Ivan Ilyich and The devil\" by Лев Толстой"
+ },
  "novels|naotakahayashi|steinsgate|2009": {
   "image": "steins-gate.jpg",
   "image_urls": [
@@ -6906,6 +6920,19 @@
    "year": 2009
   },
   "reason": null
+ },
+ "novels|nataliaginzburg|thedryheart|1947": {
+  "image": null,
+  "image_urls": [],
+  "match": "partial",
+  "meta": {
+   "creator": "Natalia Ginzburg",
+   "genre": [],
+   "olid": "OL38818785W",
+   "title": "The road to the city ; and, The dry heart",
+   "year": 1947
+  },
+  "reason": "no cover on Open Library or VNDB"
  },
  "novels|patricksüskind|perfumethestoryofamurderer|1985": {
   "image": "perfume-the-story-of-a-murderer.jpg",

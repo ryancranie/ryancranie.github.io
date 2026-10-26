@@ -13,8 +13,8 @@
   "music"  (slice (merge $s.completed (dict "label" "listened")) (merge $s.planning (dict "label" "to listen")))
   "movies" (slice (merge $s.completed (dict "label" "watched")) (merge $s.planning (dict "label" "to watch")))
   "tv"     (slice (merge $s.current (dict "label" "watching")) (merge $s.completed (dict "label" "watched")) (merge $s.planning (dict "label" "to watch")) $s.dropped)
-  "games"  (slice (merge $s.current (dict "label" "playing")) $s.active (merge $s.completed (dict "label" "completed")) $s.inactive (merge $s.planning (dict "label" "to play")))
-  "novels" (slice (merge $s.current (dict "label" "reading")) (merge $s.completed (dict "label" "read")) (merge $s.planning (dict "label" "to read")))
+  "games"  (slice (merge $s.active (dict "label" "playing" "class" "tag-playing")) (merge $s.completed (dict "label" "completed")) (merge $s.inactive (dict "class" "tag-paused")) (merge $s.planning (dict "label" "to play")))
+  "novels" (slice (merge $s.current (dict "label" "reading")) (merge $s.completed (dict "label" "completed")) (merge $s.planning (dict "label" "to read")))
 -}}
 {{- $result := index $types . | default slice -}}
 {{- return $result -}}

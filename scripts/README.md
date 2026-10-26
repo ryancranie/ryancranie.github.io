@@ -3,7 +3,8 @@
 `import_media.py` maintains the media section's data (`site/data/media/*.yaml`) and covers
 (`site/static/img/media/<type>/`). The YAML files are the source of truth: the script adds new
 entries and fills gaps, but never changes a title, status, rating, date, locked genres or a
-locked cover you've set.
+locked cover you've set. Fields it doesn't manage, like `comment` (hover text on the card), are kept
+as they are.
 
 ## Setup
 

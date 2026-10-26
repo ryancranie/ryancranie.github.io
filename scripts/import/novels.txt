@@ -14,3 +14,6 @@ George Orwell | Nineteen Eighty-Four | 1949 | planning
 Harper Lee | To Kill a Mockingbird | 1960 | planning
 John Steinbeck | Of Mice and Men | 1937 | planning
 Patrick Süskind | Perfume: The Story of a Murderer | 1985 | planning
+Leo Tolstoy | The Death of Ivan Ilyich | 1886 | planning
+Natalia Ginzburg | The Dry Heart | 1947 | planning
+Albert Camus | The Outsider | 1942 | planning

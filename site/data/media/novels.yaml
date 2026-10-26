@@ -2,10 +2,13 @@
   creator: Daniel Keyes
   year: 1966
   genre: [Science Fiction, Classic]
-  status: current
+  status: completed
+  rating: 4.5
+  date: "2026-10"
   cover: /img/media/novels/flowers-for-algernon.jpg
   olid: OL515754W
   genres_locked: true
+  comment: incredibly sad.
 
 - title: Sapiens
   creator: Yuval Noah Harari
@@ -47,7 +50,7 @@
   creator: George Orwell
   year: 1949
   genre: [Classic, Dystopian]
-  status: planning
+  status: current
   cover: /img/media/novels/nineteen-eighty-four.jpg
   olid: OL1168083W
   genres_locked: true
@@ -75,6 +78,37 @@
   year: 1985
   genre: [Fiction, Classic]
   status: planning
+  nsfw: true
   cover: /img/media/novels/perfume-the-story-of-a-murderer.jpg
   olid: OL24895764W
   genres_locked: true
+
+- title: The Death of Ivan Ilyich
+  creator: Leo Tolstoy
+  year: 1886
+  genre: [Classic, Novella]
+  status: planning
+  olid: OL267174W
+  genres_locked: true
+  cover: /img/media/novels/the-death-of-ivan-ilyich.jpg
+  cover_locked: true
+
+- title: The Dry Heart
+  creator: Natalia Ginzburg
+  year: 1947
+  genre: [Fiction, Novella]
+  status: planning
+  olid: OL1449796W
+  genres_locked: true
+  cover: /img/media/novels/the-dry-heart.jpg
+  cover_locked: true
+
+- title: The Outsider
+  creator: Albert Camus
+  year: 1942
+  genre: [Classic, Philosophical Fiction]
+  status: planning
+  olid: OL1230613W
+  genres_locked: true
+  cover: /img/media/novels/the-outsider.jpg
+  cover_locked: true

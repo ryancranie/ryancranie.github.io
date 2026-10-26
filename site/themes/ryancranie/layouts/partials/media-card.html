@@ -24,6 +24,7 @@
   {{- if not $genres }}{{ $groups = slice "other" }}{{ end -}}
 {{- end -}}
 <div class="media-card{{ if eq $type "music" }} media-card-square{{ end }}{{ with .class }} {{ . }}{{ end }}"
+  {{- if not .compact }} id="{{ partial "media-slug.html" $i.title }}"{{ end }}
   data-status="{{ $status }}"
   data-genres="{{ delimit $genres "|" }}"
   {{- with $groups }} data-groups="{{ delimit (uniq .) "|" }}"{{ end }}
@@ -31,7 +32,8 @@
   data-date="{{ $dateUnix }}"
   data-title="{{ lower $i.title }}"
   data-search="{{ $i.title }} {{ $i.creator }}"
-  data-year="{{ $i.year | default 0 }}">
+  data-year="{{ $i.year | default 0 }}"
+  {{- with $i.comment }} data-comment="{{ . }}"{{ end }}>
   {{- with .label }}
   <p class="media-type-label">{{ . }}</p>
   {{- end }}

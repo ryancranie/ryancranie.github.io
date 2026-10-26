@@ -21,7 +21,7 @@
   status: completed
   cover: /img/media/movies/the-boy-and-the-heron.jpg
   tmdb_id: 508883
-  rating: 3.5
+  rating: 3
 
 - title: 'Puss in Boots: The Last Wish'
   creator: Joel Crawford
@@ -473,7 +473,7 @@
   status: completed
   cover: /img/media/movies/vampire-hunter-d-bloodlust.jpg
   tmdb_id: 15999
-  rating: 4
+  rating: 3.5
 
 - title: Whisper of the Heart
   creator: Yoshifumi Kondo
@@ -553,7 +553,7 @@
   creator: Hayao Miyazaki
   year: 2013
   genre: [Anime, Animation, Drama, History]
-  status: planning
+  status: completed
   cover: /img/media/movies/the-wind-rises.jpg
   tmdb_id: 149870
 

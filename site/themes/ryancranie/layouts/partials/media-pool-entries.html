@@ -4,7 +4,7 @@
   {{- $cover := "" -}}
   {{- with .cover }}{{ if and (hasPrefix . "/img/media/") (not (hasSuffix . "placeholder.svg")) }}{{ $cover = . }}{{ end }}{{ end -}}
   {{- $list = $list | append (dict "id" (printf "%s|%s" .title (.creator | default "")) "title" .title
-        "creator" (.creator | default "") "cover" $cover "rating" (float (.rating | default 0))
-        "nsfw" (.nsfw | default false)) -}}
+        "creator" (.creator | default "") "slug" (partial "media-slug.html" .title) "cover" $cover "rating" (float (.rating | default 0))
+        "nsfw" (.nsfw | default false) "comment" (.comment | default "")) -}}
 {{- end -}}
 {{- return $list -}}

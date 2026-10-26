@@ -34,10 +34,10 @@
   {{ $key := .key }}
   {{ $entries := index hugo.Data.media $key | default slice }}
   {{ $finished := partial "media-ranked.html" $entries }}
-  {{/* "now" is current entries; games also count active ones. Music's is the live Last.fm card. */}}
-  {{ $nowStatuses := cond (eq $key "games") (slice "current" "active") (slice "current") }}
-  {{ $nowPool := where $entries "status" "in" $nowStatuses }}
-  {{ $nowLabel := "now" }}
+  {{/* "now" is current entries; games use active ones. Music's is the live Last.fm card. */}}
+  {{ $nowStatus := cond (eq $key "games") "active" "current" }}
+  {{ $nowPool := where $entries "status" $nowStatus }}
+  {{ $nowLabel := index (dict "games" "playing" "tv" "watching" "novels" "reading") $key | default "now" }}
   {{/* movies, tv, novels with nothing current: the most recently finished month instead, as "last" */}}
   {{ if and (not $nowPool) (in (slice "movies" "tv" "novels") $key) }}
     {{ $latest := "" }}
@@ -89,4 +89,5 @@
   {{ $nsfwMusic = $nsfwMusic | append (dict "title" .title "creator" (.creator | default "")) }}
 {{ end }}
 {{ partial "media-pool.html" (dict "rows" $rows "nsfwMusic" $nsfwMusic) }}
+{{ partial "media-tooltip.html" . }}
 {{ end }}
