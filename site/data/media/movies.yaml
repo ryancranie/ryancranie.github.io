@@ -503,9 +503,10 @@
   creator: Goro Miyazaki
   year: 2011
   genre: [Anime, Animation, Drama]
-  status: planning
+  status: completed
   cover: /img/media/movies/from-up-on-poppy-hill.jpg
   tmdb_id: 83389
+  rating: 4
 
 - title: Ghost in the Shell
   creator: Mamoru Oshii
